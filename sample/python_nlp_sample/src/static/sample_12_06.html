@@ -1,0 +1,29 @@
+<div id="main">
+  <input type="text" v-model="name"/>が
+  <input type="text" v-model="keywords"/>であるものを探す<br/>
+  all annotations: <input type="text" v-model="anno_names_str"/><br/>
+  <button v-on:click="run">Search</button><br/>
+  {{ result.numFound }} <br/>
+  <table border=1 style="border-collapse: collapse">
+    <tr v-show="result.docs">
+      <th>doc_id</th>
+      <th>title</th>
+      <th v-for="(anno_name, _) in anno_names">
+        {{ anno_name }}
+      </th>
+      <th>context</th>
+    </tr>
+    <tr v-for="(row, _) in result.docs">
+      <td>{{ row.doc_id_i }}</td>
+      <td>{{ row.title_txt_ja }}</td>
+      <td v-for="(anno_name, _) in anno_names">
+        {{ row[anno_name + '_txt_ja'] }}</td>
+      <td>{{ row.sentence_txt_ja }}</td>
+    </tr>
+  </table>
+</div>
+<br/>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+<script src="/file/sample_12_07.js"></script>

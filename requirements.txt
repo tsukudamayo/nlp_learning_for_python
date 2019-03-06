@@ -1,0 +1,3 @@
+cchardet
+beautifulsoup4
+packages/cabocha/python
