@@ -1,0 +1,8 @@
+digraph {
+	node [fontname="MS Gothic" shape=square style=filled]
+	"ほうれん草" -> "切る"
+	"根元" -> "切る"
+	"切る" -> "切る"
+	"幅" -> "4cm"
+	"4cm" -> "切る"
+}

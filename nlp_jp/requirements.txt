@@ -1,0 +1,6 @@
+mecab-python-windows
+./pkg/cabocha-python-0.69.tar.gz
+ipython
+scikit-learn
+pandas
+xlrd

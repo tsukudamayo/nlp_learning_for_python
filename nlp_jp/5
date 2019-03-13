@@ -1,0 +1,4 @@
+digraph {
+	node [fontname="MS Gothic" shape=square style=filled]
+	A -> "混ぜ合う"
+}

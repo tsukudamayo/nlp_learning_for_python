@@ -1,0 +1,232 @@
+digraph {
+	node [fontname="MS Gothic" shape=square style=filled]
+	"ほうれん草" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"根元" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"切る" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"幅" -> "4cm"
+	"4cm" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"切る" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"ジャガイモ" -> "切る"
+	"ジャガイモ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"皮" -> "むく"
+	"むく" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"5mm角" -> "棒状"
+	"棒状" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"切る" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"飲料水" -> "さらす"
+	"飲料水" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"3分" -> "さらす"
+	"さらす" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"水け" -> "切る"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"切る" -> "する"
+	"切る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"玉葱" -> "する"
+	"玉葱" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"縦" -> "する"
+	"薄切り" -> "する"
+	"する" -> "する"
+	"ボウル" -> "入れる"
+	"ボウル" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"カキ" -> "入れる"
+	"カキ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"入れる" -> "まぶす"
+	"片栗粉" -> "まぶす"
+	"薄い" -> "まぶす"
+	"まぶす" -> "する"
+	"飲料水" -> "中"
+	"飲料水" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"中" -> "する"
+	"振り洗い" -> "する"
+	"する" -> "散る"
+	"散る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"飲料水" -> "替える"
+	"飲料水" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"23回" -> "替える"
+	"替える" -> "洗う"
+	"洗う" -> "拭く"
+	"ザル" -> "上げる"
+	"ザル" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"上げる" -> "拭く"
+	"水け" -> "拭く"
+	"拭く" -> "散る"
+	"散る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"コショウ" -> ""
+	"コショウ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"" -> "散る"
+	"散る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"散る" -> "混ぜ合う"
+	"散る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	A -> "混ぜ合う"
+	"混ぜ合う" -> "沸く"
+	"沸く" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"フライパン" -> "入れる"
+	"飲料水23計量カップ" -> "食塩"
+	"食塩" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"食塩" -> ""
+	"食塩" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"" -> "入れる"
+	"入れる" -> "沸く"
+	"沸く" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"中火" -> "沸く"
+	"沸く" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"沸く" -> "搾る"
+	"沸く" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"ほうれん草" -> "加える"
+	"加える" -> "ゆでる"
+	"ゆでる" -> "する"
+	"" -> "する"
+	"する" -> "搾る"
+	"搾る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"鱈冷水" -> "搾る"
+	"搾る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"水け" -> "搾る"
+	"搾る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"搾る" -> "きれいする"
+	"搾る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"フライパン" -> "拭く"
+	"" -> "拭く"
+	"拭く" -> "きれいする"
+	"きれいする" -> "並べる"
+	"油大さじ" -> "1/2"
+	"1/2" -> "強める"
+	"強める" -> "中火"
+	"中火" -> "熱す"
+	"熱す" -> "並べる"
+	"カキ" -> "まぶす"
+	"カキ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"小麦粉" -> "まぶす"
+	"薄い" -> "まぶす"
+	"まぶす" -> "並べる"
+	"並べる" -> "取り出す"
+	"カキ" -> "両面"
+	"カキ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"両面" -> "焼く"
+	"色" -> "よい"
+	"よい" -> "焼く"
+	"焼く" -> "取り出す"
+	"" -> "する"
+	"する" -> "取り出す"
+	"鱈" -> "取り出す"
+	"鱈" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"取り出す" -> "炒める"
+	"フライパン" -> "洗う"
+	"" -> "洗う"
+	"洗う" -> "きれいする"
+	"きれいする" -> "溶かす"
+	"油大さじ1" -> "1/22"
+	"1/22" -> "溶かす"
+	"中火" -> "溶かす"
+	"溶かす" -> "炒める"
+	"ジャガイモ" -> "玉葱"
+	"ジャガイモ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"玉葱" -> "入れる"
+	"玉葱" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"入れる" -> "透き通る"
+	"23分" -> "透き通る"
+	"ジャガイモ" -> "透き通る"
+	"ジャガイモ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"透き通る" -> "炒める"
+	"炒める" -> "炒める"
+	"フライパン" -> "ふり入れる"
+	"小麦粉大さじ" -> 22
+	22 -> "1/2"
+	"1/2" -> "ふり入れる"
+	"ふり入れる" -> "炒める"
+	"ジャガイモ" -> "玉葱"
+	"ジャガイモ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"玉葱" -> "まぶす"
+	"玉葱" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"まぶす" -> "炒める"
+	"炒める" -> "ほぐす"
+	"全体" -> "なじむ"
+	"なじむ" -> "煮立てる"
+	A -> "加える"
+	"加える" -> "混ぜる"
+	"混ぜる" -> "煮立てる"
+	"煮立てる" -> "ほぐす"
+	"洋風スープ" -> "素"
+	"素" -> "ほぐす"
+	"ほぐす" -> "煮る"
+	"煮立つ" -> "する"
+	"鱈蓋" -> "する"
+	"する" -> "煮る"
+	"弱火" -> "する"
+	"する" -> "煮る"
+	"2分" -> "煮る"
+	"煮る" -> "炒める"
+	"フライパン" -> "ふり入れる"
+	"小麦粉大さじ" -> 22
+	22 -> "1/2"
+	"1/2" -> "ふり入れる"
+	"ふり入れる" -> "炒める"
+	"ジャガイモ" -> "玉葱"
+	"ジャガイモ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"玉葱" -> "まぶす"
+	"玉葱" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"まぶす" -> "炒める"
+	"炒める" -> "ほぐす"
+	"全体" -> "なじむ"
+	"なじむ" -> "煮立てる"
+	A -> "加える"
+	"加える" -> "混ぜる"
+	"混ぜる" -> "煮立てる"
+	"煮立てる" -> "ほぐす"
+	"洋風スープ" -> "素"
+	"素" -> "ほぐす"
+	"ほぐす" -> "煮る"
+	"煮立つ" -> "する"
+	"鱈蓋" -> "する"
+	"する" -> "煮る"
+	"弱火" -> "する"
+	"する" -> "煮る"
+	"2分" -> "煮る"
+	"煮る" -> "混ぜる"
+	"フライパン" -> "蓋"
+	"蓋" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"蓋" -> "取る"
+	"蓋" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"取る" -> "混ぜる"
+	"ほうれん草" -> "カキ"
+	"カキ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"カキ" -> "入れる"
+	"カキ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"入れる" -> "混ぜる"
+	"混ぜる" -> "整える"
+	"整える" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"食塩" -> "コショウ"
+	"食塩" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"コショウ" -> "加える"
+	"コショウ" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"加える" -> "整える"
+	"整える" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"味" -> "整える"
+	"整える" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"整える" -> "散る"
+	"整える" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"耐熱" -> "器"
+	"器" -> "入れる"
+	6 -> "入れる"
+	"入れる" -> "のせる"
+	"チーズ" -> "のせる"
+	"のせる" -> "散る"
+	"散る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"パン粉大さじ1" -> "散る"
+	"散る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"散る" -> "焼く"
+	"散る" [color=yellow fontname="MS Gothic" shape=square style=filled]
+	"オーブントースター" -> "56分"
+	"56分" -> "焼く"
+	"" -> "つく"
+	"焼く" -> "つく"
+	"つく" -> "焼く"
+}
