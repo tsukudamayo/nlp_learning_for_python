@@ -15,8 +15,8 @@ def main():
         for line in lines:
             print(line)
             line = line.replace('\n', '')
-            line = line.replace(' 、', '')
-            line = line.replace(' 。', '')
+            # line = line.replace(' 、', '')
+            # line = line.replace(' 。', '')
             line = line.split(' ')
             word_list.extend(line)
 

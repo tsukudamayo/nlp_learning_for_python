@@ -21,12 +21,18 @@ class Finalizer:
     def result_output(self):
         with open(self.output_path, 'w', encoding='utf-8') as w:
             for line in open(self.morphology_file, 'r', encoding='utf-8'):
+                print('line1')
+                print(line)
                 line = line.replace('\n', '').split(' ')
+                print('line2w')
+                print(line)
                 self.m_lists.append(line)
             print(self.m_lists)
 
             for line in open(self.ner_file, 'r', encoding='utf-8'):
                 line = line.replace('\n', '').split(' ')
+                print('line2r')
+                print(line)
                 self.ner_lists.append(self.modify_viob(line))
             print(self.ner_lists)
 
@@ -135,9 +141,13 @@ def ner_tagger_1(kytea_path, model_path, input_file, output_file):
 def insert_space_between_words(input_file, output_file):
     fp = open(output_file, 'w', encoding='utf-8')
     for line in open(input_file, 'r', encoding='utf-8'):
-        line = line.replace('\n', '')
-        words = [w.split('/')[0] for w in line.split(' ')]
-        fp.write(' '.join(words) + '\n')
+        print(len(line))
+        if len(line) == 1: # only line feed
+            pass
+        else:
+            line = line.replace('\n', '')
+            words = [w.split('/')[0] for w in line.split(' ')]
+            fp.write(' '.join(words) + '\n')
     fp.close()
 
     return
@@ -175,34 +185,39 @@ def mkdir_if_not_exists(path):
 def main():
     for i in range(1, 100):
         filenumber = f'{i:08}'
-        org_path = os.path.join(_LOG_DIR, 'org')
+        print('procedure_2')
+        org_path = os.path.join(_LOG_DIR, 'org_add_lf')
         proc2_path = os.path.join(_LOG_DIR, 'procedure_2')
         mkdir_if_not_exists(org_path)
         mkdir_if_not_exists(proc2_path)
         input_file = os.path.join(org_path, 'weekcook_' + filenumber + '.txt')
         output_file = os.path.join(proc2_path, 'weekcook_' + filenumber + '_proc2.txt')
         parse_recipe(_KBM_MODEL, _KYTEA_PATH, input_file, output_file)
-        
+
+        print('procedure_3')
         proc3_path = os.path.join(_LOG_DIR, 'procedure_3')
         mkdir_if_not_exists(proc3_path)
         input_file = output_file
         output_file = os.path.join(proc3_path, 'weekcook_' + filenumber + '_proc3.txt')
         morphology_file = output_file
         insert_space_between_words(input_file, output_file)
-        
+
+        print('procedure_4_1')
         proc4_1_path = os.path.join(_LOG_DIR, 'procedure_4_1')
         mkdir_if_not_exists(proc4_1_path)
         input_file = output_file
         output_file = os.path.join(proc4_1_path, 'weekcook_' + filenumber + '_proc4_1.txt')
         ner_tagger_1(_KYTEA_PATH, _KNM_MODEL, input_file, output_file)
-        
+
+        print('procedure_4_2')
         proc4_2_path = os.path.join(_LOG_DIR, 'procedure_4_2')
         mkdir_if_not_exists(proc4_2_path)
         input_file = output_file
         output_file = os.path.join(proc4_2_path, 'weekcook_' + filenumber + '_proc4_2.txt')
         ner_file = output_file
         ner_tagger_2(_NESEARCH_PATH, input_file, output_file)
-        
+
+        print('result')
         result_path = os.path.join(_LOG_DIR, 'ner_result')
         mkdir_if_not_exists(result_path)
         output_file = os.path.join(result_path, 'weekcook_' + filenumber + '_ner_result.txt')
