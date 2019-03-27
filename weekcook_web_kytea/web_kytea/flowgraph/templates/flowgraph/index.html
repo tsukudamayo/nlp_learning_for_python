@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css"
+	  href="{% static 'flowgraph/css/style.css' %}" />
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+    <p>{{msg}}</p>
+    <p>{{warning}}</p>
+    <form action="{% url 'form' %}" method="post">
+      {% csrf_token %}
+      <label for="msg">レシピ: </label>
+      <input type="submit" value="click">      
+      <textarea id="msg" type="text" name="msg" cols="100" rows="10"></textarea>
+    </form>
+    <p>{{answer}}</p>
+    <table>
+      <tr>
+	<td>
+	  <img width="1000" src="{% static 'flowgraph/assets/img/flowgraph.png' %}">
+	</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+PW+DPによるレシピNEタグ付与のサンプルセット
+
+# 必須環境
+  - Kytea ver 0.4.2以上 (最新版を推奨)
+    http://www.phontron.com/kytea/index-ja.html
+  - Perl 5.8.7以上 (最新版を推奨)
+
+# 利用方法
+% ./ner.sh
+  - kyteaのパスが通っていない場合は
+    kytea, train-kyteaの場所をner.shで直接指定
+
+# モデル・テストファイル
+recipe416.knm: iobタグ確率推定用KyTeaモデル (UTF-8用, train-kytea ver 0.4.6で作成)
+Test.word: テスト用入力データ (単語分割済み)
+Test.iob2: テスト用正解データ (単語分割・BIOタグ付与済み)
+
+# 学習コーパス・テストコーパス詳細
+  - テストコーパスは公開用の少数サンプル
+
+  用途 & レシピ数 &  文数 & 単語数 & 文字数 & NEタグ数
+  学習 &      416 & 3,169 & 57,871 & 87,533 &   18,370
+テスト &       20 &   148 &  2,671 &  4,027 &      869
+
+
+
+# bin/: 各種処理用のスクリプト
+
+NESearch.pl:
+kyteaの-out confで出力されるファイルにBIO制約を適用して最適経路(1-best)を出力
+
+WordAccu.pl:
+BIOタグ精度(O含)を計算
+
+NEAccu.pl:
+NEタグ精度(O除)を計算
+
+
+- おまけ: 単語分割・言語資源管理用スクリプト
+
+wordtags2partial.pl:
+BIOタグ付与コーパスからtrain-kytea用の部分的単語分割コーパスを作成
+
+mktree.pl:
+BIOタグ付与コーパスからPNAT用のtreeファイルを作成
+
+tree2wordtags.pl:
+treeファイルのタグフィールドを指定してスペース区切りのタグ付きコーパスを作成
