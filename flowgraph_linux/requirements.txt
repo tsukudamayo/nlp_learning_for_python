@@ -1,0 +1,4 @@
+django
+ipython
+pandas
+graphviz

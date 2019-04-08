@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charaset="utf-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css"
+	  href="{% static 'hello/css/style.css' %}" />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>{{ msg }}</p>
+    <form action="{% url 'form' %}" method="post">
+      {% csrf_token %}
+      <label for="msg">レシピ: </label>
+      <input id="msg" type="text" name="msg">
+      <input type="submit" value="click">
+    </form>
+    <p>{{ answer }}</p>
+    <table>
+      <tr>
+        <td>
+          <img width="1000" src="{% static 'hello/assets/img/flowgraph.png' %}">
+        </td>
+      </tr>
+    </table>    
+  </body>
+</html>
