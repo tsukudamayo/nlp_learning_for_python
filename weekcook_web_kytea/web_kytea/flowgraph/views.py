@@ -11,7 +11,7 @@ import pandas as pd
 _KBM_MODEL = os.path.join(os.path.dirname(__file__), 'kytea-win-0.4.2/model/jp-0.4.7-1.mod')
 _KNM_MODEL = os.path.join(os.path.dirname(__file__), 'kytea-win-0.4.2/RecipeNE-sample/recipe416.knm')
 _KYTEA_PATH = os.path.join(os.path.dirname(__file__), 'kytea-win-0.4.2/kytea.exe')
-_NESEARCH_PATH = os.path.join(os.path.dirname(__file__), 'kytea-win-0.4.2/RecipeNE-sample/bin/NESearch.pl')
+_NESEARCH_PATH = os.path.join(os.path.dirname(__file__), 'kytea-win-0.4.2/RecipeNE-sample/bin/nesearch.py')
 _LOG_DIR = os.path.join(os.path.dirname(__file__), 'test')
 
 

@@ -5,7 +5,7 @@ import subprocess
 _KBM_MODEL = 'kytea-win-0.4.2/model/jp-0.4.7-1.mod'
 _KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe416.knm'
 _KYTEA_PATH = 'kytea-win-0.4.2/kytea.exe'
-_NESEARCH_PATH = 'kytea-win-0.4.2/RecipeNE-sample/bin/NESearch.pl'
+_NESEARCH_PATH = 'kytea-win-0.4.2/RecipeNE-sample/bin/nesearch.py'
 _LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/test'
 
 
@@ -111,7 +111,7 @@ class Finalizer:
 
 def ner_tagger_2(nesearch_path, input_file, output_file):
     cmd = subprocess.call(
-        ['perl', nesearch_path, input_file, output_file],
+        ['python', nesearch_path, input_file, output_file],
     )
 
     return
