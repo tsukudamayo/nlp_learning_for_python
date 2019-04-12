@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.contrib.auth.decorators import login_required
 from . import nerpreprocess as pre
 from . import kyteagraph as ky
 
 import os
+import pickle
 
 import pandas as pd
 
@@ -16,6 +18,7 @@ _LOG_DIR = os.path.join(os.path.dirname(__file__), 'test')
 
 
 # Create your views here.
+@login_required
 def index(request):
     params = {
         'title': 'こんにちは',
@@ -25,13 +28,11 @@ def index(request):
     return render(request, 'flowgraph/index.html', params)
 
 
+@login_required
 def form(request):
+    print('form')
     msg = request.POST['msg']
-    params = {
-        'title': 'こんにちは',
-        'answer': msg,
-    }
-
+    print(msg)
     # msg = msg.split()
 
     # --------------
@@ -76,7 +77,8 @@ def form(request):
     input_file = output_file
     output_file = os.path.join(proc4_2_path, 'proc4_2.txt')
     ner_file = output_file
-    pre.ner_tagger_2(_NESEARCH_PATH, input_file, output_file)
+    # pre.ner_tagger_2(_NESEARCH_PATH, input_file, output_file)
+    pre.ner_tagger_2(input_file, output_file)
 
     print('result')
     result_path = os.path.join(_LOG_DIR, 'ner_result')
@@ -115,7 +117,7 @@ def form(request):
     word_order = ky.word_to_order(read_file)
     print(word_order)
 
-    print('**************** rne_word_map ****************')
+    print('**************** word_rne_map ****************')
     word_to_rne_map = ky.word_to_rne(read_file)
     print('rne_word_map')
     print(word_to_rne_map)
@@ -136,11 +138,39 @@ def form(request):
     print('dependency_list')
     print(dependency_list)
 
+    print('################ eval arcs ################')
+    arc_tag_list = None
+    word_to_id = os.path.join(
+        os.path.dirname(__file__), 'word_to_id.pkl'
+    )
+    clf = os.path.join(
+        os.path.dirname(__file__), 'svc.pkl'
+    )
+    matrix = os.path.join(
+        os.path.dirname(__file__), 'matrix.pkl'
+    )
+    prediction_map = os.path.join(
+        os.path.dirname(__file__), 'prediction_map.pkl'
+    )
+
+    arc_tag_list = ky.evaluate_arcs(
+        dependency_list,
+        word_to_id,
+        clf,
+        matrix,
+        prediction_map,
+    )
     print('################ original file ################')
     with open(read_file, 'r', encoding='utf-8') as read_f:
         lines = read_f.readlines()
     print(lines)
     print('################ dependencies ################')
-    ky.output_flowgraph(dependency_list)
+    graphbase64 = ky.output_flowgraph(dependency_list, arc_tag_list)
+    params = {
+        'title': 'こんにちは',
+        'answer': msg,
+        'graphbase64': graphbase64,
+    }
+    # print('graphbase64', graphbase64)
 
     return render(request, 'flowgraph/index.html', params)

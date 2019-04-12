@@ -1,8 +1,14 @@
+import io
 import os
+import base64
 from collections import defaultdict
 
+import numpy as np
 import pandas as pd
+import networkx as nx
 from graphviz import Digraph
+from PIL import Image, ImageDraw, ImageFont
+from sklearn.externals import joblib
 
 
 _LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/test/ner_result'
@@ -142,8 +148,13 @@ def word_to_rne(filepath):
         line = line.split(' ')
         for word in line:
             word = word.split('/')
+            print(word)
             if len(word) >= 2:
                 print(word)
+                if word[1].find('\n') >= 0: # corresponding '。' error
+                    word[1] = word[1].replace('\n', '')
+                else:
+                    pass
                 word_to_rne_map[word[0]].append(word[1])
             else:
                 pass
@@ -159,8 +170,11 @@ def rne_to_word(filepath):
         line = line.split(' ')
         for word in line:
             word = word.split('/')
+            print(word)
             if len(word) >= 2:
                 print(word)
+                if word[1].find('\n') >= 0:# corresponding '。' error
+                    word[1] = word[1].replace('\n', '')
                 rne_to_word_map[word[1]].append(word[0])
             else:
                 pass
@@ -168,16 +182,293 @@ def rne_to_word(filepath):
     return rne_to_word_map
 
 
-def output_flowgraph(dependency_list):
-    dst_dir = os.path.join(os.path.dirname(__file__), 'static/flowgraph/assets/img')
-    G = Digraph(format='png')
-    G.attr('node', shape='square', style='filled', fontname='MS Gothic')
+def evaluate_arcs(dependency_list, word_to_id, clf, matrix, prediction_map):
+    eval_data = []
     for pair in dependency_list:
-        print(pair)
-        G.edge(pair[0], pair[1])
-    G.render(os.path.join(dst_dir, 'flowgraph'))
+        word_pair = []
+        for word in pair:
+            word = word.split('-')[1]
+            if word.find('=') >= 0:
+                word = word.split('=')[0]
+            print(word)
+            word_pair.append(word)
+        word_pair = tuple(word_pair)
+        eval_data.append(word_pair)
+    print('eval_data')
+    print(eval_data)
+
+    word_to_id = joblib.load(word_to_id)
+    clf = joblib.load(clf)
+    matrix = joblib.load(matrix)
+    prediction_map = joblib.load(prediction_map)
+    all_feature = None
+    for path in eval_data:
+        id_1 = word_to_id[path[0]]
+        id_2 = word_to_id[path[1]]
+        feature_1 = matrix[id_1]
+        feature_2 = matrix[id_2]
+        current_feature = np.hstack((feature_1, feature_2))
+        if all_feature is None:
+            all_feature = current_feature
+            all_feature = all_feature[np.newaxis, :]
+        else:
+            all_feature = np.vstack((all_feature, current_feature))
+
+    print('**************** evaluation ****************')
+    print(all_feature.shape)
+    print(clf.predict(all_feature))
+    pred = clf.predict(all_feature)
+    arc_tag_list = np.array([prediction_map[x] for x in pred])
+    print(arc_tag_list)
+
+    return arc_tag_list
+
+
+# # use graphviz
+# def output_flowgraph(dependency_list):
+#     dst_dir = os.path.join(os.path.dirname(__file__), 'static/flowgraph/assets/img')
+#     G = Digraph(format='png')
+#     G.attr('node', shape='square', style='filled', fontname='MS Gothic')
+#     for pair in dependency_list:
+#         print(pair)
+#         G.edge(pair[0], pair[1])
+#     G.render(os.path.join(dst_dir, 'flowgraph'))
+
+#     return
+
+
+# # use matplotlib
+# def output_flowgraph(dependency_list):
+#     plt.rcParams['font.family'] = 'IPAexGothic'
+#     plt.figure(figsize=(15, 10))
+#     dst_dir = os.path.join(os.path.dirname(__file__), 'static/flowgraph/assets/img')
+#     G = nx.DiGraph()
+#     for pair in dependency_list:
+#         print(pair)
+#         G.add_path([pair[0], pair[1]])
+#     nx.draw_networkx(
+#         G,
+#         node_size=2000,
+#         node_color='gray',
+#         font_family='IPAexGothic',
+#     )
+#     plt.tight_layout()
+#     plt.tick_params(
+#         labelbottom=False,
+#         labelleft=False,
+#         labelright=False,
+#         labeltop=False,
+#         bottom=False,
+#         left=False,
+#         right=False,
+#         top=False,
+#     )
+#     plt.savefig(os.path.join(dst_dir, 'flowgraph.png'))
+
+#     return
+
+
+def generate_all_node_list(dependency_list):
+    tmp_word = dependency_list[0][1]
+    all_nodes_list = []
+    tmp_node_list = []
+    for i in dependency_list:
+        print(i[0])
+        print(i[1])
+        if i[1] == tmp_word:
+            print('same')
+            tmp_node_list.append(i[0])
+        else:
+            all_nodes_list.append(tmp_node_list)
+            tmp_node_list = []
+            tmp_node_list.append(i[0])
+        tmp_word = i[1]
+        print('tmp_node_list')
+        print(tmp_node_list)
+    # append root word
+    last_word = []
+    last_word.append(tmp_word)
+    all_nodes_list.append(tmp_node_list)
+    all_nodes_list.append(last_word)
+
+    return all_nodes_list
+
+
+def layout_coordinates(height_interval, width_interval, all_nodes_list):
+    y_coord = height_interval
+    xy_coords = []
+    for y in all_nodes_list:
+        tmp_coords = []
+        all_width_list_length = len(y) + 2
+        all_x_list_length = len(y) + 2
+        x_coord = width_interval
+        width_xcoords =\
+          sorted([int(width_interval * w) for w in range(1, all_x_list_length - 1)])
+        for idx, x in enumerate(y):
+            coord = (x_coord, y_coord)
+            tmp_coords.append(coord)
+            x_coord += width_interval
+        xy_coords.append(tmp_coords)
+        y_coord += height_interval
+
+    return xy_coords
+
+
+def render_graph(d, xy_coords, all_nodes_list, graph_size):
+    tmp_start_coord = None
+    drawing_coords_list = []
+    node_start_list = []
+    node_end_list = []
+    for idx1, line in enumerate(xy_coords):
+        print(line)
+        for idx2, c in enumerate(line):
+            start_coord = tuple(c)
+            end_coord = [c[0]+graph_size, c[1]+graph_size]
+            end_coord = tuple(end_coord)
+
+            output_coords = [start_coord, end_coord]
+            output_coords = tuple(output_coords)
+
+            try:
+                node_start_list.append(end_coord)
+                node_end_list.append(tmp_start_coord)
+            except TypeError:
+                print('tmp_start_coord is None')
+                pass
+
+            d.rectangle(output_coords, fill='gray', width=3)
+            d.text(start_coord, all_nodes_list[idx1][idx2], (0,0,0))
+            # # draw line
+
+            tmp_start_coord = start_coord
 
     return
+
+
+def render_edge(d, dependency_list, graph_coords_map):
+    drawing_coords_list = []
+    for depend in dependency_list:
+        n_start = depend[0]
+        n_end = depend[1]
+        print(n_start, n_end)
+        print(graph_coords_map[n_start])
+        print(graph_coords_map[n_end])
+        c1 = graph_coords_map[n_start]
+        c2 = graph_coords_map[n_end]
+        x1 = c2[0][0]
+        x2 = c2[0][1]
+        y1 = c1[1][0]
+        y2 = c1[1][1]
+        drawing_coords = [y1, y2, x1, x2]
+        drawing_coords_list.append(drawing_coords)
+        print('drawing_coords')
+        print(drawing_coords)
+        d.line(tuple(drawing_coords), fill=(0, 0, 0), width=5)
+
+    return
+
+
+def render_arc_tag(d, dependency_list, graph_coords_map, arc_tag_list):
+    drawing_coords_list = []
+    for depend, arc in zip(dependency_list, arc_tag_list):
+        n_start = depend[0]
+        n_end = depend[1]
+        print(n_start, n_end)
+        print(graph_coords_map[n_start])
+        print(graph_coords_map[n_end])
+        c1 = graph_coords_map[n_start]
+        c2 = graph_coords_map[n_end]
+        x1 = c2[0][0]
+        x2 = c2[0][1]
+        y1 = c1[1][0]
+        y2 = c1[1][1]
+        arc_coords = [int((y1+x1)/2), int((y2+x2)/2)]
+        arc_coords = tuple(arc_coords)
+        print('arc_coords')
+        print(arc_coords)
+        d.text(arc_coords, arc, (255, 0, 0))
+
+    return
+
+
+def output_flowgraph(dependency_list, arc_tag_list):
+    dst_dir = os.path.join(os.path.dirname(__file__), 'static/flowgraph/assets/img')
+    height_interval = 200
+    width_interval = 200
+    graph_size = 100  # size of Vertex
+    print('dependency_list')
+    print(dependency_list)
+
+    # ------------------------
+    # generate all node list
+    # ------------------------
+    all_nodes_list = generate_all_node_list(dependency_list)
+    print('all_nodes_list')
+    print(all_nodes_list)
+    print(len(all_nodes_list))
+
+    # ---------------------------
+    # layout coordinates of node
+    # ---------------------------
+    all_nodes_list_length = len(all_nodes_list) + 2
+    print('all_nodes_list length')
+    print(len(all_nodes_list))
+    xy_coords = layout_coordinates(
+        height_interval,
+        width_interval,
+        all_nodes_list,
+    )
+
+    print('all_nodes_list')
+    print(all_nodes_list)
+    print('xy_coords')
+    print(xy_coords)
+
+    # -----------------
+    # rendering graph
+    # -----------------
+    max_x_length = max([len(x) for x in all_nodes_list]) + 2
+    image_height = width_interval * max_x_length
+    image_width = height_interval * all_nodes_list_length
+    print('image property')
+    print(max_x_length)
+    print(image_height)
+    print(image_width)
+    img = Image.new('RGBA', (image_height, image_width), 'white')
+    d = ImageDraw.Draw(img)
+    font_path = os.path.join(
+        os.path.dirname(__file__), 'ipaexg.ttf'
+    )
+    d.font = ImageFont.truetype(font_path, 25)
+    print('***** xy_coords *****')
+    print('**************** rendering entity and graph ****************')
+    graph_coords_map = defaultdict(list)
+    for x, y in zip(all_nodes_list, xy_coords):
+        current_graph_coords = []
+        for j, k in zip(x, y):
+            coord1 = tuple(k)
+            coord2 = (k[0] + graph_size, k[1] + graph_size)
+            coord_list = [coord1, coord2]
+            graph_coords_map[j].append(coord1)
+            graph_coords_map[j].append(coord2)
+    print('graph_coords_map')
+    print(graph_coords_map)
+
+    render_graph(d, xy_coords, all_nodes_list, graph_size)
+    render_edge(d, dependency_list, graph_coords_map)
+    if arc_tag_list is not None:
+        render_arc_tag(d, dependency_list, graph_coords_map, arc_tag_list)
+    else:
+        pass
+
+    img.save(os.path.join(dst_dir, 'flowgraph.png'))
+    buf = io.BytesIO()
+    img.save(buf, format='PNG')
+    base64img = base64.b64encode(buf.getvalue()).decode()
+    # print('base64img')
+    # print(base64img)
+
+    return base64img
 
 
 def main():

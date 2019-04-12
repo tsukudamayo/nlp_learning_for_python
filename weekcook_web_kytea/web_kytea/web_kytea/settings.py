@@ -22,16 +22,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '&vt255@t+ela7q9i+tkfm$sw4()kt4gq-wfty8u*9bdqa60ohe'
 
-# # FOR LOCAL
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# # FOR DEPLOYMENT
-# DEBUG = False
-# ALLOWED_HOSTS = ['*']
-# STATIC_ROOT = 'static'
+# LOGIN SETTINGS: tsukuda add(2019/4/8)
+LOGIN_URL = '/admin/login/?next=/flowgraph'
+LOGIN_REDIRECT_URL = '/flowgraph'
 
 # Application definition
 

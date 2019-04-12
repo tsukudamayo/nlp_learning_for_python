@@ -1,6 +1,11 @@
 import os
 import subprocess
 
+import numpy as np
+
+from . import kyteagraph as ky
+from . import nesearch as ne
+
 
 _KBM_MODEL = 'kytea-win-0.4.2/model/jp-0.4.7-1.mod'
 _KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe416.knm'
@@ -109,19 +114,128 @@ class Finalizer:
         return output_list
 
 
-def ner_tagger_2(nesearch_path, input_file, output_file):
-    cmd = subprocess.call(
-        ['python', nesearch_path, input_file, output_file],
+# def ner_tagger_2(nesearch_path, input_file, output_file):
+#     cmd = subprocess.call(
+#         ['python', nesearch_path, input_file, output_file],
+#     )
+# 
+#     return
+
+
+def ner_tagger_2(input_file, output_file):
+    rnetag_list = np.array(['Ac', 'Af', 'F', 'Sf', 'St', 'Q', 'D', 'T'])
+
+    tag_kinds = np.array([ne.BIOtag_append(tag) for tag in rnetag_list])
+    tag_kinds = tag_kinds.flatten()
+
+    head_tag = np.array([ne.genereate_headtag(tag) for tag in tag_kinds])
+
+    # /O tag
+    tag_kinds = np.append(tag_kinds, ['O'], axis=0)
+    head_tag = np.append(head_tag, [1], axis=0)
+
+    connect_matrix = np.array(
+        [ne.generate_connection_matrix(tag, tag_kinds) for tag in tag_kinds]
     )
+
+    # -----
+    # test
+    # -----
+    # print('tag_kinds')
+    # print(tag_kinds)
+
+    # print('head_tag')
+    # print(head_tag)
+
+    # print('tag_kinds')
+    # print(tag_kinds)
+    # print('head_tag')
+    # print(head_tag)
+
+    # print('connect_matrix')
+    # print(connect_matrix)
+
+    # --------------------------------------
+    # get result of tag estimation by kytea
+    # --------------------------------------
+    read_file = input_file
+    food_list, tag_list, prob_list = ne.text_to_list(read_file)
+
+    # print('foods', food_list)
+    # print('tags', tag_list)
+    # print('probs', prob_list)
+
+    # ---------------
+    # generate hash
+    # ---------------
+    foods_tags_hash = {food: tag for (food, tag) in zip(food_list, tag_list)}
+    # print('foods_tags_hash')
+    # print(foods_tags_hash)
+    foods_probs_hash = {food: prob for (food, prob) in zip(food_list, prob_list)}
+    # print('foods_probs_hash')
+    # print(foods_probs_hash)
+    foods_number_hash = {i: food for (i, food) in enumerate(food_list)}
+    # print('foods_number_hash')
+    # print(foods_number_hash)
+
+    # --------------------------
+    # viterbi forward algorithm
+    # --------------------------
+    prob_matrix, edge_matrix = ne.viterbi_forward(
+        food_list,
+        tag_kinds,
+        head_tag,
+        connect_matrix,
+        foods_tags_hash,
+        foods_number_hash,
+        foods_probs_hash
+    )
+    print('**************** prob_matrix ****************')
+    for i in prob_matrix:
+        print(i)
+
+    print('**************** edge_matrix ****************')
+    for i in edge_matrix:
+        print(i)
+
+    # --------------------------
+    # viterbi forward algorithm
+    # --------------------------
+    result_rnetag = ne.viterbi_backward(
+        tag_kinds,
+        food_list,
+        prob_matrix,
+        edge_matrix
+    )
+    print('result_rnetag')
+    print(result_rnetag)
+
+    # -----------------------
+    # result output to text
+    # -----------------------
+    with open(output_file, 'w', encoding='utf-8') as w:
+        for word, tag in zip(food_list, result_rnetag):
+            w.write(word)
+            w.write('/')
+            w.write(tag)
+            w.write(' ')
 
     return
 
 
 def ner_tagger_1(kytea_path, model_path, input_file, output_file):
-    cmd_cat = subprocess.Popen(
-        ['cat', input_file],
-        stdout=subprocess.PIPE,
-    )
+    try:
+        cmd_cat = subprocess.Popen(
+            ['cat', input_file],
+            stdout=subprocess.PIPE,
+        )
+    # if "cat" command is not exist
+    except FileNotFoundError:
+        cmd_cat = subprocess.Popen(
+            ['type', input_file],
+            stdout=subprocess.PIPE,
+            shell=True,
+        )
     cmd_kytea = subprocess.Popen(
         [kytea_path, '-model', model_path,
          '-out', 'conf', '-nows',
@@ -156,10 +270,23 @@ def insert_space_between_words(input_file, output_file):
 
 
 def parse_recipe(model_path, kytea_path, input_file, output_file):
-    cmd_cat = subprocess.Popen(
-        ['cat', input_file],
-        stdout=subprocess.PIPE,
-    )
+    print('input_file')
+    print(input_file)
+    print('cat')
+    try:
+        print('try')
+        cmd_cat = subprocess.Popen(
+            ['cat', input_file],
+            stdout=subprocess.PIPE,
+        )
+    # if "cat" command is not exist
+    except FileNotFoundError:
+        print('file not found error')
+        cmd_cat = subprocess.Popen(
+            ['type', input_file],
+            stdout=subprocess.PIPE,
+            shell=True,
+        )
     cmd_kytea = subprocess.Popen(
         [kytea_path, '-model', model_path],
         stdin=cmd_cat.stdout,
@@ -219,7 +346,8 @@ def main():
         input_file = output_file
         output_file = os.path.join(proc4_2_path, header_name + filenumber + '_proc4_2.txt')
         ner_file = output_file
-        ner_tagger_2(_NESEARCH_PATH, input_file, output_file)
+        # before
+        ner_tagger_2(input_file, output_file)
 
         print('result')
         result_path = os.path.join(_LOG_DIR, 'ner_result')

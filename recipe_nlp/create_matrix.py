@@ -7,6 +7,33 @@ from sklearn.decomposition import PCA, NMF, LatentDirichletAllocation
 _LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_3'
 
 
+def generate_wordlist(data_dir):
+    file_list = os.listdir(_LOG_DIR)
+    word_list = []
+    for f in file_list:
+        read_filepath = os.path.join(_LOG_DIR, f)
+        with open(read_filepath, 'r', encoding='utf-8') as lines:
+            for line in lines:
+                line = line.replace('\n', '')
+                line = line.split(' ')
+                word_list.extend(line)
+
+    return word_list
+
+
+def generate_word_id_map(word_list):
+    word_to_id = {}
+    id_to_word = {}
+    for word in word_list:
+        new_id = len(word_to_id)
+        word_to_id[word] = new_id
+        id_to_word[new_id] = word
+
+    word_to_id = {v: k for (k, v) in id_to_word.items()}
+
+    return word_to_id, id_to_word
+
+
 def id_to_word_to_txt(id_to_word):
     with open('id_to_word.txt', 'w', encoding='utf-8') as w:
         for k, v in id_to_word.items():
@@ -53,24 +80,8 @@ def create_co_matrix(corpus, vocab_size, id_to_word, window_size=1):
 
 
 def main():
-    file_list = os.listdir(_LOG_DIR)
-    word_list = []
-    word_to_id = {}
-    id_to_word = {}
-    for f in file_list:
-        read_filepath = os.path.join(_LOG_DIR, f)
-        with open(read_filepath, 'r', encoding='utf-8') as lines:
-            for line in lines:
-                line = line.replace('\n', '')
-                line = line.split(' ')
-                word_list.extend(line)
-
-    for word in word_list:
-        new_id = len(word_to_id)
-        word_to_id[word] = new_id
-        id_to_word[new_id] = word
-
-    word_to_id = {v: k for (k, v) in id_to_word.items()}
+    word_list = generate_wordlist(_LOG_DIR)
+    word_to_id, id_to_word = generate_word_id_map(word_list)
     # print('id_to_word')
     # print(id_to_word)
     # print('word_to_id')
@@ -169,8 +180,6 @@ def main():
 
     # import matplotlib.font_manager as fm
     # print(fm.findSystemFonts())
-
-
 
 
 if __name__ == '__main__':

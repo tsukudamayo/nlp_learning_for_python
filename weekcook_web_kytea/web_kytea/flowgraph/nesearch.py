@@ -361,8 +361,7 @@ def main():
     # -----------------------
     # result output to text
     # -----------------------
-    output_file = sys.argv[2]
-    with open(output_file, 'w', encoding='utf-8') as w:
+    with open('test.txt', 'w', encoding='utf-8') as w:
         for word, tag in zip(food_list, result_rnetag):
             w.write(word)
             w.write('/')
