@@ -1,10 +1,6 @@
-FROM ubuntu:16.04
+FROM python:3
 RUN apt-get -y update \
     && apt-get -y upgrade \
-    && apt-get install -y curl python3-distutils \
-    && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
-    && python3 get-pip.py \
-    && pip install -U pip \
     && mkdir /code 
 WORKDIR /code
 ADD requirements.txt /code
