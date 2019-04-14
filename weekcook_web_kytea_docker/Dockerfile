@@ -5,10 +5,7 @@ RUN apt-get -y update \
     && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
     && python3 get-pip.py \
     && pip install -U pip \
-    && mkdir /code \
-    && rm -rf /var/lib/apt/lists/* \
-    && localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
-ENV LANG en_US.utf8
+    && mkdir /code 
 WORKDIR /code
 ADD requirements.txt /code
 RUN pip install -r requirements.txt
