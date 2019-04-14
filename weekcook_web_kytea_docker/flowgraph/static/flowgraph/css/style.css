@@ -1,0 +1,22 @@
+body {
+    color: red;
+    font-size: 16pt;
+}
+h1 {
+    color: black;
+    opacity: 0.2;
+    font-size: 60pt;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+p {
+    color: black;
+    font-size: 20pt;
+    margin: 10px;
+    opacity: 0.5;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}

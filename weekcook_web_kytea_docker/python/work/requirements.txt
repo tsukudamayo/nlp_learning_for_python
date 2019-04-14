@@ -1,0 +1,8 @@
+django
+pandas
+graphviz
+matplotlib
+networkx
+pillow
+scikit-learn
+uwsgi
