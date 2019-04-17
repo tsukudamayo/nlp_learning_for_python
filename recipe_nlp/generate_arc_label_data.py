@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 
-_LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/annotation'
+_LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/annotation'
 
 
 def convert_id_to_word(df, idx):

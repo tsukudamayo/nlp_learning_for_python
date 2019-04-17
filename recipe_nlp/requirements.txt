@@ -1,6 +1,6 @@
-ipython
-scikit-learn
 pandas
-xlrd
-pytest
+graphviz
 matplotlib
+networkx
+pillow
+scikit-learn

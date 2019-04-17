@@ -8,10 +8,10 @@ _LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_3'
 
 
 def generate_wordlist(data_dir):
-    file_list = os.listdir(_LOG_DIR)
+    file_list = os.listdir(data_dir)
     word_list = []
     for f in file_list:
-        read_filepath = os.path.join(_LOG_DIR, f)
+        read_filepath = os.path.join(data_dir, f)
         with open(read_filepath, 'r', encoding='utf-8') as lines:
             for line in lines:
                 line = line.replace('\n', '')

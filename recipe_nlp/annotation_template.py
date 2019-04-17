@@ -4,14 +4,16 @@ import gc
 import pandas as pd
 
 
-_LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/combined'
-_DST_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/flow'
+_LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/combined'
+_DST_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/flow'
 _ORG_COLUMNS = ['number', 'word', 'tag', 'Agent', 'Targ', 'Dest',
                 'F-comp', 'T-comp', 'F-eq', 'F-part-of', 'F-set', 'T-eq',
                 'T-part-of', 'V-eq', 'V-tm', 'other-mod']
-_NEW_COLUMNS = ['number', 'new_word', 'new_tag', 'Agent', 'Targ', 'Dest',
-                'F-comp', 'T-comp', 'F-eq', 'F-part-of', 'F-set', 'T-eq',
-                'T-part-of', 'V-eq', 'V-tm', 'other-mod']
+# _NEW_COLUMNS = ['number', 'new_word', 'new_tag', 'Agent', 'Targ', 'Dest',
+#                 'F-comp', 'T-comp', 'F-eq', 'F-part-of', 'F-set', 'T-eq',
+#                 'T-part-of', 'V-eq', 'V-tm', 'other-mod',
+#                 'dependency_dst', 'arclabel']
+_NEW_COLUMNS = ['number', 'new_word', 'new_tag', 'Targ', 'dependency_dst', 'arclabel']
 
 def main():
     if os.path.isdir(_DST_DIR) is False:
@@ -27,6 +29,8 @@ def main():
         dstfile = fname + '.csv'
         df_old = pd.read_csv(filepath, delimiter='\t', names=_ORG_COLUMNS)
         df_new = df_old[df_old['tag'] != 'O']
+        df_new['word'] = df_new['word'].astype(str)
+        df_new['tag'] = df_new['tag'].astype(str)
         df_new['new_word'] = df_new['word'].apply(lambda x: x.split('/')[0])
         df_new['new_tag'] = df_new['tag'].apply(lambda x: x.split('-')[0])
         del df_old

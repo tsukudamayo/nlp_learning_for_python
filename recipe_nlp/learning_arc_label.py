@@ -12,7 +12,7 @@ import create_matrix as cm
 
 
 _ANNOTATION_DIR = 'annotation'
-_RECIPE_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_3'
+_RECIPE_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_3'
 
 
 def generate_arc_category_data(log_dir):
@@ -26,7 +26,7 @@ def generate_arc_category_data(log_dir):
         print(f)
         read_file = os.path.join(_ANNOTATION_DIR, f)
         df = pd.read_csv(read_file)
-        tmp_df = df[['new_word', 'dependnecy_dst', 'arclabel']]
+        tmp_df = df[['new_word', 'dependency_dst', 'arclabel']]
         tmp_df = tmp_df.dropna()
         train_data = pd.concat([train_data, tmp_df], axis=0)
     train_data.to_csv('arc_train.csv', index=False)
@@ -84,7 +84,7 @@ def main():
     # ----------------------------
     category_label_data['feature_org_idx'] = category_label_data['new_word']\
       .apply(lambda x: word_to_id[x])
-    category_label_data['feature_dst_idx'] = category_label_data['dependnecy_dst']\
+    category_label_data['feature_dst_idx'] = category_label_data['dependency_dst']\
       .apply(lambda x: word_to_id[x])
     category_label_data['feature_org'] = category_label_data['feature_org_idx']\
       .apply(lambda x: matrix[x])
@@ -139,25 +139,25 @@ def main():
     print(classification_report(
         y_test,
         clf.predict(X_test),
-        target_names=prediction_map.values()
+        # target_names=category_map.values()
     ))
 
-    # tamanegi test
-    print('**************** tamanegi-surioro ****************')
-    onion_id = word_to_id['玉ねぎ']
-    print('onion_id')
-    print(onion_id)
-    suri_id = word_to_id['すりおろ']
-    print('suri_id')
-    print(suri_id)
-    onion_feature = matrix[0]
-    suri_feature = matrix[2]
-    sample_feature = np.hstack((onion_feature, suri_feature)).flatten()
-    print('sample_feature')
-    print(sample_feature)
-    print(clf.predict([sample_feature]))
-    pred = clf.predict([sample_feature])
-    print(prediction_map[pred[0]])
+    # # tamanegi test
+    # print('**************** tamanegi-surioro ****************')
+    # onion_id = word_to_id['玉ねぎ']
+    # print('onion_id')
+    # print(onion_id)
+    # suri_id = word_to_id['すりおろ']
+    # print('suri_id')
+    # print(suri_id)
+    # onion_feature = matrix[0]
+    # suri_feature = matrix[2]
+    # sample_feature = np.hstack((onion_feature, suri_feature)).flatten()
+    # print('sample_feature')
+    # print(sample_feature)
+    # print(clf.predict([sample_feature]))
+    # pred = clf.predict([sample_feature])
+    # print(prediction_map[pred[0]])
 
     # model load
     load_model = joblib.load('svc.pkl')
