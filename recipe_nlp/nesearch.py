@@ -192,9 +192,10 @@ def viterbi_forward(food_list, tag_kinds, head_tag, connect_matrix,
                 # print(prob_matrix)
                 # print('edge_matrix')
                 # print(edge_matrix)
+
                 if (prob_matrix[i][j] < tmpprob):
                     edge_matrix[i][j] = k
-                    prob_matrix[i][j] = tmpprob
+                    # prob_matrix[i][j] = tmpprob
 
                 # print('privious prob')
                 # print(prob_history[i-1])
@@ -222,7 +223,7 @@ def viterbi_forward(food_list, tag_kinds, head_tag, connect_matrix,
 
     # print('connnect_matrix')
     # print(connect_matrix)
-    return prob_matrix, edge_matrix
+    return prob_matrix, edge_matrix, prob_history
 
 
 def viterbi_backward(tag_kinds, food_list, prob_matrix, edge_matrix):

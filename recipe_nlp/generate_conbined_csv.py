@@ -46,63 +46,63 @@ def main():
         print('lines1')
         print(lines1)
         
-        # with open(proc_4_2_path, 'r', encoding='utf-8') as r_4_2:
-        #     lines2 = r_4_2.readlines()
-        # lines2 = lines2[0].split(' ')
-        # print(len(lines2))
+        with open(proc_4_2_path, 'r', encoding='utf-8') as r_4_2:
+            lines2 = r_4_2.readlines()
+        lines2 = lines2[0].split(' ')
+        print(len(lines2))
 
-        # with open(output_path, 'w', encoding='utf-8') as w:
-        #     print(proc_2_fname.split('_')[1])
-        #     word_num = 0
-        #     for proc_idx, (line1, line2) in enumerate(zip(lines1, lines2)):
-        #         proc_idx = f'{proc_idx:03}'
-        #         print(proc_idx)
-        #         line1 = line1.replace('\n', '')
-        #         # line2 = line2.replace('\n', '')
-        #         line1 = line1.split(' ')
-        #         line2 = line2.split(' ')
-        #         print('line1')
-        #         print(line1)
-        #         print(len(line1))
-        #         print('line2')
-        #         print(line2)
-        #         print(len(line2))
-        #         sentences_idx = 0
-        #         for word_idx, (word1, word2) in enumerate(zip(line1, line2)):
-        #             print('word1, word2')
-        #             print(word1, word2)
-        #             if word1 == '\n' or word2 == '\n':
-        #                 pass
-        #             else:
-        #                 sentences_num = f'{sentences_idx:02}'
-        #                 word_num = f'{word_idx:03}'
-        #                 proc_sentence_word_num = str(proc_idx) + '-' + str(sentences_num) + '-' + str(word_num)
-        #                 # print(proc_sentence_word_num)
-        #                 # print('word1')
-        #                 # print(word1)
-        #                 # print('word2')
-        #                 # print(word2)
-        #                 join_list = []
-        #                 print(word2)
-        #                 word = word2.split('/')[0]
-        #                 try:
-        #                     tag = word2.split('/')[1]
-        #                 except IndexError:
-        #                     print('IndexError')
-        #                     print(output_path)
-        #                     sys.exit(1)
-        #                 join_list.append(proc_sentence_word_num)
-        #                 join_list.append(word1)
-        #                 join_list.append(tag)
-        #                 data = '\t'.join(join_list)
-        #                 print('data')
-        #                 print(data)
-        #                 w.write(data)
-        #                 w.write('\n')
-        #                 if word == '。':
-        #                     sentences_idx += 1
-        #                 else:
-        #                     pass
+        with open(output_path, 'w', encoding='utf-8') as w:
+            print(proc_2_fname.split('_')[1])
+            word_num = 0
+            for proc_idx, (line1, line2) in enumerate(zip(lines1, lines2)):
+                proc_idx = f'{proc_idx:03}'
+                print(proc_idx)
+                line1 = line1.replace('\n', '')
+                # line2 = line2.replace('\n', '')
+                line1 = line1.split(' ')
+                line2 = line2.split(' ')
+                print('line1')
+                print(line1)
+                print(len(line1))
+                print('line2')
+                print(line2)
+                print(len(line2))
+                sentences_idx = 0
+                for word_idx, (word1, word2) in enumerate(zip(line1, line2)):
+                    print('word1, word2')
+                    print(word1, word2)
+                    if word1 == '\n' or word2 == '\n':
+                        pass
+                    else:
+                        sentences_num = f'{sentences_idx:02}'
+                        word_num = f'{word_idx:03}'
+                        proc_sentence_word_num = str(proc_idx) + '-' + str(sentences_num) + '-' + str(word_num)
+                        # print(proc_sentence_word_num)
+                        # print('word1')
+                        # print(word1)
+                        # print('word2')
+                        # print(word2)
+                        join_list = []
+                        print(word2)
+                        word = word2.split('/')[0]
+                        try:
+                            tag = word2.split('/')[1]
+                        except IndexError:
+                            print('IndexError')
+                            print(output_path)
+                            sys.exit(1)
+                        join_list.append(proc_sentence_word_num)
+                        join_list.append(word1)
+                        join_list.append(tag)
+                        data = '\t'.join(join_list)
+                        print('data')
+                        print(data)
+                        w.write(data)
+                        w.write('\n')
+                        if word == '。':
+                            sentences_idx += 1
+                        else:
+                            pass
 
 
 
