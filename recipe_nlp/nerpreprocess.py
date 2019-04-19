@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 
 import numpy as np
@@ -60,6 +61,7 @@ class Finalizer:
 
     def modify_viob(self, input_list):
         output_list = []
+
         for item in input_list:
             if item == '':
                 continue
@@ -68,7 +70,7 @@ class Finalizer:
                 output_list.append(item[0])
             else:
                 output_list.append(item[0] + '/' + item[1].split('-')[0])
-
+                
         return output_list
 
     def restore(self, morphology_list, ner_list):
@@ -96,7 +98,6 @@ class Finalizer:
                 # ner_item[0] = tmp_ner_item
                 # # tsukuda change
                 sys.exit()
-                pass
             if ner_item[1] == '':
                 output_list.append(','.join(m_item))
             else:

@@ -37,7 +37,6 @@ def main():
         lines = r.readlines()
     for line in lines:
         print(line)
-
     print('lines')
     print(lines[0].split(' '))
     food_result = lines[0].split(' ')

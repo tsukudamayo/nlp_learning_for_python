@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 
 import numpy as np
@@ -25,14 +26,16 @@ class Finalizer:
 
     def result_output(self):
         with open(self.output_path, 'w', encoding='utf-8') as w:
+            m_lists_sublist = []
             for line in open(self.morphology_file, 'r', encoding='utf-8'):
                 print('line1')
                 print(line)
                 line = line.replace('\n', '').split(' ')
                 print('line2w')
                 print(line)
-                self.m_lists.append(line)
-            print(self.m_lists)
+                # self.m_lists.append(line)
+                m_lists_sublist.extend(line)
+            self.m_lists.append(m_lists_sublist)
 
             for line in open(self.ner_file, 'r', encoding='utf-8'):
                 line = line.replace('\n', '').split(' ')
@@ -42,6 +45,10 @@ class Finalizer:
             print(self.ner_lists)
 
             for m_list, ner_list in zip(self.m_lists, self.ner_lists):
+                print('restore/m_list')
+                print(m_list)
+                print('resotre/ner_list')
+                print(ner_list)
                 restored_list = self.restore(m_list, ner_list)
                 print('restored_list')
                 print(restored_list)
@@ -75,15 +82,20 @@ class Finalizer:
                 ner_item = [ner_item, '']
             if m_item[0] != ner_item[0]:
                 print('ERROR: m_item != ner_item at restore')
+                print('m_item')
                 print(m_item[0])
+                print('ner_item')
                 print(ner_item[0])
+                # ner_item[0] = tmp_ner_item
                 # # tsukuda change
-                # sys.exite()
-                pass
+                sys.exit()
             if ner_item[1] == '':
                 output_list.append(','.join(m_item))
             else:
                 output_list.append(','.join(m_item) + '/' + ner_item[1])
+            # tmp_ner_item = ner_item[0]
+        print('output_list')
+        print(output_list)
 
         return output_list
 
@@ -161,35 +173,18 @@ def ner_tagger_2(input_file, output_file):
     read_file = input_file
     food_list, tag_list, prob_list = ne.text_to_list(read_file)
 
-    # print('foods', food_list)
-    # print('tags', tag_list)
-    # print('probs', prob_list)
-
-    # ---------------
-    # generate hash
-    # ---------------
-    foods_tags_hash = {food: tag for (food, tag) in zip(food_list, tag_list)}
-    # print('foods_tags_hash')
-    # print(foods_tags_hash)
-    foods_probs_hash = {food: prob for (food, prob) in zip(food_list, prob_list)}
-    # print('foods_probs_hash')
-    # print(foods_probs_hash)
-    foods_number_hash = {i: food for (i, food) in enumerate(food_list)}
-    # print('foods_number_hash')
-    # print(foods_number_hash)
-
     # --------------------------
     # viterbi forward algorithm
     # --------------------------
-    prob_matrix, edge_matrix = ne.viterbi_forward(
+    prob_matrix, edge_matrix, prob_history = ne.viterbi_forward(
         food_list,
+        tag_list,
+        prob_list,
         tag_kinds,
         head_tag,
-        connect_matrix,
-        foods_tags_hash,
-        foods_number_hash,
-        foods_probs_hash
+        connect_matrix
     )
+
     print('**************** prob_matrix ****************')
     for i in prob_matrix:
         print(i)
@@ -262,7 +257,9 @@ def insert_space_between_words(input_file, output_file):
             pass
         else:
             line = line.replace('\n', '')
-            words = [w.split('/')[0] for w in line.split(' ')]
+            words = [w.split('/')[0] if w.count('/') <= 2 else '/' for w in line.split(' ')]
+            print('words')
+            print(words)
             fp.write(' '.join(words) + '\n')
     fp.close()
 

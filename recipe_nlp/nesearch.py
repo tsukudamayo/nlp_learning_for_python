@@ -94,34 +94,28 @@ def text_to_list(read_file):
 # ------------------------------
 # decoding by viterbi algorithm
 # ------------------------------
-def viterbi_forward(food_list, tag_kinds, head_tag, connect_matrix,
-                    foods_tags_hash, foods_number_hash, foods_probs_hash):
+def viterbi_forward(food_list, tag_list, prob_list, tag_kinds, head_tag, connect_matrix):
     print('**************** initialize ****************')
-    print(foods_number_hash[0])
+    print('food_list')
+    print(food_list)
+    # -------------
     # initialize
-    # print('tag_kinds')
-    # print(tag_kinds)
+    # -------------
+    print('tag_kinds')
+    print(tag_kinds)
+    print(len(tag_kinds))
     prob_history = []
     tag_probabilities = {}
     all_words_length = range(len(food_list))
     prob_matrix = np.zeros(shape=(len(all_words_length), len(tag_kinds)))
     edge_matrix = np.zeros(shape=(len(all_words_length), len(tag_kinds)))
+    tag_prob_hash = {tag: prob for tag, prob in zip(tag_list[0], prob_list[0])}
+    print('############## ' + food_list[0] + ' ##############')
     for t in range(len(tag_kinds)):
-        # print(t)
-        # print(tag_kinds[t])
-        # print('head_tag')
-        # print(head_tag[t])
-        # print(foods_number_hash[0])
-        # print(foods_probs_hash[foods_number_hash[0]][t])
-
-        # print('category_list')
-        category_list = foods_tags_hash[foods_number_hash[0]]
-        # print(category_list)
-        # print('idx')
-        idx = category_list.index(tag_kinds[t])
-        # print(idx)
         # print('prob')
-        prob = foods_probs_hash[foods_number_hash[0]][idx]
+        # print('tag_prob_hash')
+        # print(tag_prob_hash)
+        prob = tag_prob_hash[tag_kinds[t]]
         # print(prob)
 
         current_prob = float(head_tag[t])*float(prob)
@@ -137,7 +131,7 @@ def viterbi_forward(food_list, tag_kinds, head_tag, connect_matrix,
         # print(tag_probabilities)
 
         edge_matrix[0][t] = 0
-        prob_matrix[0][t] = float(head_tag[t])*float(prob)
+        prob_matrix[0][t] = current_prob
 
         # -------------------------
         # kytea probability debug
@@ -153,21 +147,24 @@ def viterbi_forward(food_list, tag_kinds, head_tag, connect_matrix,
     # print('prob_history')
     # print(prob_history)
 
+    # -----------------------
+    # After the second time
+    # -----------------------
     for i in range(1, len(all_words_length)):
+        print('tag_kinds')
+        print(tag_kinds)
+        print(len(tag_kinds))
         print('################################')
         print('i', i)
-        print(foods_number_hash[i])
+        print('############## ' + food_list[i] + ' ##############')
         tag_probabilities = {}
+        tag_prob_hash = {tag: prob for tag, prob in zip(tag_list[i], prob_list[i])}
+        print('tag_prob_hash')
+        print(tag_prob_hash)
         for t in range(len(tag_kinds)):
-            category_list = foods_tags_hash[foods_number_hash[i]]
-            idx = category_list.index(tag_kinds[t])
-            prob = foods_probs_hash[foods_number_hash[i]][idx]
+            prob = tag_prob_hash[tag_kinds[t]]
+            print(tag_kinds[t], prob)
             tag_probabilities.update({tag_kinds[t]: float(head_tag[t])*float(prob)})
-            # print(tag_kinds[t])
-            # print(category_list)
-            # print(idx)
-            # print(prob)
-            # print(tag_probabilities)
 
             edge_matrix[i][t] = 0
             prob_matrix[i][t] = float(head_tag[t])*float(prob)
@@ -184,37 +181,13 @@ def viterbi_forward(food_list, tag_kinds, head_tag, connect_matrix,
 
         for j in range(len(tag_kinds)):
             for k in range(len(tag_kinds)):
-                # print(tag_kinds[j], tag_kinds[k])
-                tmpprob = prob_history[i-1][tag_kinds[k]] * connect_matrix[j][k] * float(prob)
-                # print('tmpprob')
-                # print(tmpprob)
-                # print('prob_matrix')
-                # print(prob_matrix)
-                # print('edge_matrix')
-                # print(edge_matrix)
+                prev_score = np.array([x for x in prob_history[i - 1].values()])
+                prev_max = np.argmax(prev_score)
+                tmpprob = prev_max * connect_matrix[j][k] * float(prob)
 
                 if (prob_matrix[i][j] < tmpprob):
                     edge_matrix[i][j] = k
-                    # prob_matrix[i][j] = tmpprob
 
-                # print('privious prob')
-                # print(prob_history[i-1])
-                # print('prob', tag_kinds[k])
-                # print(prob_history[i-1][tag_kinds[k]])
-                # print('current')
-                # print(tag_probabilities)
-                # print(tag_probabilities[tag_kinds[k]])
-
-                # print(tag_kinds[k])
-                # previous_tag_probability = prob_history[i-1]
-                # print('probability before tag is k')
-                # print(previous_tag_probability[tag_kinds[k]])
-                # print('current_probability')
-                # print(prob)
-            # print('prob_matrix')
-            # print(prob_matrix)
-            # print('edge_matrix')
-            # print(edge_matrix)
         prob_history.append(tag_probabilities)
     # print(prob_history)
 

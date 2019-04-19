@@ -1,4 +1,5 @@
 import os
+import time
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -35,6 +36,13 @@ def main():
     print('foods_number_hash')
     print(foods_number_hash)
 
+    # # test
+    # for f, food, prob in zip(food_list, foods_tags_hash.values(), foods_probs_hash.values()):
+    #     time.sleep(1)
+    #     print(f)
+    #     print(food)
+    #     print(prob)
+
     resultfile_path = _4_2_FILE
     print('resultfile_path')
     print(resultfile_path)
@@ -46,16 +54,35 @@ def main():
     print('lines')
     print(lines[0].split(' '))
     food_result = lines[0].split(' ')
+    print('food_result')
+    print(food_result)
 
+    # prob_matrix, edge_matrix, prob_history = ne.viterbi_forward(
+    #     food_list,
+    #     tag_kinds,
+    #     head_tag,
+    #     connect_matrix,
+    #     foods_tags_hash,
+    #     foods_number_hash,
+    #     foods_probs_hash
+    # )
     prob_matrix, edge_matrix, prob_history = ne.viterbi_forward(
         food_list,
+        tag_list,
+        prob_list,
         tag_kinds,
         head_tag,
-        connect_matrix,
-        foods_tags_hash,
-        foods_number_hash,
-        foods_probs_hash
+        connect_matrix
     )
+
+    print('prob_matrix')
+    print(prob_matrix.shape)
+    print('edge_matrix')
+    print(edge_matrix.shape)
+    print('prob_history')
+    print(len(prob_history))
+    print('prob_history[0]')
+    print(len(prob_history[0]))
 
     with open(_4_2_FILE, 'r', encoding='utf-8') as r:
         lines = r.readlines()
@@ -80,19 +107,49 @@ def main():
         print('prob')
         for i in range(len(prob)):
             print(tag_kinds[i])
-            print(prob[i])
         print('**************** prob_history ****************')
         if idx >= 1:
             for k, v in prob_history[idx - 1].items():
                 print(v)
+            print('**************** prob_history argmax ****************')
+            prev_scores = np.array([x for x in prob_history[idx - 1].values()])
+            print('prev_scores')
+            print(prev_scores)
+            print(prev_scores.shape)
+            prev_max = np.argmax(prev_scores)
+            print('prev argmax')
+            print(prev_max)
+            print('prev max value')
+            print(prev_scores[prev_max])
+
+            print('**************** current probability ****************')
+            current_prob = np.array([x for x in prob_matrix[idx]])
+            print(current_prob.shape)
+            print(current_prob)
+            print(tag_kinds.shape)
+            # plt.bar(tag_kinds, current_prob)
+            # plt.show()
+
+            print('**************** forward ****************')
+            foward_prob = np.array([x*prev_scores[prev_max] for x in prob])
+            print(foward_prob.shape)
+            print(tag_kinds.shape)
+            for i in range(len(foward_prob)):
+                print(foward_prob[i])
+            # plt.bar(tag_kinds, foward_prob)
+            # plt.show()
+
         else:
             pass
+
         print('**************** prob_matrix ****************')
-        for i in range(len(prob_matrix[idx])):
-            print(prob_matrix[idx][i])
+        for i in prob_matrix[idx]: 
+            print(i)
 
         print('**************** argmax ****************')
         print(tag_kinds[np.argmax(prob)])
+        print('prob')
+        print(prob)
         print(len(prob))
         plt.bar(tag_kinds, prob)
         plt.title(org_tag_argmax + ' ' + food)
