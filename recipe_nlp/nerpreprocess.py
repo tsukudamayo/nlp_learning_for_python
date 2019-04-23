@@ -3,12 +3,15 @@ import sys
 import subprocess
 
 import numpy as np
+
+import kyteagraph as ky
 import nesearch as ne
 
 
 _KBM_MODEL = 'kytea-win-0.4.2/model/jp-0.4.7-1.mod'
 _KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe416.knm'
 _KYTEA_PATH = 'kytea-win-0.4.2/kytea.exe'
+_NESEARCH_PATH = 'kytea-win-0.4.2/RecipeNE-sample/bin/nesearch.py'
 _LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage'
 
 
@@ -33,8 +36,6 @@ class Finalizer:
                 # self.m_lists.append(line)
                 m_lists_sublist.extend(line)
             self.m_lists.append(m_lists_sublist)
-            print('self.m_lists')
-            print(self.m_lists)
 
             for line in open(self.ner_file, 'r', encoding='utf-8'):
                 line = line.replace('\n', '').split(' ')
@@ -58,10 +59,8 @@ class Finalizer:
 
         return
 
-
     def modify_viob(self, input_list):
         output_list = []
-
         for item in input_list:
             if item == '':
                 continue
@@ -70,20 +69,12 @@ class Finalizer:
                 output_list.append(item[0])
             else:
                 output_list.append(item[0] + '/' + item[1].split('-')[0])
-                
+
         return output_list
 
     def restore(self, morphology_list, ner_list):
         output_list = []
-        print('restore/morphology_list')
-        print(morphology_list)
-        print('restore/ner_list')
-        print(ner_list)
         for m_item, ner_item in zip(morphology_list, ner_list):
-            print('m_item')
-            print(m_item)
-            print('ner_item')
-            print(ner_item)
             m_item = m_item.split('/')
             if '/' in ner_item:
                 ner_item = ner_item.split('/')
@@ -135,6 +126,14 @@ class Finalizer:
         return output_list
 
 
+# def ner_tagger_2(nesearch_path, input_file, output_file):
+#     cmd = subprocess.call(
+#         ['python', nesearch_path, input_file, output_file],
+#     )
+# 
+#     return
+
+
 def ner_tagger_2(input_file, output_file):
     rnetag_list = np.array(['Ac', 'Af', 'F', 'Sf', 'St', 'Q', 'D', 'T'])
 
@@ -174,35 +173,18 @@ def ner_tagger_2(input_file, output_file):
     read_file = input_file
     food_list, tag_list, prob_list = ne.text_to_list(read_file)
 
-    # print('foods', food_list)
-    # print('tags', tag_list)
-    # print('probs', prob_list)
-
-    # ---------------
-    # generate hash
-    # ---------------
-    foods_tags_hash = {food: tag for (food, tag) in zip(food_list, tag_list)}
-    # print('foods_tags_hash')
-    # print(foods_tags_hash)
-    foods_probs_hash = {food: prob for (food, prob) in zip(food_list, prob_list)}
-    # print('foods_probs_hash')
-    # print(foods_probs_hash)
-    foods_number_hash = {i: food for (i, food) in enumerate(food_list)}
-    # print('foods_number_hash')
-    # print(foods_number_hash)
-
     # --------------------------
     # viterbi forward algorithm
     # --------------------------
-    prob_matrix, edge_matrix = ne.viterbi_forward(
+    prob_matrix, edge_matrix, prob_history = ne.viterbi_forward(
         food_list,
+        tag_list,
+        prob_list,
         tag_kinds,
         head_tag,
-        connect_matrix,
-        foods_tags_hash,
-        foods_number_hash,
-        foods_probs_hash
+        connect_matrix
     )
+
     print('**************** prob_matrix ****************')
     for i in prob_matrix:
         print(i)
@@ -236,12 +218,19 @@ def ner_tagger_2(input_file, output_file):
     return
 
 
-
 def ner_tagger_1(kytea_path, model_path, input_file, output_file):
-    cmd_cat = subprocess.Popen(
-        ['cat', input_file],
-        stdout=subprocess.PIPE,
-    )
+    try:
+        cmd_cat = subprocess.Popen(
+            ['cat', input_file],
+            stdout=subprocess.PIPE,
+        )
+    # if "cat" command is not exist
+    except FileNotFoundError:
+        cmd_cat = subprocess.Popen(
+            ['type', input_file],
+            stdout=subprocess.PIPE,
+            shell=True,
+        )
     cmd_kytea = subprocess.Popen(
         [kytea_path, '-model', model_path,
          '-out', 'conf', '-nows',
@@ -278,10 +267,23 @@ def insert_space_between_words(input_file, output_file):
 
 
 def parse_recipe(model_path, kytea_path, input_file, output_file):
-    cmd_cat = subprocess.Popen(
-        ['cat', input_file],
-        stdout=subprocess.PIPE,
-    )
+    print('input_file')
+    print(input_file)
+    print('cat')
+    try:
+        print('try')
+        cmd_cat = subprocess.Popen(
+            ['cat', input_file],
+            stdout=subprocess.PIPE,
+        )
+    # if "cat" command is not exist
+    except FileNotFoundError:
+        print('file not found error')
+        cmd_cat = subprocess.Popen(
+            ['type', input_file],
+            stdout=subprocess.PIPE,
+            shell=True,
+        )
     cmd_kytea = subprocess.Popen(
         [kytea_path, '-model', model_path],
         stdin=cmd_cat.stdout,
@@ -307,23 +309,25 @@ def mkdir_if_not_exists(path):
 
 
 def main():
+    file_number = len(os.listdir(os.path.join(_LOG_DIR, 'org')))
     file_list = os.listdir(os.path.join(_LOG_DIR, 'org'))
     for f in file_list:
-        header_name, _ = os.path.splitext(f)
+        file_header, _ = os.path.splitext(f)
+
         print('procedure_2')
         org_path = os.path.join(_LOG_DIR, 'org')
         proc2_path = os.path.join(_LOG_DIR, 'procedure_2')
         mkdir_if_not_exists(org_path)
         mkdir_if_not_exists(proc2_path)
-        input_file = os.path.join(org_path, header_name + '.txt')
-        output_file = os.path.join(proc2_path, header_name + '_proc2.txt')
+        input_file = os.path.join(org_path, file_header + '.txt')
+        output_file = os.path.join(proc2_path, file_header + '_proc2.txt')
         parse_recipe(_KBM_MODEL, _KYTEA_PATH, input_file, output_file)
 
         print('procedure_3')
         proc3_path = os.path.join(_LOG_DIR, 'procedure_3')
         mkdir_if_not_exists(proc3_path)
         input_file = output_file
-        output_file = os.path.join(proc3_path, header_name + '_proc3.txt')
+        output_file = os.path.join(proc3_path, file_header + '_proc3.txt')
         morphology_file = output_file
         insert_space_between_words(input_file, output_file)
 
@@ -331,21 +335,22 @@ def main():
         proc4_1_path = os.path.join(_LOG_DIR, 'procedure_4_1')
         mkdir_if_not_exists(proc4_1_path)
         input_file = output_file
-        output_file = os.path.join(proc4_1_path, header_name + '_proc4_1.txt')
+        output_file = os.path.join(proc4_1_path, file_header + '_proc4_1.txt')
         ner_tagger_1(_KYTEA_PATH, _KNM_MODEL, input_file, output_file)
 
         print('procedure_4_2')
         proc4_2_path = os.path.join(_LOG_DIR, 'procedure_4_2')
         mkdir_if_not_exists(proc4_2_path)
         input_file = output_file
-        output_file = os.path.join(proc4_2_path, header_name + '_proc4_2.txt')
+        output_file = os.path.join(proc4_2_path, file_header + '_proc4_2.txt')
         ner_file = output_file
+        # before
         ner_tagger_2(input_file, output_file)
 
         print('result')
         result_path = os.path.join(_LOG_DIR, 'ner_result')
         mkdir_if_not_exists(result_path)
-        output_file = os.path.join(result_path, header_name + '_ner_result.txt')
+        output_file = os.path.join(result_path, file_header + '_ner_result.txt')
         result = Finalizer(
             morphology_file,
             ner_file,

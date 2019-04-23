@@ -4,7 +4,6 @@ import subprocess
 
 import numpy as np
 
-from . import kyteagraph as ky
 from . import nesearch as ne
 
 
@@ -124,14 +123,6 @@ class Finalizer:
         output_list = output_str.split(' ')[:-1]
 
         return output_list
-
-
-# def ner_tagger_2(nesearch_path, input_file, output_file):
-#     cmd = subprocess.call(
-#         ['python', nesearch_path, input_file, output_file],
-#     )
-# 
-#     return
 
 
 def ner_tagger_2(input_file, output_file):

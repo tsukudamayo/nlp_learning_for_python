@@ -68,7 +68,7 @@ def text_to_list(read_file):
             line = split_by_space(line)
             for words in line:
                 # tsukuda change for /=bugfix
-                if words.find('//') >= 0: 
+                if words.find('//') >= 0:
                     food = '/'
                     word = words.split('//')[1]
                     tags = word.split('&')

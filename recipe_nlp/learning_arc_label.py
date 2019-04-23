@@ -19,10 +19,10 @@ def generate_arc_category_data(log_dir):
     file_list = os.listdir(log_dir)
     train_data = pd.DataFrame({})
     for f in file_list:
-        if f.find('combined') >= 0 or\
-          f.find('all.csv') >= 0 or\
-          f.find('lock') >= 0:
-            continue
+        # if f.find('combined') >= 0 or\
+        #   f.find('all.csv') >= 0 or\
+        #   f.find('lock') >= 0:
+        #     continue
         print(f)
         read_file = os.path.join(_ANNOTATION_DIR, f)
         df = pd.read_csv(read_file)
