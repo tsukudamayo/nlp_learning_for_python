@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder
+# from sklearn.preprocessing import OneHotEncoder
 
 import create_matrix as cm
 
@@ -53,10 +53,16 @@ def convert_id_to_rne(df):
             dependency_tag = df[df['ID'] == v]['new_tag'].values
             print('dependency_tag')
             print(dependency_tag)
+            print('v')
+            print(v)
+            print('v df')
+            print(df[df['ID'] == v])
             dependency_tag = str(dependency_tag[0])
-        elif v == -1:
+        elif v == -1 or len(dependency_tag) == 0:
             # df[df['ID'] == v]['new_tag'] = 'ROOT'
             # dependency_tag = df[df['ID'] == v]['new_tag'].values
+            print('-1')
+            print(dependency_tag)
             dependency_tag = 'ROOT'
         before_v = v
         print(type(dependency_tag))
@@ -70,7 +76,6 @@ def convert_id_to_rne(df):
     })
 
     return df_dependency_tag
-
 
 
 def main():
@@ -110,7 +115,6 @@ def main():
         all_df = pd.concat([all_df, target_df], axis=0)
     all_df.to_csv(dst_filepath, index=False)
 
-    dst_file = os.path.join(_TRAIN_DIR, 'lr_train.csv')
     df = all_df
     print('all_df')
     print(all_df)
@@ -129,96 +133,6 @@ def main():
     matrix = cm.create_co_matrix(corpus, vocab_size, id_to_word)
     print(matrix)
 
-    # -------------------------
-    # label to one-hot-encode
-    # -------------------------
-    enc = OneHotEncoder()
-    label_data = df['new_tag'].values
-    label_reshape = label_data[:, np.newaxis]
-    print('label_data')
-    print(label_data)
-    enc.fit(label_reshape)
-    onehotlabel = enc.transform(label_reshape).toarray()
-    print('onehotlabel')
-    print(onehotlabel)
-
-    # ------------------------------------
-    # join feature and one-hot-encode
-    # ------------------------------------
-    category_label_data = df
-    category_label_data['feature_org_idx'] = category_label_data['new_word']\
-      .apply(lambda x: word_to_id[x])
-    category_label_data['feature_org'] = category_label_data['feature_org_idx']\
-      .apply(lambda x: matrix[x])
-
-    feature_matrix = category_label_data['feature_org'].values
-    train_feature_matrix = np.array([x.flatten() for x in feature_matrix])
-    print('train_feature_matrix')
-    print(train_feature_matrix)
-    print(train_feature_matrix.shape)
-
-    print(onehotlabel.shape)
-    train_data = np.hstack((train_feature_matrix, onehotlabel))
-    print(train_data)
-    print(train_data.shape)
-
-    # filepath = 'lr_train.csv'
-    # df = pd.read_csv(filepath)
-    # print(df.head())
-
-    # X = df['rne'].values
-    # X = X[:, np.newaxis]
-    # y = df['dependency'].values
-    # y = y[:, np.newaxis]
-
-    # X_train, X_test, y_train, y_test = train_test_split(
-    #     X, y, test_size=0.2, random_state=42
-    # )
-    # print('X_train', X_train.shape)
-    # print('X_test', X_test.shape)
-    # print('y_train', y_train.shape)
-    # print('y_test', y_test.shape)
-
-    # clf = LogisticRegression(
-    #     random_state=0,
-    #     solver='liblinear',
-    # ).fit(X_train, y_train)
-
-    # print('test probability')
-    # print(clf.predict_proba(X_test))
-
-    # print('class')
-    # print(clf.classes_)
-
-    # print('coef')
-    # print(clf.coef_)
-
-    # print('intercept')
-    # print(clf.intercept_)
-    
-    # print('score')
-    # print(clf.score(X_test, y_test))
-
-    # likelihood_data = {
-    #     0: clf.predict_proba([np.array([0])]).flatten(),
-    #     1: clf.predict_proba([np.array([1])]).flatten(),
-    #     2: clf.predict_proba([np.array([2])]).flatten(),
-    #     3: clf.predict_proba([np.array([3])]).flatten(),
-    #     4: clf.predict_proba([np.array([4])]).flatten(),
-    #     5: clf.predict_proba([np.array([5])]).flatten(),
-    #     6: clf.predict_proba([np.array([6])]).flatten(),
-    #     7: clf.predict_proba([np.array([7])]).flatten(),
-    #     8: clf.predict_proba([np.array([8])]).flatten(),
-    # }
-
-    # print('likelihood')
-    # print(likelihood_data)
-
-    # df_likelihood = pd.DataFrame(likelihood_data)
-    # print(df_likelihood)
-
-    # dst_filepath = os.path.join(_DST_DIR, 'likelihood.csv')
-    # df_likelihood.to_csv(dst_filepath, index=True)
 
 if __name__ == '__main__':
     main()
