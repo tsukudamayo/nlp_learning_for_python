@@ -7,15 +7,16 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.externals import joblib
 
 import create_matrix as cm
 
 
-_LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_3'
+_CORPUS_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_3'
 
 
 def main():
-    word_list = cm.generate_wordlist(_LOG_DIR)
+    word_list = cm.generate_wordlist(_CORPUS_DIR)
     word_to_id, id_to_word = cm.generate_word_id_map(word_list)
     cm.id_to_word_to_txt(id_to_word)
 
@@ -28,22 +29,22 @@ def main():
     df = pd.read_csv('lr_train_20190425.csv')
     print(df.head())
 
-    # ---------------------------
-    # adjust the number of data
-    # ---------------------------
-    df_0 = df[df['label'] == 0]
-    df_1 = df[df['label'] == 1]
-    print('0')
-    print(len(df_0))
-    print('1')
-    print(len(df_1))
+    # # ---------------------------
+    # # adjust the number of data
+    # # ---------------------------
+    # df_0 = df[df['label'] == 0]
+    # df_1 = df[df['label'] == 1]
+    # print('0')
+    # print(len(df_0))
+    # print('1')
+    # print(len(df_1))
 
-    X_0 = df_0[:4000]
-    X_1 = df_1
+    # X_0 = df_0[:4000]
+    # X_1 = df_1
 
-    df = pd.concat([X_0, X_1])
-    print(len(df))
-    # ---------------------------
+    # df = pd.concat([X_0, X_1])
+    # print(len(df))
+    # # ---------------------------
 
     # -------
     # train
@@ -95,6 +96,8 @@ def main():
         random_state=0,
         solver='liblinear',
     ).fit(X_train, y_train)
+
+    joblib.dump(clf, 'lr.pkl')
 
     # ------
     # eval
