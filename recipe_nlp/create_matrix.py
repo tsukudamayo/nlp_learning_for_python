@@ -21,6 +21,19 @@ def generate_wordlist(data_dir):
     return word_list
 
 
+def generate_wordlist_no_split(data_dir):
+    file_list = os.listdir(data_dir)
+    word_list = []
+    for f in file_list:
+        read_filepath = os.path.join(data_dir, f)
+        with open(read_filepath, 'r', encoding='utf-8') as lines:
+            for line in lines:
+                line = line.split(' ')
+                word_list.extend(line)
+
+    return word_list    
+
+
 def generate_word_id_map(word_list):
     word_to_id = {}
     id_to_word = {}
