@@ -4,7 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA, NMF, LatentDirichletAllocation
 
+
 _LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_3'
+_POS_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_2'
 
 
 def generate_wordlist(data_dir):
@@ -31,7 +33,7 @@ def generate_wordlist_no_split(data_dir):
                 line = line.split(' ')
                 word_list.extend(line)
 
-    return word_list    
+    return word_list
 
 
 def generate_word_id_map(word_list):

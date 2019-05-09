@@ -7,6 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.externals import joblib
 
 import create_matrix as cm
+import featureselect as fs
 
 
 _CORPUS_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_3'
@@ -175,15 +176,11 @@ def split_fname_ext(filename):
 
 def main():
     # ---------------
-    # create corpus
+    # create feature
     # ---------------
     word_list = cm.generate_wordlist(_CORPUS_DIR)
     word_to_id, id_to_word = cm.generate_word_id_map(word_list)
-    cm.id_to_word_to_txt(id_to_word)
-
-    corpus = np.array([word_to_id[w] for w in word_list])
-    vocab_size = len(id_to_word)
-    matrix = cm.create_co_matrix(corpus, vocab_size, id_to_word)
+    matrix = fs.extract_feature(_CORPUS_DIR, 'procedure')
     print('matrix')
     print(matrix)
 

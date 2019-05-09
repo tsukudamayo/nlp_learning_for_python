@@ -1,7 +1,8 @@
-import os
+import os, gc
 
 import numpy as np
 import pandas as pd
+import scipy.sparse as sp
 
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
@@ -10,6 +11,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.externals import joblib
 
 import create_matrix as cm
+import featureselect as fs
 
 
 _CORPUS_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_3'
@@ -19,12 +21,8 @@ def main():
     word_list = cm.generate_wordlist(_CORPUS_DIR)
     word_to_id, id_to_word = cm.generate_word_id_map(word_list)
     cm.id_to_word_to_txt(id_to_word)
-
     corpus = np.array([word_to_id[w] for w in word_list])
     vocab_size = len(id_to_word)
-    matrix = cm.create_co_matrix(corpus, vocab_size, id_to_word)
-    print('matrix')
-    print(matrix)
 
     df = pd.read_csv('lr_train_20190425.csv')
     print(df.head())
@@ -53,35 +51,68 @@ def main():
     X_dst_word = df['dst'].values
     y = df['label'].values
 
-    # print('X_org_word')
-    # print(X_org_word)
-    # print('X_dst_word')
-    # print(X_dst_word)
-    # print('y')
-    # print(y)
-
     X_org_to_id = np.array([word_to_id[x] for x in X_org_word])
     X_dst_to_id = np.array([word_to_id[x] for x in X_dst_word])
+    print('X_org_to_id')
+    print(type(X_org_to_id))
+    print('X_dst_to_id')
+    print(type(X_dst_to_id))
 
-    # print('X_org_to_id')
-    # print(X_org_to_id)
-    # print('X_dst_to_id')
-    # print(X_dst_to_id)
+    print('X_ort_to_id')
+    print(X_org_to_id)
+    print('X_dst_to_id')
+    print(X_dst_to_id)
 
-    X_org_feature = np.array([matrix[x] for x in X_org_to_id])
-    X_dst_feature = np.array([matrix[x] for x in X_dst_to_id])
+    del df
+    del X_org_word, X_dst_word
+    del word_to_id, id_to_word
+    gc.collect()
 
-    # print('X_org_feature')
-    # print(X_org_feature)
-    # print('X_dst_feature')
-    # print(X_dst_feature)
-
-    X = np.array([np.dot(x, y) for x, y in zip(X_org_feature, X_dst_feature)])
-    X = X[:, np.newaxis]
-
+    matrix = fs.extract_feature(_CORPUS_DIR, 'procedure')
+    print('matrix')
+    print(matrix)
+    print('matrix shape')
+    print(matrix.shape)
+    org_split_ids = np.array_split(X_org_to_id, 10)
+    dst_split_ids = np.array_split(X_dst_to_id, 10)
+    # print('org_split_ids')
+    # print(org_split_ids)
+    # print(len(org_split_ids))
+    # print('dst_split_ids')
+    # print(dst_split_ids)
+    # print(len(dst_split_ids))
+    X = np.zeros((len(y)))
     # print('X')
     # print(X)
-    # print(len(X))
+    # print(X.shape)
+    for org_ids, dst_ids in zip(org_split_ids, dst_split_ids):
+        # print('org_ids, dst_ids :', org_ids, dst_ids)
+        for i, (dst, org) in enumerate(zip(org_ids, dst_ids)):
+            # print('dst, org', dst, org)
+            X_org_feature = np.array([matrix[org]])
+            # print('X_org_feature')
+            # print(X_org_feature)
+            # print(X_org_feature.shape)
+            X_dst_feature = np.array([matrix[dst]])
+            # print('X_dst_feature')
+            # print(X_dst_feature)
+            # print(X_dst_feature.shape)
+            # print('dst, org', dst, org)
+            # print('X_org_feature')
+            # print(X_org_feature)
+            # print('X_dst_feature')
+            # print(X_dst_feature)
+            X[dst] = np.array([np.dot(x, y) for x, y in zip(X_org_feature, X_dst_feature)])
+
+    X = X[:, np.newaxis]
+    print('np.newaxis')
+    print(X)
+
+    print('X')
+    print(X)
+    print(X.shape)
+    print('y')
+    print(y.shape)
 
     scaler = MinMaxScaler()
     X_scaler = scaler.fit_transform(X)
