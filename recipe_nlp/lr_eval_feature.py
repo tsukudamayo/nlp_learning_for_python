@@ -10,11 +10,13 @@ import create_matrix as cm
 import featureselect as fs
 
 
-_CORPUS_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_3'
-_RESULT_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/ner_result'
 _TXT_FILE = 'detail_103522_proc3.txt'
 _RNE_FILE = 'detail_103522_ner_result.txt'
 _DST_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/visualization/lr'
+_LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_3'
+_POS_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage//procedure_2'
+_RNE_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/procedure_4_2'
+_RESULT_DIR = 'C:/Users/tsukuda/var/data/recipe/orangepage/ner_result'
 
 
 def load_dataset(ner_result_dir, rne_result_file):
@@ -145,7 +147,7 @@ def eval_run(rne_result_dir, rne_result_file, word_to_id, matrix, dst_dir):
     )
 
     feature_one_hot = np.array([matrix[x] for x in dependency_ids])
-    print('feature_one_hot')
+    print('feature_onehot')
     print(feature_one_hot)
 
     for idx, word in enumerate(todo_dependency_words):
@@ -178,9 +180,9 @@ def main():
     # ---------------
     # create feature
     # ---------------
-    word_list = cm.generate_wordlist(_CORPUS_DIR)
+    word_list = cm.generate_wordlist(_LOG_DIR)
     word_to_id, id_to_word = cm.generate_word_id_map(word_list)
-    matrix = fs.extract_feature(_CORPUS_DIR, 'procedure')
+    matrix = fs.extract_feature('agent', _LOG_DIR, _POS_DIR, _RNE_DIR)
     print('matrix')
     print(matrix)
 

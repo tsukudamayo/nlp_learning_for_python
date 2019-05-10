@@ -16,6 +16,7 @@ _RNE_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_nlp/procedure_
 # ---------------
 # preprocessing
 # ---------------
+# TODO "combine separate functions into one"
 def separate_sentence(word_list):
     sentence_array = []
     current_array = []
@@ -31,9 +32,12 @@ def separate_sentence(word_list):
         #     continue
         # print('sentence_array')
         # print(sentence_array)
-        if word == '。' or word == '。\n':
-            # print('not EOS')
-            current_array.append('。')
+        if word == '。\n' or word == '）\n' or word == '-\n':
+            # print('EOS')
+            word = word.split('\n')[0]
+            # print('word')
+            # print(word)
+            current_array.append(word)
             sentence_array.append(np.array(current_array))
             current_array = []
             continue
@@ -74,22 +78,29 @@ def separate_postext(word_list):
     pos_array = []
     current_array = []
     for word in word_list:
-        target_word = word.split('/')[2]
-        # print('word')
-        # print(word)
-        # print('target_word')
-        # print(target_word)
-        if target_word == '。' or target_word == '。\n':
-            # print('EOS')
-            current_array.append('。')
-            pos_array.append(np.array(current_array))
-            current_array = []
-            continue
+        print('word')
+        print(word)
+        if word == '\n':  # line is empty
+            pass
         else:
-            # print('not EOS')
-            current_array.append(word)
-        # print('pos_array')
-        # print(pos_array)
+            target_word = word.split('/')[2]
+            # print('word')
+            # print(word)
+            # print('target_word')
+            # print(target_word)
+
+            if target_word == '。\n' or target_word == '）\n' or target_word == '-\n':
+                # print('EOS')
+                target_word = target_word.split('\n')[0]
+                current_array.append(word)
+                pos_array.append(np.array(current_array))
+                current_array = []
+                continue
+            else:
+                # print('not EOS')
+                current_array.append(word)
+            # print('pos_array')
+            # print(pos_array)
 
     return pos_array
 
@@ -211,6 +222,7 @@ def is_exist_particle(vocab_size, array_id, pos_array, pos_name):
 
 
 def is_exist_action(vocab_size, array_id, rne_array):
+    # TODO 'if rne_word > 2' 2019/5/10 tsukuda
 
     def debug_print(count, idx1, idx2, id1, id2,
                     rne1, rne2, between_words, include_or_not):
@@ -238,8 +250,6 @@ def is_exist_action(vocab_size, array_id, rne_array):
         tag = [w.split('/')[1] if w.count('/') <= 2 else 'O' for w in rne]
         for idx1, (id1, rne1) in enumerate(zip(ids, rne)):
             for idx2, (id2, rne2) in enumerate(zip(ids, rne)):
-                print('rne1', rne1)
-                print('rne2', rne2)
                 if count > idx2:
                     # print('!!!!!!!!!!!!!!!! pass !!!!!!!!!!!!!!!!')
                     pass
@@ -262,10 +272,10 @@ def is_exist_action(vocab_size, array_id, rne_array):
                         rne_words, between_words,
                         feature, tag1, tag2, id1, id2
                     )
-                    debug_print(
-                        count, idx1, idx2, id1, id2,
-                        tag1, tag2, between_words, include_or_not
-                    )
+                    # debug_print(
+                    #     count, idx1, idx2, id1, id2,
+                    #     tag1, tag2, between_words, include_or_not
+                    # )
             count += 1
 
     return feature
@@ -453,7 +463,31 @@ def get_feature_fn(feature_name, **kwargs):
     return feature_fn
 
 
-def extract_feature(feature_name, data_dir, pos_dir=None, rne_dir=None):
+def extract_feature(feature_name, data_dir=None, pos_dir=None, rne_dir=None):
+    '''
+    -----
+    Input
+    -----
+    feature_name:
+        'trigram': feature_by_trigram(vocab_size, corpus),
+        'sentence': feature_by_sentence(vocab_size, word_to_id, data_dir),
+        'procedure': feature_by_procedure(vocab_size, word_to_id, data_dir),
+        'agent': feature_by_pos(vocab_size, word_to_id, data_dir, pos_dir, 'agent'),
+        'target': feature_by_pos(vocab_size, word_to_id, data_dir, pos_dir, 'target'),
+        'dest': feature_by_pos(vocab_size, word_to_id, data_dir, pos_dir, 'dest'),
+        'comp': feature_by_pos(vocab_size, wor:d_to_id, data_dir, pos_dir, 'comp'),
+        'action': feature_by_action(vocab_size, word_to_id, data_dir, rne_dir),
+    data_dir:
+        filepath which include result of Morphological analysis
+    pos_dir:
+        filepath which include text that split words
+        rne_dir:
+        filepath which include result of RNE analysis
+    ------
+    Output
+    ------
+    One-hot Vector: nd.array((vocab_size, vocab_size))
+    '''
     word_list = cm.generate_wordlist(data_dir)
     word_to_id, id_to_word = cm.generate_word_id_map(word_list)
     corpus = np.array([word_to_id[w] for w in word_list])
@@ -474,16 +508,6 @@ def extract_feature(feature_name, data_dir, pos_dir=None, rne_dir=None):
         feature = feature_fn(vocab_size, word_to_id, data_dir, pos_dir, feature_name)
 
     return feature
-
-
-        # 'trigram': feature_by_trigram(vocab_size, corpus),
-        # 'sentence': feature_by_sentence(vocab_size, word_to_id, data_dir),
-        # 'procedure': feature_by_procedure(vocab_size, word_to_id, data_dir),
-        # 'agent': feature_by_pos(vocab_size, word_to_id, data_dir, pos_dir, 'agent'),
-        # 'target': feature_by_pos(vocab_size, word_to_id, data_dir, pos_dir, 'target'),
-        # 'dest': feature_by_pos(vocab_size, word_to_id, data_dir, pos_dir, 'dest'),
-        # 'comp': feature_by_pos(vocab_size, word_to_id, data_dir, pos_dir, 'comp'),
-        # 'action': feature_by_action(vocab_size, word_to_id, data_dir, rne_dir),
 
 
 def main():
