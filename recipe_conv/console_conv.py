@@ -35,7 +35,7 @@ def main():
     # print(Color.RED + 'RED' + Color.RED)
 
     print()
-    org_file = 'weekcook/org/weekcook_00000254.txt'
+    org_file = 'weekcook/org/weekcook_00000257.txt'
     org_f = open(org_file, 'r', encoding='utf-8')
     org_lines = org_f.read()
     org_f.close()
@@ -44,7 +44,7 @@ def main():
     print()
 
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_00000254.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_00000257.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -57,9 +57,32 @@ def main():
         if k == '材料':
             continue
         print(k)
-        org_lines = org_lines.replace(k, 'param' + str(idx))
-    print(org_lines)
+        convert_food = org_lines.replace(k, 'param' + str(idx))
+    print(convert_food)
 
+    print('################ convert num to param ################')
+    numparam_dict = {}
+    number_flag = False
+    count = 1
+    for word in org_lines:
+        # print(word, word.isdecimal())
+        if word.isdecimal() is True and number_flag is False:
+            # print('True:False')
+            number_flag = True
+            tmp_word = word
+        elif word.isdecimal() is True and number_flag is True:
+            # print('True:True')
+            tmp_word = tmp_word + word
+        elif word.isdecimal() is False and number_flag is True:
+            # print('False:True')
+            numparam_dict.update({tmp_word: 'param' + str(count)})
+            tmp_word = word
+            count += 1
+            number_flag = False
+        elif word.isdecimal() is False and number_flag is False:
+            # print('False:False')
+            tmp_word = word
+    print(numparam_dict)
 
     # sample_file = 'weekcook/ner_result/weekcook_00000083_ner_result.txt'
 
