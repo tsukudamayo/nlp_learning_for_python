@@ -63,12 +63,14 @@ def text_to_list(read_file):
     with open(read_file, 'r', encoding='utf-8') as r:
         lines = r.readlines()
 
-    for line in lines:
-        if line.find('&') >= 0 and line.find('/') >= 0:
+    print('text_to_list lines')
+    print(lines)
+    for idx, line in enumerate(lines):
+        if line.find('/') >= 0:
             line = split_by_space(line)
             for words in line:
                 # tsukuda change for /=bugfix
-                if words.find('//') >= 0: 
+                if words.find('//') >= 0:
                     food = '/'
                     word = words.split('//')[1]
                     tags = word.split('&')
@@ -80,9 +82,11 @@ def text_to_list(read_file):
                     tags = word.split('&')
                     food_list.append(food)
                     tag_list.append(tags)
-        elif line.find('&') >= 0:
+        elif line.find('/') < 0 and line.find('100') < 0:
             line = split_by_space(line)
             for words in line:
+                if words == '':
+                    continue
                 probs = words.split('&')
                 prob_list.append(probs)
         else:
@@ -96,27 +100,36 @@ def text_to_list(read_file):
 # ------------------------------
 def viterbi_forward(food_list, tag_list, prob_list, tag_kinds, head_tag, connect_matrix):
     print('**************** initialize ****************')
-    print('food_list')
-    print(food_list)
     # -------------
     # initialize
     # -------------
     print('tag_kinds')
     print(tag_kinds)
     print(len(tag_kinds))
+    print('food_list')
+    print(food_list)
+    print(len(food_list))
+    print('prob_list')
+    print(prob_list)
+    print(len(prob_list))
     prob_history = []
     tag_probabilities = {}
     all_words_length = range(len(food_list))
     prob_matrix = np.zeros(shape=(len(all_words_length), len(tag_kinds)))
     edge_matrix = np.zeros(shape=(len(all_words_length), len(tag_kinds)))
     tag_prob_hash = {tag: prob for tag, prob in zip(tag_list[0], prob_list[0])}
-    print('############## ' + food_list[0] + ' ##############')
+    # print('############## ' + food_list[0] + ' ##############')
+    # print('tag_kinds')
+    # print(tag_kinds)
     for t in range(len(tag_kinds)):
         # print('prob')
         # print('tag_prob_hash')
         # print(tag_prob_hash)
-        prob = tag_prob_hash[tag_kinds[t]]
-        # print(prob)
+        if tag_kinds[t] in tag_prob_hash:
+            prob = tag_prob_hash[tag_kinds[t]]
+        else:
+            prob = 0
+        print(prob)
 
         current_prob = float(head_tag[t])*float(prob)
         # current_prob = float(current_prob)
@@ -151,33 +164,52 @@ def viterbi_forward(food_list, tag_list, prob_list, tag_kinds, head_tag, connect
     # After the second time
     # -----------------------
     for i in range(1, len(all_words_length)):
-        print('tag_kinds')
-        print(tag_kinds)
-        print(len(tag_kinds))
-        print('################################')
-        print('i', i)
-        print('############## ' + food_list[i] + ' ##############')
+        # print('tag_kinds')
+        # print(tag_kinds)
+        # print(len(tag_kinds))
+        # print('################################')
+        # print('i', i)
+        # print('############## ' + food_list[i] + ' ##############')
         tag_probabilities = {}
+        print('tag_list')
+        print(tag_list)
+        print(len(tag_list))
+        print('prob_list')
+        print(prob_list)
+        print(len(prob_list))
+        print('food_list')
+        print(food_list)
+        print(len(food_list))
+
+        print('tag_list[i]')
+        print(tag_list[i])
+        print('prob_list[i]')
+        print(prob_list[i])
+        print('food_list[i]')
+        print(food_list[i])
         tag_prob_hash = {tag: prob for tag, prob in zip(tag_list[i], prob_list[i])}
-        print('tag_prob_hash')
-        print(tag_prob_hash)
+        # print('tag_prob_hash')
+        # print(tag_prob_hash)
         for t in range(len(tag_kinds)):
-            prob = tag_prob_hash[tag_kinds[t]]
-            print(tag_kinds[t], prob)
+            if tag_kinds[t] in tag_prob_hash:
+                prob = tag_prob_hash[tag_kinds[t]]
+            else:
+                prob = 0.0
+            # print(tag_kinds[t], prob)
             tag_probabilities.update({tag_kinds[t]: float(head_tag[t])*float(prob)})
 
             edge_matrix[i][t] = 0
             prob_matrix[i][t] = float(head_tag[t])*float(prob)
 
-            # -------------------------
-            # kytea probability debug
-            # -------------------------
-            print(
-                tag_kinds[t],
-                head_tag[t],
-                prob,
-                head_tag[t]*prob,
-            )
+            # # -------------------------
+            # # kytea probability debug
+            # # -------------------------
+            # print(
+            #     tag_kinds[t],
+            #     head_tag[t],
+            #     prob,
+            #     head_tag[t]*prob,
+            # )
 
         for j in range(len(tag_kinds)):
             for k in range(len(tag_kinds)):
@@ -228,12 +260,12 @@ def viterbi_backward(tag_kinds, food_list, prob_matrix, edge_matrix):
     first_value = selected_tag
     for i in range(len(food_list) -1, -1, -1):
         edge_index = np.argmax(prob_matrix[i])
-        print('**************** edge_index ****************')
-        print(edge_index)
-        print(int(edge_matrix[i][edge_index]))
+        # print('**************** edge_index ****************')
+        # print(edge_index)
+        # print(int(edge_matrix[i][edge_index]))
         # result_tag.append(int(edge_matrix[i][edge_index]))
         result_tag.append(int(edge_index))
-        
+
     result_tag.insert(0, first_value)
     print(result_tag)
     print('frip')
@@ -244,7 +276,7 @@ def viterbi_backward(tag_kinds, food_list, prob_matrix, edge_matrix):
 
     result_rnetag = np.array([tag_kinds[x] for x in flip_result_tag])
     print(result_rnetag)
-        
+
     return result_rnetag
 
 
@@ -319,13 +351,13 @@ def main():
         foods_number_hash,
         foods_probs_hash
     )
-    print('**************** prob_matrix ****************')
-    for i in prob_matrix:
-        print(i)
+    # print('**************** prob_matrix ****************')
+    # for i in prob_matrix:
+    #     print(i)
 
-    print('**************** edge_matrix ****************')
-    for i in edge_matrix:
-        print(i)
+    # print('**************** edge_matrix ****************')
+    # for i in edge_matrix:
+    #     print(i)
 
     # --------------------------
     # viterbi forward algorithm

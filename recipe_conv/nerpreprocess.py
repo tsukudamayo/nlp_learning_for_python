@@ -8,7 +8,7 @@ import nesearch as ne
 
 
 _KBM_MODEL = 'kytea-win-0.4.2/model/jp-0.4.7-1.mod'
-_KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe416.knm'
+_KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe20190515.knm'
 _KYTEA_PATH = 'kytea-win-0.4.2/kytea.exe'
 _NESEARCH_PATH = 'kytea-win-0.4.2/RecipeNE-sample/bin/nesearch.py'
 _LOG_DIR = 'weekcook'
@@ -37,6 +37,8 @@ class Finalizer:
             self.m_lists.append(m_lists_sublist)
 
             for line in open(self.ner_file, 'r', encoding='utf-8'):
+                print('line2r-org')
+                print(line)
                 line = line.replace('\n', '').split(' ')
                 print('line2r')
                 print(line)
@@ -129,11 +131,11 @@ class Finalizer:
 #     cmd = subprocess.call(
 #         ['python', nesearch_path, input_file, output_file],
 #     )
-# 
+#
 #     return
 
 
-def ner_tagger_2(input_file, output_file):
+def ner_tagger_2(input_file: str, output_file: str):
     rnetag_list = np.array(['Ac', 'Af', 'F', 'Sf', 'St', 'Q', 'D', 'T'])
 
     tag_kinds = np.array([ne.BIOtag_append(tag) for tag in rnetag_list])
@@ -217,7 +219,7 @@ def ner_tagger_2(input_file, output_file):
     return
 
 
-def ner_tagger_1(kytea_path, model_path, input_file, output_file):
+def ner_tagger_1(kytea_path: str, model_path: str, input_file: str, output_file: str):
     try:
         cmd_cat = subprocess.Popen(
             ['cat', input_file],
@@ -248,7 +250,7 @@ def ner_tagger_1(kytea_path, model_path, input_file, output_file):
     return
 
 
-def insert_space_between_words(input_file, output_file):
+def insert_space_between_words(input_file: str, output_file: str):
     fp = open(output_file, 'w', encoding='utf-8')
     for line in open(input_file, 'r', encoding='utf-8'):
         print(len(line))
@@ -265,7 +267,7 @@ def insert_space_between_words(input_file, output_file):
     return
 
 
-def parse_recipe(model_path, kytea_path, input_file, output_file):
+def parse_recipe(model_path: str, kytea_path: str, input_file: str, output_file: str):
     print('input_file')
     print(input_file)
     print('cat')
@@ -298,11 +300,23 @@ def parse_recipe(model_path, kytea_path, input_file, output_file):
     return
 
 
-def mkdir_if_not_exists(path):
+def mkdir_if_not_exists(path: str):
     if os.path.isdir(path) is False:
         os.makedirs(path)
     else:
         pass
+
+    return
+
+
+def delete_space(filepath: str):
+    textfile = open(filepath, 'r', encoding='utf-8')
+    strings = textfile.read()
+    textfile.close()
+
+    strings = strings.replace(' ', '')
+    with open(filepath, 'w', encoding='utf-8') as newfile:
+        newfile.write(strings)
 
     return
 
@@ -315,6 +329,8 @@ def main():
 
         print('procedure_2')
         org_path = os.path.join(_LOG_DIR, 'org')
+        org_file = os.path.join(org_path, f)
+        delete_space(org_file)
         proc2_path = os.path.join(_LOG_DIR, 'procedure_2')
         mkdir_if_not_exists(org_path)
         mkdir_if_not_exists(proc2_path)
