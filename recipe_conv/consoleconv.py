@@ -1,4 +1,6 @@
 import json
+import math
+from typing import List
 
 
 class Color:
@@ -67,6 +69,26 @@ def convert_num_to_param(strings_array: str) -> dict:
     return numparam_dict
 
 
+def compute_70per(number_str: str) -> int:
+    compute_70per = int(math.floor(float(number_str) * 0.7))
+
+    return compute_70per
+
+
+def define_num_param_70percent(num_param_dict: dict) -> dict:
+    num_param_70per_dict = {k: str(compute_70per(v))
+                            for k, v in num_param_dict.items()}
+
+    return num_param_70per_dict
+
+
+def mapping_70per_to_100per(dict_100per: dict, dict_70per: dict) -> dict:
+    relation_map = {per100: per70 for per100, per70
+                     in zip(dict_100per.values(), dict_70per.values())}
+
+    return relation_map
+
+
 def convert_tool_to_param(strings_array: str) -> dict:
     tool_list = _COOK_WARE
     tool_param_dict = {}
@@ -122,11 +144,162 @@ def convert_unit_to_param(strings_array: str, numparam_dict: dict) -> dict:
     return unit_param_dict
 
 
-def convert_recipe_parameter(wakachi_file: str,
+def convert_cooking_time_strings(strings_array: str) -> List[str]:
+    hhmmss_list = ['時間', '分', '秒']
+    convert_strings = []
+    for hhmmss in hhmmss_list:
+        word_index = [hhmmss_index
+                         for hhmmss_index, x in enumerate(strings_array) if x == hhmmss]
+        for word in word_index:
+            current_strings = ''
+            for idx in reversed(range(word)):
+                if strings_array[idx].isdecimal() or strings_array[idx] == '～':
+                    current_strings += strings_array[idx]
+                else:
+                    if current_strings != '':
+                        reverse_strings = current_strings[::-1]
+                        result_strings = reverse_strings + hhmmss
+                        convert_strings.append(result_strings)
+                        break
+                    else:
+                        break
+
+    return convert_strings
+
+
+def convert_cooking_time_wakachi(wakachi_strings: str) -> List[str]:
+    hhmmss_list = ['時間', '分', '秒']
+    convert_strings = []
+
+    split_lines = wakachi_strings.split(' ')
+    print(split_lines)
+    tmp_word = ''
+    for word in split_lines:
+        if word.isdecimal():
+            tmp_word += word
+        elif word.isdecimal() is False and word in hhmmss_list:
+            tmp_word += word
+            convert_strings.append(tmp_word)
+            tmp_word = ''
+        elif word.isdecimal() is False and word not in hhmmss_list:
+            tmp_word = ''
+        else:
+            print('something wrong!')
+            raise ValueError
+
+    return convert_strings
+
+
+def preordering_for_cooking_time_strings(strings_array: str,
+                                convert_strings: List[str]) -> str:
+    print(strings_array)
+    insert_candidate = ['、', '。']
+    for keyword in convert_strings:
+        is_replace = False
+        print(keyword)
+        word_index = strings_array.index(keyword)
+        print(word_index)
+        keyword_delete = strings_array.replace(keyword, '')
+        print(keyword_delete)
+        preordering_strings = ''
+        for word_idx in range(len(keyword_delete)):
+            print(word_idx)
+            if keyword_delete[word_idx] in insert_candidate\
+              and word_idx >= word_index\
+              and is_replace is False:
+                print('if')
+                print(word_idx)
+                preordering_strings += keyword_delete[word_idx] + '(目安: 約' + str(keyword) + ')'
+                is_replace = True
+            else:
+                print('else')
+                print(word_idx)
+                preordering_strings += keyword_delete[word_idx]
+        strings_array = preordering_strings
+    print(preordering_strings)
+
+    return preordering_strings
+
+
+def preordering_for_cooking_time_wakachi(wakachi_file: str,
+                                         convert_strings: List[str]) -> List[str]:
+    # TODO for wakachi file
+    units = ['分', '秒', '時間']
+    insert_candidate = ['、', '。']
+
+    with open(wakachi_file, 'r', encoding='utf-8') as r:
+        lines = r.readlines()
+
+    split_lines_2d = [x.split(' ') for x in lines]
+    split_lines = [y for x in split_lines_2d for y in x]
+    print(split_lines)
+
+    preordering_strings = []
+    tmp_word = ''
+    replace_buffer = ''
+    is_decimal = False
+    is_replace = False
+    for word in split_lines:
+        if word.isdecimal() or word == '～':
+            is_decimal = True
+            tmp_word += word
+        # --------------------- #
+        # processing '、', '。' #
+        # --------------------- #
+        elif word == '。\n' and is_replace is True:
+            replace_word = '。' + replace_buffer + '\n'
+            print(replace_word)
+            preordering_strings.append(replace_word)
+            replace_buffer = ''
+            is_replace = False
+        elif word == '。\n' and is_replace is False:
+            preordering_strings.append(word)
+        elif word == '、' and is_replace is True:
+            replace_word = '、' + replace_buffer
+            preordering_strings.append(replace_word)
+            replace_buffer = ''
+            is_replace = False
+        elif word == '、' and is_replace is False:
+            replace_word = '、' + replace_buffer
+            preordering_strings.append(replace_word)
+            replace_buffer = ''
+        # ---------------------------------- #
+        # processing word about cooking time #
+        # ---------------------------------- #
+        elif word.isdecimal() is False and word in units and is_decimal:
+            is_decimal = False
+            tmp_word += word
+            replace_buffer = '(目安: 約' + tmp_word + ')'
+            print(replace_buffer)
+            is_replace = True
+            tmp_word = ''
+            print(is_replace)
+        elif word.isdecimal() is False and word not in units and is_decimal:
+            is_decimal = False
+            preordering_strings.append(tmp_word)
+            preordering_strings.append(word)
+            tmp_word = ''
+        elif word.isdecimal() is False and word not in units and is_decimal is False:
+            preordering_strings.append(word)
+
+    return preordering_strings
+
+
+def convert_recipe_parameter(preordering_wakachi_array: List[str],
                              ingredient_param_dict: dict,
                              num_param_dict: dict,
                              unit_param_dict: dict,
                              tool_param_dict: dict) -> str:
+
+    def replace_word_to_pram(strings_array: str, category: str):
+        param_num = 'param' + str(count)
+        param_deco = '<param' + str(count) + '>'
+        param_key_value.update({param_num: category})
+        word_key_value.update({param_num: strings_array})
+        strings_array = param_deco
+
+        return strings_array
+
     inv_ingredient_param = {v: k for k, v in ingredient_param_dict.items()}
     inv_num_param = {v: k for k, v in num_param_dict.items()}
     inv_unit_param = {v: k for k, v in unit_param_dict.items()}
@@ -139,9 +312,13 @@ def convert_recipe_parameter(wakachi_file: str,
     print(inv_unit_param)
     print('inv_tool_param')
     print(inv_tool_param)
-    
-    with open(wakachi_file, 'r', encoding='utf-8') as r:
-        lines = r.readlines()
+
+    # with open(wakachi_file, 'r', encoding='utf-8') as r:
+    #     lines = r.readlines()
+    lines = preordering_wakachi_array
+    org_recipe = ' '.join(lines)
+    print('################ original recipe ################')
+    print(org_recipe)
 
     # --------------------------
     # convert quantity and unit
@@ -151,30 +328,55 @@ def convert_recipe_parameter(wakachi_file: str,
     converted_num_unit = []
     count = 1
     for line in lines:
-        line = line.split(' ')
-        print(line)
-        for word in line:
-            # XXXXXXXXXXXXXXXXXXXXXXXXXXX #
-            # TODO gather as one function #
-            # XXXXXXXXXXXXXXXXXXXXXXXXXXX #
-            if word in inv_num_param:
-                param_num = 'param' + str(count)
-                param_deco = '<param' + str(count) + '>'
-                param_key_value.update({param_num: 'quantity'})
-                word_key_value.update({param_num: word})
-                word = param_deco
-                count += 1
-            elif word in inv_unit_param:
-                param_num = 'param' + str(count)
-                param_deco = '<param' + str(count) + '>'
-                param_key_value.update({param_num: 'unit'})
-                word_key_value.update({param_num: word})
-                word = param_deco
-                count += 1
-            else:
-                pass
-            converted_num_unit.append(word)
-
+        # line = line.split(' ')
+        # print(line)
+        if line in inv_num_param:
+            # print('numparam')
+            line = replace_word_to_pram(line, 'quantity')
+            count += 1
+        elif line in inv_unit_param:
+            # print('unitparam')
+            line = replace_word_to_pram(line, 'unit')
+            count += 1
+        elif line.find('目安') >= 0:
+            is_decimal = False
+            # print(line)
+            convert_line = ''
+            tmp_word = ''
+            for word in line:
+                # print(word)
+                if word.isdecimal():
+                    # print('decimal')
+                    tmp_word += word
+                    continue
+                else:
+                    if tmp_word != '':
+                        if tmp_word in inv_num_param:
+                            tmp_word = replace_word_to_pram(tmp_word, 'quality')
+                            convert_line += tmp_word
+                            tmp_word = ''
+                            count += 1
+                        else:
+                            print('something wrong!')
+                            raise ValueError
+                    else:
+                        pass
+                if word in inv_num_param:
+                    # print('numparam')
+                    word = replace_word_to_pram(word, 'quantity')
+                    convert_line += word
+                    count += 1
+                elif word in inv_unit_param:
+                    # print('unitparam')
+                    word = replace_word_to_pram(word, 'unit')
+                    convert_line += word
+                    count += 1
+                else:
+                    convert_line += word
+            line = convert_line
+        else:
+            pass
+        converted_num_unit.append(line)
     # print('converted_num_unit')
     # print(converted_num_unit)
 
@@ -186,11 +388,11 @@ def convert_recipe_parameter(wakachi_file: str,
     # print(join_converted_num_unit)
     # XXXXXXXXXXXXXXXXXXXXXXXXXXX #
     # TODO gather as one function #
-    # XXXXXXXXXXXXXXXXXXXXXXXXXXX #    
+    # XXXXXXXXXXXXXXXXXXXXXXXXXXX #
     for k in inv_ingredient_param.keys():
-        print('k')
-        print(k)
-        print(count)
+        # print('k')
+        # print(k)
+        # print(count)
         param_num = 'param' + str(count)
         param_deco = '<param' + str(count) + '>'
         converted_ingredient = join_converted_num_unit.replace(k, param_deco)
@@ -206,9 +408,9 @@ def convert_recipe_parameter(wakachi_file: str,
     # convert ingredient
     # --------------------
     for k in inv_tool_param:
-        print('k')
-        print(k)
-        print(count)
+        # print('k')
+        # print(k)
+        # print(count)
         param_num = 'param' + str(count)
         param_deco = '<param' + str(count) + '>'
         converted_tool = converted_ingredient.replace(k, param_deco)
@@ -264,14 +466,14 @@ def main():
     # print(Color.GREEN + 'Green' + Color.END)
     # print(Color.RED + 'RED' + Color.RED)
     print()
-    org_file = 'weekcook/org/weekcook_sample.txt'
+    org_file = 'weekcook/org/weekcook_00003159.txt'
     org_lines = text_to_strings(org_file)
     print('original text')
     print(org_lines)
     print()
 
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_00003159.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -291,12 +493,16 @@ def main():
     num_param_dict = convert_num_to_param(org_lines)
     print(num_param_dict)
 
+    print('################ convert num to 70% ################')
+    per70_param_dict = define_num_param_70percent(num_param_dict)
+    print(per70_param_dict)
+
     print('################ convert tool to param ################')
     tool_param_dict = convert_tool_to_param(org_lines)
     print(tool_param_dict)
 
     print('################ convert unit to param ################')
-    wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+    wakachi_file = 'weekcook/procedure_3/weekcook_00003159_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
     print(unit_param_dict)
@@ -307,195 +513,21 @@ def main():
                              if v != '材料'}
     print(ingredient_param_dict)
 
+    print('################ replace time words ################')
+    convert_strings = convert_cooking_time_wakachi(wakachi_string)
+    preordering_wakachi_array = preordering_for_cooking_time_wakachi(
+        wakachi_file,
+        convert_strings,
+    )
+
     print('################ convert reciepe ################')
     converted_recipe = convert_recipe_parameter(
-        wakachi_file,
+        preordering_wakachi_array,
         ingredient_param_dict,
         num_param_dict,
         unit_param_dict,
         tool_param_dict,
     )
-
-    # converted_recipe = convert_recipe_parameter()
-
-    # sample_file = 'weekcook/ner_result/weekcook_00000083_ner_result.txt'
-
-    # sample_f = open(sample_file, 'r', encoding='utf-8')
-    # sample_lines = sample_f.read()
-    # sample_f.close()
-    # print('lines : ', sample_lines)
-    # split_lines = sample_lines.split(' ')
-    # print('split_lines : ', split_lines)
-
-    # # ---------
-    # # color
-    # # ---------
-    # for line in split_lines:
-    #     if line.find('F') >= 0:
-    #         print(Color.RED + line + Color.END, end='')
-    #     elif line.find('T') >= 0:
-    #         print(Color.CYAN + line + Color.END, end='')
-    #     elif line.find('Sf') >= 0:
-    #         print(Color.GREEN + line + Color.END, end='')
-    #     elif line.find('D') >= 0:
-    #         print(Color.GREEN + line + Color.END, end='')
-    #     elif line.find('焼') >= 0 and line.find('Ac') >= 0:
-    #         print(Color.YELLOW + line + Color.END, end='')
-    #     elif line.find('。') >= 0:
-    #         print(line)
-    #     else:
-    #         print(line, end='')
-
-    # # ------------------
-    # # convert param tag
-    # # ------------------
-    # param_to_word = {}
-    # word_to_param = {}
-    # parameters = {}
-    # count = 1
-    # for line in split_lines:
-    #     param_num = 'param' + str(count)
-    #     # print('param_num')
-    #     # print(param_num)
-    #     line = line.replace('=', '')
-    #     if line.find('F') >= 0:
-    #         target = line.split('/')[0]
-    #         if target in _INGREDIENT_00001977:
-    #             if target not in word_to_param:
-    #                 param_to_word.update({param_num: target})
-    #                 word_to_param.update({target: param_num})
-    #                 parameters.setdefault(param_num, {})
-    #                 parameters[param_num].setdefault('val', target)
-    #                 parameters[param_num].setdefault('type', 'ingredient')
-    #                 count += 1
-    #             else:
-    #                 param_num = word_to_param[target]
-    #             line = '<' + param_num + '>'
-    #         else:
-    #             pass
-    #         print(Color.RED + line + Color.END, end='')
-
-    #     elif line.find('T') >= 0 and line.find('cm') < 0:
-
-    #         target = line.split('/')[0]
-    #         if target.find('火') < 0:
-    #             if target not in word_to_param:
-    #                 param_to_word.update({param_num: target})
-    #                 word_to_param.update({target: param_num})
-    #                 parameters.setdefault(param_num, {})
-    #                 parameters[param_num].setdefault('val', target)
-    #                 parameters[param_num].setdefault('type', 'tool')
-    #                 count += 1
-    #             else:
-    #                 param_num = word_to_param[target]
-
-    #             line = '<' + param_num + '>'
-
-    #         else:
-    #             pass
-
-    #         print(Color.CYAN + line + Color.END, end='')
-
-    #     elif line.find('cm') >= 0:
-
-    #         target = line.split('/')[0]
-    #         if target not in word_to_param:
-    #             param_to_word.update({param_num: target})
-    #             word_to_param.update({target: param_num})
-    #             parameters.setdefault(param_num, {})
-    #             parameters[param_num].setdefault('val', target)
-    #             parameters[param_num].setdefault('type', 'unit')
-    #             count += 1
-    #         else:
-    #             param_num = word_to_param[target]
-
-    #         line = '<' + param_num + '>'
-    #         print(Color.GREEN + line + Color.END, end='')
-
-    #     elif line.find('Sf') >= 0:
-
-    #         target = line.split('/')[0]
-    #         if target.isdigit() == True:
-    #             if target not in word_to_param:
-    #                 param_to_word.update({param_num: target})
-    #                 word_to_param.update({target: param_num})
-    #                 parameters.setdefault(param_num, {})
-    #                 parameters[param_num].setdefault('val', target)
-    #                 parameters[param_num].setdefault('type', 'quantity')
-    #                 count += 1
-    #             else:
-    #                 param_num = word_to_param[target]
-
-    #             line = '<' + param_num + '>'
-    #             print(Color.GREEN + line + Color.END, end='')
-    #         else:
-    #             print(line, end='')
-
-    #     elif line.find('D') >= 0:
-    #         if line.find('約') >= 0:
-    #             try:
-    #                 target_num = line.split('/')[0]
-    #                 target_max = int(target_num.split('約')[1])
-    #                 target_min = int(float(target_max) * 0.7)
-    #                 target_list = [target_min, target_max]
-    #             except ValueError:
-    #                 print(line, end='')
-    #                 continue
-    #         else:
-    #             try:
-    #                 target_num = line.split('/')[0]
-    #                 target_max = int(target_num)
-    #                 target_min = int(float(target_max) * 0.7)
-    #                 target_list = [target_min, target_max]
-    #             except ValueError:
-    #                 print(line, end='')
-    #                 continue
-
-    #         for target in target_list:
-    #             param_num = 'param' + str(count)
-    #             if target not in word_to_param:
-    #                 param_to_word.update({param_num: target})
-    #                 word_to_param.update({target: param_num})
-    #                 parameters.setdefault(param_num, {})
-    #                 parameters[param_num].setdefault('val', target)
-    #                 parameters[param_num].setdefault('type', 'quantity')
-    #                 count += 1
-    #             else:
-    #                 param_num = word_to_param[target]
-
-    #             line = '<' + param_num + '>'
-    #             print(Color.GREEN + line + Color.END, end='')
-
-    #     elif line.find('焼') >= 0 and line.find('Ac') >= 0:
-
-    #         target = line.split('/')[0]
-    #         # if target not in word_to_param:
-    #         #     param_to_word.update({param_num: target})
-    #         #     word_to_param.update({target: param_num})
-    #         # else:
-    #         #     param_num = word_to_param[target]
-    #         # line = '<' + param_num + '>'
-
-    #         print(Color.YELLOW + line + Color.END, end='')
-
-    #         count += 1
-
-    #     elif line.find('。') >= 0:
-    #         print(line)
-    #     else:
-    #         print(line, end='')
-
-    # # print('param_to_word', param_to_word)
-    # # print('word_to_param', word_to_param)
-    # print('################ word to param ################')
-    # for k, v in param_to_word.items():
-    #     print(k, v)
-    # # for k, v in word_to_param.items():
-    # #     print(k, v)
-
-    # print('################ parameters ################')
-    # for k, v in parameters.items():
-    #     print(k, v)
 
 
 if __name__ == '__main__':
