@@ -1,5 +1,6 @@
 import json
 import math
+import operator
 from typing import List
 
 
@@ -83,8 +84,8 @@ def define_num_param_70percent(num_param_dict: dict) -> dict:
 
 
 def mapping_70per_to_100per(dict_100per: dict, dict_70per: dict) -> dict:
-    relation_map = {per100: per70 for per100, per70
-                     in zip(dict_100per.values(), dict_70per.values())}
+    relation_map = [{per100: per70} for per100, per70
+                     in zip(dict_100per.values(), dict_70per.values())]
 
     return relation_map
 
@@ -207,13 +208,13 @@ def preordering_for_cooking_time_strings(strings_array: str,
             if keyword_delete[word_idx] in insert_candidate\
               and word_idx >= word_index\
               and is_replace is False:
-                print('if')
-                print(word_idx)
+                # print('if')
+                # print(word_idx)
                 preordering_strings += keyword_delete[word_idx] + '(目安: 約' + str(keyword) + ')'
                 is_replace = True
             else:
-                print('else')
-                print(word_idx)
+                # print('else')
+                # print(word_idx)
                 preordering_strings += keyword_delete[word_idx]
         strings_array = preordering_strings
     print(preordering_strings)
@@ -223,8 +224,9 @@ def preordering_for_cooking_time_strings(strings_array: str,
 
 def preordering_for_cooking_time_wakachi(wakachi_file: str,
                                          convert_strings: List[str]) -> List[str]:
+
     # TODO for wakachi file
-    units = ['分', '秒', '時間']
+    units = ['分', '秒', '時間', 'w']
     insert_candidate = ['、', '。']
 
     with open(wakachi_file, 'r', encoding='utf-8') as r:
@@ -234,7 +236,9 @@ def preordering_for_cooking_time_wakachi(wakachi_file: str,
     split_lines = [y for x in split_lines_2d for y in x]
     print(split_lines)
 
+    replace_template = '(目安: {} 約{})'
     preordering_strings = []
+    convert_candidate = []
     tmp_word = ''
     replace_buffer = ''
     is_decimal = False
@@ -246,19 +250,101 @@ def preordering_for_cooking_time_wakachi(wakachi_file: str,
         # --------------------- #
         # processing '、', '。' #
         # --------------------- #
+        ##########################
+        # TODO function -> class #
+        ##########################
         elif word == '。\n' and is_replace is True:
-            replace_word = '。' + replace_buffer + '\n'
+            ############################
+            # TODO -> funcition as one #
+            ############################
+            temperature_candidate = ''
+            time_candidate = ''
+            for candidate in convert_candidate:
+                if candidate.find('w') >= 0:
+                    temperature_candidate = candidate
+                elif candidate.find('分') >= 0\
+                  or candidate.find('秒') >= 0\
+                  or candidate.find('時間') >= 0:
+                    time_candidate = candidate
+                else:
+                    print('something wrong!')
+                    raise ValueError
+                
+            replace_buffer = replace_template.format(
+                temperature_candidate, time_candidate
+            )
+            format_replace_buffer = replace_buffer.replace('  ', ' ')
+            print(format_replace_buffer)
+            replace_word = '。' + format_replace_buffer + '\n'
             print(replace_word)
             preordering_strings.append(replace_word)
             replace_buffer = ''
+            temperature_candidate = ''
+            time_candidate = ''
             is_replace = False
         elif word == '。\n' and is_replace is False:
             preordering_strings.append(word)
-        elif word == '、' and is_replace is True:
-            replace_word = '、' + replace_buffer
+        elif word == '。' and is_replace is True:
+            ############################
+            # TODO -> funcition as one #
+            ############################
+            temperature_candidate = ''
+            time_candidate = ''
+            for candidate in convert_candidate:
+                if candidate.find('w') >= 0:
+                    temperature_candidate = candidate
+                elif candidate.find('分') >= 0\
+                  or candidate.find('秒') >= 0\
+                  or candidate.find('時間') >= 0:
+                    time_candidate = candidate
+                else:
+                    print('something wrong!')
+                    raise ValueError
+                
+            replace_buffer = replace_template.format(
+                temperature_candidate, time_candidate
+            )
+            format_replace_buffer = replace_buffer.replace('  ', ' ')
+            print(format_replace_buffer)
+            replace_word = '。' + format_replace_buffer
+            print(replace_word)
             preordering_strings.append(replace_word)
             replace_buffer = ''
+            temperature_candidate = ''
+            time_candidate = ''
             is_replace = False
+        elif word == '。' and is_replace is False:
+            preordering_strings.append(word)
+        elif word == '、' and is_replace is True:
+            ############################
+            # TODO -> funcition as one #
+            ############################
+            temperature_candidate = ''
+            time_candidate = ''
+            for candidate in convert_candidate:
+                if candidate.find('w') >= 0:
+                    temperature_candidate = candidate
+                elif candidate.find('分') >= 0\
+                  or candidate.find('秒') >= 0\
+                  or candidate.find('時間') >= 0:
+                    time_candidate = candidate
+                else:
+                    print('something wrong!')
+                    raise ValueError
+                
+            replace_buffer = replace_template.format(
+                temperature_candidate, time_candidate
+            )
+            format_replace_buffer = replace_buffer.replace('  ', ' ')
+            print(format_replace_buffer)
+            replace_word = '、' + format_replace_buffer
+            print(replace_word)
+            preordering_strings.append(replace_word)
+            replace_buffer = ''
+            temperature_candidate = ''
+            time_candidate = ''
+            is_replace = False
+            
         elif word == '、' and is_replace is False:
             replace_word = '、' + replace_buffer
             preordering_strings.append(replace_word)
@@ -269,8 +355,7 @@ def preordering_for_cooking_time_wakachi(wakachi_file: str,
         elif word.isdecimal() is False and word in units and is_decimal:
             is_decimal = False
             tmp_word += word
-            replace_buffer = '(目安: 約' + tmp_word + ')'
-            print(replace_buffer)
+            convert_candidate.append(tmp_word)
             is_replace = True
             tmp_word = ''
             print(is_replace)
@@ -279,10 +364,28 @@ def preordering_for_cooking_time_wakachi(wakachi_file: str,
             preordering_strings.append(tmp_word)
             preordering_strings.append(word)
             tmp_word = ''
-        elif word.isdecimal() is False and word not in units and is_decimal is False:
+        elif word.isdecimal() is False and is_decimal is False:
             preordering_strings.append(word)
+        # elif word.isdecimal() is False and word not in units and is_decimal is False:
+        #     preordering_strings.append(word)
+        else:
+            print('something wrong!')
+            print(word)
+            raise ValueError
+
+    print(preordering_strings)
 
     return preordering_strings
+
+
+def sort_dict_by_values_length(org_dict: dict) -> dict:
+    dict_len = {key: len(value) for key, value in org_dict.items()}
+    sorted_key_list = sorted(dict_len.items(), key=operator.itemgetter(1), reverse=True)
+    print(sorted_key_list)
+    sorted_dict_by_values = [{item[0]: org_dict[item[0]]} for item in sorted_key_list]
+    print(sorted_dict_by_values)
+    
+    return sorted_dict_by_values
 
 
 def convert_recipe_parameter(preordering_wakachi_array: List[str],
@@ -291,7 +394,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
                              unit_param_dict: dict,
                              tool_param_dict: dict) -> str:
 
-    def replace_word_to_pram(strings_array: str, category: str):
+    def replace_word_to_param(strings_array: str, category: str) -> str:
         param_num = 'param' + str(count)
         param_deco = '<param' + str(count) + '>'
         param_key_value.update({param_num: category})
@@ -300,23 +403,63 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
 
         return strings_array
 
-    inv_ingredient_param = {v: k for k, v in ingredient_param_dict.items()}
+    def replace_word_to_param_once(strings_array: str, category: str,
+                                   target_string: str, count: int) -> str:
+        param_num = 'param' + str(count)
+        param_deco = '<param' + str(count) + '>'
+        param_key_value.update({param_num: category})
+        word_key_value.update({param_num: target_string})
+        param_strings = strings_array.replace(target_string, param_deco, 1)
+
+        return param_strings
+
+    def replace_word_to_numrange_param(strings_array: str, category: str, count: int,
+                                       relatetion_70per_100per: dict, number_of_replace: int) -> str:
+        
+        param_num = 'param' + str(count)
+        param_deco = '<param' + str(count) + '>'
+        param_key_value.update({param_num: category})
+        word_key_value.update({param_num: list(relatetion_70per_100per[number_of_replace].values())[0]})
+        strings_array = param_deco
+        count += 1
+        param_num = 'param' + str(count)
+        param_deco = '<param' + str(count) + '>'
+        param_key_value.update({param_num: category})
+        word_key_value.update({param_num: list(relatetion_70per_100per[number_of_replace].keys())[0]})
+        
+        strings_array = strings_array + param_deco
+
+        return strings_array
+
+    print(ingredient_param_dict)
+    print(num_param_dict)
+    print(unit_param_dict)
+    print(tool_param_dict)
+    per70_param_dict = define_num_param_70percent(num_param_dict)
+    relatetion_70per_100per = mapping_70per_to_100per(
+        num_param_dict, per70_param_dict
+    )
+    print('per70')
+    print(per70_param_dict)
+    print('70-100')
+    print(relatetion_70per_100per)
+    # inv_ingredient_param = {v: k for k, v in ingredient_param_dict.items()}
     inv_num_param = {v: k for k, v in num_param_dict.items()}
-    inv_unit_param = {v: k for k, v in unit_param_dict.items()}
+    # inv_unit_param = {v: k for k, v in unit_param_dict.items()}
     inv_tool_param = {v: k for k, v in tool_param_dict.items()}
-    print('inv_ingredient_param')
-    print(inv_ingredient_param)
-    print('inv_num_param')
-    print(inv_num_param)
-    print('inv_unit_param')
-    print(inv_unit_param)
-    print('inv_tool_param')
-    print(inv_tool_param)
+    # print('inv_ingredient_param')
+    # print(inv_ingredient_param)
+    # print('inv_num_param')
+    # print(inv_num_param)
+    # print('inv_unit_param')
+    # print(inv_unit_param)
+    # print('inv_tool_param')
+    # print(inv_tool_param)
 
     # with open(wakachi_file, 'r', encoding='utf-8') as r:
     #     lines = r.readlines()
     lines = preordering_wakachi_array
-    org_recipe = ' '.join(lines)
+    org_recipe = ''.join(lines)
     print('################ original recipe ################')
     print(org_recipe)
 
@@ -325,71 +468,141 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     # --------------------------
     param_key_value = {}
     word_key_value = {}
-    converted_num_unit = []
+    converted_num = []
+    units = ['秒', '分', '時間']
+    number_of_replace = 0
     count = 1
-    for line in lines:
+    for idx, line in enumerate(lines):
         # line = line.split(' ')
+        # print(idx)
         # print(line)
-        if line in inv_num_param:
-            # print('numparam')
-            line = replace_word_to_pram(line, 'quantity')
-            count += 1
-        elif line in inv_unit_param:
-            # print('unitparam')
-            line = replace_word_to_pram(line, 'unit')
-            count += 1
-        elif line.find('目安') >= 0:
-            is_decimal = False
-            # print(line)
-            convert_line = ''
-            tmp_word = ''
-            for word in line:
-                # print(word)
-                if word.isdecimal():
-                    # print('decimal')
-                    tmp_word += word
-                    continue
+        # print(len(lines))
+        if idx <= (len(lines) - 1):
+            if line in inv_num_param:
+                # print('numparam')
+                if lines[idx+1] in units:
+                    print('if')
+                    print('lines[idx+1]')
+                    print(lines[idx+1])
+                    line = replace_word_to_numrange_param(
+                        line, 'quantity', count, relatetion_70per_100per, number_of_replace
+                    )
+                    count += 2
+                elif idx == len(lines):
+                    print('elif')
+                    pass
                 else:
-                    if tmp_word != '':
-                        if tmp_word in inv_num_param:
-                            tmp_word = replace_word_to_pram(tmp_word, 'quality')
-                            convert_line += tmp_word
-                            tmp_word = ''
-                            count += 1
-                        else:
-                            print('something wrong!')
-                            raise ValueError
+                    print('else')
+                    line = replace_word_to_param(line, 'quantity')
+                    count += 1
+                number_of_replace += 1
+            # elif line in inv_unit_param:
+            #     # print('unitparam')
+            #     line = replace_word_to_param(line, 'unit')
+            #     count += 1
+            elif line.find('目安') >= 0 and line.find('～') >= 0:
+                is_decimal = False
+                # print(line)
+                convert_line = ''
+                tmp_word = ''
+                for word in line:
+                    # print(word)
+                    if word.isdecimal():
+                        # print('decimal')
+                        tmp_word += word
+                        continue
                     else:
-                        pass
-                if word in inv_num_param:
-                    # print('numparam')
-                    word = replace_word_to_pram(word, 'quantity')
+                        if tmp_word != '':
+                            if tmp_word in inv_num_param:
+                                tmp_word = replace_word_to_param(tmp_word, 'quality')
+                                convert_line += tmp_word
+                                tmp_word = ''
+                                count += 1
+                                number_of_replace += 1
+                            else:
+                                print('something wrong!')
+                                raise ValueError
+                        else:
+                            pass
+                    # if word in inv_num_param:
+                    #     # print('numparam')
+                    #     word = replace_word_to_param(word, 'quantity')
+                    #     convert_line += word
+                    #     count += 1
+                    # elif word in inv_unit_param:
+                    #     # print('unitparam')
+                    #     word = replace_word_to_param(word, 'unit')
+                    #     convert_line += word
+                    #     count += 1
+                    # else:
                     convert_line += word
-                    count += 1
-                elif word in inv_unit_param:
-                    # print('unitparam')
-                    word = replace_word_to_pram(word, 'unit')
+                line = convert_line
+            elif line.find('目安') >= 0 and line.find('～') < 0:
+                print('line')
+                print(line)
+                print('～ < 0:')
+                is_decimal = False
+                convert_line = ''
+                tmp_word = ''
+                for word in line:
+                    # print('word')
+                    # print(word)
+                    # print('tmp_word')
+                    # print(tmp_word)
+                    if word.isdecimal():
+                        # print('decimal')
+                        # print(word)
+                        tmp_word += word
+                        continue
+                    else:
+                        if tmp_word != '':
+                            # print("tmp_word != ''")
+                            if tmp_word in inv_num_param:
+                                tmp_word = replace_word_to_numrange_param(
+                                    tmp_word, 'quantity', count, relatetion_70per_100per, number_of_replace
+                                )
+                                # print('replace_word_to_param')
+                                # print(tmp_word)
+                                convert_line += tmp_word
+                                tmp_word = ''
+                                count += 2
+                                number_of_replace += 1
+                            else:
+                                print('something wrong!')
+                                raise ValueError
+                        else:
+                            pass
                     convert_line += word
-                    count += 1
-                else:
-                    convert_line += word
-            line = convert_line
+                line = convert_line
+            else:
+                pass
         else:
             pass
-        converted_num_unit.append(line)
-    # print('converted_num_unit')
-    # print(converted_num_unit)
+        converted_num.append(line)
+    # # print('converted_num_unit')
+    # # print(converted_num_unit)
+
+    # -------------
+    # convert unit
+    # -------------
+    join_converted_num = ''.join(converted_num)
+    join_converted_num_unit = ''
+    for k, v in unit_param_dict.items():
+        join_converted_num_unit = replace_word_to_param_once(
+            join_converted_num, 'unit', v, count,
+        )
+        join_converted_num = join_converted_num_unit
+        count += 1
+    print(join_converted_num_unit)
 
     # -------------------
     # convert ingredient
     # -------------------
-    strings_for_join = ''
-    join_converted_num_unit = strings_for_join.join(converted_num_unit)
-    # print(join_converted_num_unit)
     # XXXXXXXXXXXXXXXXXXXXXXXXXXX #
     # TODO gather as one function #
     # XXXXXXXXXXXXXXXXXXXXXXXXXXX #
-    for k in inv_ingredient_param.keys():
+    # for k in inv_ingredient_param.keys():
+    for k in ingredient_param_dict.values():
         # print('k')
         # print(k)
         # print(count)
@@ -408,9 +621,9 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     # convert ingredient
     # --------------------
     for k in inv_tool_param:
-        # print('k')
-        # print(k)
-        # print(count)
+        print('k')
+        print(k)
+        print(count)
         param_num = 'param' + str(count)
         param_deco = '<param' + str(count) + '>'
         converted_tool = converted_ingredient.replace(k, param_deco)
@@ -419,20 +632,24 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
         word_key_value.update({param_num: k})
         count += 1
 
-    print(converted_tool)
+    if len(inv_tool_param) == 0:
+        converted_tool = converted_ingredient
+    else:
+        pass
 
     # ----------------
     # print by color
     # ----------------
     aux_print_converted = converted_tool.replace('<', ' <')
     print_converted = aux_print_converted.replace('>', '> ')
-    # print(print_converted)
+    print(print_converted)
     split_print_recipe = print_converted.split(' ')
     delete_space = [x for x in split_print_recipe if x]
-    # print(delete_space)
+    print(delete_space)
 
-    # print(param_key_value)
-    # print()
+    print('param_key_value')
+    print(param_key_value)
+    print()
 
     for param in delete_space:
         delete_lf = param.replace('\n', '')
@@ -450,7 +667,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
             print(Color.GREEN + delete_lf + Color.END, end='')
         else:
             print(param, end='')
-
+    
     print()
     for k, v in param_key_value.items():
         print(k, v)
@@ -458,7 +675,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     for k, v in word_key_value.items():
         print(k, v)
     print()
-
+        
     return converted_tool
 
 
@@ -466,14 +683,14 @@ def main():
     # print(Color.GREEN + 'Green' + Color.END)
     # print(Color.RED + 'RED' + Color.RED)
     print()
-    org_file = 'weekcook/org/weekcook_00003159.txt'
+    org_file = 'weekcook/org/weekcook_00000257.txt'
     org_lines = text_to_strings(org_file)
     print('original text')
     print(org_lines)
     print()
 
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_00003159.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_00000257.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -502,7 +719,7 @@ def main():
     print(tool_param_dict)
 
     print('################ convert unit to param ################')
-    wakachi_file = 'weekcook/procedure_3/weekcook_00003159_proc3.txt'
+    wakachi_file = 'weekcook/procedure_3/weekcook_00000257_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
     print(unit_param_dict)

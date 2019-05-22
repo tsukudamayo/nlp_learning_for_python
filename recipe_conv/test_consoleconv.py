@@ -13,6 +13,7 @@ from consoleconv import convert_cooking_time_strings
 from consoleconv import convert_cooking_time_wakachi
 from consoleconv import preordering_for_cooking_time_strings
 from consoleconv import preordering_for_cooking_time_wakachi
+from consoleconv import sort_dict_by_values_length
 
 
 def test_text_to_strings():
@@ -24,7 +25,7 @@ def test_text_to_strings():
     assert strings == expected
 
 
-def test_convert_num_to_param():
+def test_convert_num_to_param_sample():
     sample_file = 'weekcook/org/weekcook_sample.txt'
     strings = text_to_strings(sample_file)
     numparam_dict = convert_num_to_param(strings)
@@ -76,11 +77,11 @@ def test_mapping_70per_to_100per():
     relatetion_70per_100per = mapping_70per_to_100per(
         numparam_dict, num_param_70per_dict
     )
-    expected = {
-        '1': '0',
-        '1': '0',
-        '8': '5',
-    }
+    expected = [
+        {'1': '0'},
+        {'1': '0'},
+        {'8': '5'},
+    ]
 
     assert relatetion_70per_100per == expected
 
@@ -278,6 +279,16 @@ def test_preordering_for_cooking_time_wakachi_sample():
     assert preordering_strings == expected
 
 
+def test_preordering_for_cooking_time_wakachi_00003159():
+    wakachi_file = 'weekcook/procedure_3/weekcook_00003159_proc3.txt'
+    wakachi_string = text_to_strings(wakachi_file)
+    convert_strings = convert_cooking_time_wakachi(wakachi_string)
+    preordering_strings = preordering_for_cooking_time_wakachi(wakachi_file, convert_strings)
+    expected = ['新', 'じゃがいも', 'は', '良', 'く', '洗', 'っ', 'て', '皮', '付き', 'の', 'まま', 'ラップ', 'に', '包', 'む', '。', '新', '玉ねぎ', 'は', '薄切り', 'に', 'し', 'て', '冷水', 'に', 'は', 'な', 'し', 'て', 'お', 'く', '。', 'ミニ', 'トマト', 'は', '半分', 'に', '切', 'る', '。\n', '新', 'じゃがいも', 'を', '耐熱', '皿', 'に', 'のせ', '、', '電子', 'レンジ', 'で', '加熱', 'し', '、(目安: 600w 約2～3分)', '竹串', 'が', 'スッ', 'と', '通', 'る', 'こと', 'を', '確認', 'し', '冷ま', 'し', 'て', 'お', 'く', '。\n', '新', '玉ねぎ', 'を', '絞', 'る', 'よう', 'に', 'し', 'て', '水気', 'を', 'しっかり', 'とき', 'る', '。\n', '新', 'じゃがいも', 'を', '8', '等', '分', 'ほど', 'に', '切', 'り', '、', 'ボール', 'に', '2', 'の', '新', '玉ねぎ', '、', 'ミニ', 'トマト', 'と', '一緒', 'に', '入れ', 'て', 'マヨネーズ', 'と', '胡椒', 'を', '加え', 'て', '良く', '混ぜ合わせ', 'る', '。\n', '器', 'に', '盛り付け', 'ドライ', 'パセリ', 'を', '散ら', 'し', 'て', '完成', '。\n']
+
+    assert preordering_strings == expected
+    
+
 def test_preordering_for_cooking_time_wakachi_00000083():
     wakachi_file = 'weekcook/procedure_3/weekcook_00000083_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
@@ -288,39 +299,82 @@ def test_preordering_for_cooking_time_wakachi_00000083():
     assert preordering_strings == expected
 
 
-def test_convert_recipe_parameter():
-    org_file = 'weekcook/org/weekcook_sample.txt'
-    org_lines = text_to_strings(org_file)
+def test_sort_by_values_len():
+    test_dict = {'unit1': 'w', 'unit2': '分', 'unit3': '等分'}
+    expected = [{'unit3': '等分'}, {'unit1': 'w'}, {'unit2': '分'}]
+    sort_dict = sort_dict_by_values_length(test_dict)
 
-    wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
-    wakachi_string = text_to_strings(wakachi_file)
+    assert sort_dict == expected
 
-    json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
-    with open(json_filepath, 'r', encoding='utf-8') as j:
-        ingredient_dict = json.load(j)
 
-    num_param_dict = convert_num_to_param(org_lines)
-    tool_param_dict = convert_tool_to_param(org_lines)
-    unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
-    ingredient_param_dict = {'ingredient' + str(idx): v
-                             for idx, v in enumerate(ingredient_dict.keys())
-                             if v != '材料'}
-    convert_strings = convert_cooking_time_wakachi(wakachi_file)
-    preordering_wakachi_array = preordering_for_cooking_time_wakachi(
-        wakachi_file,
-        convert_strings,
-    )
+# def test_convert_recipe_parameter_sample():
+#     org_file = 'weekcook/org/weekcook_sample.txt'
+#     org_lines = text_to_strings(org_file)
 
-    converted_strings = convert_recipe_parameter(
-        preordering_wakachi_array,
-        ingredient_param_dict,
-        num_param_dict,
-        unit_param_dict,
-        tool_param_dict,
-        )
-    expected = '<param8>は骨と皮を取り除き<param1><param2>厚さに斜め切りにし、ペーパータオルで包んで水気を取る。\n<param7>は半分に切りタネを除いて<param3><param4>幅に切る。\nスキレットを温めてサラダ油を塗り、<param8>を軽く両面焼く。\n鮭が焼けたら<param7>を一緒に並べて<param9>を加え、<param11>と<param12>を少々ふる。\n中火にかけて沸々してきたら<param10>を乗せ、<param13>で焼いて焦げ目が付いたら完成。(目安: 約<param5><param6>)\n'
+#     wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+#     wakachi_string = text_to_strings(wakachi_file)
 
-    assert converted_strings == expected
+#     json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
+#     with open(json_filepath, 'r', encoding='utf-8') as j:
+#         ingredient_dict = json.load(j)
+
+#     num_param_dict = convert_num_to_param(org_lines)
+#     tool_param_dict = convert_tool_to_param(org_lines)
+#     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
+#     ingredient_param_dict = {'ingredient' + str(idx): v
+#                              for idx, v in enumerate(ingredient_dict.keys())
+#                              if v != '材料'}
+#     convert_strings = convert_cooking_time_wakachi(wakachi_file)
+#     preordering_wakachi_array = preordering_for_cooking_time_wakachi(
+#         wakachi_file,
+#         convert_strings,
+#     )
+
+#     converted_strings = convert_recipe_parameter(
+#         preordering_wakachi_array,
+#         ingredient_param_dict,
+#         num_param_dict,
+#         unit_param_dict,
+#         tool_param_dict,
+#         )
+#     expected = '<param8>は骨と皮を取り除き<param1><param2>厚さに斜め切りにし、ペーパータオルで包んで水気を取る。\n<param7>は半分に切りタネを除いて<param3><param4>幅に切る。\nスキレットを温めてサラダ油を塗り、<param8>を軽く両面焼く。\n鮭が焼けたら<param7>を一緒に並べて<param9>を加え、<param11>と<param12>を少々ふる。\n中火にかけて沸々してきたら<param10>を乗せ、<param13>で焼いて焦げ目が付いたら完成。(目安: 約<param5><param6>)\n'
+
+#     assert converted_strings == expected
+
+
+# def test_convert_recipe_parameter_sample():
+#     org_file = 'weekcook/org/weekcook_00003159.txt'
+#     org_lines = text_to_strings(org_file)
+
+#     wakachi_file = 'weekcook/procedure_3/weekcook_00003159_proc3.txt'
+#     wakachi_string = text_to_strings(wakachi_file)
+
+#     json_filepath = 'weekcook/ingredient_json/weekcook_00003159.json'
+#     with open(json_filepath, 'r', encoding='utf-8') as j:
+#         ingredient_dict = json.load(j)
+
+#     num_param_dict = convert_num_to_param(org_lines)
+#     tool_param_dict = convert_tool_to_param(org_lines)
+#     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
+#     ingredient_param_dict = {'ingredient' + str(idx): v
+#                              for idx, v in enumerate(ingredient_dict.keys())
+#                              if v != '材料'}
+#     convert_strings = convert_cooking_time_wakachi(wakachi_file)
+#     preordering_wakachi_array = preordering_for_cooking_time_wakachi(
+#         wakachi_file,
+#         convert_strings,
+#     )
+
+#     converted_strings = convert_recipe_parameter(
+#         preordering_wakachi_array,
+#         ingredient_param_dict,
+#         num_param_dict,
+#         unit_param_dict,
+#         tool_param_dict,
+#         )
+#     expected = '<param9>は良く洗って皮付きのままラップに包む。<param10>は薄切りにして冷水にはなしておく。<param11>は半分に切る。\n<param9>を耐熱皿にのせ、<param14>で加熱し、(目安:<param1><param2>約<param3>～<param4><param5>)竹串がスッと通ることを確認し冷ましておく。\n<param10>を絞るようにして水気をしっかりときる。\n<param9>を<param6><param7>ほどに切り、ボールに<param8>の<param10>、<param11>と一緒に入れて<param12>と<param13>を加えて良く混ぜ合わせる。\n器に盛り付けドライパセリを散らして完成。\n'
+
+#     assert converted_strings == expected
 
 
 # def test_convert_time_70percent():
