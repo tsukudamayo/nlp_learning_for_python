@@ -307,39 +307,109 @@ def test_sort_by_values_len():
     assert sort_dict == expected
 
 
-# def test_convert_recipe_parameter_sample():
-#     org_file = 'weekcook/org/weekcook_sample.txt'
-#     org_lines = text_to_strings(org_file)
+def test_convert_recipe_parameter_sample():
+    org_file = 'weekcook/org/weekcook_sample.txt'
+    org_lines = text_to_strings(org_file)
 
-#     wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
-#     wakachi_string = text_to_strings(wakachi_file)
+    wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+    wakachi_string = text_to_strings(wakachi_file)
 
-#     json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
-#     with open(json_filepath, 'r', encoding='utf-8') as j:
-#         ingredient_dict = json.load(j)
+    json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
+    with open(json_filepath, 'r', encoding='utf-8') as j:
+        ingredient_dict = json.load(j)
 
-#     num_param_dict = convert_num_to_param(org_lines)
-#     tool_param_dict = convert_tool_to_param(org_lines)
-#     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
-#     ingredient_param_dict = {'ingredient' + str(idx): v
-#                              for idx, v in enumerate(ingredient_dict.keys())
-#                              if v != '材料'}
-#     convert_strings = convert_cooking_time_wakachi(wakachi_file)
-#     preordering_wakachi_array = preordering_for_cooking_time_wakachi(
-#         wakachi_file,
-#         convert_strings,
-#     )
+    num_param_dict = convert_num_to_param(org_lines)
+    tool_param_dict = convert_tool_to_param(org_lines)
+    unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
+    ingredient_param_dict = {'ingredient' + str(idx): v
+                             for idx, v in enumerate(ingredient_dict.keys())
+                             if v != '材料'}
+    convert_strings = convert_cooking_time_wakachi(wakachi_file)
+    preordering_wakachi_array = preordering_for_cooking_time_wakachi(
+        wakachi_file,
+        convert_strings,
+    )
 
-#     converted_strings = convert_recipe_parameter(
-#         preordering_wakachi_array,
-#         ingredient_param_dict,
-#         num_param_dict,
-#         unit_param_dict,
-#         tool_param_dict,
-#         )
-#     expected = '<param8>は骨と皮を取り除き<param1><param2>厚さに斜め切りにし、ペーパータオルで包んで水気を取る。\n<param7>は半分に切りタネを除いて<param3><param4>幅に切る。\nスキレットを温めてサラダ油を塗り、<param8>を軽く両面焼く。\n鮭が焼けたら<param7>を一緒に並べて<param9>を加え、<param11>と<param12>を少々ふる。\n中火にかけて沸々してきたら<param10>を乗せ、<param13>で焼いて焦げ目が付いたら完成。(目安: 約<param5><param6>)\n'
+    converted_strings = convert_recipe_parameter(
+        preordering_wakachi_array,
+        ingredient_param_dict,
+        num_param_dict,
+        unit_param_dict,
+        tool_param_dict,
+        )
+    expected = '<param9>は骨と皮を取り除き<param1><param5>厚さに斜め切りにし、ペーパータオルで包んで水気を取る。\n<param8>は半分に切りタネを除いて<param2><param6>幅に切る。\nスキレットを温めてサラダ油を塗り、<param9>を軽く両面焼く。\n鮭が焼けたら<param8>を一緒に並べて<param10>を加え、<param12>と<param13>を少々ふる。\n中火にかけて沸々してきたら<param11>を乗せ、<param14>で焼いて焦げ目が付いたら完成。(目安: 約<param3><param4><param7>)\n'
 
-#     assert converted_strings == expected
+    assert converted_strings == expected
+
+
+def test_convert_recipe_parameter_00000083():
+    org_file = 'weekcook/org/weekcook_00000083.txt'
+    org_lines = text_to_strings(org_file)
+
+    wakachi_file = 'weekcook/procedure_3/weekcook_00000083_proc3.txt'
+    wakachi_string = text_to_strings(wakachi_file)
+
+    json_filepath = 'weekcook/ingredient_json/weekcook_00000083.json'
+    with open(json_filepath, 'r', encoding='utf-8') as j:
+        ingredient_dict = json.load(j)
+
+    num_param_dict = convert_num_to_param(org_lines)
+    tool_param_dict = convert_tool_to_param(org_lines)
+    unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
+    ingredient_param_dict = {'ingredient' + str(idx): v
+                             for idx, v in enumerate(ingredient_dict.keys())
+                             if v != '材料'}
+    convert_strings = convert_cooking_time_wakachi(wakachi_file)
+    preordering_wakachi_array = preordering_for_cooking_time_wakachi(
+        wakachi_file,
+        convert_strings,
+    )
+
+    converted_strings = convert_recipe_parameter(
+        preordering_wakachi_array,
+        ingredient_param_dict,
+        num_param_dict,
+        unit_param_dict,
+        tool_param_dict,
+        )
+    expected = '<param4>は頭と内臓（腸）を取除いた後、水でよく洗ってからペーパータオルで水気を拭き取る。\n<param7>（<param6>でも可）にサラダ油（分量外）を塗る。\n<param4>に<param5>を振ってから、温めた<param7>（<param6>でも可）に並べ、（<param6>の場合は火が通るまで）焼く。(目安: 約<param1>～<param2><param3>)\n焼き上がった<param4>の<param5>焼きを、お好みで笹を敷いた器に盛り付け、お好みですだちや大根おろしを添えたら完成。\n'
+
+    assert converted_strings == expected
+
+
+def test_convert_recipe_parameter_00000257():
+    org_file = 'weekcook/org/weekcook_00000257.txt'
+    org_lines = text_to_strings(org_file)
+
+    wakachi_file = 'weekcook/procedure_3/weekcook_00000257_proc3.txt'
+    wakachi_string = text_to_strings(wakachi_file)
+
+    json_filepath = 'weekcook/ingredient_json/weekcook_00000257.json'
+    with open(json_filepath, 'r', encoding='utf-8') as j:
+        ingredient_dict = json.load(j)
+
+    num_param_dict = convert_num_to_param(org_lines)
+    tool_param_dict = convert_tool_to_param(org_lines)
+    unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
+    ingredient_param_dict = {'ingredient' + str(idx): v
+                             for idx, v in enumerate(ingredient_dict.keys())
+                             if v != '材料'}
+    convert_strings = convert_cooking_time_wakachi(wakachi_file)
+    preordering_wakachi_array = preordering_for_cooking_time_wakachi(
+        wakachi_file,
+        convert_strings,
+    )
+
+    converted_strings = convert_recipe_parameter(
+        preordering_wakachi_array,
+        ingredient_param_dict,
+        num_param_dict,
+        unit_param_dict,
+        tool_param_dict,
+        )
+    expected = '<param11>は、約、(目安: 約<param1><param2><param7>)<param15>に浸けて戻してから、食べ易い長さに切る。\n<param13>は千切りに、<param12>は<param3><param10>幅に切る。\n鍋に<param11>と<param12>、<param13>、★の<param15>と<param16>を入れて、約、(目安: 約<param4><param5><param8>)火にかける。\n<param14>は洗ってから筋を取り、斜めに切って鍋に加え、蓋をして、約、(目安: 約<param6><param9>)蒸らしてから火を止める。\n<param11>と<param12>の煮物を器に盛り付け完成。\n'
+
+    assert converted_strings == expected
 
 
 # def test_convert_recipe_parameter_sample():

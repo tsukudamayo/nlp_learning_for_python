@@ -514,12 +514,13 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
                     else:
                         if tmp_word != '':
                             if tmp_word in inv_num_param:
-                                tmp_word = replace_word_to_param(tmp_word, 'quality')
+                                tmp_word = replace_word_to_param(tmp_word, 'quantity')
                                 convert_line += tmp_word
                                 tmp_word = ''
                                 count += 1
                                 number_of_replace += 1
                             else:
+                                print(tmp_word)
                                 print('something wrong!')
                                 raise ValueError
                         else:
@@ -557,7 +558,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
                     else:
                         if tmp_word != '':
                             # print("tmp_word != ''")
-                            if tmp_word in inv_num_param:
+                            if tmp_word in inv_num_param and tmp_word != '1':
                                 tmp_word = replace_word_to_numrange_param(
                                     tmp_word, 'quantity', count, relatetion_70per_100per, number_of_replace
                                 )
@@ -566,6 +567,12 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
                                 convert_line += tmp_word
                                 tmp_word = ''
                                 count += 2
+                                number_of_replace += 1
+                            elif tmp_word in inv_num_param and tmp_word == '1':
+                                tmp_word = replace_word_to_param(tmp_word, 'quantity')
+                                convert_line += tmp_word
+                                tmp_word = ''
+                                count += 1
                                 number_of_replace += 1
                             else:
                                 print('something wrong!')
@@ -587,12 +594,35 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     # -------------
     join_converted_num = ''.join(converted_num)
     join_converted_num_unit = ''
-    for k, v in unit_param_dict.items():
-        join_converted_num_unit = replace_word_to_param_once(
-            join_converted_num, 'unit', v, count,
-        )
-        join_converted_num = join_converted_num_unit
-        count += 1
+    tmp_join_converted_num_unit = ''
+    tmp_word = ''
+    for idx, (key, value)  in enumerate(sorted(unit_param_dict.items())):
+        if len(value) < 2:  # ex m, 分, ... not to duplicate value
+            print('>1')
+            print(value)
+            for word in join_converted_num:
+                if word == value and tmp_word.isdecimal()\
+                  or word == value and tmp_word == '>':
+                    print('replace')
+                    print(word, value)
+                    word = replace_word_to_param(word, 'unit')
+                    count += 1
+                else:
+                    pass
+                tmp_word = word
+                tmp_join_converted_num_unit += word
+            join_converted_num_unit = tmp_join_converted_num_unit
+            join_converted_num = join_converted_num_unit
+            tmp_join_converted_num_unit = ''
+            tmp_word = ''
+        else:  # ex cm, 等分, ...
+            print('<1')
+            print(value)
+            join_converted_num_unit = replace_word_to_param_once(
+                join_converted_num, 'unit', value, count,
+            )
+            join_converted_num = join_converted_num_unit
+            count += 1
     print(join_converted_num_unit)
 
     # -------------------
@@ -667,7 +697,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
             print(Color.GREEN + delete_lf + Color.END, end='')
         else:
             print(param, end='')
-    
+
     print()
     for k, v in param_key_value.items():
         print(k, v)
@@ -675,7 +705,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     for k, v in word_key_value.items():
         print(k, v)
     print()
-        
+
     return converted_tool
 
 
@@ -683,14 +713,14 @@ def main():
     # print(Color.GREEN + 'Green' + Color.END)
     # print(Color.RED + 'RED' + Color.RED)
     print()
-    org_file = 'weekcook/org/weekcook_00000257.txt'
+    org_file = 'weekcook/org/weekcook_sample.txt'
     org_lines = text_to_strings(org_file)
     print('original text')
     print(org_lines)
     print()
 
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_00000257.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -719,7 +749,7 @@ def main():
     print(tool_param_dict)
 
     print('################ convert unit to param ################')
-    wakachi_file = 'weekcook/procedure_3/weekcook_00000257_proc3.txt'
+    wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
     print(unit_param_dict)
