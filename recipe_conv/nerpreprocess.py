@@ -8,7 +8,7 @@ import nesearch as ne
 
 
 _KBM_MODEL = 'kytea-win-0.4.2/model/jp-0.4.7-1.mod'
-_KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe20190515.knm'
+_KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe416.knm'
 _KYTEA_PATH = 'kytea-win-0.4.2/kytea.exe'
 _NESEARCH_PATH = 'kytea-win-0.4.2/RecipeNE-sample/bin/nesearch.py'
 _LOG_DIR = 'weekcook'
@@ -37,8 +37,6 @@ class Finalizer:
             self.m_lists.append(m_lists_sublist)
 
             for line in open(self.ner_file, 'r', encoding='utf-8'):
-                print('line2r-org')
-                print(line)
                 line = line.replace('\n', '').split(' ')
                 print('line2r')
                 print(line)

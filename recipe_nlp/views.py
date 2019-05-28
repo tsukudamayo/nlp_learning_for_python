@@ -49,6 +49,7 @@ def form(request):
 
     print('procedure_2')
     org_path = os.path.join(_LOG_DIR, 'org_add_lf')
+    pre.delete_space(output)
     proc2_path = os.path.join(_LOG_DIR, 'procedure_2')
     pre.mkdir_if_not_exists(org_path)
     pre.mkdir_if_not_exists(proc2_path)
