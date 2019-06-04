@@ -1,0 +1,27 @@
+[
+    {
+        "parameters": "param1",
+        "value": "あさり（砂抜き済み）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "万能ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "合わせ味噌（大さじ2～3入れる）",
+        "type": "ingredient"
+    }
+]

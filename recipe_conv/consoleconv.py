@@ -1,23 +1,9 @@
+import os
 import json
 import math
 import operator
 from typing import List
-
-
-class Color:
-    BLACK     = '\033[30m'
-    RED       = '\033[31m'
-    GREEN     = '\033[32m'
-    YELLOW    = '\033[33m'
-    BLUE      = '\033[34m'
-    PURPLE    = '\033[35m'
-    CYAN      = '\033[36m'
-    WHITE     = '\033[37m'
-    END       = '\033[0m'
-    BOLD      = '\038[1m'
-    UNDERLINE = '\033[4m'
-    INVISIBLE = '\033[08m'
-    REVERCE   = '\033[07m'
+from collections import OrderedDict
 
 
 _INGREDIENT_SAMPLE = ['アボカド', '塩鮭', '生クリーム', 'チーズ（ピザ用）', '塩', 'ブラックペッパー']
@@ -34,6 +20,23 @@ _INGREDIENT_00003363 = ['椎茸', 'アンチョビ', 'にんにく', 'オリー�
 
 _COOK_WARE = ['オーブントースター', 'オーブン', 'トースター', 'フライパン', 'グリル', '電子レンジ']
 _UNIT = ['cm', '分', '%', '等', 'w']
+_PARAMSTR_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_conv/weekcook/paramstrings'
+_PARAMS_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_conv/weekcook/parameters'
+
+class Color:
+    BLACK     = '\033[30m'
+    RED       = '\033[31m'
+    GREEN     = '\033[32m'
+    YELLOW    = '\033[33m'
+    BLUE      = '\033[34m'
+    PURPLE    = '\033[35m'
+    CYAN      = '\033[36m'
+    WHITE     = '\033[37m'
+    END       = '\033[0m'
+    BOLD      = '\038[1m'
+    UNDERLINE = '\033[4m'
+    INVISIBLE = '\033[08m'
+    REVERCE   = '\033[07m'
 
 
 def text_to_strings(filename: str) -> str:
@@ -706,21 +709,29 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
         print(k, v)
     print()
 
-    return converted_tool
+    associative_array = []
+    for k in param_key_value.keys():
+        current_dict = {}
+        current_dict["parameters"] = k
+        current_dict["value"] = word_key_value[k]
+        current_dict["type"] = param_key_value[k]
+        associative_array.append(current_dict)
+ 
+    return converted_tool, associative_array
 
 
 def main():
     # print(Color.GREEN + 'Green' + Color.END)
     # print(Color.RED + 'RED' + Color.RED)
     print()
-    org_file = 'weekcook/org/weekcook_sample.txt'
+    org_file = 'weekcook/org/weekcook_00000020.txt'
     org_lines = text_to_strings(org_file)
     print('original text')
     print(org_lines)
     print()
 
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_00000020.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -749,7 +760,7 @@ def main():
     print(tool_param_dict)
 
     print('################ convert unit to param ################')
-    wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+    wakachi_file = 'weekcook/procedure_3/weekcook_00000020_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
     print(unit_param_dict)
@@ -768,13 +779,21 @@ def main():
     )
 
     print('################ convert reciepe ################')
-    converted_recipe = convert_recipe_parameter(
+    converted_recipe, associative_array = convert_recipe_parameter(
         preordering_wakachi_array,
         ingredient_param_dict,
         num_param_dict,
         unit_param_dict,
         tool_param_dict,
     )
+
+    print('################ output params and recipe ################')
+    converted_recipe_path = 'weekcook/paramstrings/weekcook_00000020_convrecipe.txt'
+    with open(converted_recipe_path, 'w', encoding='utf-8') as w:
+        w.write(converted_recipe)
+    param_json_path = 'weekcook/parameters/weekcook_00000020_parms.json'
+    with open(param_json_path, 'w', encoding='utf-8') as w:
+        json.dump(associative_array, w, ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':

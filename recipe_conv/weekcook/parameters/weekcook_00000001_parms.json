@@ -1,0 +1,52 @@
+[
+    {
+        "parameters": "param1",
+        "value": "牛ロース肉（※焼肉用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "サンチュ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "おろし生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "赤味噌",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "豆板醤",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param10",
+        "value": "グリル",
+        "type": "tool"
+    }
+]
