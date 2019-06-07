@@ -724,14 +724,14 @@ def main():
     # print(Color.GREEN + 'Green' + Color.END)
     # print(Color.RED + 'RED' + Color.RED)
     print()
-    org_file = 'weekcook/org/weekcook_00000020.txt'
+    org_file = 'weekcook/org/weekcook_00000057.txt'
     org_lines = text_to_strings(org_file)
     print('original text')
     print(org_lines)
     print()
 
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_00000020.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_00000057.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -760,7 +760,7 @@ def main():
     print(tool_param_dict)
 
     print('################ convert unit to param ################')
-    wakachi_file = 'weekcook/procedure_3/weekcook_00000020_proc3.txt'
+    wakachi_file = 'weekcook/procedure_3/weekcook_00000057_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
     print(unit_param_dict)
@@ -788,10 +788,10 @@ def main():
     )
 
     print('################ output params and recipe ################')
-    converted_recipe_path = 'weekcook/paramstrings/weekcook_00000020_convrecipe.txt'
+    converted_recipe_path = 'weekcook/paramstrings/weekcook_57_convrecipe.txt'
     with open(converted_recipe_path, 'w', encoding='utf-8') as w:
         w.write(converted_recipe)
-    param_json_path = 'weekcook/parameters/weekcook_00000020_parms.json'
+    param_json_path = 'weekcook/parameters/weekcook_57_params.json'
     with open(param_json_path, 'w', encoding='utf-8') as w:
         json.dump(associative_array, w, ensure_ascii=False, indent=4)
 

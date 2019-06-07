@@ -1,0 +1,5 @@
+<param15>は皮を削ぎ落とし、ラップで包んで<param24>（<param1>W）で約加熱する。(目安: 約<param2><param3><param12>)
+<param16>と<param17>は、みじん切りにしラップで包んで<param24>（<param4>W）で約加熱する。(目安: 約<param5><param6><param13>)
+加熱した<param15>をボウルに入れてフォークで潰し、加熱した<param16>とベーコン、★の調味料を加えて混ぜ合わせた後、大さじ<param7>杯（約<param8>g）ずつすくって丸める。
+丸めた<param15>に<param22>→溶き<param18>→<param23>の順に衣を付けて<param15>コロッケのタネを作る。
+<param15>コロッケのタネを<param9>℃のサラダ油で程、(目安: 約<param10><param11><param14>)こんがりと揚げる。
