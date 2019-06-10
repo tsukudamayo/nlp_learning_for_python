@@ -5,8 +5,8 @@ import codecs
 from typing import List
 
 
-_LOG_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_conv/weekcook/ingredient'
-_DST_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_conv/weekcook/ingredient_json'
+_LOG_DIR = './weekcook/ingredient'
+_DST_DIR = './weekcook/ingredient_json'
 
 
 def parse_number_of_serve(strings: str) -> dict:

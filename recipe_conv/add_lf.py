@@ -1,8 +1,8 @@
 import os
 
 
-_LOG_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_conv/weekcook/_org'
-_DST_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_conv/weekcook/org'
+_LOG_DIR = 'weekcook/_org'
+_DST_DIR = 'weekcook/org'
 
 
 def main():

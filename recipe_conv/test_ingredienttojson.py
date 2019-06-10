@@ -4,7 +4,7 @@ from ingredienttojson import ingredient_div_to_array
 from ingredienttojson import ingredients_to_dict
 
 
-_LOG_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_conv/weekcook/ingredient'
+_LOG_DIR = './weekcook/ingredient'
 
 
 def test_ingedient_div_to_array():
