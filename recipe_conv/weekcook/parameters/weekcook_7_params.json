@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "あさり（砂抜き済み）（300g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "白ワイン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

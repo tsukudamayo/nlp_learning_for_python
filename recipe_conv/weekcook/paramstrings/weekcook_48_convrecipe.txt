@@ -1,4 +1,0 @@
-<param12>は厚さ<param1>mmに切って<param21>（<param2>W）で加熱する。(目安: 約<param3><param4><param9>)
-<param15>と<param16>を耐熱容器で混ぜ、<param21>（<param5>W）で加熱する。(目安: 約<param6><param10>)
-レンジから耐熱容器を取り出しよく混ぜる。さらに<param17>を加えてよく混ぜ、再び<param21>（<param7>W)で加熱し、(目安: 約<param8><param11>)<param18>と<param19>を振り、かき混ぜてホワイトソースを作る。
-<param13>の上にホワイトソースを塗り、その上に<param12>を並べてから<param14>をのせる。
