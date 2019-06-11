@@ -1,0 +1,102 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "40",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "220",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "25",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "ドライイースト（予備発酵不要の物）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "スキムミルク",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "ぬるま湯（約40℃）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "玉ねぎ（薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "マッシュルーム（缶詰、薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "サラミソーセージ（薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "ピーマン（薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "トマトソース（またはトマトケチャップ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "ナチュラルチーズ（ピザ用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "オーブン",
+        "type": "tool"
+    }
+]

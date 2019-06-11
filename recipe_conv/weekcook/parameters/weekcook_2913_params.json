@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "ごぼう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "三つ葉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "牛肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "1個",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "だしつゆ（3倍希釈）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "水",
+        "type": "ingredient"
+    }
+]

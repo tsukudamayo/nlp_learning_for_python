@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "170",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "180",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "万能ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "レタス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "鷹の爪",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "片栗粉",
+        "type": "ingredient"
+    }
+]

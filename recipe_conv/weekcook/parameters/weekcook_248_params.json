@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "180",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "鯖切り身",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "白ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "黒酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "鷹の爪（カット済み）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

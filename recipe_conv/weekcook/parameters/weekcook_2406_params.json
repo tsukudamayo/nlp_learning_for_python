@@ -1,0 +1,47 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "ほうれん草",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "もやし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "ピーナッツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "stillだしたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

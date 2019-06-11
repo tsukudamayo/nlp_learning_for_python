@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "あげ（小）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "乾燥わかめ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "白味噌（合わせ味噌でも可）",
+        "type": "ingredient"
+    }
+]

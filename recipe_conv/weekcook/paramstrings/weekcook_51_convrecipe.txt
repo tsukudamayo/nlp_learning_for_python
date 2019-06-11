@@ -1,0 +1,4 @@
+<param15>は洗ってザルに上げておく。
+<param16>と<param18>は<param1><param10>の立方体状に切り、<param17>はみじん切りにする。
+蓋付きの<param23>可能な容器に、洗った<param15>と<param19>、砕いた<param20>、切った<param16>と<param17>、<param21>を加えて一混ぜした後、蓋をして<param23>で約加熱する。(目安: 約<param2><param3><param11>)
+加熱後、(目安: 約<param4><param5><param12>)<param23>可能な容器の中身を、一度、掻き混ぜてから<param22>と<param18>を加えて、再度、蓋をして<param23>で約加熱した後、(目安: 約<param6><param7><param13>)そのまま約蒸らして、(目安: 約<param8><param9><param14>)お皿に盛り付けたら完成。

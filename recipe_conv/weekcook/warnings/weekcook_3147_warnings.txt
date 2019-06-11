@@ -1,0 +1,4 @@
+<param4>はさやから⚠実を取り出す。<param5>は薄切りにする。
+鍋に<param6>を溶かし、<param5>をしんなりするまで炒める。
+<param7>と<param8>、<param9>、<param4>を加えて中火で約煮る。(目安: 約<param1><param2><param3>)
+<param10>を加えて味を調えて器に注ぎ、完成。

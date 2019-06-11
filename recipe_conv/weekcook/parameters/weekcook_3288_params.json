@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "豚ばら肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "白菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "厚揚げ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "白ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "プラス糀糀甘酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "味噌",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "すり胡麻（白）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "だし汁（ほんだし使用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "おろし生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "生姜",
+        "type": "ingredient"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "絹さや",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "キャベツ（春キャベツだと尚良い）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "スライスベーコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "鶏がらスープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

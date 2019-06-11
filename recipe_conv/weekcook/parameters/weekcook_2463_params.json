@@ -1,0 +1,92 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "鶏ささみ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "日本酒（※ささみ用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "片栗粉（※ささみ用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "干し椎茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "絹ごし豆腐（小）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "筍（水煮）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "鶏がらスープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "薄口しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "片栗粉（※水溶き片栗粉用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "水（※水溶き片栗粉用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "ラー油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "酢（※黒酢でも美味しいです。）",
+        "type": "ingredient"
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "parameters": "param1",
+        "value": "500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param13",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param14",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param15",
+        "value": "鯖水煮缶",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "ベビーチーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "ぶなしめじ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "パスタ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "鷹の爪",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "水（※パスタを電子レンジで茹でる場合）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "塩（※パスタを電子レンジで茹でる場合）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "オリーブオイル（※パスタを電子レンジで茹でる場合）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param26",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

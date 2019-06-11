@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "チンゲン菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "鶏がらスープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "こしょう",
+        "type": "ingredient"
+    }
+]

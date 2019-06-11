@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "804",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "33",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "ブリ（切り身）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

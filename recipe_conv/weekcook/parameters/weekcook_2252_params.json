@@ -1,0 +1,107 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "ビーツ缶",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "トマト水煮缶（カットトマト）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "ワインビネガー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "ビーフブイヨン（固形）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "ローリエ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "牛もも肉（焼肉用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "セロリ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "ベーコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "サラダ油",
+        "type": "ingredient"
+    }
+]

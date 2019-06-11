@@ -1,0 +1,27 @@
+[
+    {
+        "parameters": "param1",
+        "value": "100",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "じゃがいも（400ｇ程度）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "明太子",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "牛乳",
+        "type": "ingredient"
+    }
+]

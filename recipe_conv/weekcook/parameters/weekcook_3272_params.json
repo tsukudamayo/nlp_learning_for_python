@@ -1,0 +1,102 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "8",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "等分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "豚肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "じゃがいも",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "甘酒（さらっとタイプ使用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "カレー粉（カレー粉の種類により加減してください。）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "味噌",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

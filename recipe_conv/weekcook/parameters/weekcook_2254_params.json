@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "紅茶",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "ドライクランベリー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "レモン汁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "グラニュー糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "りんご（1cmの輪切り）",
+        "type": "ingredient"
+    }
+]

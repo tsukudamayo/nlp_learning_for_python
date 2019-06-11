@@ -1,0 +1,47 @@
+[
+    {
+        "parameters": "param1",
+        "value": "トマト缶（400ｇ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "ツナ缶（小）（70ｇ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "ブラックオリーブ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "ローズマリー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "ローリエ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "コンソメ固形",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "水",
+        "type": "ingredient"
+    }
+]

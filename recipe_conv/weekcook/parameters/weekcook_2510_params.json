@@ -1,0 +1,142 @@
+[
+    {
+        "parameters": "param1",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "100",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param14",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param15",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param16",
+        "value": "合挽肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "ベビーチーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "新じゃがいも",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "舞茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "パプリカ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param26",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param27",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param28",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

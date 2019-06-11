@@ -1,0 +1,4 @@
+大根はすりおろす。<param3>、<param2>、<param4>は、食べやすい大きさに切る。
+鍋に<param12>、Ａの調味料、<param8>、<param2>、<param4>を入れ火にかける。きのこに火が通ったら水溶き<param5>でとろみをつける。
+<param13>に<param11>をひき、<param1>、<param3>、<param7>、Ｂの調味料を加え炒める。
+<param6>を溶き<param9>を加え<param13>焼いたら、ご飯に乗せてあんをかけて完成。

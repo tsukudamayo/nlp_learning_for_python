@@ -49,7 +49,8 @@ def test_is_param_in_parameterstrings_false():
 def test_compare_foodlist_with_parameters():
     food_list = ['玉ねぎ', '玉ねぎ', 'おろし', 'still', '赤味噌', '豆板', 'タレ', '牛ロース肉', 'タレ', '牛ロース肉', 'グリル', 'サンチュ', '焼肉', 'キムチ']
     param_strings_file = 'weekcook/paramstrings/weekcook_1_convrecipe.txt'
-    expected = ['おろし', 'タレ', '牛ロース肉', 'タレ', '牛ロース肉', '焼肉', 'キムチ']
+    expected_set = set(['おろし', 'タレ', '牛ロース肉', '焼肉', 'キムチ'])
+    expected = list(expected_set)
     result = compare_foodlist_with_parmeters(food_list, param_strings_file)
     print('result', result)
 

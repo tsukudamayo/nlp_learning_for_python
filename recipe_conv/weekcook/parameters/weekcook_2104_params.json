@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "春菊",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "ちりめんじゃこ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "胡麻油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

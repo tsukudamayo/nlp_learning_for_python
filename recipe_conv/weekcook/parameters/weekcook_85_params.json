@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "さんま（三枚おろし済）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "水菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "みょうが",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "大葉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "万能ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

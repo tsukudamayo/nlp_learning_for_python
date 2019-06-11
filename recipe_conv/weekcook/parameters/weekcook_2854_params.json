@@ -1,0 +1,122 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1400",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "15",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "106",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "9",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "13",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param14",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param15",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param16",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "アスパラ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "パプリカ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param24",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "8",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "249",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "冷ごはん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "ミートソース",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "チーズ（ピザ用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "パン粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "エリンギ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "しめじ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "白ワイン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "オレガノ（乾燥）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "胡椒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "オーブン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param22",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

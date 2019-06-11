@@ -1,0 +1,57 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "コーン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "ハム",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "胡椒",
+        "type": "ingredient"
+    }
+]

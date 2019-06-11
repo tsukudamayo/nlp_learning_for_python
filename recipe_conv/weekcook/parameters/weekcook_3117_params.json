@@ -1,0 +1,67 @@
+[
+    {
+        "parameters": "param1",
+        "value": "４",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "春キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "新玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "味噌",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "鶏がらスープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "水",
+        "type": "ingredient"
+    }
+]

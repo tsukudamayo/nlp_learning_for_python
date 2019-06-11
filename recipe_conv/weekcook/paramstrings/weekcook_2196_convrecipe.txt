@@ -1,0 +1,4 @@
+<param3>と<param4>は千切りに、<param5>は長さ<param1><param2>に切る。
+鍋に<param7>と<param4>、<param3>を入れてから火にかける。沸騰してきたら<param5>を加えた後、<param8>で味を付ける。
+溶き<param6>を上から流し入れて、<param9>と<param10>で味を調えたら火を止める。
+野菜と<param6>のスープをスープカップによそい分けたら完成。

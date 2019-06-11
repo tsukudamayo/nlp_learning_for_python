@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "6",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "9",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "パスタ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "スライスベーコン（120ｇ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "トマト缶",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "鷹の爪",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

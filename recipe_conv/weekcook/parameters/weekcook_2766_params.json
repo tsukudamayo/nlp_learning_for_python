@@ -1,0 +1,27 @@
+[
+    {
+        "parameters": "param1",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "天然ばちまぐろ切落し",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "水菜（100g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "味の素「Ｔｏｓｓ　Ｓａｌａ」イタリアン・バジル味",
+        "type": "ingredient"
+    }
+]

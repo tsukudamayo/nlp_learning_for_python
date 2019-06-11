@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "生鮭",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "白菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "水菜（春菊や白ねぎ等でも可）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "ぶなしめじ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "絹ごし豆腐",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "薄口しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "白味噌",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "豆乳",
+        "type": "ingredient"
+    }
+]

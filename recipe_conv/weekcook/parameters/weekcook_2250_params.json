@@ -1,0 +1,27 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "白菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "ベーコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "しょう油",
+        "type": "ingredient"
+    }
+]

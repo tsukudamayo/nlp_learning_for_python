@@ -1,0 +1,52 @@
+[
+    {
+        "parameters": "param1",
+        "value": "豚ロース（ステーキ用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "ベビーリーフ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

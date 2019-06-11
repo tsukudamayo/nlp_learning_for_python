@@ -1,0 +1,92 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "ごはん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "小エビ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "玉ねぎ（小サイズ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "ピーマン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "コンソメ固形",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "牛乳",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

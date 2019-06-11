@@ -1,0 +1,112 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "２３０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "１５",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "２０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "プレーンヨーグルト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "絹ごし豆腐（小）（130～150g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "ミートソース（290g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "ナス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "カッテージチーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "粉チーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "オーブン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param22",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

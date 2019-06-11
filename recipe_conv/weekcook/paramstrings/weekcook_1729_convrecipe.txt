@@ -1,0 +1,6 @@
+<param8>は<param1><param6>角に切る。
+<param12>と<param11>、<param10>はみじん切りにする。
+鍋に<param17>大さじ<param2>を加えて火にかけ、<param11>と<param12>、<param13>を炒める。
+鍋に<param9>を加えて炒めてから<param14>で味付けした後、更に<param8>と<param20>、<param18>、<param16>、<param15>を加えて約煮る。(目安: 約<param3><param4><param7>)
+<param8>が柔らかくなったら<param20>溶き<param19>でとろみをつけてから、<param17>大さじ<param5>と<param10>を加えて火を止める。
+麻婆<param8>を器に盛り付け完成。

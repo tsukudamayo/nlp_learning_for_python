@@ -1,0 +1,97 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "等分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "%",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "セロリ（※先端部分20cm）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "ブロッコリー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "エリンギ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "胡麻油（※ソテー用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "胡麻油（※香味ソース用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "おろし生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

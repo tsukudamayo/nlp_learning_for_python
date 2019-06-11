@@ -1,0 +1,52 @@
+[
+    {
+        "parameters": "param1",
+        "value": "180",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "レタス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "にんにく（※すりおろす）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "生姜（※すりおろして生姜汁を作る）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "片栗粉",
+        "type": "ingredient"
+    }
+]

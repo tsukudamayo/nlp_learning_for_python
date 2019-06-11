@@ -1,0 +1,112 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "大根",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "豚ひき肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "白ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "豆板醤",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "甜麺醤",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "胡麻油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "鶏がらスープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "水",
+        "type": "ingredient"
+    }
+]

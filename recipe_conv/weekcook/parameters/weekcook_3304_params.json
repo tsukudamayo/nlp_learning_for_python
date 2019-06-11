@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "ホットケーキミックス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "牛乳",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "りんご（100g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "レーズン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "レモン汁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param14",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

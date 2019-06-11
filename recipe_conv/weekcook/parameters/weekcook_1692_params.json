@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "１７０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "１８０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "おろし生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "片栗粉",
+        "type": "ingredient"
+    }
+]

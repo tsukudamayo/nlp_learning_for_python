@@ -1,0 +1,47 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "170",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "鶏もも挽肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "卵（小さめのものを調整して入れてください）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "柚子こしょう",
+        "type": "ingredient"
+    }
+]

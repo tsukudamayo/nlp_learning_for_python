@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "豚ばら肉（焼肉用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "新玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "ピーマン（※彩りに「赤ピーマン」を使っても良い）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "オイスターソース",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "ブラックペッパー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

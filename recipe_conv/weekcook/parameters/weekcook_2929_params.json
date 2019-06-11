@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "えのき茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "乾燥わかめ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "合わせ味噌（白味噌でも可）",
+        "type": "ingredient"
+    }
+]

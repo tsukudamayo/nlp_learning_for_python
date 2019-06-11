@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "３",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "４",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "豚ひき肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "キムチ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "餅粉入り餃子の皮",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "ホワイトセロリ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "胡麻油",
+        "type": "ingredient"
+    }
+]

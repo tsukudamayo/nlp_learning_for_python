@@ -1,0 +1,77 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "コーン缶（粒）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "ご飯",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "オクラ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "ひきわり納豆（40g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "長芋",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "紫かぶ",
+        "type": "ingredient"
+    }
+]

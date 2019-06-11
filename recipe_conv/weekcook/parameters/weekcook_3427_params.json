@@ -1,0 +1,87 @@
+[
+    {
+        "parameters": "param1",
+        "value": "300",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "210",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "300",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "ごはん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "ツナ缶",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "トマト水煮缶（カットトマト）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "あさり（砂抜き済み）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "シーフードミックス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "カレー粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "白ワイン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "顆粒スープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

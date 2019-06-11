@@ -1,0 +1,117 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "0",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "0",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param14",
+        "value": "鶏むね肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "おろし生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "もやし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "豆苗",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "パプリカ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "ポン酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "胡麻油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

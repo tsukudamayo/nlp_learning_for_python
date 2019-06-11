@@ -1,0 +1,112 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "レンコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "黒酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "オーブントースター",
+        "type": "tool"
+    },
+    {
+        "parameters": "param22",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

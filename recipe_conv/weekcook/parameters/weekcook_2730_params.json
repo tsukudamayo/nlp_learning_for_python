@@ -1,0 +1,112 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "合挽肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "鷹の爪",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "レタス（※１〜２枚程度）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "ベビーチーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "ごはん（※茶碗１杯分程度）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

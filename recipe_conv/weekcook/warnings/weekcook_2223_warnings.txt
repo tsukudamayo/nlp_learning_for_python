@@ -1,0 +1,3 @@
+⚠鶏もも肉はひと口大に切り、⚠塩、⚠こしょうで下味をつけ、<param11>をのせておく。<param12>は薄切りにする。
+<param14>に⚠鶏肉の⚠皮目を上にしておき、<param11>をのせ、強火で焼く。(目安: 約<param1><param2><param7>)<param11>が焦げてきたら、外しておく。
+次に、<param13>、<param12>を入れ、<param13>は、(目安: 約<param3><param4><param8>)<param12>は強火で焼く。(目安: 約<param5><param6><param9>)

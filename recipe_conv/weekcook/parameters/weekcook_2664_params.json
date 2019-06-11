@@ -1,0 +1,87 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "28",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "40",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "モロヘイヤ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "えのき茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "絹ごし豆腐",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "1/2丁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "麺つゆ（3倍濃縮タイプ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "おろし生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

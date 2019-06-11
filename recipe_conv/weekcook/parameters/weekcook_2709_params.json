@@ -1,0 +1,37 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "うどん（※うどんは生めんでも冷凍でもお好きな方をお使いください。）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "白だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "あげの含め煮",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "刻みねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

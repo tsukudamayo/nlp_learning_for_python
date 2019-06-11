@@ -1,0 +1,7 @@
+<param11>と<param12>はいちょう切りして、<param13>はささがきにする。
+<param11>、<param12>、<param13>はさっと水に潜らせてから、水<param1>mlで蒸し煮にして沸騰してから約加熱し、(目安: 約<param2><param3><param8>)ざるにあける。
+<param14>は、<param21><param4>Wで加熱してから皮を剥く。(目安: 約<param5><param6><param9>)
+<param15>は熱湯をかけて油切りをしてから、<param7><param10>幅に刻む。
+<param16>は、輪切りにする。
+鍋に、<param17>汁、<param11>、<param12>、<param13>を入れて蓋をしてから火にかけて、煮たってきたら、<param14>と<param15>を加える。
+再び煮立ってきたら、<param18>、<param19>、<param20>で味を調えて器に盛り、輪切りにした<param16>を載せたら完成。

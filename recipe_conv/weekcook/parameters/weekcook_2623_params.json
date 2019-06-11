@@ -1,0 +1,97 @@
+[
+    {
+        "parameters": "param1",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "8",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "12",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "ヨーグルト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "にんにく（すりおろす）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "生姜（すりおろす）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "チリペッパー（なければカレー粉を少し多め）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "カレー粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param19",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

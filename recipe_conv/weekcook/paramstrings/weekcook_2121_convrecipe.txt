@@ -1,0 +1,5 @@
+<param13>は<param1>gと<param2>gの<param3><param11>割にしてから、<param4>g分は<param5><param10>角に切り、<param6>g分は擦りおろす。
+<param14>は熱湯で茹でて火を通してから水気を切る。
+擦りおろした<param13>に★の卵と調味料を加えてから混ぜ合わせた、<param13>ソースを作る。
+耐熱皿に角切りの<param13>と<param14>を入れ、上から<param13>ソースをかける。
+<param20>（又は約<param7>℃の<param21>）で約焼いて、(目安: 約<param8><param9><param12>)焼き色がついたら完成。

@@ -1,0 +1,107 @@
+[
+    {
+        "parameters": "param1",
+        "value": "904",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "牛モモ肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "マスタード",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "スライスベーコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "バジル（葉）（青じそでも可）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "ピーマン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "プロセスチーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "ウスターソース",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "ワサビ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "レモン汁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "おろし生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

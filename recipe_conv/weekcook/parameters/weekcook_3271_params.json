@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "水切りヨーグルト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "はちみつ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "いちじく（ドライ）（40～50g）",
+        "type": "ingredient"
+    }
+]

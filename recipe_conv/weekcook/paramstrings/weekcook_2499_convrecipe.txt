@@ -1,0 +1,6 @@
+<param14>は櫛切り、<param15>は細切り、<param16>は石突きを切り取ってから<param1>つに切る。
+<param13>は<param18>分をペーパータオルで拭き取る。
+<param25>を火にかけ<param17>大さじ<param2>を加えてから、<param13>を片面約ずつ焼いて取り出す。(目安: 約<param3><param4><param10>)
+<param25>を綺麗にし、ニンニクと<param17>大さじ<param5>を加え香りが出たら<param14>と<param15>、<param16>を加えて炒める。
+野菜がしんなりしたら、★の<param18>と★の調味料を加えて約煮詰める。(目安: 約<param6><param7><param11>)その後<param13>を戻し入れ約煮込み火を止める。(目安: 約<param8><param9><param12>)
+<param13>と野菜のトマト煮を器に盛り付けて、<param24>を載せたら完成。

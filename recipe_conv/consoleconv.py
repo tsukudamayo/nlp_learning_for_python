@@ -22,6 +22,7 @@ _COOK_WARE = ['オーブントースター', 'オーブン', 'トースター', 
 _UNIT = ['cm', '分', '%', '等', 'w']
 _PARAMSTR_DIR = 'weekcook/paramstrings'
 _PARAMS_DIR = 'weekcook/parameters'
+_ORG_DIR = 'weekcook/org'
 
 class Color:
     BLACK     = '\033[30m'
@@ -741,18 +742,98 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     return converted_tool, associative_array
 
 
-def main():
+def run_all():
+    # ------------------
+    # convert all files
+    # ------------------
+    orgfile_list = os.listdir(_ORG_DIR)
+    for f in orgfile_list:
+        fname, ext = os.path.splitext(f)
+        split_fname_array = fname.split('_')
+        number = int(split_fname_array[1])  # 00000001 -> 1
+        zeropadding_number = '{0:08d}'.format(number)
+
+        org_file = os.path.join(_ORG_DIR, f)
+        org_lines = text_to_strings(org_file)
+
+        json_filepath = 'weekcook/ingredient_json/weekcook_' + zeropadding_number + '.json'
+        with open(json_filepath, 'r', encoding='utf-8') as j:
+            ingredient_dict = json.load(j)
+
+        # ############### convert by json ################
+        for idx, k in enumerate(ingredient_dict.keys()):
+            if k == '材料':
+                continue
+            convert_food = org_lines.replace(k, 'param' + str(idx))
+
+        # ############### convert num to param ################
+        num_param_dict = convert_num_to_param(org_lines)
+
+        # ############### convert num to param ################
+        num_param_dict = convert_num_to_param(org_lines)
+
+        # ############### convert num to 70% ################
+        per70_param_dict = define_num_param_70percent(num_param_dict)
+
+        # ############### convert tool to param ################
+        tool_param_dict = convert_tool_to_param(org_lines)
+
+        # ############### convert unit to param ################
+        wakachi_file = 'weekcook/procedure_3/weekcook_' + zeropadding_number + '_proc3.txt'
+        wakachi_string = text_to_strings(wakachi_file)
+        unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
+
+        # ############### convert ingredient to param ################
+        ingredient_param_dict = {'ingredient' + str(idx): v
+                                 for idx, v in enumerate(ingredient_dict.keys())
+                                 if v != '材料'}
+
+        # ############### replace time words ################
+        convert_strings = convert_cooking_time_wakachi(wakachi_string)
+        preordering_wakachi_array = preordering_for_cooking_time_wakachi(
+            wakachi_file,
+            convert_strings,
+        )
+
+        # ############### convert reciepe ################
+        converted_recipe, associative_array = convert_recipe_parameter(
+            preordering_wakachi_array,
+            ingredient_param_dict,
+            num_param_dict,
+            unit_param_dict,
+            tool_param_dict,
+        )
+
+        # ############### output params and recipe ################
+        converted_recipe_path = 'weekcook/paramstrings/weekcook_' + str(number) + '_convrecipe.txt'
+        with open(converted_recipe_path, 'w', encoding='utf-8') as w:
+            w.write(converted_recipe)
+        param_json_path = 'weekcook/parameters/weekcook_' + str(number) + '_params.json'
+        with open(param_json_path, 'w', encoding='utf-8') as w:
+            json.dump(associative_array, w, ensure_ascii=False, indent=4)
+
+
+def run_once(org_file: str):
+    # ----------------------
+    # convert selected file
+    # ----------------------
     # print(Color.GREEN + 'Green' + Color.END)
     # print(Color.RED + 'RED' + Color.RED)
     print()
-    org_file = 'weekcook/org/weekcook_00000010.txt'
+    # org_file = 'weekcook/org/weekcook_00000010.txt'
     org_lines = text_to_strings(org_file)
     print('original text')
     print(org_lines)
     print()
 
+    bname = os.path.basename(org_file)
+    fname, ext = os.path.splitext(bname)
+    split_fname_array = fname.split('_')
+    number = int(split_fname_array[1])  # 00000001 -> 1
+    zeropadding_number = '{0:08d}'.format(number)
+
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_00000010.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_' + zeropadding_number +'.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -781,7 +862,7 @@ def main():
     print(tool_param_dict)
 
     print('################ convert unit to param ################')
-    wakachi_file = 'weekcook/procedure_3/weekcook_00000010_proc3.txt'
+    wakachi_file = 'weekcook/procedure_3/weekcook_' + zeropadding_number + '_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
     print(unit_param_dict)
@@ -809,12 +890,17 @@ def main():
     )
 
     print('################ output params and recipe ################')
-    converted_recipe_path = 'weekcook/paramstrings/weekcook_10_convrecipe.txt'
+    converted_recipe_path = 'weekcook/paramstrings/weekcook_' + str(number) + '_convrecipe.txt'
     with open(converted_recipe_path, 'w', encoding='utf-8') as w:
         w.write(converted_recipe)
-    param_json_path = 'weekcook/parameters/weekcook_10_params.json'
+    param_json_path = 'weekcook/parameters/weekcook_' + str(number) + '_params.json'
     with open(param_json_path, 'w', encoding='utf-8') as w:
         json.dump(associative_array, w, ensure_ascii=False, indent=4)
+
+
+def main():
+    run_all()
+    # run_once('weekcook/org/weekcook_00000010.txt')
 
 
 if __name__ == '__main__':

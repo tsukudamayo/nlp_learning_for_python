@@ -1,0 +1,107 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1400",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "40",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "271",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "25",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "ドライイースト（予備発酵不要の物）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "スキムミルク",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "ぬるま湯（約40℃）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "玉ねぎ（薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "マッシュルーム（缶詰、薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "サラミソーセージ（薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "ピーマン（薄切り）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "トマトソース（またはトマトケチャップ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "ナチュラルチーズ（ピザ用）",
+        "type": "ingredient"
+    }
+]

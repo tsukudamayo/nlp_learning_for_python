@@ -1,0 +1,5 @@
+<param1>を炊いておく。
+<param3>はみじん切りに、<param4>はざく切りにする。<param2>は割りほぐしておく。
+<param10>で<param8>を温めた後、<param2>を炒めて炒り<param2>になったら取り出す。
+<param10>に<param9>を注いで<param3>を炒めた後、<param1>を加えてほぐしながら炒め、そこに<param4>と<param5>、<param6>、<param7>を加えてから混ぜ合わせる。
+先に作っておいた炒り<param2>を<param10>に加えて混ぜながら炒め、出来上がった<param4>炒飯を器に盛り付けたら完成。

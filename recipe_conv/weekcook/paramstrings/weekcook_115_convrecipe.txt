@@ -1,0 +1,6 @@
+<param11>は黄色い部分を取り除いてから、食べ易い大きさに切る。
+<param11>に<param15>と<param16>を振ってから、ハーブと一緒に容器に入れておく（くらい）。(目安: 約<param1><param2><param8>)
+<param12>は皮付きのまま、<param22>（<param3>W）で<param4><param9>間加熱してから、<param5>つに切って<param15>を振る。
+<param20>皿（<param21>でも可）にアルミ箔を広げ、ハーブが付いたままの<param11>と<param12>をのせ、上から<param19>をかけて絡めてから、皮付きの<param18>と一緒に間焼く。(目安: 約<param6><param7><param10>)
+<param13>は茹でて半分に切っておく。
+焼き上がった<param11>と<param12>を器に盛り付け、<param14>と茹でた<param13>を添えたら完成。

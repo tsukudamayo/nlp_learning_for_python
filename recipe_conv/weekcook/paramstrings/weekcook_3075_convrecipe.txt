@@ -1,0 +1,4 @@
+<param19><param1>枚は<param2>mm幅に切る、<param18><param3>株は石づきを取り<param4><param16>に切る。
+別のボウルに<param17><param5>と<param6>/<param7>個、<param20>少々、<param21>少々、<param22>大さじ、<param8><param23>小さじ<param9>を加えしっかりと混ぜる。
+<param25>に<param24>大さじ<param10>/<param11>を広げ、中火で熱しベーコンと<param18>を炒める。炒めたら<param17>液に戻し入れる。
+再び<param24>大さじ<param12>/<param13>を広げ<param17>液を流し、大きく一混ぜしたら弱火にして蓋をする。表面が固まりかけたら、ひっくり返してほど焼き火を止めて完成。(目安: 約<param14><param15>秒)

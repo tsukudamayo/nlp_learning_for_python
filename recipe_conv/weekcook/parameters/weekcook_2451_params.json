@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "静岡太平洋きはだまぐろ刺身",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "モッツァレラチーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "きゅうり",
+        "type": "ingredient"
+    }
+]

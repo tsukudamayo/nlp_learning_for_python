@@ -1,0 +1,17 @@
+[
+    {
+        "parameters": "param1",
+        "value": "甘酒（さらっとタイプ使用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "きな粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "ココア",
+        "type": "ingredient"
+    }
+]

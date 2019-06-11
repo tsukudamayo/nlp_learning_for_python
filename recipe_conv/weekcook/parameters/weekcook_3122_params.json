@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "米",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "スモークサーモン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "大葉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "塩",
+        "type": "ingredient"
+    }
+]

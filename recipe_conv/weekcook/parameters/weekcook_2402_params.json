@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "あさり（砂抜き済み）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "白だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "日本酒",
+        "type": "ingredient"
+    }
+]

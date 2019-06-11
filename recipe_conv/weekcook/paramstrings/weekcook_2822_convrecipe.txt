@@ -1,0 +1,4 @@
+<param9>は<param1><param6>角程度のざく切りにする。
+<param10>は石づきを切り落とし、ほぐす。
+<param9>と<param10>を<param13>対応の容器に入れてラップをし、<param13>（<param2>W）で1～1.<param3><param7>間加熱する。
+<param11>と<param12>を<param9>と<param10>に加えて混ぜ合わせ、ほどなじませてから器に盛り付けたら完成。(目安: 約<param4><param5><param8>)

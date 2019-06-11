@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "レタス（※2枚程度）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "スライスベーコン（ハーフ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

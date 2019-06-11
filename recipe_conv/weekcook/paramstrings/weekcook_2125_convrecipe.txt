@@ -1,0 +1,5 @@
+<param9>は<param1><param7>幅に切ってから、★の調味料を、<param10>→<param11>→<param12>→<param13>→<param14>の順で揉み込んでおく。
+<param15>は食べ易い大きさに切り、<param16>は長さ<param2><param8>に切り、<param17>は斜め半分に切る。
+<param18>に<param13>大さじ<param3>を注いで熱し、肉を入れて約動かさずに焼いてから裏返して、(目安: 約<param4><param5>秒)色が変わったら取り出す。
+肉を取り出した後の<param18>に<param13>大さじ<param6>を足して、<param16>、ヤングコーン、<param15>の順に入れて炒めたら、肉を戻し入れ、<param11>と<param12>で味を調える。
+牛肉と<param15>のスタミナ炒めをお皿に盛り付けて完成。

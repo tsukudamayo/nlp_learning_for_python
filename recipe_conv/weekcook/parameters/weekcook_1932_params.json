@@ -1,0 +1,57 @@
+[
+    {
+        "parameters": "param1",
+        "value": "12",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "150",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "170",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "あなご（代替食材：キス、イワシ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "大葉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "梅干し",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "薄力粉（薄力粉と卵+水＝同量にするとよい）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "水",
+        "type": "ingredient"
+    }
+]

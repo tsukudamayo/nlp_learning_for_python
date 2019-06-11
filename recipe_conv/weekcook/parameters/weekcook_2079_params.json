@@ -1,0 +1,47 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "壬生菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "白ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "豚ばら肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "キムチ（お好みで量を調整して下さい。）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "中華だし（顆粒）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

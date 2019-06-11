@@ -1,0 +1,57 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "等分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "アメリカ産豚焼肉・生姜焼用（ロース肉）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "舞茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "ごはん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

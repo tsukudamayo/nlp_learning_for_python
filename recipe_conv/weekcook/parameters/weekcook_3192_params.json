@@ -1,0 +1,62 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "75",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "15",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "ハム",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "胡麻油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "ポン酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

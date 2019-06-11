@@ -1,0 +1,57 @@
+[
+    {
+        "parameters": "param1",
+        "value": "豚肉（とんかつ用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "プレーンヨーグルト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "塩麹",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "しめじ（付け合わせ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "パプリカ（付け合わせ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "塩麹（付け合わせ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "オリーブオイル（付け合わせ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param11",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

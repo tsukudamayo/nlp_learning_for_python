@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "木綿豆腐",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "かつお節",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "しょう油",
+        "type": "ingredient"
+    }
+]

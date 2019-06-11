@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "クラゲ（塩抜き済み）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "きゅうり",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "辛子",
+        "type": "ingredient"
+    }
+]

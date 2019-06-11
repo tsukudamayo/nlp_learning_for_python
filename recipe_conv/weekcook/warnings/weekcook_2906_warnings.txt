@@ -1,0 +1,4 @@
+<param11>は長さ<param1><param7>に切り、<param18>で約加熱する。(目安: 約<param2><param3><param8>)
+<param12>は一口大に切り、⚠熱湯に入れて約茹でる。(目安: 約<param4><param9>)
+鍋に<param13>と★の⚠調味料を入れてから<param12>を加え、強火にかけて沸騰したら中火にして約煮る。(目安: 約<param5><param6><param10>)
+鍋に<param11>を加え、<param11>に<param13>がしみたら火を止めて、器に盛り付けたら完成。

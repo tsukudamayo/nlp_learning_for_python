@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "鯖の味噌煮缶詰",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "ズッキーニ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "トマト水煮缶",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "白ワイン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

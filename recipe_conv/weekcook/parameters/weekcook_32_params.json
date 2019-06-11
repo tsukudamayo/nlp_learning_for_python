@@ -1,0 +1,52 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "バゲット",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "チーズ（ピザ用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "コンソメ固形",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "ブラックペッパー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "オーブントースター",
+        "type": "tool"
+    }
+]

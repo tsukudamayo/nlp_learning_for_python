@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "ごぼう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "一味唐辛子",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

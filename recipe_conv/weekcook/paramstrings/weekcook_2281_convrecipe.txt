@@ -1,0 +1,4 @@
+<param4>と<param5>、<param6>、<param7>、<param8>、<param9>は全て<param1><param3>角に切る。
+鍋に<param11><param2>gを入れて火にかけ、<param9>と<param4>を炒めて、<param4>がしんなりしたら<param5>と<param6>、<param7>、<param8>を加えて軽く炒める。
+鍋に<param14>と<param12>、<param10>、<param13>を加えて煮込み、具材が煮えたら<param13>を取り出し、塩と<param15>で味を調えてから残りの<param11>を加えてさっと煮込んで火を止める。
+ミネストローネを器に注ぎ分けてから<param16>を散らしたら完成。

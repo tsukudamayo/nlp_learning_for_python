@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "クラッカー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "クリームチーズ",
+        "type": "ingredient"
+    }
+]

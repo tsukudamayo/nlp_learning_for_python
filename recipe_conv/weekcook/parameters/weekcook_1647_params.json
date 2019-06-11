@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "白身魚（切り身）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "あさり（砂抜き済み）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "熱湯",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "白ワイン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "パセリ（※乾燥パセリでもよい）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

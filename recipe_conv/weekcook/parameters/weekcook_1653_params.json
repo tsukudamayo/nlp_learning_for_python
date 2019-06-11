@@ -1,0 +1,17 @@
+[
+    {
+        "parameters": "param1",
+        "value": "金時豆水煮缶（500g程度）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "塩",
+        "type": "ingredient"
+    }
+]

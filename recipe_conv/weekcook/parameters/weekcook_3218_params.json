@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "レンコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "赤唐辛子",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

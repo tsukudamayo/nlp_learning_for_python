@@ -49,7 +49,11 @@ def compare_foodlist_with_parmeters(food_list: list, param_strings_file: str) ->
     food_black_list = [is_param_in_parameterstrings(f, strings) for f in food_list
                        if is_param_in_parameterstrings(f, strings)]
 
-    return food_black_list
+    food_black_set = set(food_black_list)
+    duplicate_food_black_list = list(food_black_set)
+    print('duplicate_food_black_list', duplicate_food_black_list)
+
+    return duplicate_food_black_list
 
 
 def main():

@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "50",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "さば味噌煮缶",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "白ワイン（※酒50ml＋酢小さじ1/2で代用可）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

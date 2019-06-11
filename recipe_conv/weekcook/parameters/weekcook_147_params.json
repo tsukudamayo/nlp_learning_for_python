@@ -1,0 +1,52 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "かぼちゃ（1/4個）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "レーズン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "ブラックペッパー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

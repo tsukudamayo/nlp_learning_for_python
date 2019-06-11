@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "8",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "ブリ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "カレー粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "ブロッコリー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "コーン缶（粒）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param15",
+        "value": "グリル",
+        "type": "tool"
+    },
+    {
+        "parameters": "param16",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

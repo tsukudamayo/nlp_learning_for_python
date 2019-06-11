@@ -1,0 +1,5 @@
+<param7>をすりおろし、<param14>はみじん切りにする。
+<param8>、<param9>は一口大に切り、肉に塩、こしょう（分量外）を軽く振る。
+鍋を温め、<param10>を加えてみじん切りにした<param14>と鶏肉を炒める。
+鍋に<param11>、たまねぎ、<param12>、<param8>を加えて煮込み、(目安: 約<param1><param2><param5>)時々灰汁を取る。
+<param15>と<param13>を加えて煮込み、(目安: 約<param3><param4><param6>)<param17>と<param16>を添えて完成。

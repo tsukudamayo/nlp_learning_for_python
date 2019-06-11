@@ -1,0 +1,37 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "さやいんげん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "いり胡麻",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

@@ -1,0 +1,4 @@
+<param16>は<param1><param9>幅に切り、茎と葉にわけておく。<param15>は皮をむき、厚さ<param2>.<param3><param10>のいちょう切りにする。<param18>は、石づきをとってほぐし、<param17>は幅<param4><param11>の小口切りにする。
+<param14>は一口大に切る。
+鍋に<param15>と鶏肉、<param19>、<param22>を入れて、火にかける。煮立ったらアクを取る。弱火で煮込み、(目安: 約<param5><param6><param12>)<param16>の茎と<param17>、<param18>を加えて更に約煮て<param16>の葉を加え、(目安: 約<param7><param8><param13>)<param20>と<param21>で味を調えて火を止める。
+鶏肉と<param15>のスープを器に盛り付け完成。

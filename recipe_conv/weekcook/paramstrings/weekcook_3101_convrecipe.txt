@@ -1,0 +1,4 @@
+<param7>は<param1>mm厚さの半月切りにする。
+耐熱容器に<param7>を入れて水大さじ<param2>/<param3>をふり、ラップして<param10>（<param4>W）で半加熱する。(目安: 約<param5><param6>)
+<param9>に<param8>を少量ずつ加えて混ぜ合わせ、ソースをつくる。
+<param7>を盛り付けてソースをかけてできあがり。

@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "12",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param8",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

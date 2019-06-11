@@ -1,0 +1,97 @@
+[
+    {
+        "parameters": "param1",
+        "value": "0",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "%",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "大根",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "小松菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "胡麻油",
+        "type": "ingredient"
+    }
+]

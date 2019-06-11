@@ -1,0 +1,27 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "かぼちゃ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "あげ（小）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "白味噌（合わせ味噌でも可）",
+        "type": "ingredient"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "じゃがいも",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "ザーサイ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "胡麻",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

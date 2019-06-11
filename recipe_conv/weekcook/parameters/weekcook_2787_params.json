@@ -1,0 +1,152 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param14",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "豚ミンチ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "味噌（※淡色味噌に赤味噌を少しブレンドするとコクが出ておいしい）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "パスタ（※80～100g（1.6mm以上の太めのものがオススメ））",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "えのき",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param26",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param27",
+        "value": "ケチャップ（※味噌の種類によって味が変わるので、味見しながら加減する）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param28",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param29",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param30",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

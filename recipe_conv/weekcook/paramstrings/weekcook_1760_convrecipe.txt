@@ -1,0 +1,5 @@
+<param11>は、約、(目安: 約<param1><param2><param7>)<param15>に浸けて戻してから、食べ易い長さに切る。
+<param13>は千切りに、<param12>は<param3><param10>幅に切る。
+鍋に<param11>とさつまあげ、<param13>、★の<param15>と<param16>を入れて、約、(目安: 約<param4><param5><param8>)火にかける。
+<param14>は洗ってから筋を取り、斜めに切って鍋に加え、蓋をして、約、(目安: 約<param6><param9>)蒸らしてから火を止める。
+<param11>と<param12>の煮物を器に盛り付けたら完成。

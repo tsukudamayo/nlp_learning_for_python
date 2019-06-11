@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1400",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "25",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "129",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "19",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "28",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "6",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "牛肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "じゃがいも",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "カレールー（パッケージに表示されてる5~6皿分）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "ココア",
+        "type": "ingredient"
+    }
+]

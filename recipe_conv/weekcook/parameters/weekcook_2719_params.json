@@ -1,0 +1,47 @@
+[
+    {
+        "parameters": "param1",
+        "value": "２００",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "14",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "２０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "かつお節",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "昆布",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "薄口しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "大葉",
+        "type": "ingredient"
+    }
+]

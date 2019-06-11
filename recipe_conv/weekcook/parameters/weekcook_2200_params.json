@@ -1,0 +1,177 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "３",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "３",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "４",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param13",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param14",
+        "value": "５",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param15",
+        "value": "8",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param16",
+        "value": "12",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param17",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param18",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param19",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param20",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param21",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param22",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param23",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "ズッキーニ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "パプリカ赤",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param26",
+        "value": "ナス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param27",
+        "value": "レモングラス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param28",
+        "value": "ライム",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param29",
+        "value": "牛乳",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param30",
+        "value": "ココナツミルク",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param31",
+        "value": "グラニュー糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param32",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param33",
+        "value": "ナンプラー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param34",
+        "value": "グリーンカレーペースト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param35",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

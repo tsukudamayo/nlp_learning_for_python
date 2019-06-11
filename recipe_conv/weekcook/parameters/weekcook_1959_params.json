@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "かます",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param4",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

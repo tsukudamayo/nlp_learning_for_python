@@ -1,0 +1,3 @@
+<param5>は<param1><param3>に切り、<param6>と<param7>は短冊切りに、<param8>は長さ<param2><param4>に切る。
+<param16>を火にかけ、<param10>を注ぎ入れて温めたら、⚠⚠豚肉を加えて炒め、⚠⚠豚肉の色が変わったら<param8>以外の⚠野菜と<param9>、及び<param11>を加えて蓋をする。
+<param11>分が無くなってきたら<param9>をほぐして⚠全体を混ぜ合わせ、<param8>を加えてから、<param12>と<param13>、<param14>、<param15>で味付けをして味を確認してから火を止め、器に盛り付けたら完成。

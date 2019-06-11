@@ -1,0 +1,57 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "えのき茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "梅干し（ねり梅でも可）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "0",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "みかん（果汁350mlを作る）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "粉寒天",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "砂糖",
+        "type": "ingredient"
+    }
+]

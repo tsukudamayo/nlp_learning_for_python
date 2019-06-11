@@ -1,0 +1,4 @@
+<param9>は<param1><param6>角程度のざく切りにする。
+<param10>は⚠石づきをとってほぐす。
+<param9>と<param10>を耐熱容器に入れてラップし、<param13>（<param2>W）で<param3><param7>間加熱する。
+<param11>と<param12>を<param9>と⚠しめじに加えて混ぜ合わせ、ほどなじませる。(目安: 約<param4><param5><param8>)器に盛り付け完成。

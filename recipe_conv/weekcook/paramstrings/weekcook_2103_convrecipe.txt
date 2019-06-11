@@ -1,0 +1,5 @@
+<param4>はざく切りにする。
+<param3>は筋を取る。
+<param5>は<param1><param2>幅に切る。
+<param10>を強火で温めて<param6>をひき、ベーコンを炒める。
+キャベツと<param3>を加えて、<param7>と<param8>、<param9>で味を整えて完成。

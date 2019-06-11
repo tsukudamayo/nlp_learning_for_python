@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "かつお",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "豆板醤",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "卵黄",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "青ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "焼き海苔",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "中華麺",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

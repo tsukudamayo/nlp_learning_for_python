@@ -1,0 +1,4 @@
+<param6>は洗ってから水気を切り、<param4>は千切り、<param3>は長さ<param1><param2>に切る。
+<param5>は半分に切ってから細切りにする。
+<param12>に<param10>を注いで火にかけ、<param3>、<param4>、<param6>、<param5>を加えて炒める。<param8>と<param9>を振り、<param7>と<param11>で味を調えたら火を止める。
+<param3>と<param4>と<param5>の炒め物を器に盛り付け完成。

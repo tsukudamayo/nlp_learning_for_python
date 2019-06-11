@@ -1,0 +1,4 @@
+<param4>は斜め切りにする。<param2>と<param3>は石づきを取りほぐす。<param7>は薄切りにする。
+<param10>に<param5>と<param7>を入れて火にかける。十分温まったら、<param1>を入れてほぐす。
+<param1>がだいたいほぐれたら<param4>、<param2>、<param3>を入れて炒める。
+具に火が通ったら<param8>、<param9>をふる。<param6>を加えて炒め合わせ、器に盛り付け完成。

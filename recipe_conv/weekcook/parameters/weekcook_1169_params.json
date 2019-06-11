@@ -1,0 +1,27 @@
+[
+    {
+        "parameters": "param1",
+        "value": "あげ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "絹さや",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "白味噌（合わせ味噌でも可）",
+        "type": "ingredient"
+    }
+]

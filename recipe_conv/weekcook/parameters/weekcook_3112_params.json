@@ -1,0 +1,167 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "20",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "４",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "３",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "５",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "３",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param13",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param14",
+        "value": "３",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param15",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param16",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param17",
+        "value": "米（340ｇ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "昆布（10㎝×10㎝）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "干し椎茸（3~４枚）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "人参（50ｇ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param26",
+        "value": "レンコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param27",
+        "value": "だし汁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param28",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param29",
+        "value": "ハマグリ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param30",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param31",
+        "value": "エビ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param32",
+        "value": "絹さや（30ｇ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param33",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

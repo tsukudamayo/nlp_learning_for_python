@@ -1,0 +1,122 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "12",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "米（※炊飯器で炊いてもいいですが、少しベタッとします。）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "コンソメ固形",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "ミックスベジタブル（冷凍）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "カレー粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "牛乳",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param24",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

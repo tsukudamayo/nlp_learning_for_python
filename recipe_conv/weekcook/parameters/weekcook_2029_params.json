@@ -1,0 +1,142 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "50",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "50",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param14",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param15",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param16",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param17",
+        "value": "合挽肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "パン粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "牛乳",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "ナツメグ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param26",
+        "value": "ケチャップ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param27",
+        "value": "ウスターソース",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param28",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

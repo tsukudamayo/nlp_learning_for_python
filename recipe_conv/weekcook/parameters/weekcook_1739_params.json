@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "大根",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "鶏手羽中",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "だし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "実山椒",
+        "type": "ingredient"
+    }
+]

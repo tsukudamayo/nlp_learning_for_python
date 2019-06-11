@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "スタイルワンロースハム",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "レタス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "ベビーリーフ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "パルメザンチーズ",
+        "type": "ingredient"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "しっとり仕上げのよだれ鶏のスープ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "ニラ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "水",
+        "type": "ingredient"
+    }
+]

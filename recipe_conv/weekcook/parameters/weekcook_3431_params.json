@@ -1,0 +1,92 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "73",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "きのこ（しめじ、まいたけ、生しいたけ、生マッシュルームなど）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "スライスベーコン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "スライスチーズ（とろけるタイプ）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

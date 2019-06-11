@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "16",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "24",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "ホタテ貝柱（刺身用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "サーモン（刺身用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "キウイ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "ハーブソルト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "レモン汁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "塩",
+        "type": "ingredient"
+    }
+]

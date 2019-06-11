@@ -1,0 +1,97 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "8",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "170",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "干し椎茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "豚ひき肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "万能ねぎ（飾りに使う万能ねぎを残しておく）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "生姜（すりおろして生姜汁にする）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "パン粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "片栗粉（水溶き片栗粉）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "水（水溶き片栗粉）",
+        "type": "ingredient"
+    }
+]

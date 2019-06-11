@@ -1,0 +1,77 @@
+[
+    {
+        "parameters": "param1",
+        "value": "904",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "25",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "90",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "120",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "150",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "鶏もも肉（開き）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "ローリエ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "ローズマリー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "オーブン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param15",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

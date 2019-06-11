@@ -1,0 +1,6 @@
+<param11>と<param13>、<param14>、<param15>は<param1><param6>角に切り、<param12>は皮を剥いて<param2><param7>角の立方体に切り、<param16>は皮に十字に切り込みを入れてから熱湯で湯剥きをした後、ざく切りにする。
+<param10>は<param3><param8>角に切る
+鍋を火にかけて温めて<param17>を溶かした後、<param11>と<param12>、<param13>、<param14>、ベーコンを炒める。
+鍋に<param18>と<param19>、<param20>を加えて、随時、アクを取りながら野菜が柔らかくなるまで煮る。
+さらに<param16>を加えて煮込み（約）、(目安: 約<param4><param5><param9>)火を止める直前に<param15>を加えて、<param21>で味を調えたら火を止める。
+ベジスープを器に盛り付け完成。

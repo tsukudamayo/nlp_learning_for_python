@@ -1,0 +1,117 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param14",
+        "value": "カジキマグロ（代替食材：生鮭）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "カレー粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "ほうれん草",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "バター",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

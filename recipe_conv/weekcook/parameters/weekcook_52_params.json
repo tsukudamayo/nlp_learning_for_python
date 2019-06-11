@@ -1,0 +1,102 @@
+[
+    {
+        "parameters": "param1",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "0",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "じゃがいも",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "豚ロース薄切り",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "さやいんげん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "糸こんにゃく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "stillたれ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "カレー粉",
+        "type": "ingredient"
+    }
+]

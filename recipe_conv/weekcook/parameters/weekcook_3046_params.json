@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "切り餅",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "春巻きの皮",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "生ハム",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "ブラックペッパー",
+        "type": "ingredient"
+    }
+]

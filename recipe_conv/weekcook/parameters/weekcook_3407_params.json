@@ -1,0 +1,142 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "20",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "89",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "1500",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param13",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param14",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param15",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param16",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param17",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param18",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param19",
+        "value": "豚ひき肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "玉ねぎ（すりおろし）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "牛乳",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "セージパウダー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param26",
+        "value": "粗挽き黒こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param27",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param28",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

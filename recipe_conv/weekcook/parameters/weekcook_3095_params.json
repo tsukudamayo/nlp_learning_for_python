@@ -1,0 +1,127 @@
+[
+    {
+        "parameters": "param1",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "３０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "４０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "５",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param13",
+        "value": "もつ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "白ねぎ(青い所)",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "もやし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "舞茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "青ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "味噌",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "胡麻油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

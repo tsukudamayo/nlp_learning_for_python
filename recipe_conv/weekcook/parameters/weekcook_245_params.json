@@ -1,0 +1,67 @@
+[
+    {
+        "parameters": "param1",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "15",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "生鮭",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "合わせ味噌（白味噌でもよい）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "オーブントースター",
+        "type": "tool"
+    },
+    {
+        "parameters": "param13",
+        "value": "グリル",
+        "type": "tool"
+    }
+]

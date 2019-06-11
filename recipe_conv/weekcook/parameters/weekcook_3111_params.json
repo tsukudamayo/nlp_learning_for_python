@@ -1,0 +1,157 @@
+[
+    {
+        "parameters": "param1",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "４",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "420",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "６００",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "0",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "３０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "210",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param11",
+        "value": "３００",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param12",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param13",
+        "value": "１０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param14",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param15",
+        "value": "５",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param16",
+        "value": "w",
+        "type": "unit"
+    },
+    {
+        "parameters": "param17",
+        "value": "w",
+        "type": "unit"
+    },
+    {
+        "parameters": "param18",
+        "value": "w",
+        "type": "unit"
+    },
+    {
+        "parameters": "param19",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param20",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param21",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "鶏ささみ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "椎茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "かまぼこ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param25",
+        "value": "エビ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param26",
+        "value": "だし汁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param27",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param28",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param29",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param30",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param31",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "parameters": "param1",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "40",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "水菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "大根",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "ロールキャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "ちくわ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "さつま揚げ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "結びしらたき",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "里芋",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "ミツカン焼きあごだし鍋つゆストレート",
+        "type": "ingredient"
+    }
+]

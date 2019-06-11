@@ -1,0 +1,22 @@
+[
+    {
+        "parameters": "param1",
+        "value": "21",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "30",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "新生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "ミツカンカンタン黒酢",
+        "type": "ingredient"
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "parameters": "param1",
+        "value": "180",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "カナダ産豚カツ用ロース肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "グリーンリーフ（代替食材：サニーレタス）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "きゅうり",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "パン粉",
+        "type": "ingredient"
+    }
+]

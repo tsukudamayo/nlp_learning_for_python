@@ -1,0 +1,62 @@
+[
+    {
+        "parameters": "param1",
+        "value": "３",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "スナップえんどう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "アスパラガス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "冷凍海老イカミックス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "生姜スライス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "胡麻油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

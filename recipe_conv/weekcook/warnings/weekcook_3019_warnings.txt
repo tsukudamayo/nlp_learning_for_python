@@ -1,0 +1,6 @@
+<param13>は<param1>mm幅程度の細切りにする。<param18>大さじ<param2>（分量外）を加え、耐熱⚠容器に入れてラップをし、<param21>（<param3>W）で半加熱する。(目安: 約<param4><param9>)
+<param12>は⚠根元を切り落とし、長さを半分に切ってほぐす。<param14>は斜め薄切りにする。
+<param19>は<param18>大さじ<param5>（分量外）を加え、<param18>溶き<param19>を作っておく。
+<param13>の入った⚠容器に<param12>と<param14>、だしつゆ（<param6>倍希釈）と<param18>を加え、再びラップをして<param21>で<param7><param10>間加熱する。熱いうちに<param18>溶き<param19>を加え、混ぜ合わせる。
+<param15>をスプーンなどで一口大に崩しながら加える。再びラップをして<param21>で<param8><param11>間加熱する。
+器に盛り付け、<param20>を添えて完成。

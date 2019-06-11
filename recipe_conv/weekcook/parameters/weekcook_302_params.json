@@ -1,0 +1,117 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "350",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "豚挽肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "干し椎茸",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "片栗粉（肉団子用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "日本酒（肉団子用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "しょう油（肉団子用）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "鶏がらスープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "水（とろみあん）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "鶏がらスープの素（とろみあん）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "しょう油（とろみあん）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "片栗粉",
+        "type": "ingredient"
+    }
+]

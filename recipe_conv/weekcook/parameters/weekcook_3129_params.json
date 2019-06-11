@@ -1,0 +1,107 @@
+[
+    {
+        "parameters": "param1",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "25",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "31",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "7",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "鶏もも肉（100g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "玉ねぎ（100g）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "セロリ（60g程度）",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "ミニトマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "ブラックオリーブ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "パプリカ黄",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "水",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "マヨネーズ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "コンソメ顆粒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "おろしにんにく",
+        "type": "ingredient"
+    }
+]
