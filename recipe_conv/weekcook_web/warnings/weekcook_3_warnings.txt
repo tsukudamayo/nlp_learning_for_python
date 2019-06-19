@@ -1,0 +1,4 @@
+<param5>は洗って浸<param7>させる。(目安: 約<param1><param2><param4>)
+<font color="red">⚠</font>あさり（砂抜き済み）は擦り洗いをしてから、鍋に<param7>と一緒に<font color="red">⚠</font>あさり加えて火にかけ<font color="red">⚠</font>口が開いたら鍋から取り出す。
+<font color="red">⚠</font>貝から<font color="red">⚠</font>あさりの<font color="red">⚠</font>身を取り出し、<font color="red">⚠</font>あさりの<font color="red">⚠</font>茹で汁をペーパータオルで濾し<param3>ml計り、<param5>に<font color="red">⚠</font>あさりの<font color="red">⚠</font>茹で汁と<param8>、<param9>を加え炊く。
+炊き上がったら、<font color="red">⚠</font>殻から出した<font color="red">⚠</font>あさりの<font color="red">⚠</font>身を加えて<font color="red">⚠</font><font color="red">⚠</font>あさりご飯を<font color="red">⚠</font>茶碗のよそい、お好みで<font color="red">⚠</font>木の芽を添えたら完成。

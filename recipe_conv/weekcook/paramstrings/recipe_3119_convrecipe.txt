@@ -1,0 +1,5 @@
+<param9>は<param1><param5>幅に切り保存容器に入れ保存
+<param7>は繊維と垂直に<param2>mm幅に切る
+<param8>は石づきを切り落とし、長さを半分に切る
+鍋に<param10>と<param11>を入れて火にかける。沸騰したら<param7>、<param8>、<param9>を加えてほど煮る
+材料に火が通ったら器に盛り付け、(目安: 約<param3>～<param4><param6>)<param12>をふってできあがり

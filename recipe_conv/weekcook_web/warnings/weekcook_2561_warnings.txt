@@ -1,0 +1,8 @@
+<font color="red">⚠</font>豚ロース薄切りは食べやすい大きさに切る。
+<param14>は<param1><param9>角程度のざく切りにする。
+<font color="red">⚠</font>生姜は千切りにし、<font color="red">⚠</font>しょう油に浸しておく。
+<param15>は<param2><param10>程の長さに切り、<font color="red">⚠</font>繊維にそって<font color="red">⚠</font>切れ目を入れて<font color="red">⚠</font>中の<font color="red">⚠</font>芯を取り出し、<font color="red">⚠</font>外側を細い千切りにして<font color="red">⚠</font><font color="red">⚠</font>白髪ねぎにする（<font color="red">⚠</font>芯の<font color="red">⚠</font>部分は縦半分に切って<param14>に混ぜておく）。
+<font color="red">⚠</font><font color="red">⚠</font>白髪ねぎを<font color="red">⚠</font>水にほどつけてシャキッとさせ、(目安: 約<param3><param4><param11>)<font color="red">⚠</font>辛味を抜いたら<font color="red">⚠</font><font color="red">⚠</font>水気を切っておく。
+鍋に<param14>の半分を敷き、その<font color="red">⚠</font>上に<font color="red">⚠</font><font color="red">⚠</font>豚肉の半分を広げ、<param16>と<param17>をふる。その<font color="red">⚠</font>上に<param14>の残り半分を敷き、<font color="red">⚠</font><font color="red">⚠</font>豚肉の半分を広げ、再び<param16>と<param17>をふる（鍋の<font color="red">⚠</font>径が小さい場合は<param5>等分ではなく<param6>等分に）。
+<font color="red">⚠</font>水大さじ<param7>（分量外）を振り入れて蓋をし、弱火で<param8><param12>間ほど加熱して、<font color="red">⚠</font><font color="red">⚠</font>豚肉に火が通ったら火から下ろす。
+鍋に<font color="red">⚠</font><font color="red">⚠</font>白髪ねぎをたっぷりのせ、<font color="red">⚠</font>しょう油に浸した<font color="red">⚠</font>生姜を添えたら、完成。

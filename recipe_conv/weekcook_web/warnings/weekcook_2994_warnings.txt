@@ -1,0 +1,6 @@
+<font color="red">⚠</font>グリーンリーフは食べ易い大きさにちぎり、<param4>は<font color="red">⚠</font>ヘタを切り取り、<param5>は小房に分けて、<param11>はスライスする。
+<param2>は、黄色い<font color="red">⚠</font>脂肪を取り除き食べ易い大きさに切ってから、<param7>と<param8>、スライスした<param11>で下味を付ける。
+<param4>と<param5>は一緒に茹でる。
+鍋に、★の<font color="red">⚠</font>調味料と<param9>を入れて少し煮立て、<font color="red">⚠</font><font color="red">⚠</font>バルサミコソースを作る。
+下味を付けた<param2>を溶き<param3>に潜らせ、<param10>をまぶし、<param1>度の<font color="red">⚠</font>サラダ油でこんがり揚げる。
+<font color="red">⚠</font>鶏の<font color="red">⚠</font>から揚げと<font color="red">⚠</font>野菜を器に盛り付け、<font color="red">⚠</font><font color="red">⚠</font>バルサミコソースをかけたら完成。

@@ -1,0 +1,5 @@
+<param12>は<font color="red">⚠</font>皮を剥いてから、長さ<param1><param9>で<param2><param10>角の棒状に切り分け、<param15>は<font color="red">⚠</font>種を取ってから<font color="red">⚠</font>果肉を包丁で叩く。
+<param13>を<param3>枚重ねて広げ、<param14>、<param12>、<param15>を芯にして巻く（<param4>本作る）。
+<font color="red">⚠</font><font color="red">⚠</font>豚肉巻きに<font color="red">⚠</font>水大さじ<param5>を回しかけてから、ラップをして<param6>Wレンジ加熱する。(目安: 約<param7><param8><param11>)
+レンジから<font color="red">⚠</font><font color="red">⚠</font>豚肉巻を取り出し、食べ易い大きさに切る。
+<param14>を敷いた器に<font color="red">⚠</font><font color="red">⚠</font>豚肉の<param12>梅巻きを盛り付け、お好みで<font color="red">⚠</font>大根おろしを添えて<font color="red">⚠</font>ポン酢をかけたら完成。

@@ -1,0 +1,5 @@
+<param7>は<param1>.<param2><param4>角に切る。
+<param8>は<font color="red">⚠</font>皮を剥き、<param3><param5>角に切る
+ボウルに切った<font color="red">⚠</font>まぐろ、<param8>と<param9>を加え、混ぜあわせる。
+<param10>は千切りにする。
+<param6>を器に盛り、その<font color="red">⚠</font>上に<font color="red">⚠</font>刻み海苔を敷いて、混ぜ合わせた<font color="red">⚠</font>まぐろと<param8>を盛り付け、千切りにした<param10>添えたら完成。

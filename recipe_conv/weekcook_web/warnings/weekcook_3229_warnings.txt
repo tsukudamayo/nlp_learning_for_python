@@ -1,0 +1,9 @@
+このレシピは、ビストロBS-<param1>を使ったレシピです。
+ビニール袋に、★の<font color="red">⚠</font>調味料、一口大に切った<param13>を入れよく揉みこむ。
+<param14>は一口大に、<font color="red">⚠</font>皮をむいた<param16>、<param17>は、<param2>mm程の半月切りにする。
+<param15>は、薄切りにし、<font color="red">⚠</font>ベーコンは<param3><param10>幅に切る。
+漬け込んだ<font color="red">⚠</font>鶏肉をいれたビニール袋に<param14>、<param17>、<param15>をいれて、<font color="red">⚠</font>全体をよく混ぜる。
+クッキング<font color="red">⚠</font>シートを敷いた<font color="red">⚠</font>角皿に<param16>を並べ、その<font color="red">⚠</font>上に<font color="red">⚠</font>具材を広げる。
+手動⇒<param26>　予熱あり⇒<param4>℃に設定する。予熱完了後、<font color="red">⚠</font>角皿を<font color="red">⚠</font>下段へセットし、設定する。(目安: 約<param5><param6><param11>)
+加熱終了後<font color="red">⚠</font>全体を混ぜ合わせ、再び<font color="red">⚠</font>下段へ入れて<param7>℃に下げて焼く。(目安: 約<param8><param9><param12>)
+<font color="red">⚠</font>チーズをのせて<param26>で焼き、完成。

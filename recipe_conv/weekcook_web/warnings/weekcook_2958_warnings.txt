@@ -1,0 +1,4 @@
+<param6><param1>/<param2>株は<font color="red">⚠</font>石突きを取りほぐしておく。<param5>を割り、かき混ぜておく。
+鍋に<param6>と<param7><param3><font color="red">⚠</font>mlを加えて強火にかける。
+沸騰したら火を弱め<param8>大さじ<param4>と<param9>少々を加える。
+溶き<param5>を<font color="red">⚠</font>上の方から少しずつ加え火を止め、ふたをして蒸らす。<font color="red">⚠</font>スープを器によそい分けたら完成。

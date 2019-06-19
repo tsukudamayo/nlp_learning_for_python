@@ -1,0 +1,3 @@
+玉子<font color="red">⚠</font>豆腐は<param1>mm角に切って、<param3>は<font color="red">⚠</font>筋を取ってから斜め切りにする。
+鍋に★の<param5>と<param4>を入れて温めてから、玉子<font color="red">⚠</font>豆腐と<param3>を入れて一煮立ちさせて、<param6>と<param7>で味を調えたら火を止める。
+玉子どうふの<font color="red">⚠</font>スープを<font color="red">⚠</font>スープ皿に注ぎ分けたら完成。

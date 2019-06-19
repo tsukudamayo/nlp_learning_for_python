@@ -1,0 +1,5 @@
+<font color="red">⚠</font>★を混ぜ合わせる、<font color="red">⚠</font>豚肉を漬け込む。（半日以上）
+<font color="red">⚠</font>しめじは<font color="red">⚠</font>石突をとってほぐす。<font color="red">⚠</font>パプリカは、細切りにする。
+<param10>で、<param5>をいれて、<font color="red">⚠</font>しめじ、<font color="red">⚠</font>パプリカを炒める。仕上げに<param3>をいれて和える。お皿に取り出す。
+再び<param5>をいれて、漬け込んだ<font color="red">⚠</font>豚肉を焼く。焦げやすいので火加減に気を付ける。<param11>で焼いてもＯＫ。
+器に盛り付け、完成。

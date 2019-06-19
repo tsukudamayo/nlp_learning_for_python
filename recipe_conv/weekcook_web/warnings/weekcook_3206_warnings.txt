@@ -1,0 +1,5 @@
+<param4>は薄切りし、<font color="red">⚠</font>じゃがいもは<font color="red">⚠</font>皮をむき<param1>㎜の厚さに切る。
+厚手の鍋に<param5>と<param4>を加えてしんなりするまで炒める。
+鍋に<font color="red">⚠</font>じゃがいも、<param7>と<param6>を加えて柔らかくなるまで火にかける。
+<font color="red">⚠</font>じゃがいもが柔らかくなったら、<param3>、<param8>を加え、<param9>、<param10>で味を整える。
+器に注ぎ、お好みで<font color="red">⚠</font>パセリを散らして完成。

@@ -1,0 +1,6 @@
+<param6>は洗ってから炊く。
+<param7>は<param<font color="red">⚠</font>1<font color="red">⚠</font>1>（分量外）で戻す。
+<param8>に<param9>と<param<font color="red">⚠</font>10>大さじ<param<font color="red">⚠</font>1>を混ぜ合わせ、中火にした鍋に入れてから、箸<param2>本で、<param3>分間、良く混ぜる。
+<param8>に火が通ったら鍋から取り出した後、<font color="red">⚠</font>ひじきを入れ、<param<font color="red">⚠</font>10>大さじ<param4>と<param<font color="red">⚠</font>1<font color="red">⚠</font>1>を加えて<param5>分間煮る。
+<font color="red">⚠</font>ひじきの<font color="red">⚠</font>煮物を<param<font color="red">⚠</font>12>、<param<font color="red">⚠</font>13>で味を整える。
+炊き上がった<font color="red">⚠</font>ご飯と<font color="red">⚠</font>ひじきの<font color="red">⚠</font>煮物、<font color="red">⚠</font><font color="red">⚠</font>鶏そぼろを混ぜ合わせてから器に盛り付け、お好みで<font color="red">⚠</font>レタスや目玉焼きを添えて完成。

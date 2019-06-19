@@ -1,5 +1,0 @@
-<param15>は⚠骨と⚠皮を取り除き<param1><param10>幅に切り、<param14>は⚠皮をむいて<param2>mmの厚さに切る。
-<param14>は耐熱容器に入れてレンジ<param3>W加熱する。(目安: 約<param4><param5><param11>)
-鍋に<param16>と<param14>、⚠タラ、<param20>を入れて中火にかけ<param20>の香りがたってきたら、取り除き煮る。(目安: 約<param6><param7><param12>)
-<param14>が柔らかくなったら<param18>を加え、⚠水分を飛ばしながら木べらでつぶす。
-<param19>で味を整え、耐熱皿に盛り、<param17>、<param21>を振って<param22>で焼いたら完成。(目安: 約<param8><param9><param13>)

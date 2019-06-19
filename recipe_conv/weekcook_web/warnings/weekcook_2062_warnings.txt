@@ -1,0 +1,4 @@
+<param7>は薄切りにし、<param8>は<font color="red">⚠</font>石づきをとってほぐす。
+鍋に<param9>を溶かし、<param7>と<param8>を炒めながら<param10>を入れ、更に炒めてから<param11>を加えた後、<param12>と<param15>、<param16>で調味し、<param13>の<font color="red">⚠</font>内容物を入れて一混ぜしたら火を止め、<font color="red">⚠</font><font color="red">⚠</font>グラタンソースを作る。
+<param6>を網で焼いて（<param18>でも可）、<font color="red">⚠</font>グラタン皿に一個ずつ<font color="red">⚠</font>餅を入れる（全部で<param1>皿）。
+<font color="red">⚠</font>餅の<font color="red">⚠</font>上に<font color="red">⚠</font><font color="red">⚠</font>グラタンソースをかけ、<param14>をのせる。<param2>度の<param19>（<param18>でも可）で焼き、(目安: 約<param3>～<param4><param5>)<param17>を散らせば完成。

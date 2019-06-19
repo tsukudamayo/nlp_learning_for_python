@@ -1,0 +1,5 @@
+<param4>は食べやすい大きさに切り、<param5>と混ぜ合わせる。
+<param1>は沸騰直前のお<font color="red">⚠</font>湯でさっと茹で、<font color="red">⚠</font>水にとって<font color="red">⚠</font><font color="red">⚠</font>水気をよくきり、ひと口大に切る。
+<param2>と<param3>は一口大に切る。
+器に、<param5>を混ぜ合わせた<param4>、<param2>、<param3>を盛り、<font color="red">⚠</font>真ん中に茹でた<param1>をのせる。
+<font color="red">⚠</font>サラダクラブブラック<font color="red">⚠</font>オリーブ（スライス）、<param6>、<param7>を盛り付け、<font color="red">⚠</font>キユーピーテイスティドレッシング　<font color="red">⚠</font>黒酢たまねぎを和えて完成。

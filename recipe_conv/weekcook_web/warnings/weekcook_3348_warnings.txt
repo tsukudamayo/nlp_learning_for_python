@@ -1,0 +1,6 @@
+<param1>はこま切れ、<param5>はななめ薄切りにする。
+<param4>、<param3>は、いちょう切り、<param2>は<font color="red">⚠</font>筋をとってたべやすい大きさに切る。<font color="red">⚠</font>えのきは、長さを半分にしてほぐす。
+鍋に<param9>、<param1>をいれて炒める。香りがでたら、切った<font color="red">⚠</font>野菜をいれて炒める。
+<font color="red">⚠</font>全体に<font color="red">⚠</font>油が回ったら<param7>をいれて<font color="red">⚠</font>具材が柔らかくなるまで煮込む。
+<param6>、<font color="red">⚠</font>味噌、<param10>を入れて煮込む。（火が強いと<param6>が分離しやすくなります）
+器に盛り付けて完成。

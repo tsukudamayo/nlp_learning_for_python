@@ -1,0 +1,4 @@
+<param5>は長さ<param1><param3>程度に切って、<font color="red">⚠</font>茎と<font color="red">⚠</font>葉に分けておく。
+<font color="red">⚠</font>スライス<font color="red">⚠</font>ベーコン(<font color="red">⚠</font>ハーフ)は<param2><param4>幅に切る。
+<param10>に<param9>と<font color="red">⚠</font>ベーコンを入れて火にかける。<font color="red">⚠</font>ジュージューと<font color="red">⚠</font>音がしてきたら<param5>の<font color="red">⚠</font>茎を入れて炒め合わせる。
+しんなりとしてきたら<param5>の<font color="red">⚠</font>葉も加え、<font color="red">⚠</font>全体に<font color="red">⚠</font>油がまわったら、<param7>、<param8>で味をつけ、器に盛って完成。

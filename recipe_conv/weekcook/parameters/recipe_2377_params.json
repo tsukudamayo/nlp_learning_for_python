@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "きゅうり",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "卵",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "酢",
+        "type": "ingredient"
+    }
+]

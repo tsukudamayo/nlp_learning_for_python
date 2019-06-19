@@ -1,0 +1,3 @@
+<param4>は<font color="red">⚠</font>皮を剥いていちょう切りにする。
+ボウルに<param4>と<param5>を入れ蓋をして混ぜたら、しんなりするまで置く。(目安: 約<param1><param2><param3>)
+<font color="red">⚠</font>ギュッと絞って盛り付けたら、<font color="red">⚠</font>胡麻を振って完成。

@@ -1,0 +1,7 @@
+<param10>と<param11>は、<param16>水で洗って臭みや<font color="red">⚠</font>ぬめりを取ってから<font color="red">⚠</font>水気を拭う。
+<param12>は<font color="red">⚠</font>皮を剥いて縦半分に切り、厚さ<param1><param8>のスライスにする。
+<font color="red">⚠</font>ホタテは、<font color="red">⚠</font>サーモンと同じくらいの厚さ（<font color="red">⚠</font>ホタテの約半分の厚さ）に切る。
+<font color="red">⚠</font>ホタテと<font color="red">⚠</font>サーモンに、<param14>、<param13>をまぶして、放置した後、(目安: 約<param2><param3><param9>)<font color="red">⚠</font>水気をしっかりふき取る。
+<param4>cm四方ほどの<font color="red">⚠</font>小さめの保存容器にラップを敷き、<font color="red">⚠</font>ホタテ、<font color="red">⚠</font>サーモン、<param12>を敷き詰め、ラップで覆う。
+<font color="red">⚠</font>パーシャル室（設定：中）、なければ冷蔵庫で冷やし固める。（約）
+保存容器からテリーヌ取り出し、(目安: 約<param5><param6>時間)包丁で<param7>等分にスライス（水平方向）し、器に盛り付け、<param15>、<font color="red">⚠</font>ブラックペッパーをかけて完成。

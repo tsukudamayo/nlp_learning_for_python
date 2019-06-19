@@ -1,0 +1,4 @@
+<param5>は<font color="red">⚠</font>皮を剥き<param1>mm<font color="red">⚠</font>幅の薄切りにし、さっと<font color="red">⚠</font>酢水(分量外)にさらす。
+<param6>は、半分に折って<font color="red">⚠</font>種を取り除く。
+鍋に、<param5>と<param6>、★の<font color="red">⚠</font>調味料を入れてから火を点けて沸騰したら弱火にし、約煮てから火を止めて冷ます。(目安: 約<param2><param3><param4>)
+<param5>の<font color="red">⚠</font>ピリ辛煮を器に盛り付けたら完成。

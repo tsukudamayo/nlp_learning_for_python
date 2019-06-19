@@ -1,0 +1,3 @@
+<param6>は<param1><param3>幅のざく切り、<param7>・<font color="red">⚠</font><font color="red">⚠</font>豚肉は小さめに切る。<font color="red">⚠</font>長ねぎは<param2><param4>幅の斜め切りにする。
+鍋に<font color="red">⚠</font>★を入れて煮立てる。<param6>、<param7>、<param5>入れてひと煮立ちさせ、<param8>を加える。
+<font color="red">⚠</font><font color="red">⚠</font>豚肉に火が通り、<font color="red">⚠</font>野菜が柔らかくなったら千切りにした<param14>をちらして完成。

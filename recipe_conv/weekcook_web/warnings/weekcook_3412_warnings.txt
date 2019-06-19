@@ -1,0 +1,7 @@
+このレシピは、ビストロNE-BS<param1>を使ったレシピです。
+ボウルに<param7>、<font color="red">⚠</font>卵、<font color="red">⚠</font>★を加えて<font color="red">⚠</font>ねばりが出るまでよく混ぜる。
+<param2>等分にして、手に軽く<font color="red">⚠</font>水を付けて厚さ約<param3>.<param4><param6>の小判型に成形する。
+別のボウルに<param9>を入れ、<font color="red">⚠</font>水で溶いて<font color="red">⚠</font>衣を作り、<font color="red">⚠</font>タネに薄く付ける。
+<param14>皿に並べ、<font color="red">⚠</font>上段に入れる。
+あたため<font color="red">⚠</font>スタートを回して、<font color="red">⚠</font>自動<param5>を選択⇒<font color="red">⚠</font>人数を選択⇒押す。
+器に盛り付け完成。

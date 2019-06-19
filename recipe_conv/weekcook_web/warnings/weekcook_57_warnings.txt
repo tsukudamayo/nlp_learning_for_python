@@ -1,0 +1,3 @@
+<param1>と<param2>はざく切りにする。<param3>は<font color="red">⚠</font>筋を取り斜め切りする。
+<param4>を鍋に入れて火にかける。沸騰したら<param1>を加え、一煮立したら<param2>と<param3>、白<font color="red">⚠</font>味噌を加えて火を止める。
+<param1>と<param2>のお<font color="red">⚠</font><font color="red">⚠</font>味噌汁をお椀によそい分けて、<param3>を散らしたら完成。

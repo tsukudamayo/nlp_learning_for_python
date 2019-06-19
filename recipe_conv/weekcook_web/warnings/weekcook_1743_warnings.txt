@@ -1,0 +1,4 @@
+鍋に<font color="red">⚠</font>熱湯を沸かして<font color="red">⚠</font>塩(分量外)を加え、<param7>をさっと茹でてから<font color="red">⚠</font>水気を絞って長さ<param1><param4>に切る。
+<param8>は<param2><param5>幅に切り<font color="red">⚠</font>熱湯をかけて、<param9>は溶きほぐす。
+鍋に<param10>と<param11>、<param8>を入れて火にかける。沸騰してきたら一旦火を止めて<param7>を加える。再び火をつけて沸騰してきたら、溶き<param9>を流し入れて約加熱してから火を止め、(目安: 約<param3><param6>)蓋をして蒸らす。
+<param7>の<param9>とじを器に盛り付けたら完成。

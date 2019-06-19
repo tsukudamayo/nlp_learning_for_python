@@ -1,0 +1,9 @@
+<font color="red">⚠</font>ロティサリー<param19>＆ポークを使ったレシピです。
+<font color="red">⚠</font>鶏ささみに<param17>をまぶし程度おく。(目安: 約<param1><param2><param11>)
+<font color="red">⚠</font>鶏ささみはキッチンペーパーに包んで<font color="red">⚠</font>水気を切る。
+<param18><param3><font color="red">⚠</font>gを<font color="red">⚠</font>ロティサリーにセットする。
+くんせい<font color="red">⚠</font>網に<font color="red">⚠</font><font color="red">⚠</font>アルミ箔を下側からセットし、<font color="red">⚠</font>鶏ささみを<param4>本並べる。<font color="red">⚠</font><font color="red">⚠</font>アルミ箔で蓋をする。
+「くんせい　低温　」でスタートする。(目安: 約<param5><param6><param12>)
+<font color="red">⚠</font>鶏ささみができたら取り出し、同様に<param18>をセットする。
+くんせい<font color="red">⚠</font>網に<font color="red">⚠</font><font color="red">⚠</font>アルミ箔を上側からセットし、程室温になじませた<param15>を並べる。(目安: 約<param7><param8><param13>)<font color="red">⚠</font><font color="red">⚠</font>アルミ箔で蓋をする。
+くんせい　低温　」でスタートする。(目安: 約<param9><param10><param14>)焼きあがったら器に盛り付け完成。

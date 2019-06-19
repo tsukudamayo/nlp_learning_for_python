@@ -1,0 +1,2 @@
+<font color="red">⚠</font>容器に、<param2>、<param3>パウダーを入れ、<font color="red">⚠</font>甘酒を少しずつ混ぜてペースト状にする。
+<font color="red">⚠</font>甘酒の種類によって固さは調整してください。

@@ -1,0 +1,11 @@
+<param23>は<font color="red">⚠</font>皮をむきみじん切りにし、レンジで加熱する。(目安: 約<param1><param2><param16>)
+<param29>を<param30>に浸す。(目安: 約<param3><param4><param17>)
+<param24>をボウルに入れ<param31>、<param32>、溶き<param25>、<font color="red">⚠</font>水分を絞った<param29>を順に加え、ふんわりと<font color="red">⚠</font>空気を含む様に混ぜる。
+手で<font color="red">⚠</font>キャッチボールの要領で<font color="red">⚠</font>タネを叩きつけて丸める。
+<param39>を温め<param33>を加えて中火で<font color="red">⚠</font>タネを焼き、(目安: 約<param5><param6><param18>)ひっくり返して火加減を落として焼く。(目安: 約<param7><param8><param19>)
+<font color="red">⚠</font>串を刺してみて、<font color="red">⚠</font>肉汁が透き通っていたら<font color="red">⚠</font>ハンバーグの完成。
+<font color="red">⚠</font>ハンバーグを取り出した<param39>に、<param34>、<param35>、<param36>、<param37>を加え、溶かし<font color="red">⚠</font>ソースにする。
+<param26>は<font color="red">⚠</font>皮をむき、<param9>mm厚さの輪切り、<param31>、<param37>を加えて<param40>可能な容器に入れレンジで加熱する。(目安: 約<param10><param11><param20>)
+<param27>は<font color="red">⚠</font>皮つきのままレンジで加熱し<font color="red">⚠</font>皮をむいて櫛切りにする。(目安: 約<param12><param13><param21>)
+<param28>はレンジで加熱し斜め半分に切る。(目安: 約<param14><param15><param22>)
+お皿に<font color="red">⚠</font>ソースをかけた<font color="red">⚠</font>ハンバーグ、<param27>、<param26>、<param28>を添えて完成。

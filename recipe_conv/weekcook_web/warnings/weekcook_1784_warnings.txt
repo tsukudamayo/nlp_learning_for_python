@@ -1,0 +1,6 @@
+※NE-BS<param1>を使って調理した<font color="red">⚠</font>レシピです。<font color="red">⚠</font>レシピを利用される場合は、お使いの<font color="red">⚠</font>商品の<font color="red">⚠</font>料理本を参考とし、様子を見ながら調理してください。
+切った<font color="red">⚠</font>アルミホイル（<param2><param6>角）<font color="red">⚠</font>人数分を準備し、<param9>は<font color="red">⚠</font>石突を取りほぐしておき、★の<font color="red">⚠</font><font color="red">⚠</font>調味料は混ぜ合わせておく。
+<param8>に<param10>と<param11>をして、そのまましばらくおく。
+<font color="red">⚠</font>アルミホイルの<font color="red">⚠</font>内側を表にして敷き、<font color="red">⚠</font>内側に<param12>（分量外）を薄く塗ってから<param8>と<param9>を置き、その<font color="red">⚠</font>上に<param12>をのせて★の<font color="red">⚠</font><font color="red">⚠</font>調味料をかけた後、<font color="red">⚠</font>下に敷いた<font color="red">⚠</font>アルミホイルで包んだ<font color="red">⚠</font>ものを<font color="red">⚠</font>人数分作る。
+<font color="red">⚠</font>角皿に<font color="red">⚠</font>アルミホイルの包みをのせ、<font color="red">⚠</font><font color="red">⚠</font>下段に入れて<param15>予熱なし、<param3>℃の<font color="red">⚠</font>設定で、約加熱する。(目安: 約<param4><param5><param7>)
+加熱後、<font color="red">⚠</font>アルミホイルを開いた<font color="red">⚠</font>状態のまま器に盛り付けて、お好みで<font color="red">⚠</font>柚子を添えたら完成。

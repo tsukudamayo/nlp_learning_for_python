@@ -1,0 +1,8 @@
+<param12>は茹でて固茹での茹で<param12>にする
+<param11>は洗ってから<param21>可能な容器に入れて<param21>（<param1><param9>）で加熱した後、(目安: 約<param2>～<param3><param7>)皮を剥いてフォークで潰す
+<param14>は輪切りにしてから<param17>を振っておく
+<param13>は薄切りにしてから水にさらす
+<param15>は<param4><param10>角に切る
+<param11>は皮をむきマッシャーで潰す。(目安: 約<param5>～<param6><param8>)茹で<param12>はフォークで潰し、<param11>に水分を切った<param13>と<param14>、茹で<param12>を混ぜ合わせる
+<param11>に<param15>、<param17>、<param18>、<param16>、<param19>、<param20>を加えて混ぜ合わせたら保存容器に入れ、お好みでパセリを散らして保存
+ポテトサラダを器に盛り付け完成

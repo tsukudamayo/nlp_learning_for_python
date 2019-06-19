@@ -1,0 +1,3 @@
+<param1>は、<font color="red">⚠</font>皮を剥いて短冊に切る。
+<param2>は、<font color="red">⚠</font>塩(分量外)でこすってから<font color="red">⚠</font>熱湯でさっと茹でて、輪切りにする。
+ボウル等で<param2>を掻き混ぜ<font color="red">⚠</font>糸が引いたら<param1>を加え混ぜる。器に盛りつけ、<font color="red">⚠</font>かつお節を振りかけ、<font color="red">⚠</font>しょう油と<font color="red">⚠</font>ワサビを添えたら完成。

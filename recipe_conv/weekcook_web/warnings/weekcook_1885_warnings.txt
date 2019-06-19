@@ -1,0 +1,4 @@
+<param6>の<font color="red">⚠</font>水分を<font color="red">⚠</font>ペーパータオルで拭き取る。
+<param6>に<param7>大さじ<param1>ずつ塗る。(<param2>切れ全て同様にする)
+<param9>(<param8>でも可)で<font color="red">⚠</font>鮭を焼く。(目安: 約<param3><param4><param5>)(<param7>は付けたまま焼くのが基本ですが、お好みで<param7>を拭っても可)
+焼き上がった<param6>の<param7>漬けを、お皿に盛り付けたら完成。

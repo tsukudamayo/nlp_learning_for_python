@@ -1,0 +1,7 @@
+<param8>は<font color="red">⚠</font>水で戻して<font color="red">⚠</font>石突を取ってからみじん切りにする。
+<font color="red">⚠</font>玉ねぎはみじん切りにして<param13>大さじ<param1>を塗す。
+<param11>に、<param15>、<font color="red">⚠</font>玉ねぎ、<font color="red">⚠</font>椎茸、<param16>、<param14>、<param17>、<param18>、<param19>を入れてよく練り混ぜる。
+粘りが出たら<font color="red">⚠</font>ホタテ缶も<font color="red">⚠</font>汁ごと加え、<font color="red">⚠</font>タネを作る。
+<font color="red">⚠</font>焼売の<font color="red">⚠</font>皮を幅<param<font color="red">⚠</font>2>mmに細く切り、<font color="red">⚠</font>バットに広げる。
+<font color="red">⚠</font>タネを大さじ<param3>くらい取って丸め、幅<param4>mmに切った<font color="red">⚠</font>皮を<font color="red">⚠</font>全体に塗しつけ、その<font color="red">⚠</font>上に<font color="red">⚠</font>グリンピースを載せてから軽く押さえる。
+予め熱して<font color="red">⚠</font>蒸気の<font color="red">⚠</font>上がった蒸し器に<font color="red">⚠</font>焼売を入れてから、<font color="red">⚠</font>霧吹きをした後、約蒸して完成。(目安: 約<param5><param6><param7>)

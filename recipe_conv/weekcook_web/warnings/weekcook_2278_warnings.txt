@@ -1,0 +1,4 @@
+<param7>は<font color="red">⚠</font>熱湯で茹でて、<font color="red">⚠</font>冷水にさらした後、<font color="red">⚠</font>水気を切ってから、長さ<param1><param5>に切る。
+<param8>は千切りにして、<param14>（<param2>W）で約加熱する。(目安: 約<param3><param4><param6>)
+ボウルに★の<font color="red">⚠</font>調味料を混ぜ合わせ、<param13>と<font color="red">⚠</font>野菜の<font color="red">⚠</font>水気をペーパータオルで拭ってからボウルに加えて和える。
+<param7>と<param8>の胡麻和えを器に盛り付け完成。

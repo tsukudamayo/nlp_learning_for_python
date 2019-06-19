@@ -1,0 +1,5 @@
+<param8>は千切りにし、<param9>は洗って<font color="red">⚠</font>ひげを取り、<param10>は長さ<param1><param6>に切る。
+<param11>は細切りにして、<param13>と<param14>を塗す。
+<param21>（<param2>W）で<param12>の<font color="red">⚠</font>麺を間加熱する。(目安: 約<param3><param4><param7>)
+<param20>を強火で温めて<param15>を注ぎ、<font color="red">⚠</font><font color="red">⚠</font>豚肉、<param8>、<param9>の順に加えながら炒め、火が通ったら<param16>、<param17>、<param18>、<param19>で味を調える。
+<param21>（<param5>W）で温めた<font color="red">⚠</font>麺と<param10>を<param20>に加えて一混ぜし、<font color="red">⚠</font>全体に馴染んだら器に盛り付け完成。

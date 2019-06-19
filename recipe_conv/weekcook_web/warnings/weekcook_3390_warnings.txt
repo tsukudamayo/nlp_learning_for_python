@@ -1,0 +1,5 @@
+<font color="red">⚠</font>人参と<font color="red">⚠</font>きゅうりは長さ<param1>センチほどの千切りにする。
+<font color="red">⚠</font>しめじと<font color="red">⚠</font>舞茸は<font color="red">⚠</font>石づきを取ってほぐし、<param7>で炒め、仕上げに<param8>を加えて味付けする。
+<param2>と<font color="red">⚠</font>納豆を合わせてよく混ぜる。
+★印の<font color="red">⚠</font>材料を合わせてゴマ<param12>を作る。
+<param4>で<font color="red">⚠</font>具材を巻いて完成。お好みでゴマ<param12>を添える。

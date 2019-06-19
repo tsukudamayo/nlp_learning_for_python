@@ -1,0 +1,3 @@
+<param7><param1><font color="red">⚠</font>枚は<param2><param6>幅に切り、<param8><param3>株は<font color="red">⚠</font>石突きを取りほぐす。
+鍋に<param9><param4><font color="red">⚠</font>mlと<param7>、<param8>を加え強火にかける。
+沸騰したら火を弱め、<param10><param5>個と<param11>少々を加えて、混ざったら火を止め、器に盛りつけて完成。

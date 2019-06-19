@@ -1,0 +1,2 @@
+<param2>は<font color="red">⚠</font>皮を剥いてから、すりおろす。
+<param1>はよくかき混ぜてから<font color="red">⚠</font>付属のたれ<font color="red">⚠</font>又は<font color="red">⚠</font>しょう油を加えた後、更にかき混ぜて器に盛り付け、その<font color="red">⚠</font>上に<param2>おろしを載せたら完成。

@@ -1,5 +1,0 @@
-<param11>は黄色い⚠部分を取り除いてから、食べ易い大きさに切る。
-<param11>に<param13>と<param14>を振ってから、⚠ハーブと一緒に⚠容器に入れておく（くらい）
-<param12>は⚠皮付きのまま、(目安: 約<param1><param2><param8>)<param22>（<param3>W）で<param4><param9>間加熱してから、<param5>つに切って<param13>を振る。
-<param20>皿（<param21>でも可）に⚠アルミ箔を広げ、⚠ハーブが付いたままの<param11>と<param12>をのせ、⚠上から<param17>をかけて絡めてから、⚠皮付きの<param16>と一緒に間焼く。(目安: 約<param6><param7><param10>)
-焼き⚠上がった<param11>と<param12>を、<param18>と<param19>を添えた器に盛り付け、お好みで茹でた⚠いんげんを添えたら完成。

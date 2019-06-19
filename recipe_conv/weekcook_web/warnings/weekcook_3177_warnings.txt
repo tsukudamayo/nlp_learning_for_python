@@ -1,0 +1,6 @@
+<param6>は、太さ<param1>mm程度の千切り、<param7>は<font color="red">⚠</font>繊維と<font color="red">⚠</font>垂直にスライスする。
+<param8>は、半月切りにし、<param10>は<font color="red">⚠</font>芽をとり、薄切りにする。
+<param14>に、<param13>と<param10>を入れて弱火にかける。
+<param10>の香りが出てきたら、<param7>と<param6>、<font color="red">⚠</font>塩を入れて炒める。<font color="red">⚠</font>全体に<font color="red">⚠</font>油が回ったら、蓋をして加熱する。時々かき混ぜる。
+<font color="red">⚠</font>野菜がしんなりしてきたら、<param8>を入れて<font color="red">⚠</font>全体をまぜ合わせる。<param9>、<param11>をいれて<font color="red">⚠</font>野菜が柔らかくなるまで煮る。
+<param5>と<font color="red">⚠</font>缶汁、<param12>を加えて、再び沸騰させる。ほど煮て火を止めて器に盛り付け完成。(目安: 約<param2><param3><param4>)

@@ -1,0 +1,5 @@
+<param14>は茹でて固茹での茹で<param14>にする。(目安: 約<param1>～<param2><param9>)
+<param13>は洗ってから<param23>可能な容器に入れて<param23>（<param3>W）で約加熱した後、(目安: 約<param4><param5><param10>)<font color="red">⚠</font>皮を剥いてフォークで潰す。
+<param16>は輪切りにしてから<param19>を振って約おき、(目安: 約<param6><param7><param11>)<param15>は薄切りにしてから<font color="red">⚠</font>水にさらし、<param17>は<param8><param12>角に切る。
+<param13>は<font color="red">⚠</font>皮をむきマッシャーで潰す。茹で<param14>はフォークで潰し、<param13>に<font color="red">⚠</font>水<font color="red">⚠</font>分を切った<param15>と<param16>、茹で<param14>を混ぜ合わせる。
+<param13>に<param17>、<param19>、<param20>、<param18>、<param21>、<param22>を加えて混ぜ合わせたら器に盛り付け、お好みで<font color="red">⚠</font>パセリを散らして完成。

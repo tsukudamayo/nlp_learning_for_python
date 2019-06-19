@@ -1,0 +1,4 @@
+<param5>は<font color="red">⚠</font>振り塩をし、<font color="red">⚠</font>水滴がうき出てきたら、よくふきとる。
+<param6>は縦半分に切り、斜め薄切りにする。
+アルミホイルを<param1>枚重ね、<font color="red">⚠</font>鮭、<param6>、<param7>をのせ、<font color="red">⚠</font>キューピーライト　<font color="red">⚠</font>マヨネーズをしぼる。同様にもう一つ作る。
+<param8>で約焼き、(目安: 約<param2><param3><param4>)<font color="red">⚠</font>パセリを添えて完成。

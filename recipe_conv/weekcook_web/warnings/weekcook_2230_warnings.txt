@@ -1,0 +1,3 @@
+<param4>を細い千切りにして、<param3>は細い<font color="red">⚠</font>部分は厚さ<param1>〜<param2>mmの輪切りに、太い<font color="red">⚠</font>部分は半月切りにする。
+<param8>に<param5>を入れて中火で熱し、<param3>と<param4>を加えて炒めて、しんなりしてきたら、<param6>と<param7>を加え、<font color="red">⚠</font>汁気がなくなるまで炒めて火を止める。
+<param3>と<param4>の<font color="red">⚠</font>テリヤキ炒めを器に盛り付け完成。

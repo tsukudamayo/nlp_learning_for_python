@@ -1,0 +1,4 @@
+<param3>は薄切りに、<param4>は<param1>mm幅に、<param2>は食べやすく<font color="red">⚠</font>切り水にさらしてシャキッとさせ、クッキングペーパーで<font color="red">⚠</font>水気をとる。
+お皿に<param3>と<param2>を盛り付ける。
+<param11>に<param8>を広げ、みじん切りにした<param9>を加え中火にかける。<param9>の香りが出てきたら<font color="red">⚠</font>ベーコンを加え炒める。
+<font color="red">⚠</font>ベーコンがこんがりしてきたら、<param5>と<param6>、<param7>、<param10>を加えて熱いうちに野菜にかけて完成。

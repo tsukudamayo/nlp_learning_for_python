@@ -1,0 +1,4 @@
+<param1>はよく洗ってから<font color="red">⚠</font>皮ごと千切りにする。
+<param2>は<font color="red">⚠</font>油をきっておき、<param3>は解きほぐす。
+<param7>に<param4>を熱し、<param1>を炒める。しんなりしたら<font color="red">⚠</font>ツナを加え、溶き<param3>を加えて<param3>に火が通ったら<param5>と<param6>で味付けをする。
+<param1><font color="red">⚠</font>しり<font color="red">⚠</font>しりを器に盛り付けてから、<font color="red">⚠</font>かつお節を散らしたら完成。

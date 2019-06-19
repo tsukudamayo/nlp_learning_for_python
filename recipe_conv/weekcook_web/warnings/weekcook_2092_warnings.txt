@@ -1,0 +1,5 @@
+<param9>は<font color="red">⚠</font>皮を剥いてから<param1><param6>の厚さに切り、更に<font color="red">⚠</font>十字に<font color="red">⚠</font>包丁を入れて一枚を<param2>等分する。
+<font color="red">⚠</font>耐熱ボウルに<font color="red">⚠</font>★の<param10>と<param11>を入れて<param11>を溶かしてから<param9>を入れ、ラップをかけて<param13>で加熱する。(目安: 約<param3><param4><param7>)
+加熱した<param9>を器に盛り付け、<param9>に加熱した<font color="red">⚠</font>★の<font color="red">⚠</font>調味料をかける。
+<param12>を<font color="red">⚠</font>耐熱容器に入れて、ラップをせずにレンジで加熱する。(目安: 約<param5><param8>)
+加熱した<param12>を<param9>にかけて完成。

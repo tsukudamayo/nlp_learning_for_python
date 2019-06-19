@@ -1,0 +1,4 @@
+<param3>を炊く。★の<font color="red">⚠</font>調味料を混ぜ合わせ<font color="red">⚠</font>寿司<param6>を作る。
+<param5>は千切りにして<font color="red">⚠</font>水にさらし、ペーパータオルで<font color="red">⚠</font><font color="red">⚠</font>水分を取る。<font color="red">⚠</font>レモンは、薄く輪切りにし、さらに<param1>/<param2>にカットしておく（飾りつけ用）。
+<font color="red">⚠</font>ご飯が炊き上がったら<font color="red">⚠</font>寿司<param6>と混ぜ合わせ、粗熱をとる。
+<font color="red">⚠</font>寿司飯を器に盛り、<param<font color="red">⚠</font>4>、<param5>、<font color="red">⚠</font>レモンをちらして完成。

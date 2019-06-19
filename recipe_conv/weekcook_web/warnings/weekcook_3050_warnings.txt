@@ -1,0 +1,7 @@
+<param13>は<font color="red">⚠</font>皮を厚めにむいて一口大に切り、<font color="red">⚠</font>葉は長さ<param1><param10>に切る。
+<param14>は<font color="red">⚠</font>殻と<font color="red">⚠</font>背ワタを取り、<param18>で洗い流して<param18>分を切る。
+鍋を火にかけ<param16><param2><font color="red">⚠</font>gを溶かして<param14>を炒め、色が変わったら取り出す。
+<param14>を取り出した鍋に<param13>を加えて炒めてから、<param18>と<param19>を加えて軟らかくなるまで煮る。
+耐熱容器に<param15>と<param17><param3><font color="red">⚠</font>mlを入れてよく混ぜ、<param22>（<param4>W）で約加熱し、(目安: 約<param5><param6><param11>)<param16><param7><font color="red">⚠</font>gを加えて更に約加熱して混ぜ<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースを作る。(目安: 約<param8><param12>)
+鍋に<font color="red">⚠</font><font color="red">⚠</font>ホワイトソース入れ、<param13>を煮た<font color="red">⚠</font>コンソメスープで<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースをのばす。残りの<param17><param9><font color="red">⚠</font>mlも加えてから<param14>を戻し入れ、<param20>と<param21>で味を調える。
+鍋に<param13>の<font color="red">⚠</font>葉を加えた後、しばらく煮込んでとろみがついたら火を止めて、器に盛り付け完成。

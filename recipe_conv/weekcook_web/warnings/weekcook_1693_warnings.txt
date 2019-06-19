@@ -1,0 +1,3 @@
+<param1>は小房に分けて<font color="red">⚠</font>熱湯で茹でる。
+<param1>はざるに取り冷まし、<param2>と<param3>をあわせる。
+<param4>をふって完成。

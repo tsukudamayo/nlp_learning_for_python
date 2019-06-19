@@ -1,0 +1,3 @@
+<param5>は長さ<param1><param3>の千切りにして<param7>を振り、しばらく置く。
+<param5>の<font color="red">⚠</font>水分を<font color="red">⚠</font>ギュッと絞り、<font color="red">⚠</font>ホタテ水煮缶詰(小)の<font color="red">⚠</font>ホタテと<param8>を加え、<param9>を振って混ぜ合わせる。
+<param5>と<font color="red">⚠</font>ホタテの<font color="red">⚠</font>サラダを器に盛り付け、お好みで長さ<param2><param4>に切った<font color="red">⚠</font>水菜を添えたら完成。

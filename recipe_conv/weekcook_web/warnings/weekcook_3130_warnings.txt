@@ -1,0 +1,8 @@
+<param7>(食べやすい大きさに切る。くし切り)
+<param8>は、<param1>等分にする。
+<font color="red">⚠</font>人参は、ピーラーでスライスする。
+<param9>は硬い<font color="red">⚠</font>部分を取り除く。
+<font color="red">⚠</font>給<font color="red">⚠</font>水タンクに<font color="red">⚠</font>満<font color="red">⚠</font>水まで<font color="red">⚠</font>水を入れる。<param17>皿に<font color="red">⚠</font>食材を広げて並べ、<font color="red">⚠</font>上段に入れる。料理集⇒番号で選ぶ⇒No.。<param2>加熱の目安時間　約。(目安: 約<param3><param4><param6>)
+<param13>を煮切る（レンジ<param5>W30秒程度）。
+★の<font color="red">⚠</font>材料をすべてミキサーまたは<font color="red">⚠</font>ブレンダーに入れて攪拌し、<font color="red">⚠</font>玉ねぎドレッシングを作る。
+<font color="red">⚠</font>野菜を器に盛りつけ<font color="red">⚠</font>玉ねぎドレッシングをかけて完成。

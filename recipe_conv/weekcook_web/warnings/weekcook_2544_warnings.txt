@@ -1,0 +1,5 @@
+<param6>は食べ易い大きさに切って、<param7>は櫛切りにする。
+切った<param6>は、<font color="red">⚠</font>熱湯でさっと茹でてざるに取る。
+鍋に<param8>と<param7>、<param9>(大<param1>)を加えて沸々してきたら<param6>を加えて約煮含める。(目安: 約<param2><param3><param5>)
+仕<font color="red">⚠</font>上げに<param9>(大<param4>)と<param10>を加えて一煮立ちさせて味を調えて完成。
+<font color="red">⚠</font>丼に<param11>を盛りその<font color="red">⚠</font>上に出来<font color="red">⚠</font>上がった牛<font color="red">⚠</font>丼の<font color="red">⚠</font>具を載せ、お好みで<font color="red">⚠</font>紅生姜を散らしていただく。

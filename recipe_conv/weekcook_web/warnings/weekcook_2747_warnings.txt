@@ -1,0 +1,7 @@
+<font color="red">⚠</font>南蛮漬けを漬けておく保存容器（<font color="red">⚠</font>タッパーなど）に、★の<font color="red">⚠</font>調味料を入れてあわせておく(<param12>が溶けにくいが、ときどきかき混ぜながらしばらく置いておくと全て溶ける)。
+<font color="red">⚠</font>鯵(三枚おろし済)は、<font color="red">⚠</font>小骨を取り除き、半分の長さに切り、<param14>をふってほど置いておく。(目安: 約<param1><param2><param7>)
+<param10>は幅<param3>mmの細切りにし、<param9>は繊維と<font color="red">⚠</font>並行に幅<param4>mmの細切りにする。
+<font color="red">⚠</font>鯵(三枚おろし済)の<font color="red">⚠</font>表面に染み出した<font color="red">⚠</font>水気をキッチンペーパーで拭き取り、<font color="red">⚠</font>片栗粉を薄くまぶす。
+<param16>に<param15>を入れて中火でよくあたため、<font color="red">⚠</font>鯵(三枚おろし済)を<font color="red">⚠</font>皮目を下にして入れ、<font color="red">⚠</font>こんがりと焼き色がついたら裏返し、弱火で焼き、火が通ったら取り出して<font color="red">⚠</font>南蛮<param11>にひたす。
+<param16>に残った<param15>で<font color="red">⚠</font>野菜を炒め、さっと炒めたら、完全にしんなりする前に火を止めて、<font color="red">⚠</font>南蛮<param11>に加える。このまま～一晩漬け込んで完成。(目安: 約<param5><param6>時間)
+<font color="red">⚠</font>南蛮漬けを器に盛り付けて完成。

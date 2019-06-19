@@ -1,0 +1,6 @@
+<param1>はペーパータオルで<font color="red">⚠</font>水分を拭き、食べ易く切る。
+<param2>は<font color="red">⚠</font>石づきをとってスライスする。
+<param5>に<param2>を並べ素焼きしてから取り出す。
+<param5>に<param4>を注いで温めて、<param1>を<font color="red">⚠</font>身の方から焼いて色が変わってきたらひっくり返し<font color="red">⚠</font>全体に火を通す。
+<param5>の<font color="red">⚠</font>油をペーパーで拭き取り、<param2>を戻し入れて<param3>を絡める。
+<font color="red">⚠</font>胡麻を振って完成。

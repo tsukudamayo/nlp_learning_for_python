@@ -1,0 +1,6 @@
+<param6>を茹でて、みじん切りにする。
+<param5>は茹でて<font color="red">⚠</font>水に取り、長さ<param1><param3>に切る。
+<param7>と<param8>、<param9>を合わせて<param5>と和える。
+<param4>は一口サイズに切って<font color="red">⚠</font>ペーパータオルで<font color="red">⚠</font><font color="red">⚠</font>水気を拭きとり、<param10>をまぶす。
+<font color="red">⚠</font>タラを<param2>度の<font color="red">⚠</font>サラダ油でからりと揚げる。
+<font color="red">⚠</font>タラと<param5>を器に盛り付け、茹で<param6>を散らしたら完成。

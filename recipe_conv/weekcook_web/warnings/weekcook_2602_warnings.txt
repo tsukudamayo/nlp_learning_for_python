@@ -1,0 +1,5 @@
+<param5>はみじん切りにして、<font color="red">⚠</font>卵は割りほぐしておく。
+ボウルに<param4>を入れてから、<param5>のみじん切りと溶き<font color="red">⚠</font>卵、<param7>を加えてよく混ぜ合わせ、つくね<font color="red">⚠</font>タネを作る。
+ボウルのつくね<font color="red">⚠</font>タネに<param9>を加えて混ぜた後、更に<param8>を加えて捏ねる。
+混ぜ合わせたつくね<font color="red">⚠</font>タネをスプーン<param1>本を使って丸く<font color="red">⚠</font>形を整えてから(全部で<param2>個作成)、<param3>℃の<font color="red">⚠</font>揚げ油に入れてこんがりと揚げる。
+ふんわりつくねをお皿に盛り付け、お好みで<font color="red">⚠</font>カット野菜(千切り<font color="red">⚠</font>キャベツや<font color="red">⚠</font>プチトマト等)を添えたら完成。

@@ -1,0 +1,5 @@
+<param10>は<param1><param6>幅に切る。
+<param9>は<param2><param7>幅に切る。
+<param9>、<param10>、<param11>、<param13>を耐熱容器に入れる。ぴったりとラップをしてよく振り、<font color="red">⚠</font>材料に<param12>を絡める。
+ラップをふんわりとかけなおし、<param15><param3>Wで半加熱する。(目安: 約<param4><param5><param8>)
+<param14>気が足りなければ<param14>少々をふり、器に盛りつけ完成。

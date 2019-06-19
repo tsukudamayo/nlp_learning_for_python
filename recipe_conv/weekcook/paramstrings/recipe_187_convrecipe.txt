@@ -1,0 +1,6 @@
+<param7>と<param8>、<param9>、<param10>、<param12>は全て<param1><param5>角に切ってから保存容器に移して、保存
+<param11>を<param2><param6>角に切る
+鍋に<param14><param3>gを入れて火にかけ、<param12>と<param7>を炒める
+<param7>がしんなりしたら<param8>と<param9>、<param10>、<param11>を加えて軽く炒めてから、<param17>と<param15>、<param13>の内容物、<param16>を加えて煮込む※アクが出てきたら、その都度丁寧に取り除く
+鍋の具材が煮えたら<param16>を取り出し、<param18>と<param19>で味を調えてから残りの<param14><param4>gを加えてさっと煮込んで火を止める
+ミネストローネを器に注ぎ分けてから<param20>を散らしたら完成

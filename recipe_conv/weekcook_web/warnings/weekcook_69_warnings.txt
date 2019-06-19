@@ -1,0 +1,4 @@
+<param3>は厚さ<param1>mmの輪切りにして、<param4>は薄切りにする。
+<param5>は食べ易い大きさにちぎり、<param2>は洗った後、<font color="red">⚠</font>水気を切っておく。
+<param9>をすり潰し、★<font color="red">⚠</font>材料と一緒によく混ぜ合わせて、<font color="red">⚠</font>ドレッシングを作る。
+<font color="red">⚠</font>野菜を混ぜ合わせて器に盛り付け、<font color="red">⚠</font>ドレッシングをかけたら完成。

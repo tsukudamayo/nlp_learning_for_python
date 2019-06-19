@@ -1,0 +1,102 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "6",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "10",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "15",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "W",
+        "type": "unit"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "鶏もも肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "じゃがいも",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "さやいんげん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "ベビーリーフ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "ブラックペッパー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "ハーブ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "オーブン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param19",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param20",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

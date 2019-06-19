@@ -1,4 +1,0 @@
-<param8>は厚さ<param1>mmの輪切り、⚠水菜は長さ<param2><param4>、<param7>は長さ<param3><param5>に切り、<param10>は⚠石突きを取りほぐす。
-<param6>は⚠水分を⚠ペーパータオルで拭き取る。
-鍋に、<param12>と<param8>、<param7>、スライスした<param15>を入れて火にかけ、煮たって来たら<param6>と<param11>、<param10>を加えてから、<param13>と<param14>で味をつける。
-火が通ったら<param16>を加え、味をみて薄いようなら<param13>や<param14>を足し、最後に⚠水菜を加えて完成。

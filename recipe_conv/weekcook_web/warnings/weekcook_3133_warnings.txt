@@ -1,0 +1,3 @@
+<param3>は、<font color="red">⚠</font>へたを落としてからさっと茹でた後、長さ<param1><param2>程の斜め切りにする。
+<param9>に<param4>、★の<font color="red">⚠</font>調味料をよく混ぜる。混ぜてから火をつけて、<font color="red">⚠</font>水分がなくなるまで炒める。
+茹でた<param3>と<font color="red">⚠</font><font color="red">⚠</font>鶏そぼろを器に盛りつけ完成。

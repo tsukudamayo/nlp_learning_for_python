@@ -1,0 +1,4 @@
+<param2>は半分に切り、<param3>は薄切りにする。
+<param1>は大きければ食べやすい大きさに切る。
+<param6>に<font color="red">⚠</font>サラダ油と<param3>を入れて熱し、<param1>を入れてほぐす。<param1>がほぐれたら、<param2>を加え、<font color="red">⚠</font>塩を振り入れて炒め合わせる。
+<font color="red">⚠</font><font color="red">⚠</font>豚肉に火が通ったら、<param5>を加え、<param2>を軽くつぶしながら、<font color="red">⚠</font>全体をよく絡めて火を止める。器に盛り付け、<param4>を振り完成。

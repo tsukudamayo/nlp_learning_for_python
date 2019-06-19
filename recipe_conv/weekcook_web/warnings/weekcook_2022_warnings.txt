@@ -1,0 +1,3 @@
+<param6>は長さ<param1><param3>の薄切りにし、<font color="red">⚠</font>熱湯で<font color="red">⚠</font>さっと茹でてから取り出す。
+<font color="red">⚠</font>パプリカを取り出した鍋に続けて<param5>を入れ、<font color="red">⚠</font>さっと茹で<font color="red">⚠</font>水に取った後、<font color="red">⚠</font><font color="red">⚠</font>水気を絞って長さ<param2><param4>に切る。
+ボウルに★の<font color="red">⚠</font>調味料を全て入れて混ぜ合わせ、<param5>と<font color="red">⚠</font>パプリカを加えて和え、器に盛り付け完成。

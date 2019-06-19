@@ -1,0 +1,7 @@
+<param5>は縦に半分に切って<font color="red">⚠</font>種をスプーンで取り除いてから、更に厚さ<param1>mmに切って<font color="red">⚠</font>水にさらし、<font color="red">⚠</font><font color="red">⚠</font>水分を切る。
+<param6>は<font color="red">⚠</font>水切りをしてから、手で一口大にちぎる。
+<param7>は<param2><param4>幅に切り、<param8>は<param3>mm幅に切る。
+<param14>を火にかけ、<param10>注ぎ入れて温めてから、<font color="red">⚠</font>豆腐を加えて焼き、焼き色が少し付く位まで焼いたら取り出す。
+<font color="red">⚠</font>豆腐を取り出した<param14>で<font color="red">⚠</font>豚肉と<font color="red">⚠</font>ベーコン、<param5>を炒めてしんなりしたら、焼いた<font color="red">⚠</font>豆腐を戻し入れてから★の<font color="red">⚠</font>調味料を加えて味を調える。
+<param14>の<font color="red">⚠</font>中を一混ぜしてから溶き<param9>を加え、<param9>に火が通るように<font color="red">⚠</font>フライ返し等で返しながら炒めて、<font color="red">⚠</font>全体に火が通ったら火を止める。
+出来上がった<param5>チャンプルーをお皿に盛り付け、お好みで<font color="red">⚠</font>刻みのりを散らしたら完成。

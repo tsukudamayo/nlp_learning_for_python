@@ -1,0 +1,7 @@
+<param19>はみじん切りにしてから、<param30>（<param1>W）で約加熱する。(目安: 約<param2><param3><param13>)
+<param22>は<param23>に約浸しておく。(目安: 約<param4><param5><param14>)
+<param18>をボウルに入れ、<param24>と<param25>、<param19>、溶き<param20>、<font color="red">⚠</font>水分を絞った<param22>を順に加えてから、<font color="red">⚠</font>ふんわりと<font color="red">⚠</font>空気を含む様に捏ねて<font color="red">⚠</font>ハンバーグ<font color="red">⚠</font>タネを作る。
+<font color="red">⚠</font>ハンバーグ<font color="red">⚠</font>タネを<param6>等分に分割してから、<font color="red">⚠</font>キャッチボールの要領で、手に分割した<font color="red">⚠</font>ハンバーグ<font color="red">⚠</font>タネを叩きつけて丸める。
+<param29>を温めて<font color="red">⚠</font>サラダ油（分量外）を引き、<font color="red">⚠</font>ハンバーグの<font color="red">⚠</font>タネを中火で<font color="red">⚠</font>片面を約焼き、(目安: 約<param7><param8><param15>)ひっくり返して約焼く。(目安: 約<param9><param10><param16>)
+<font color="red">⚠</font>ハンバーグを焼いている<param29>に、<param21>、<param26>、<param28>、<param27>を加えて約煮込む。(目安: 約<param11><param12><param17>)
+<font color="red">⚠</font>ハンバーグの<font color="red">⚠</font>トマトソース煮をお皿に盛り付け、お好みで<font color="red">⚠</font>ブロッコリー等の<font color="red">⚠</font>付け合わせの<font color="red">⚠</font>野菜を添えたら完成。

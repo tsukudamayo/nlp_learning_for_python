@@ -1,0 +1,9 @@
+NE-<font color="red">⚠</font>BS<param1>を使ったレシピです。
+鶏もも<font color="red">⚠</font>肉は余分な脂や<font color="red">⚠</font>血管などを取り除き、フォークや竹ぐしなどでところどころに穴をあける。
+<param10>、<font color="red">⚠</font>こしょうをまんべんなくふりかけてすり込み、<font color="red">⚠</font>タイム、<param11>、<param12>とともにビニール袋に入れて<font color="red">⚠</font>空気を抜き、<font color="red">⚠</font>口を閉じて一晩冷蔵庫で寝かせる。
+一晩寝かせた<font color="red">⚠</font>肉の<font color="red">⚠</font>香草を取り除き、水洗いしたあと、<font color="red">⚠</font>水けをふき取る。
+直径<param2><param7>の耐熱ガラス製ボウルに<font color="red">⚠</font>皮目を上にして入れ、<param13>を<font color="red">⚠</font>肉が完全につかるまで入れる。
+<font color="red">⚠</font>角皿にのせ、<font color="red">⚠</font>下段に入れる。
+<font color="red">⚠</font>容器から<font color="red">⚠</font>肉を取り出し、キッチンペーパーで<font color="red">⚠</font>油を軽くふき取ったあと<font color="red">⚠</font>皮目を上にして<param15>皿にのせ、<font color="red">⚠</font>上段に入れる。
+手動⇒<param14>⇒予熱なし<param3>段⇒<param4>℃⇒約。(目安: 約<param5>～<param6><param8>)
+焼きあがったら<param15>皿を取り出し、器に盛りつけ完成。

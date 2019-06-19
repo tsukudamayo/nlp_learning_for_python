@@ -1,0 +1,5 @@
+<param10>と<param11>は薄切りにして、<param6>と<param7>は、食べ易い大きさにほぐして、<font color="red">⚠</font>ピーマンは<param1><param3>幅、<param9>は長さ<param2><param4>に切る。
+<param5>は一口大に切る。
+ボウルに★の<font color="red">⚠</font>調味料を入れて混ぜ合わせ、<font color="red">⚠</font>そこへ全ての<font color="red">⚠</font>具材と<param10>、<param11>を入れて<font color="red">⚠</font>全体を混ぜ合わせる。
+<param20>を火にかけ、混ぜ合わせた<font color="red">⚠</font>具材を炒めて火を止める。
+お皿に<font color="red">⚠</font>ごはんを盛り付けて、<font color="red">⚠</font>上から<font color="red">⚠</font><font color="red">⚠</font>豚肉ときのこのオイスター炒めを載せたら完成。

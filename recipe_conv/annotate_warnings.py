@@ -9,7 +9,7 @@ _BLACKLIST_DIR = 'weekcook/blacklist'
 
 
 def insert_warnings(word: str, param_strings: str) -> str:
-    warning_emoji = '⚠'
+    warning_emoji = '<font color="red">⚠</font>'
     warning_strings = warning_emoji + word
     replace_strings = param_strings.replace(word, warning_strings)
 

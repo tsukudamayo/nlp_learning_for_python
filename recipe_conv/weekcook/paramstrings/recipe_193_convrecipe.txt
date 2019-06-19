@@ -1,0 +1,3 @@
+<param2>は皮をむき、<param1>mm幅のいちょう切りにし、水にさらして水分を拭き取る
+<param8>を火にかけ<param3>を溶かし、<param2>を加えて炒める。<param2>が透き通ってきたら、<param4>を回しかけ、<param5>と<param6>、<param7>を振り火を止める
+<param2>の<param3>炒めを器に盛り付け完成

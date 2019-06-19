@@ -1,0 +1,6 @@
+<param8>と<param9>は千切りにして、<param10>は<font color="red">⚠</font>根元を切り半分の長さに切り、<param11>はすりおろしておく。
+鍋に★の<font color="red">⚠</font>調味料を加えて火にかけ、一煮立ちしたら火を止め<param11>のすりおろしを加えてから、<param8>と<param9>を加えて漬ける。
+<font color="red">⚠</font>鯖(三枚おろし済)は<param12>を振り約置く。(目安: 約<param1><param2><param5>)
+<param12>をした<font color="red">⚠</font>鯖の<font color="red">⚠</font>水分を<font color="red">⚠</font>ペーパータオルで拭き取り、<font color="red">⚠</font>骨を抜いて幅<param3><param6>のそぎ切りして、<param17>を塗す。
+<font color="red">⚠</font>鯖を<param4>℃の<font color="red">⚠</font>揚げ油で揚げてから、<font color="red">⚠</font>野菜を漬け込んだたれに漬ける。
+千切り<font color="red">⚠</font>野菜で食べる<font color="red">⚠</font>鯖の唐揚げに<param10>を和えて、器に盛り付けたら完成。

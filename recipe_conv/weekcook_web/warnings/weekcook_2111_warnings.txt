@@ -1,0 +1,6 @@
+<font color="red">⚠</font>卵を茹でて<font color="red">⚠</font>茹で<font color="red">⚠</font>卵を作ってから、みじん切りにする。
+<param5>は<font color="red">⚠</font>熱湯で茹でて<font color="red">⚠</font>水に取り、長さ<param1><param3>に切る。
+<param7>と<param8>、<param9>を併せて<param5>と和える。
+<param4>は一口サイズに切って<font color="red">⚠</font>ペーパータオルで<font color="red">⚠</font><font color="red">⚠</font>水気を拭いてから、<param10>を塗す。
+<font color="red">⚠</font>タラを<param2>度の<font color="red">⚠</font>揚げ油でからりと揚げてから、<param5>を漬けたたれに加える。
+和えた<font color="red">⚠</font>タラと<param5>を器に盛り付けてから、<font color="red">⚠</font>茹で<font color="red">⚠</font>卵のみじん切りを<font color="red">⚠</font>上から散らしたら完成。

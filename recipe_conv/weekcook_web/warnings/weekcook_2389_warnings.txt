@@ -1,0 +1,3 @@
+<param3>は、<font color="red">⚠</font>塩少々(分量外)を加えた<font color="red">⚠</font>熱湯でさっと茹でる。
+茹でた<param3>を<font color="red">⚠</font>冷水に取り、ぎゅっと絞ってから長さ<param1><param2>に切る。
+<font color="red">⚠</font>ツナ缶(小)の<font color="red">⚠</font>油を捨て、ボウルに★の<font color="red">⚠</font>調味料を入れて混ぜ合わせ、<font color="red">⚠</font>油を切った<font color="red">⚠</font>ツナと<param3>をボウルに加えて和えた後、器に盛り付けて、お好みで<font color="red">⚠</font>胡麻を振ったら完成。

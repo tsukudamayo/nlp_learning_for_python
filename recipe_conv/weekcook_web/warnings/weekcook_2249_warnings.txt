@@ -1,0 +1,5 @@
+<font color="red">⚠</font>ごはんを用意する。
+鍋に<font color="red">⚠</font>Ａを合わせ、<param1>を割り入れてやわらかくなるまで煮る
+合わせた<font color="red">⚠</font>Ｂでとろみをつける。
+器に<font color="red">⚠</font>ごはんを盛りつけ、<param2>をのせ、<font color="red">⚠</font>あんをかける
+<font color="red">⚠</font>クコの<font color="red">⚠</font>実をのせ、<font color="red">⚠</font>三つ葉、<font color="red">⚠</font>柚子こしょうを添える。

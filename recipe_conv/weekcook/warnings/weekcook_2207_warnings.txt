@@ -1,7 +1,0 @@
-<param18>を<param1><param12>角にカットする（）
-<param19>は⚠くし形、(目安: 約<param2><param3><param13>)<param20>、<param22>は乱切り、<param23>はみじん切りにする（）
-鍋に⚠オイル（分量外）を敷き、(目安: 約<param4><param5><param14>)<param23>を入れ、香りが出るまで炒める（中火で）
-鍋に、(目安: 約<param6><param7><param15>)⚠豚肉、<param19>、<param20>の順に加え炒める（）
-<param22>を加えさらに炒める（）
-<param25>、(目安: 約<param8><param9><param16>)<param24>、<param21>を加え、煮こむ（中火）
-<param20>、(目安: 約<param10><param11><param17>)<param22>、⚠豚肉に、⚠串を刺し、すっとささるまで煮こみ、仕上げに<param26>で調味する

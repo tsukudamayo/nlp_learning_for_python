@@ -1,0 +1,4 @@
+<param5>は<font color="red">⚠</font>皮を剥いてから、厚さ3～5mmの輪切りにする。
+<param12>に★の<font color="red">⚠</font>調味料と<font color="red">⚠</font>水<param1>ml(分量外)を入れて加熱し、沸騰したら<param5>を加える。半茹でたら火を止め、(目安: 約～<param2><param4>)そのまま粗熱を取って漬けておく。
+<font color="red">⚠</font>セロリは<font color="red">⚠</font>筋をとって、<param3>mm角程度の細い千切りにする。
+ボウルに、<param6>蓮と<param10>を入れて軽く和えてから、<font color="red">⚠</font>セロリと<param8>を加えて更に混ぜ合わせる。(<font color="red">⚠</font>漬け汁は加えない)器に盛り付けて、<param11>を振って完成。

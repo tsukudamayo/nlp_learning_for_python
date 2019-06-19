@@ -1,0 +1,5 @@
+<font color="red">⚠</font>里芋（直径<param1><param10>程度）は<font color="red">⚠</font>泥をよく洗い落としてから、<font color="red">⚠</font>皮のついたまま耐熱容器に入れてラップし、レンジ（<param2>W）で加熱する。(目安: 約<param3><param4>秒)加熱後、流<param24>にさらして粗熱をとり、<font color="red">⚠</font>皮をむいて大きい<font color="red">⚠</font>ものは半分に切る。
+<param19>は斜め切りにし、<param18>は<param5><param13>長さに切る。<param17>は<font color="red">⚠</font>軸をもぎと<font color="red">⚠</font>り根元を切り落とし、縦半分に切る。<font color="red">⚠</font>かさの<font color="red">⚠</font>部分は<param6>等分に切る。
+<param25>に<param20>を熱し、<param14>を入れてほぐす。<font color="red">⚠</font>牛肉がほぐれたら<font color="red">⚠</font>里芋を加えて炒める。
+<font color="red">⚠</font>牛肉の色がだいたい変わったら、<param21>、<param22>、<param23>を加えて絡めながら炒める。<font color="red">⚠</font>調味料が煮詰まり、<font color="red">⚠</font>全体に絡んだら、<param19>、<param17>、<param24>を加え、蓋をしてほど蒸し煮にする。(目安: 約<param7><param8><param11>)
+蓋を開け、<font color="red">⚠</font>具の<font color="red">⚠</font>上下を返したら、そのままほど煮る。(目安: 約<param9><param12>)器に盛り付け、<param18>をちらして完成。

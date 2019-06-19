@@ -1,0 +1,6 @@
+<param7>は半分に切って<font color="red">⚠</font>ヘタと<font color="red">⚠</font>種を除き、<param15>でほど焼いて<font color="red">⚠</font>皮を除き<param1>㎝<font color="red">⚠</font>程度の幅に切っておく。(目安: 約<param2><param3><param5>)
+<param8>は薄くスライスする。
+<param6>は薄めの一口大に切り、★の<font color="red">⚠</font>調味料と<font color="red">⚠</font>混ぜ合わせ下味をつけておく。
+<param12>、<param13>、<font color="red">⚠</font>白ワインを<font color="red">⚠</font>混ぜ合わせ、<font color="red">⚠</font>パプリカと<param8>に加えて<font color="red">⚠</font>マリネを作る。
+<font color="red">⚠</font>鶏<font color="red">⚠</font>肉に<param11>を薄くまぶし<param4>℃に温めた<font color="red">⚠</font>サラダ油で揚げる。揚げたら熱いうちに<font color="red">⚠</font>マリネに漬ける。
+<font color="red">⚠</font>マリネを器に盛りつけ完成。

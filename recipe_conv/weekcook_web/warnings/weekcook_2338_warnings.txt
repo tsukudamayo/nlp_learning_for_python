@@ -1,0 +1,5 @@
+<param7>は長さ<param1><param3>に切り、<param12>はみじん切りにする。
+<param6>は食べ易い大きさに切る。
+沸騰したお<font color="red">⚠</font>湯に<font color="red">⚠</font>塩(分量外)を加え、<param5>を表示通り茹でて、茹で<font color="red">⚠</font>上がり前に<param7>を加える。(目安: 約<param2><param4>)
+<param14>を温め<param10>を加え刻んだ<font color="red">⚠</font>ニンニクを炒めてから、<param8>と<param6>を加え沸々したら<font color="red">⚠</font>水気を切った<font color="red">⚠</font>パスタと<param7>を加える。
+<font color="red">⚠</font>塩と<param13>で味を調えてから、お皿に盛り付けて<param11>を<font color="red">⚠</font>上からかけたら完成。

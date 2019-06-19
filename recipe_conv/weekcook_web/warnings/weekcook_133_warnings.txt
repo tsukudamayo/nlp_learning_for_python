@@ -1,0 +1,4 @@
+<param5>はへたの<font color="red">⚠</font>まわりに<font color="red">⚠</font>包丁を入れてから<font color="red">⚠</font>皮を剥く。
+<param8>や<param6>、<param7>をみじん切りにしてから、★の<font color="red">⚠</font>調味料と混ぜ合わせて<font color="red">⚠</font>香味ソースを作る。
+<param5>はラップで一本ずつぴったりと包んでから<param11>（<param1>W）に約かけた後、(目安: 約<param2><param3><param4>)ラップの<font color="red">⚠</font>上から<font color="red">⚠</font>布巾で包んで軽く押さえる。
+<param5>のラップを剥いて縦に<font color="red">⚠</font>切れ目を入れた後、器に盛り付け、<font color="red">⚠</font>香味ソースをかけたら完成。

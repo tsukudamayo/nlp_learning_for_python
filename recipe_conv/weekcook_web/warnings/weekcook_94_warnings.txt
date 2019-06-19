@@ -1,0 +1,4 @@
+<param2>は厚さ<param1>mmのいちょう切りにしてからさっと<font color="red">⚠</font>水に潜らせて、<param4>は薄切りにして、<font color="red">⚠</font><font color="red">⚠</font>万能ねぎは小口切りにする。
+<param3>は<font color="red">⚠</font>熱湯を回しかけて油抜きをした後、食べ易い大きさに切る。
+鍋に<param5>と<param2>、<param4>を加えて火にかける。<param2>が軟らかくなったら<param3>を加えて、<param6>を溶かしたら火を止める。
+<param2>と<param3>のお<font color="red">⚠</font><font color="red">⚠</font>味噌汁を、お椀によそい分けて刻んだ<font color="red">⚠</font><font color="red">⚠</font>万能ねぎを散らしたら完成。

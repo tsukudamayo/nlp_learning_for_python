@@ -334,6 +334,8 @@ def main():
         mkdir_if_not_exists(proc2_path)
         input_file = os.path.join(org_path, file_header + '.txt')
         output_file = os.path.join(proc2_path, file_header + '_proc2.txt')
+        if os.path.exists(output_file) is True:
+            continue
         parse_recipe(_KBM_MODEL, _KYTEA_PATH, input_file, output_file)
 
         print('procedure_3')

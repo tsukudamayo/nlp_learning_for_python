@@ -1,0 +1,3 @@
+<param4>は細長くなるように<param1>つに折る。
+<param7>に<param5>を<font color="red">⚠</font>横にのせ、その<font color="red">⚠</font>上に<font color="red">⚠</font>チーズをのせて<param3>、<param6>を並べ、巻く。巻き<font color="red">⚠</font>終わりを水溶きの<font color="red">⚠</font>小麦粉で止める。
+<font color="red">⚠</font>揚げ油を<param2>度に温め、<font color="red">⚠</font>春巻きを<font color="red">⚠</font>きつね色に揚げて完成。

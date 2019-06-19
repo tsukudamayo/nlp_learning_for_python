@@ -1,0 +1,7 @@
+<param10>は、厚さが均一になるように包丁を入れて<param1>等分する。
+<param10>をボウルに入れて<param12>（大さじ<param2>）に浸ける（以上）。(目安: 約<param3><param4><param8>)
+<param11>は<font color="red">⚠</font>袴を取り半分に切る。
+<param17>（<param16>でも可）で<param10>の<font color="red">⚠</font>両面を焼き（くらい）、(目安: 約<param5>～<param6><param9>)<param17>皿に<param13>を薄く塗って<font color="red">⚠</font><font color="red">⚠</font>鶏肉の横で<param11>も同時に焼く。
+<param11>はこんがり焼けたら取り出して、先に器に盛り付け<param15>を振る。
+<param10>に残りの<param12>（大さじ<param7>）をハケで塗り、焦げ目が多少付く位にこんがり焼く。
+焼き上がったら、<param11>を盛り付けた器に一緒に盛り付け、<font color="red">⚠</font>鶏の照り焼きに<param14>を振ったら完成。

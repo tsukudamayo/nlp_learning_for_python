@@ -1,0 +1,3 @@
+<param3>は<param1><param2>幅の斜め切りにして、<param9>(<param8>でも可)でこんがり焼く。
+<param4>は<font color="red">⚠</font>石づきを切り落としてほぐし、<param8>に<param7>を入れ加熱する。<param4>を加え蓋をして、しんなりしたら火を止める。
+<font color="red">⚠</font>鯖と<param4>を器に盛り付けて<font color="red">⚠</font>ポン酢をかけてから<font color="red">⚠</font>大根おろしを載せ、<param6>を添えたら完成。

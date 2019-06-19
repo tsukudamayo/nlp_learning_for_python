@@ -1,0 +1,6 @@
+調理方法は、<font color="red">⚠</font>NE-BS<param1>シリーズを使って調理した<font color="red">⚠</font>レシピです。<font color="red">⚠</font>レシピを利用される場合は、お使いの<font color="red">⚠</font>商品の<font color="red">⚠</font>料理本を参考とし、様子を見ながら調理してください。
+<param16>は<param2><param11>角、<param17>は長さ<param3><param12>、<param18>は<param4><param13>幅に切る（太い<param17>の場合は、縦半<font color="red">⚠</font>分に切る）。
+<font color="red">⚠</font>ジッパー付き保存袋に<font color="red">⚠</font>Ａをあわせ<font color="red">⚠</font>具材を加えて、よくもみ込み、約漬け込む。(目安: 約<param5><param6><param14>)
+<font color="red">⚠</font>汁けをしっかりと<font color="red">⚠</font>切り、<param24>皿になるべく重ならないよう平らに広げて、<font color="red">⚠</font>上段に入れる。
+<font color="red">⚠</font>料理集⇒番号で選ぶ⇒No.<param7>⇒<param8>人<font color="red">⚠</font>分　<font color="red">⚠</font>加熱の目安時間　約。(目安: 約<param9><param10><param15>)様子を見て<font color="red">⚠</font>焼き上がりが不足しているなら追加してください。ビストロでない場合は、<param24>（<param23>でも可）で焼いてください。
+<font color="red">⚠</font>加熱後、器に盛り付けたら完成。

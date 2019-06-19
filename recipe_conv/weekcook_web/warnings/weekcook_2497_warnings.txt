@@ -1,0 +1,5 @@
+<param5>を研いでから炊いておく。
+★の<font color="red">⚠</font>調味料を混ぜ合わせて合わせ<param8>を作り、<font color="red">⚠</font>炊き立ての<font color="red">⚠</font>ご飯に合わせ<param8>を振りかけて切るように混ぜ合わせ、<font color="red">⚠</font>寿司飯を作る。
+<param7>は<param1><param3>角に切ってから、<param10>と<font color="red">⚠</font>ワサビを混ぜ合わせたわさび<param10>で和える。
+<param6>は半分に切って<font color="red">⚠</font>種を取り、<font color="red">⚠</font>皮から外した<font color="red">⚠</font>実の<font color="red">⚠</font>部分を<param2><param4>角に切る。
+<font color="red">⚠</font>丼に<font color="red">⚠</font>寿司飯を盛り付けた<font color="red">⚠</font>上に<param7>と<param6>を載せ、最後に<font color="red">⚠</font>カイワレ大根と、お好みで<font color="red">⚠</font>刻み海苔を散らしたら完成。

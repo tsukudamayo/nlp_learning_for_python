@@ -1,0 +1,4 @@
+<param11>はさっと洗い、ボウルに入れ<font color="red">⚠</font>水に浸す。
+<param12>は千切り、<param13>は長さ<param1><param8>に切る。
+<param11>をザルに上げさっと<font color="red">⚠</font><font color="red">⚠</font>水気を切る。<font color="red">⚠</font>耐熱ボウルに、<param11>と<param12>、<param13>を入れて<param16>（<param2>W）で約加熱する。(目安: 約<param3><param4><param9>)加熱した<font color="red">⚠</font>野菜の<font color="red">⚠</font>上下が返るように混ぜ、更に<param16>（<param5>W）で約加熱する。(目安: 約<param6><param7><param10>)
+<font color="red">⚠</font>野菜の<font color="red">⚠</font><font color="red">⚠</font>水分を切り、<param14>と<param15>で和えて器に盛り付け、お好みで<font color="red">⚠</font>いり<font color="red">⚠</font>胡麻を振って完成。

@@ -1,0 +1,6 @@
+<param2>は<font color="red">⚠</font>皮を剥いてから厚さ<param1>mmに切る。
+<param3>は<font color="red">⚠</font>皮を剥いて薄切りにする。
+厚手の鍋に<param5>を入れて中火にかけ、溶けてきたら<param3>を加えて炒め、しんなりしてきたら、<param2>を加えて炒める。
+炒めた<param3>と<param2>の入った鍋に<param7>と<param6>を加えて、<param2>が軟らかくなるまで煮込む。
+<param2>が軽く潰れるくらいまで軟らかくなったら、<font color="red">⚠</font>粗熱を取ってから鍋の<font color="red">⚠</font>中身をミキサーに移して撹拌し、<font color="red">⚠</font>そこに<param4>と<param8>、<param9>を加えて更に攪拌する。
+<param2>の<font color="red">⚠</font>スープを器に注ぎ、<param10>を散らせば完成。

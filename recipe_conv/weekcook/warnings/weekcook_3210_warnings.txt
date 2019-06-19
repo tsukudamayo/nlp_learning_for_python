@@ -1,6 +1,0 @@
-<param5>は⚠皮をむき<param1>等分して、柔らかくなるまでゆでる（程度）
-<param14>に<param8>を入れ、(目安: 約<param2><param3><param4>)<param9>を加え炒める。焼き色がついて、カリカリになったら取り出す。
-<param14>に<param6>、みじん切りにした<param7>を入れ炒め、<param12>こしょうをする。
-茹でた<param5>をボウルに入れて潰す。
-<param5>に、炒めた⚠具材、<param10>、<param11>を入れ<param12>、<param13>で味を調える。
-<param8>を乗せて完成。

@@ -1,0 +1,5 @@
+<param7>はみじん切りにし<font color="red">⚠</font><font color="red">⚠</font>サラダ油をひいた鍋でしんなりするまで炒める。
+炒めた<param7>に<param6>を加え炒め、色が変わったら、<font color="red">⚠</font>塩<param9>、<param8>で味をつけ、<param10>を加えて炒り煮にし<font color="red">⚠</font>オニオンミートを作る。<font color="red">⚠</font>水分が無くなったら粗熱をとる。
+<param11>は<font color="red">⚠</font>皮のままレンジ容器に入れて蓋をし、レンジで加熱し<font color="red">⚠</font>上下を返して更に加熱する。(目安: 約<param1><param2><param5>)
+<param11>は熱いうちに<font color="red">⚠</font>皮を剥きフォークでつぶす。<font color="red">⚠</font>オニオンミートと<font color="red">⚠</font>ホールコーン缶を加え<font color="red">⚠</font>砂糖と<font color="red">⚠</font>塩<param9>を加え味を見て<param3>等分し俵型に丸めた<font color="red">⚠</font>コロッケの<font color="red">⚠</font>タネを作る。
+<font color="red">⚠</font>コロッケの<font color="red">⚠</font>タネに<font color="red">⚠</font>薄力粉・<font color="red">⚠</font>卵液・<font color="red">⚠</font>パン粉の順につけ<param4>℃の<font color="red">⚠</font><font color="red">⚠</font>サラダ油でからりと揚げて完成。

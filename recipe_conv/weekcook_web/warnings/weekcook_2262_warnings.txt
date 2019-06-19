@@ -1,0 +1,6 @@
+<param1<font color="red">⚠</font>4>は長さ<param1><param6>に切り、<font color="red">⚠</font>柚子は<font color="red">⚠</font>果汁を絞ってから大さじ<param2>を計り、<font color="red">⚠</font>皮（少々）は細かく切る。
+<font color="red">⚠</font>柚子の<font color="red">⚠</font>絞り汁大さじ<param3>と<param16>、<param17>を混ぜて<font color="red">⚠</font>ドレッシングを作る。
+<param8>は<font color="red">⚠</font>筋を取り除き、<param9>と<param10>を軽く振り<param11>を塗す。
+<param18>を火にかけ<param12>を加えてから<param8>を入れて約焼き、(目安: 約<param<font color="red">⚠</font>4><param5><param7>)裏返してから<param13>を振りかけ蓋をして蒸し焼きにしてから火を止める。
+<param8>を食べ易い大きさに切ってから、ボウルに<param1<font color="red">⚠</font>4>と<font color="red">⚠</font>ドレッシングと和える。
+<param8>と<param1<font color="red">⚠</font>4>の<font color="red">⚠</font>柚子<font color="red">⚠</font>ドレッシングを器に盛り付けて、<font color="red">⚠</font>柚子の<font color="red">⚠</font>皮を散したら完成。

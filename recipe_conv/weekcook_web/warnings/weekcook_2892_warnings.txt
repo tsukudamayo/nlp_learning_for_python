@@ -1,0 +1,4 @@
+<param6>は<font color="red">⚠</font>石づきを取り、ほぐしておく。
+<param7>は厚さ<param1>mmのいちょう切りにし、耐熱容器に入れてラップし、<param13>（<param2>W）で<param3>分間<font color="red">⚠</font>加熱する。
+<param7>の入った耐熱容器に<param6>と<font color="red">⚠</font>★を全て加えて、再びラップをし、<param13>（<param4>W）で<param5>分間<font color="red">⚠</font>加熱する。
+<param6>と<param7>に火が通ったらできあがり。<font color="red">⚠</font>加熱が足りなければ様子を見ながら追加で<font color="red">⚠</font>加熱する。

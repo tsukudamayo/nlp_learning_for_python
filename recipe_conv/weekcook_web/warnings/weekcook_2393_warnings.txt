@@ -1,0 +1,5 @@
+<param6>はハンドブレンダーやすり鉢でペースト状にする。★の<font color="red">⚠</font>調味料をペースト状にした<font color="red">⚠</font>胡麻に加えて、更によく混ぜ合わせて<font color="red">⚠</font>胡麻だれを作る。
+<param5>はざく切りにする。
+<font color="red">⚠</font>キャベツは<param15>で約弱加熱する。(目安: 約<param1><param2><param3>)
+<param4>はさっと茹でた後、<font color="red">⚠</font>水気を切る。
+<font color="red">⚠</font>キャベツと茹でた<font color="red">⚠</font>豚肉を器に盛り付けて、<font color="red">⚠</font>上から<font color="red">⚠</font>胡麻だれをかけたら完成。

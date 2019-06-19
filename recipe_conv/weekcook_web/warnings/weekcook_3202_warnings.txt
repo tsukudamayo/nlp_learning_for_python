@@ -1,0 +1,5 @@
+このレシピは、ビストロBS-<param1>を使ったレシピです。
+<param8>の<font color="red">⚠</font>皮をむく。ボウルにいれて<param11>で<font color="red">⚠</font>全体をコーティングしたら、<param15>皿にのせる。
+<font color="red">⚠</font>手動→<param15>→<font color="red">⚠</font>両面・<font color="red">⚠</font>上段→<font color="red">⚠</font>スタートを押す。(目安: 約<param<font color="red">⚠</font>2><param3><param7>)
+<param14>に、<param10>をいれて炒める。<param10>に火が通ったら、<param1<font color="red">⚠</font>2>、加熱した<param8>、<param9><param4>/<param5>（<font color="red">⚠</font>油も入れる）をいれて<font color="red">⚠</font>全体を合わせて、<param13>大さじ<param6>をいれて仕上げる。
+器に盛りつけたら完成。

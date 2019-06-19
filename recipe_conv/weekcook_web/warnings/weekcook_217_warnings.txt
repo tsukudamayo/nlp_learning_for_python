@@ -1,0 +1,4 @@
+<param2>は薄切り、<param3>と<param4>は細切りにする。
+<param1>は細切りにし、<param5>と<param6>を振りかけて揉み込み<param7>をまぶす。
+<param13>に<param8>を注いで温め、<param1>を炒める。<font color="red">⚠</font>肉の色が変わったら、<font color="red">⚠</font>野菜を加えて炒め、<param9>と<param10>、<param11>、<param12>で味付けをする。お好みで<font color="red">⚠</font>香酢をかけたら火を止める。
+<param1>と<font color="red">⚠</font>筍の<font color="red">⚠</font>炒め物を器に盛り付け完成。

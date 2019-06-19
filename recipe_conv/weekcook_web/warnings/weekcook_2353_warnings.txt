@@ -1,0 +1,5 @@
+<param4>は<font color="red">⚠</font>熱湯で茹で<font color="red">⚠</font>冷水に取り、<font color="red">⚠</font>水気を絞って長さ<param1><param3>に切る。
+ボウルに<param5>を割りほぐし、<param6>と<param7>を振る。
+<param8>をひいた<param9>を火にかけ、<param5>液を流して薄焼き<param5>一枚を作る。
+薄焼き<param5>に<param4>を載せて<font color="red">⚠</font>クルクルと巻く。巻いた<font color="red">⚠</font>ものを<param2>つに切り分ける。
+<param4>の<param5>巻きを器に盛り付け、<font color="red">⚠</font>マヨネーズをかけ、<font color="red">⚠</font>かつお節を載せたら完成。

@@ -1,0 +1,4 @@
+<param5>は<font color="red">⚠</font>根元を切り落とし、長さ<param1><param2>に切る。
+<param3>は<font color="red">⚠</font>皮を剥いてすりおろす。
+鍋に<param6>を入れて火にかけ、温ったら<param7>と<param8>で味付けをしてから、<param4>と<param5>、<param3>おろしを加えて煮る。
+出来上がった鍋を食卓に並べ、<font color="red">⚠</font>取り皿にお好みで<font color="red">⚠</font>カボスを添えたら完成。

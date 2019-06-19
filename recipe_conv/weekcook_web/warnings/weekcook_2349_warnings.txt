@@ -1,0 +1,5 @@
+<param9>は<font color="red">⚠</font>皮をこすり落としてから長さ<param1><param6>切る。酢<param17>(分量外)にさらしてから、ざるに上げる。
+<param9>は<param17>から約茹でる。(目安: 約<param2><param3><param7>)
+<font color="red">⚠</font>豚肩ロース(<font color="red">⚠</font>ブロック)は、一口大に切る。
+鍋を火にかけ、<font color="red">⚠</font>サラダ油(分量外)を加えて<font color="red">⚠</font>豚肉を焼いて焼き色を付ける。★の<param17>と<font color="red">⚠</font>調味料、<param11>、<param9>を加えて、<font color="red">⚠</font>豚肉が柔らかくなる迄弱火で約煮る。(目安: 約<param4><param5><param8>)
+<font color="red">⚠</font>大豆と<font color="red">⚠</font>豚肩ロースの<font color="red">⚠</font>味噌煮を器に盛り付けたら完成。

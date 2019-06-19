@@ -1,0 +1,7 @@
+<param9>は<font color="red">⚠</font>熱湯で戻す。
+<param10>はざく切りにして<param20>（<param1>W）で加熱し、(目安: 約<param2><param3><param7>)粗熱が取れたら<font color="red">⚠</font>布巾に包んで軽く絞る。
+<param11>は<font color="red">⚠</font>熱湯に<param17>小さじ<param4>（分量外）を入れて茹でてから、(目安: 約<param5><param6><param8>)<font color="red">⚠</font>さやから取り出す。
+<param12>を千切りにする。
+小鍋に<font color="red">⚠</font>ひじきと<param13>、<param14>を加えて炒り煮し粗熱を取る。
+★の<font color="red">⚠</font>調味料をよく混ぜ合わせて<font color="red">⚠</font>フレンチドレッシングを作る。
+ボウルに<param10>と<font color="red">⚠</font>ひじき、<param11>、千切り<param12>を入れて<font color="red">⚠</font>フレンチドレッシングと和えてから器に盛り付け完成。

@@ -1,0 +1,7 @@
+<param7>はみじん切りにする。
+<param11>は<param12>に浸す。
+ボウルに、<param8>→<param7>→<font color="red">⚠</font>水分を絞った<param11>→<font color="red">⚠</font>卵→<param13>、<param14>の順に入れたら、よく練り混ぜて<font color="red">⚠</font>肉詰めの<font color="red">⚠</font>タネを作る。
+<param10>は縦半分に切って<font color="red">⚠</font>種を取り除き、切った<param10>に<font color="red">⚠</font>肉詰めの<font color="red">⚠</font>タネをこんもりと<font color="red">⚠</font>盛り付け、<font color="red">⚠</font>タネに<param11>（分量外）を塗す。
+<param18>に<param15>を入れて火にかけ、<param10>の<font color="red">⚠</font>肉詰めを<font color="red">⚠</font>タネ側を下にして<param18>に載せ、弱火で約焼く。(目安: 約<param1><param2><param5>)
+裏返して蓋をした後、約焼き、(目安: 約<param3><param4><param6>)<font color="red">⚠</font>中まで火が通ったら取り出した後、<param16>と<param17>を混ぜ合わせてから<param18>に入れて<font color="red">⚠</font>ソースを作る。
+<param10>の<font color="red">⚠</font>肉詰めをお皿に並べて<font color="red">⚠</font>ソースをかけたら完成。

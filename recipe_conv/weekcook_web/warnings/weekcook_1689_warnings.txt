@@ -1,0 +1,6 @@
+<font color="red">⚠</font>前日に<param3>を炊いておく。
+鍋に<param9>を入れ沸騰したら、<param4>を加える。
+<font color="red">⚠</font>スープに<param5>少々と<param6>を加え<param9>溶き<param8>でとろみをつけ、<font color="red">⚠</font>あんを作る。
+<param1>を割りほぐし<param7>を加えて混ぜ、<param2>をほぐし入れる。
+温めた<param10>に<font color="red">⚠</font>サラダ油を加え、<param2><param1>の半量を流し入れ大きく混ぜ、<font color="red">⚠</font>残りを入れて一まとめにし、<font color="red">⚠</font>カニ玉を作る。
+<font color="red">⚠</font>カニ玉を<font color="red">⚠</font>ご飯の<font color="red">⚠</font>上にのせて<font color="red">⚠</font>あんをかけて完成。

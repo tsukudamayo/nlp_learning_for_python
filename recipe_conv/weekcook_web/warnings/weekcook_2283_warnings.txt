@@ -1,0 +1,5 @@
+<param15>は<font color="red">⚠</font>皮を剥いて厚さ<param1>.<param2><param10>の半月切りにする。
+<param15>を<param22>可能な容器に並べ入れてラップをして、<param22>（<param3>W）で約加熱する。(目安: 約<param4><param5><param11>)
+<param14>は<font color="red">⚠</font>両面に<param20>をふってから、<font color="red">⚠</font>表面の<font color="red">⚠</font>水分を<font color="red">⚠</font>ペーパータオルで拭き取る。
+<param21>に<param19>を入れて加熱し、<font color="red">⚠</font>ぶりと<param15>を入れて焼き、(目安: 約<param6>～<param7><param12>)<param14>に<font color="red">⚠</font>焼き色がついたら裏返して更に焼く。(目安: 約<param8>～<param9><param13>)
+<param21>に★の<font color="red">⚠</font>調味料を加えて煮詰めながら、<param14>と<param15>に絡めて火を止めて、<font color="red">⚠</font>ぶり<param15>の<font color="red">⚠</font>照り焼きを器に盛り付け完成。

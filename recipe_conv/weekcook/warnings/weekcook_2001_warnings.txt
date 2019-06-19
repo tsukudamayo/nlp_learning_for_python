@@ -1,4 +1,0 @@
-<param6>は一辺<param1><param4>の角切りに、<param8>は薄切りに、<param7>は小口切りにする。
-<param13>に<param9>を注いで中火で熱し、<param8>を入れて薄く色づくまで炒めてから取り出す。
-<param8>を取り出した<param13>に⚠牛肉を入れて、強火で色が変わるまで炒めてから<param10>小さじ<param⚠2>/<param3>を振りかける。
-<param13>に<param5>を加えて手早く炒め、<param7>と<param8>を加えてから<param13>を振って⚠全体に混ぜ、<param11>を<param13>肌から回し入れた後、一混ぜしてから最後に<param10>と<param1⚠2>で味を整えて完成。

@@ -1,7 +1,0 @@
-<param26>、<param24>は<param1><param17>の輪切り、<param25>は⚠ヘタ、⚠種を取り<param2>mmにスライスする（）
-<param23>は、(目安: 約<param3><param4><param18>)<param5><param22>角に切る（）
-鍋に⚠オイル（分量外）を敷き、(目安: 約<param6><param7><param19>)<param34>を中火で炒める（）
-<param8>に<param30>、(目安: 約<param9><param10><param20>)<param29>を加え温める
-<param11>に紐で縛った<param27>、<param28>を加える
-<param35>に、⚠オイル（分量外）を敷き<param12>の⚠野菜、<param13>の<param23>を順に炒め<param14>の鍋に加える（）
-沸騰したら<param32>、(目安: 約<param15><param16><param21>)<param33>、<param31>を加え調味する

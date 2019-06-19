@@ -1,0 +1,4 @@
+<param7>の<font color="red">⚠</font>皮目に<font color="red">⚠</font>切り込みを入れる。
+★の<param8>と<font color="red">⚠</font>調味料を混ぜ合わせて作った<font color="red">⚠</font>めんたいマヨを、<param7>の<font color="red">⚠</font>表裏にまんべんなく<font color="red">⚠</font>塗りこんだ後、<font color="red">⚠</font>以上漬け込む。(目安: 約<param1><param2><param5>)
+<param7>は<font color="red">⚠</font>皮目を上にして<param12>（<param11>でも可）に並べてから焼く（大きさにより時間が変わるので様子を見ながら加熱する）。(目安: 約<param3>～<param4><param6>)
+焼き上がった<param7>を器に盛り付け、お好みで<font color="red">⚠</font>ゆずや飾り<font color="red">⚠</font>野菜を添えたら完成。

@@ -1,0 +1,3 @@
+<param3>は、<font color="red">⚠</font>袴を剥き取り除き、長さを<param1>等分に切る。鍋に<font color="red">⚠</font>湯を沸騰させ1～<font color="red">⚠</font>2<param<font color="red">⚠</font>2>の<font color="red">⚠</font>塩(分量外)を加え<param3>をさっと茹で、冷<param6>につける。
+<font color="red">⚠</font>レタスは大きめに切る。
+鍋に<param3>と<param5>、<param6>を入れて火にかけ、沸騰したら<font color="red">⚠</font>レタスと<param7>を入れて火を止めて、器に盛り付けたら完成。

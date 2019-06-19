@@ -1,0 +1,4 @@
+<param5>は千切りにして、<param4>は<font color="red">⚠</font>皮をこそいでささがきにし、<font color="red">⚠</font>水に浸して<font color="red">⚠</font>アクを抜く。
+鍋に<font color="red">⚠</font>水を入れ、ささがきにした<param4>を加えたら火を点け、沸騰したらざるにあげる。
+鍋に<param7>を温めてから、<param4>と<param5>、<param6>を加えて炒めて、<param8>と★の<font color="red">⚠</font><font color="red">⚠</font>調味料半量強を加えて蓋をして約煮てから、(目安: 約<param1><param2><param3>)蓋を取り残りの★の<font color="red">⚠</font><font color="red">⚠</font>調味料を加えて、照り良く仕<font color="red">⚠</font>上がったら火を止める。
+大豆入り<param4>の<font color="red">⚠</font>きんぴらをお皿に盛り付けて、<font color="red">⚠</font>上から<param13>をふったら完成。

@@ -1,0 +1,5 @@
+<param11>は千切りに、<param9>は切込みを入れ、<param10>は長さ<param1><param5>に切る
+<param8>は頭と腸を取り除いた後、<param12>で洗い流す
+鍋に<param8>と<param11>、<param9>、ねぎ、及び★の<param12>と調味料を入れてから火にかけ、蓋をして<param8>が柔らかくなるまで煮る（）
+煮上がった<param8>の梅煮を汁ごと保存容器に入れて、(目安: 約<param2>～<param3><param6>)保存※ねぎは臭み消しの為食べない
+<param8>の梅煮を<param17>（<param4><param7>）で温めてから器に盛り付け、煮た<param9>を添えたら完成

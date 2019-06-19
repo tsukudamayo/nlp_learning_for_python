@@ -1,0 +1,4 @@
+<font color="red">⚠</font>かぼちゃは厚さ<param1>mmに切り、<param5>は<param2><param3>角に切る。
+鍋に<param6>を入れて火にかけて、沸騰したら<font color="red">⚠</font>かぼちゃと<param5>を入れる。
+鍋の<font color="red">⚠</font>かぼちゃが軟らかくなったら、弱火にし白<font color="red">⚠</font>味噌を加えて溶かしたら火を止める。
+<param5>と<font color="red">⚠</font>かぼちゃのお<font color="red">⚠</font><font color="red">⚠</font>味噌汁を、お椀によそい分けたら完成。

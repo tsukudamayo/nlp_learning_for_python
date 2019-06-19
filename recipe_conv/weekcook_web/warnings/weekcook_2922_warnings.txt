@@ -1,0 +1,4 @@
+<param4>は斜め切りにする。ぶなしめじと<param3>は<font color="red">⚠</font>石づきを取りほぐす。<param7>は薄切りにする。
+<param10>に<param5>と<param7>を入れて火にかける。十分温まったら、<param1>を入れてほぐす。
+<param1>がだいたいほぐれたら<param4>、ぶなしめじ、<param3>を入れて炒める。
+<param1>と<font color="red">⚠</font>野菜に火が通ったら<param8>、<param9>をふる。<param6>を加えて炒め合わせ、器に盛り付けたら完成。

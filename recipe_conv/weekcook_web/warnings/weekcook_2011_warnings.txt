@@ -1,0 +1,6 @@
+<param3>と<param4>は千切りにして、<font color="red">⚠</font>それぞれを別々の容器に入れてから<param11>を振って、しんなりさせておく。
+<param5>と<param6>は茹でて<font color="red">⚠</font>冷水に取り、冷ましてから、食べ易い長さに切る。
+しんなりした<param3>と<param4>は、<font color="red">⚠</font>水分を絞ってからボウルに入れ、<param12>を少々加えた後、<param11>で味を整えて<font color="red">⚠</font>ナムルにする。
+食べ易い長さに切った<param5>と<param6>も、<param12>を少々加えてから<param11>で味を調えて<font color="red">⚠</font>ナムルにする。
+<param2>を小鍋に入れ、<param10>と<param13>を加えてから混ぜ合わせて火にかけ、箸で混ぜ合わせながら炒り煮して<font color="red">⚠</font>肉そぼろを作る。
+<font color="red">⚠</font>丼に<param8>を盛り付け、<param1>種類の<font color="red">⚠</font>ナムルと<param7>、<font color="red">⚠</font>肉そぼろをのせて<font color="red">⚠</font>中央に<param9>黄を落とし、<font color="red">⚠</font>コチュジャンを添えたら完成。

@@ -1,0 +1,3 @@
+<param1>はさっと洗う。
+鍋に<param3>を入れて火にかけ、<param3>が沸騰したら<param2>と<font color="red">⚠</font>わかめを加えて、ひと煮立ちしたら火を止めて白<font color="red">⚠</font>味噌を溶かす。
+<font color="red">⚠</font>わかめとお<param2>のお<font color="red">⚠</font><font color="red">⚠</font>味噌汁をお椀によそい、お好みで<font color="red">⚠</font>三つ葉を散らしたら完成。

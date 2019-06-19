@@ -1,0 +1,4 @@
+<param12>は洗って炊く。
+<font color="red">⚠</font>ごぼうは<font color="red">⚠</font>皮をこそいで、長さ<param1><param4>のささがきにしながら<font color="red">⚠</font>水にさらした後、<font color="red">⚠</font><font color="red">⚠</font>水気を切る。
+<param13>を火にかけて熱してから<param11>を注ぎ、<font color="red">⚠</font>ごぼうを約炒めて<font color="red">⚠</font>油が良く馴染んだら<param7>を加え、(目安: 約<param2><param3><param5>)パラリとするまで炒めて★の<font color="red">⚠</font>調味料を加えた後、<font color="red">⚠</font>汁気がなくるまで炒め煮にして<font color="red">⚠</font>鶏<font color="red">⚠</font>ごぼう<font color="red">⚠</font>めしの<font color="red">⚠</font>具を作る。
+<font color="red">⚠</font>炊きたての<font color="red">⚠</font>ごはんと<font color="red">⚠</font>鶏<font color="red">⚠</font>ごぼう<font color="red">⚠</font>めしの<font color="red">⚠</font>具を混ぜ合わせた後、<font color="red">⚠</font>鶏<font color="red">⚠</font>ごぼう<font color="red">⚠</font>めしを茶碗に盛り付け、<font color="red">⚠</font>刻み海苔と<font color="red">⚠</font>紅生姜をのせたら完成。

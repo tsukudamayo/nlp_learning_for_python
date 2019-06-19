@@ -1,5 +1,0 @@
-<param6>は厚さ<param1><param4>に切る。
-<param7>と<param9>は櫛切りにして、<param8>は大きめに切り、<param10>は⚠皮を剥いてから大きい⚠物は半分に切る。
-<param11>は小房に分ける。
-鍋に<param16>と<param12>、<param6>、<param15>、<param7>、<param9>、<param8>、<param10>を入れ、柔らかくなるまで火にかける。
-<param11>を加えてから仕上げに<param13>と<param14>を振って味を調え、約煮てから火を止めて、(目安: 約<param2><param3><param5>)器に盛り付けたら完成。

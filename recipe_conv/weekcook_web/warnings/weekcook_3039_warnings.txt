@@ -1,0 +1,5 @@
+<param6>は、<font color="red">⚠</font>皮をむいて<param1>等分のくし切りにする。<font color="red">⚠</font>葉と<font color="red">⚠</font>茎は<param2><param4>長さに切る。
+<param7>は<param3><param5>幅の短冊切りにする。
+鍋に、<param6>、<param7>、<param8>、<font color="red">⚠</font>顆粒だしを入れて火にかける。沸騰したら火を弱め、<param6>の<font color="red">⚠</font>葉と<font color="red">⚠</font>茎を加える。
+鍋の<font color="red">⚠</font>出汁を少量取り出して、<param9>を溶いておく。
+<param6>の<font color="red">⚠</font>葉と<font color="red">⚠</font>茎を加え、一煮立ちしたら溶いた<param9>を加え、お椀によそい完成。

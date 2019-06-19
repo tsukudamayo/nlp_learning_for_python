@@ -1,0 +1,4 @@
+<param1>は洗ってから、ざるにあげておく。
+<param2>は<font color="red">⚠</font>皮を剥いて一口大に切り、塩揉みをしてから<font color="red">⚠</font>水でさっと洗う。
+炊飯器（または鍋）に<param1>と<param2>を入れ、<param3>と<font color="red">⚠</font>still<param3>たれを加えてから普通に炊く。
+炊きあがった<param2>ご飯を茶碗に盛り付け完成。

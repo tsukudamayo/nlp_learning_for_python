@@ -1,0 +1,6 @@
+<param12>に<param18>と<param19>、<param20>を加え、よく混ぜ合わせておく。
+<param13>は<param1><param8>角に切り、ボウルで★の<font color="red">⚠</font>調味料を混ぜ合わせて<font color="red">⚠</font>タレを作っておく。
+<param14>と<font color="red">⚠</font>万能<font color="red">⚠</font>ねぎ、<param15>はみじん切りにする。
+<param24>に<param16>を入れ、<param14>と<param15>、<font color="red">⚠</font>ねぎ、<param17>を加えて中火で約炒めて香りを出したら、(目安: 約<param2><param9>)<param12>を加えて約炒める。(目安: 約<param3><param4><param10>)
+<font color="red">⚠</font>肉の色が変わってきたら<font color="red">⚠</font>タレを加え、沸騰してきたら<param22>溶き<param23>（<param22>大さじ<param5>で溶かす）を加えてとろみをつける。
+<param24>に<font color="red">⚠</font>豆腐を加えて沸々してきたら、程煮込んだ後、(目安: 約<param6><param7><param11>)器に盛り付けて、お好みで<font color="red">⚠</font>ねぎを散らせば完成。

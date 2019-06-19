@@ -1,0 +1,7 @@
+<param6>は<font color="red">⚠</font>塩少々を加えた<font color="red">⚠</font>熱湯で表示通り茹でる。
+<param7>は千切りにして、<font color="red">⚠</font>塩少々を振って置いておく。
+<param8>は千切りにして<param14>で加熱する。(目安: 約<param1><param4>)
+<param9>は薄切りにしてから<font color="red">⚠</font>水にさらす。(目安: 約<param2><param3><param5>)
+<param7>は<param9>と併せて、<font color="red">⚠</font><font color="red">⚠</font>水気を<font color="red">⚠</font>ギュッと<font color="red">⚠</font>ペーパータオルで絞り、<param8>も<font color="red">⚠</font><font color="red">⚠</font>水気をとる。
+ボウルに茹でた<param6>と<font color="red">⚠</font><font color="red">⚠</font>水分を切った<font color="red">⚠</font>野菜、<param11>、<param12>、<param13>を加えて混ぜ合わせる。
+<param6>サラダをお皿に盛り付けて、<font color="red">⚠</font>レタスを添えたら完成。

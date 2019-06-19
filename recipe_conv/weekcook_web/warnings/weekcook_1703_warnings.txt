@@ -1,0 +1,6 @@
+鍋に<param15>と<param14>、<param16>を入れて沸騰したら、<param14>だけ取り出して約煮出し、(目安: 約<param1><param2><param6>)<param17>を加えてから火を止め、<param17>が沈んだら濾す。
+<param13>を<param15>から茹でて茹で<param13>を作る。
+<param10>は<font color="red">⚠</font>皮を剥いてから茹でる。
+<param9>は厚さ<param3><param8>に切り、<font color="red">⚠</font>皮を剥いて隠し<font color="red">⚠</font>包丁を入れ、<param15>から茹でる（あれば<font color="red">⚠</font>米の<font color="red">⚠</font>とぎ汁の方が良い）。
+鍋の<font color="red">⚠</font>だしに<param18>と<param20>、<param19>で味を付け、<param9>と<param11>を入れて軟らかくなるまで煮てから、<param12>と茹でた<param10>、茹で<param13>を加えて約煮る。(目安: 約<param4><param5><param7>)
+<font color="red">⚠</font>おでんを器に盛り付け完成。

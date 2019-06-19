@@ -1,0 +1,4 @@
+<param1>は<font color="red">⚠</font>皮を剥いて千切り、<param2>は<font color="red">⚠</font>皮を剥いていちょう切りにする。
+<param5>に<font color="red">⚠</font><font color="red">⚠</font>胡麻油を敷き、中火で<param2>を炒めてから、少し火が通った時点で<param1>を投入する。
+<param1>が少ししんなりしたら、<param3>と<param4>を入れて<font color="red">⚠</font>汁気がなくなるまで炒める。
+火を止めてから<font color="red">⚠</font>胡麻と<font color="red">⚠</font>七味唐辛子を加えて混ぜてから器に盛り付け、お好みで<font color="red">⚠</font>パセリを散らせば完成。

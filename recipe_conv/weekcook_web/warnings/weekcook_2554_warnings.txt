@@ -1,0 +1,7 @@
+<param9>はペーパータオルに包んで<font color="red">⚠</font><font color="red">⚠</font>水気を切る。
+<param11>は<font color="red">⚠</font>皮をこすり落とした後、ささがきにして<font color="red">⚠</font>水にさらし、<param10>と<param17>はみじん切りにする。
+<param12>をボウルでしっかりと練り混ぜ、<param14>と<param15>、<font color="red">⚠</font>豆腐、溶き<param13>を様子を見ながら順に加えた後、<font color="red">⚠</font><font color="red">⚠</font>水気を切った<param11>と<param10>、<param17>を加えて混ぜ合わせる。
+<param1>等分にした<font color="red">⚠</font>タネを<param2>つずつ、<font color="red">⚠</font>胡麻油(分量外)をつけた手で<font color="red">⚠</font>キャッチボールの様にして<font color="red">⚠</font>空気を抜いてから、<font color="red">⚠</font>つくね状にする
+<font color="red">⚠</font>つくね状にした<font color="red">⚠</font>タネを<font color="red">⚠</font>串に刺し休ませる。(目安: 約<param3><param4><param7>)
+<font color="red">⚠</font>つくねを刺した<font color="red">⚠</font>串を<param19>(又は<param18>)で焼き、八分通り火が通ったら途中で<param16>を数回塗る。(約)
+焼き上がった<font color="red">⚠</font>鶏<param11><font color="red">⚠</font>つくねをお皿に盛り付けたら完成。(目安: 約<param5><param6><param8>)

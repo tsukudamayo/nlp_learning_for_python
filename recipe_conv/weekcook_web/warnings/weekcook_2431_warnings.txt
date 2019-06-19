@@ -1,0 +1,4 @@
+<param10>は<font color="red">⚠</font>筋を取り、長さ<param1><param6>に切る。
+<param9>を一口サイズに切ってから、<font color="red">⚠</font>熱湯で約茹でる。(目安: 約<param2><param3><param7>)
+<param9>の<font color="red">⚠</font>茹で汁を捨て、<param11>と★の<font color="red">⚠</font>調味料を加えた後、切った<param10>を加えて煮る。沸騰したら弱火にし、約煮て、(目安: 約<param4><param5><param8>)仕上げに<param16>を加えて<font color="red">⚠</font>全体に馴染むように混ぜてから火を止める。
+<param10>と<param9>の<font color="red">⚠</font>ピリ辛煮を器に盛り付けたら完成。

@@ -1,0 +1,3 @@
+<param6>は千切りにする。<param9>（<param1>W）で加熱する。(目安: 約<param2><param3>)
+<param4>は食べ易い長さに切る。鍋に<font color="red">⚠</font>熱湯を沸かし<param5>を茹でて取り出す。続けて<param4>を茹でて、<font color="red">⚠</font>水にさらす。
+<param7>は粒状なら、すり潰す。<param7>と<param8>を混ぜ、<font color="red">⚠</font><font color="red">⚠</font>水気を絞った<font color="red">⚠</font>野菜と和え、器に盛り付け完成。

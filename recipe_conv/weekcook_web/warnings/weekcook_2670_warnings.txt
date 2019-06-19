@@ -1,0 +1,4 @@
+<param10>は同量の<param11>で炊く。
+<param9>は<param1><param6>に切り、<font color="red">⚠</font>クッキーングシートをひいた<param15>でこんがりするまで程焼く。(目安: 約<param2><param3><param7>)
+<font color="red">⚠</font>ご飯の炊きあがり前に<font color="red">⚠</font>うなぎをのせ、(目安: 約<param4><param5><param8>)<param12>を回しかけて蓋をする。
+<font color="red">⚠</font>あさつき、<param14>、<font color="red">⚠</font>刻み海苔、<font color="red">⚠</font>ワサビなどの<font color="red">⚠</font>薬味を添えて完成。お好みで<font color="red">⚠</font>出汁をかけても二度美味しいです。

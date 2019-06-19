@@ -1,0 +1,4 @@
+<param4>は薄切りにする。<param5>は千切りにする。<param6>は種を取ってから刻む
+<param4>と<param5>を水にさらす。(目安: 約<param1>～<param2><param3>)さらした後ザルに上げて水気をペーパータオルで拭き取る
+<param7>のツナは油を切る
+器に<param4>と<param5>を盛り付け、ツナと<param6>を載せる。<param8>を載せ、<param9>をかけたら完成

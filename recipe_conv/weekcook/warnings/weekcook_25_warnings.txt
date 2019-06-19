@@ -1,5 +1,0 @@
-<param1>は⚠熱湯で茹でて⚠水に取り氷⚠水で冷やし⚠⚠水気を切っておく。
-<param2>は輪切りにする。
-<param7>に<param4>を注いで温めてから、<param3>を炒めた後、<param2>を加える。
-炒めた<param3>と<param2>に、<param5>と<param6>を加え、<param3>と<param2>の⚠ソースを作る。
-<param1>を器に盛り付け、<param3>と<param2>の⚠ソースをかければ完成。

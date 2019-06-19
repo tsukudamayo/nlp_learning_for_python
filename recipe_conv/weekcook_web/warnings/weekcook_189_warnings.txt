@@ -1,0 +1,5 @@
+<param1>は<font color="red">⚠</font>葉を摘み取ってから、<font color="red">⚠</font>葉をお<font color="red">⚠</font>湯で茹でて<font color="red">⚠</font>冷水に取る。
+茹でた<param1>の<font color="red">⚠</font>葉は、<font color="red">⚠</font>水気をぎゅっと絞ってから包丁で軽く叩いて粘りを出す。
+<param2>は粗めのみじん切りにする。
+ボウルに<param1>と★の<font color="red">⚠</font>調味料を入れて混ぜ合わせ、<param1>の<font color="red">⚠</font>スープを作る。
+<param1>の<font color="red">⚠</font>スープを<font color="red">⚠</font>スープカップによそい、<param2>を載せたら完成。

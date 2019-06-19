@@ -1,0 +1,3 @@
+<param3>は<param1>つに切り分けてから<font color="red">⚠</font>水気を切る。
+<param4>は<font color="red">⚠</font>種を取ってから<font color="red">⚠</font>果肉を刻み、<param5>は千切りにする。
+お皿<param2>枚おのおのに切った<font color="red">⚠</font>豆腐を載せ、<font color="red">⚠</font>豆腐の<font color="red">⚠</font>上に刻んだ<param4>と<param5>の千切り、<param6>を盛り付ければ完成。

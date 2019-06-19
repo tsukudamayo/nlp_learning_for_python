@@ -1,0 +1,7 @@
+＊NE-BS<param1>(<param12>レンジ品番)を使って調理した<font color="red">⚠</font>レシピです。<font color="red">⚠</font>レシピを利用される場合は、お使いの<font color="red">⚠</font>商品の<font color="red">⚠</font>料理本を参考とし、様子を見ながら調理してください。
+密封容器に、★の<font color="red">⚠</font><font color="red">⚠</font>調味料を入れて混ぜ合わせておく。
+<param8>の厚い<font color="red">⚠</font>部分は半分くらいまで繊維に沿って<font color="red">⚠</font>包丁を入れてから、<font color="red">⚠</font>包丁をねかせて左右に切り込み入れて開き、<font color="red">⚠</font>肉の<font color="red">⚠</font>厚みを均一にそろえ、平らにする。
+<param8>の<font color="red">⚠</font>皮目を上にして、フォークや竹串などでところどころに穴をあけてから、半分に切る。
+★の<font color="red">⚠</font><font color="red">⚠</font>調味料が入った容器に、カットした<font color="red">⚠</font>鶏<font color="red">⚠</font>肉を入れ<font color="red">⚠</font>上下を返しながら<font color="red">⚠</font>以上漬け込む。(目安: 約<param2><param3><param6>)
+<font color="red">⚠</font>スチーム<param12>レンジの<font color="red">⚠</font>給<font color="red">⚠</font>水タンクに<font color="red">⚠</font>満<font color="red">⚠</font>水まで<font color="red">⚠</font>水を入れて、<font color="red">⚠</font>鶏<font color="red">⚠</font>肉の<font color="red">⚠</font>皮目を上にして<param14>皿に並べ、<font color="red">⚠</font>両面<param14>上段で約加熱する。(目安: 約<param4><param5><param7>)（<param13>の場合は、火が通るまで加熱）
+加熱後、食べやすい大きさに切って、器に盛り付けお好みで<font color="red">⚠</font>生野菜を添えて完成。

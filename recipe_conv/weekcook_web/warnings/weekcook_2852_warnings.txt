@@ -1,0 +1,7 @@
+調理方法は、<font color="red">⚠</font>NE-BS<param1>シリーズを使って調理した<font color="red">⚠</font>レシピです。<font color="red">⚠</font>レシピを利用される場合は、お使いの<font color="red">⚠</font>商品の<font color="red">⚠</font>料理本を参考とし、様子を見ながら調理してください。
+<param19>は約<param2><param14>の角切りにし、<font color="red">⚠</font>Ａをもみ込んで約おく。(目安: 約<param3><param4><param15>)
+<font color="red">⚠</font>里芋は<font color="red">⚠</font>皮をむいて乱切りにし、<font color="red">⚠</font>塩でもみ洗いをして<font color="red">⚠</font>ぬめりを取る。<font color="red">⚠</font>人参、<font color="red">⚠</font>ごぼう、<param23>は小さめの乱切りにし、<font color="red">⚠</font>ごぼう、<param23>は酢水につけて<font color="red">⚠</font>アクを抜く。
+<param24>は<param5>等<font color="red">⚠</font>分に切る。<font color="red">⚠</font>こんにゃくは小さめにちぎる。<param26>は<param6>等<font color="red">⚠</font>分に切る。
+直径<param7><param18>の<font color="red">⚠</font>耐熱製ボウルに<font color="red">⚠</font>Ｂを合わせ、<param26>以外の<font color="red">⚠</font>野菜を入れて混ぜる。<param19>を<font color="red">⚠</font>漬け汁ごと散らしてのせ、<param26>をのせてラップをし、庫内中央に置く。
+<font color="red">⚠</font>料理集⇒番号で選ぶ⇒No.<param8>　加熱の目安時間　約。(目安: 約<param9><param10><param16>)<font color="red">⚠</font>ビストロでない場合は、<param33>（<param11>W）が目安時間。(目安: 約<param12><param13><param17>)<font color="red">⚠</font>野菜が固い場合は追加加熱してください。
+加熱後、<font color="red">⚠</font>全体を混ぜ、器に盛り付け完成。

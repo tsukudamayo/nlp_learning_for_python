@@ -1,0 +1,122 @@
+[
+    {
+        "parameters": "param1",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "５",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "３０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "４０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "２",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "もつ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "ニラ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "キャベツ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "もやし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "白菜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "人参",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "絹ごし豆腐",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "中華麺",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "にんにく",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "鷹の爪",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "いり胡麻",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param21",
+        "value": "鶏がらスープの素",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param22",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param23",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param24",
+        "value": "日本酒",
+        "type": "ingredient"
+    }
+]

@@ -1,5 +1,0 @@
-<param10>と<param11>、<param12>は<param1><param7>角に切る。
-<param12>は⚠水に潜らせてから<param19>可能な容器に入れ<param19>（<param2>W）で加熱する。(目安: 約<param3><param4>秒)
-ボウルに<param9>を溶きほぐし、<param14>と<param15>、<param16>を加えて混ぜ合わせ、<param10>と<param11>、<param12>、⚠油を切った<param13>を加える。
-<param18>を⚠中火で温め<param17>を⚠全体に回したら、全ての⚠食材を流し入れて一度混ぜし、蓋をして弱火で焼く。(目安: 約<param5><param6><param8>)
-蓋に載せてひっくり返して⚠中まで火が通るまで焼く、⚠串をさして<param9>液が出てこなければ完成。

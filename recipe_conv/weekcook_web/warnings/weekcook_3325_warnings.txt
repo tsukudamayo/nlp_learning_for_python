@@ -1,0 +1,10 @@
+NE-BS<param1>を使ったレシピです。
+深めの耐熱容器に<font color="red">⚠</font>Ａを入れ、ふたなしで庫内中央に置き、レンジ<param2>Wで<font color="red">⚠</font>加熱。(目安: 約<param3>～<param4><param18>)
+<font color="red">⚠</font>Ａを泡立て器でよく混ぜ、<font color="red">⚠</font>牛乳を少しずつ加え、ふたなしで、庫内中央に置きレンジで<param5>W約<font color="red">⚠</font>加熱する。(目安: 約<param6>～<param7><param19>)（途中で2～3回かき混ぜる）
+<param31>、<param32>で味を調えたら、<font color="red">⚠</font>ホワイトソースの完成。
+<font color="red">⚠</font>じゃがいもを耐熱性の<font color="red">⚠</font>平皿にのせ、ラップをして庫内中央に置き、<param8>W約<font color="red">⚠</font>加熱する。(目安: 約<param9>～<param10><param20>)
+<font color="red">⚠</font>加熱が終わったらレンジから取り出し、<font color="red">⚠</font>じゃがいもの<font color="red">⚠</font>皮をむき、いちょう切りにし、<font color="red">⚠</font>Ｂを混ぜる。
+薄切りにした<font color="red">⚠</font>玉ねぎを深めの耐熱容器に入れて<param30>をのせ、ふたなしで庫内中央に置き、<param11>Wで約<font color="red">⚠</font>加熱する。(目安: 約<param12>～<param13><param21>)
+<font color="red">⚠</font>じゃがいも、<font color="red">⚠</font>玉ねぎ、<font color="red">⚠</font>スライスベーコンを、<font color="red">⚠</font>ホワイトソースの<param14>/<param15>量であえる。<font color="red">⚠</font>人数分にしてグラタン皿に入れ、残りの<font color="red">⚠</font>ホワイトソースと<font color="red">⚠</font>ナチュラルチーズをかける。
+グラタン皿を<param34>皿に並べ、<font color="red">⚠</font>中段に入れ、<font color="red">⚠</font>料理集→番号で選ぶ→NO<param16>を<font color="red">⚠</font>入力→<font color="red">⚠</font>決定を<param17>回押す→<font color="red">⚠</font>人数を選択→スタート。
+焼きあがったら完成。

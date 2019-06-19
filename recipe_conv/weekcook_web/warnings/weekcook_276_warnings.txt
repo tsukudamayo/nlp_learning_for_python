@@ -1,0 +1,7 @@
+<param7>は洗って炊いておく。
+<param4>は食べやすい大きさに切り、<param10>で下味をつける。
+<param5>は薄切りにし、<param6>は溶きほぐしておく。<font color="red">⚠</font>片栗粉は<font color="red">⚠</font>水約大さじ<param1>（分量外）を加えて<font color="red">⚠</font>水溶き<font color="red">⚠</font>片栗粉を作っておく。
+鍋に<font color="red">⚠</font>だしと<param4>、<param5>を加えてから火にかけ、沸騰したら弱火にして<font color="red">⚠</font>アクを取る。
+<param4>に火が通ったら<param10>を加え、沸々したところで<font color="red">⚠</font>水溶き<font color="red">⚠</font>片栗粉を加えて一混ぜする。
+鍋に溶き<param6>を<font color="red">⚠</font>上の方から流し入れ、菜箸で<font color="red">⚠</font>円を描くように混ぜてから鍋に蓋をして火を止めた後、蓋をした<font color="red">⚠</font>まま約蒸らし、(目安: 約<param2><param3>)<font color="red">⚠</font>親子<font color="red">⚠</font>丼の<font color="red">⚠</font>具材を作る。
+<font color="red">⚠</font>丼に<font color="red">⚠</font>ごはんをよそい、その<font color="red">⚠</font>上に<font color="red">⚠</font>親子<font color="red">⚠</font>丼の<font color="red">⚠</font>具材をのせ、お好みで<font color="red">⚠</font>三つ葉を散らせて完成。

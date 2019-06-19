@@ -1,0 +1,5 @@
+<param5>はピーラーで<font color="red">⚠</font>皮を剥いてから、半分量を<param1>mm<font color="red">⚠</font>幅の薄切りにし、<font color="red">⚠</font>残りをすりおろしておく。
+<font color="red">⚠</font>ベーコンは5～10mm程度の細切りにする。
+鍋に<param8>を入れて沸騰させ、薄切りにした<font color="red">⚠</font>かぶと<font color="red">⚠</font>ベーコンを加え中火で程度加熱する。(目安: 約<param2><param3><param4>)
+鍋にすりおろした<font color="red">⚠</font>かぶを加えて、更に再沸騰の後、弱火にし、<param7>で調味する。
+最後に<param9>で味を調えてから、器に盛り付け、お好みで小口切りした<font color="red">⚠</font>ねぎを載せて完成。

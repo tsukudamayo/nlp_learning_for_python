@@ -1,0 +1,7 @@
+ロティサリーポーク＆スモークを使ったレシピです。
+<param3>、<param4>、<param5>、<param6>、<param7>をビニール袋にいれてよく混ぜる。
+混ざったら、<param2>をいれて、なじませる。
+お<font color="red">⚠</font>肉を以上漬け込む。(目安: 約<param1>時間)
+豚<font color="red">⚠</font>肉をかごにセットする。
+「<font color="red">⚠</font>焼き豚・仕上がり調整　<font color="red">⚠</font>中」で<font color="red">⚠</font>スタート、下味をつけた<font color="red">⚠</font>ロティーサリーポークを焼く。
+お<font color="red">⚠</font>肉を器に盛りつけ完成。

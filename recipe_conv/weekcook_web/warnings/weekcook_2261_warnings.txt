@@ -1,0 +1,5 @@
+<param6>は<param11>で戻し<font color="red">⚠</font>軸を切り千切りにする。<param8>と<param9>は千切りにして、<param7>は幅<param1>mmの細切りにする。
+<param3>は幅<param2>mmの細切りにしてから、<font color="red">⚠</font>日本酒と<font color="red">⚠</font>片栗粉を塗す。
+鍋に<param11>と<param6>と<param8>、<font color="red">⚠</font>筍を加えて火にかけ沸騰してきたら<param3>と<font color="red">⚠</font>豆腐を加えて、再び沸騰してきたら、<param12>と<param13>、<param14>で味を調えてから、<param11>溶き<font color="red">⚠</font>片栗粉でとろみをつける。
+とろみがついたところへ溶き<param10>を少しずつ流し入れて蓋をして、火を止めて蒸らす。
+<font color="red">⚠</font>酸辣湯を器によそい分けて、<font color="red">⚠</font>酢と<param17>を垂らしてお好みで<font color="red">⚠</font>豆苗を散したら完成。

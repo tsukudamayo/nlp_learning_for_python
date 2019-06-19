@@ -1,0 +1,3 @@
+<param4>は千切りにし、大きめの耐熱容器に入れて<param10>で約加熱する。(目安: 約<param1><param2><param3>)<param6>と<param7>、<param8>、<param9>を混ぜ合わせて<font color="red">⚠</font>タレを作っておく。
+<param5>の<font color="red">⚠</font>油を切って加熱した<param4>と混ぜ合わせる。
+<param5>と混ぜ合わせた<param4>を、作っておいた<font color="red">⚠</font>タレで和えて、器に盛り付けたら完成。

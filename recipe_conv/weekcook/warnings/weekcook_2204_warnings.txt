@@ -1,7 +1,0 @@
-<param20>を鍋に入れ、たっぷりの<param25>でくしがすっとさせる迄煮こむ（前日煮こみ）
-<param21>を線維に沿って<param1>．<param2><param14>にスライスする（）
-鍋に⚠オイル（分量外）を敷き、(目安: 約<param⚠3><param4><param15>)<param21>を入れ中火で炒める（）
-<param5>に<param2⚠3>,<param22>を加え、(目安: 約<param6><param7><param16>)中火で煮詰める（）
-<param8>に<param25>または⚠牛バラ肉の⚠煮汁、(目安: 約<param9><param10><param17>)<param22>、<param24>を加え沸す（）
-沸いたら⚠濃度、(目安: 約<param11><param12><param18>)⚠調味を調整して⚠ソースは完成
-煮こんで冷ました<param20>を、<param1⚠3><param19>角にカットしておく（）

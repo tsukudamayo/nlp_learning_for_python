@@ -1,0 +1,5 @@
+<font color="red">⚠</font>熱湯に<param12>を一つまみ(分量外)加えてから、<param7>を茹でる。(目安: 約<param1><param2><param5>)
+茹でた<param7>は、<font color="red">⚠</font>水にさらしてから長さ<param3><param6>に切り、<font color="red">⚠</font>ペーパータオルで<font color="red">⚠</font><font color="red">⚠</font>水気を拭う。
+ボウルで、<param10>と<param11>、<param12>、<param13>、<param14>を併せて<font color="red">⚠</font>ドレッシングを作る。
+<param8>は厚さ<param4>mmの輪切りにし、<param9>はざく切りにする。
+食べる直前に、<font color="red">⚠</font>ドレッシングの入ったボウルに、<param7>と<param8>、<param9>を加えて和え、器に盛り付けたら完成。

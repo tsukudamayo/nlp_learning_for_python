@@ -1,0 +1,2 @@
+<param2>は<font color="red">⚠</font>皮を剥き縦に<param1>つに切る。
+★の<font color="red">⚠</font>調味料と<param2>を密閉容器に入れて時々混ぜる。

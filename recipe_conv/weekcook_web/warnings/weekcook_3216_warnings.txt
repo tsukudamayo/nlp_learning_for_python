@@ -1,0 +1,5 @@
+<param5>は一口大に切りボウルに移す。★の<font color="red">⚠</font>調味料を加えて<font color="red">⚠</font>牛肉に揉み込んで約おく。(目安: 約<param1><param2><param4>)
+<param10>は洗って<font color="red">⚠</font>根元を切り落とし半分に切る。<param11>は厚さ<param3>mmの斜め切りにする。
+小さめのボウルで、<param13>と<param14>を混ぜ合わせた<font color="red">⚠</font>ソースを作る。
+<param15>に<param12>を入れて強火で熱し、<font color="red">⚠</font>牛肉を<font color="red">⚠</font>タレと一緒に炒める。<font color="red">⚠</font>牛肉に火が通ったら<param11>を加えて、さっと炒める。<font color="red">⚠</font>ソースを加えて一混ぜした後、火を止める。
+<param15>に<font color="red">⚠</font>カイワレを加えてさっと混ぜ、器に盛り付け完成。

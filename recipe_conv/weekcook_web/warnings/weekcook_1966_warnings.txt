@@ -1,0 +1,6 @@
+<param7>は、<font color="red">⚠</font>皮をむいて頭と<font color="red">⚠</font>根元を切り落とし、縦半分に切り、<font color="red">⚠</font>繊維に沿って<param1>mm幅に切る。
+<param8>は、<font color="red">⚠</font>根元を切り落とし、長さを半分に切ってほぐし、カットした<param7>と<font color="red">⚠</font>えのきは、小鍋に入れる。
+<font color="red">⚠</font>水<param2><font color="red">⚠</font>ml（分量外）を加えて火にかけ、<param7>がしんなりしてきたら、<param10>と<font color="red">⚠</font>麺つゆを加え、再び煮立ったら<param6>を加えて<font color="red">⚠</font>アクをざっと取り<font color="red">⚠</font>牛肉に火が通ったら火を止めて<font color="red">⚠</font>すき煮を完成させる。
+<param11>は<font color="red">⚠</font>根元を切り落とし、<param3><param5>幅に切る。
+<param12>は<font color="red">⚠</font>へたをとって半分に切ってから、カットした<param11>と一緒に小鍋に入れる。
+<font color="red">⚠</font>水<param4><font color="red">⚠</font>mlを加えて加熱し、<param11>の<font color="red">⚠</font>茎がしんなりしてきたら、<font color="red">⚠</font>すき煮、<font color="red">⚠</font>おろし生姜を加えて、ひと煮立ちしたらできあがり。

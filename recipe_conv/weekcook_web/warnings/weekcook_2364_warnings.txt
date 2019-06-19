@@ -1,0 +1,4 @@
+<font color="red">⚠</font>筍(<param5>煮)と<param3>、<param2>は千切りにする。
+鍋に<param5>を入れて沸かし、<param6>を加えて、千切りにした<font color="red">⚠</font>野菜を鍋に加えて一煮立ちさせてから味をみる。最後に<param5>溶き<param7>でとろみをつける。
+<param4>を割りほぐして穴杓子で流し入れる。<param4>が浮いてきたら火を止める。
+仕上げに、<param8>と<param9>、<param10>、<param11>を加えて<font color="red">⚠</font>風味を調える。器に盛り付け、お好みで<font color="red">⚠</font>三つ葉を散らしたら完成。

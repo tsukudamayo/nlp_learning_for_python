@@ -1,0 +1,3 @@
+<param6>は3～4<param3>の斜め切りに、<param9>はつぶしておく。
+鍋に<font color="red">⚠</font>湯を沸かし、たっぷりめの<font color="red">⚠</font>塩（分量外）を入れ、<param5>をゆでる。<font color="red">⚠</font>パッケージの表示時間の前に、(目安: 約<param1><param2><param4>)<param6>を入れ、ゆで上がったらざるに上げて<font color="red">⚠</font>水気をきる。
+<param11>に<param10>、<param8>、<param9>を入れて弱火にかける。香りが出たら<param7>を<font color="red">⚠</font>汁ごと加え、<param5>と<param6>を加えてあえ、<font color="red">⚠</font>塩、<font color="red">⚠</font>こしょうで調味する。

@@ -1,0 +1,6 @@
+<font color="red">⚠</font>とうもろこしは包丁を使って<font color="red">⚠</font>実を取り外し、<param5>は薄切りにする。
+<font color="red">⚠</font>厚手の鍋を中火にかけ、<param7>を溶かしてから<param5>を炒める。
+<param5>がしんなりとしてきたら<font color="red">⚠</font>とうもろこしを加えて炒め、<font color="red">⚠</font>とうもろこしが<param5>と<font color="red">⚠</font>炒め合わせられたら、<param8>を加えて柔らかくなるまで煮る。(約)
+<param5>と<font color="red">⚠</font>とうもろこしが柔らかくなったら、(<font color="red">⚠</font>目安: 約<param1><param2><param3>)<param6>を加えて火を止めた後、<font color="red">⚠</font>ミキサーに移して撹拌する。
+一度、<font color="red">⚠</font>目の粗いざるで濾した後、<param9>と<param10>で味を調え、粗熱を取ってから冷蔵庫で冷やす。
+<font color="red">⚠</font>とうもろこしの<font color="red">⚠</font>スープを器に注ぎ、<font color="red">⚠</font>パセリを散らしたら完成。

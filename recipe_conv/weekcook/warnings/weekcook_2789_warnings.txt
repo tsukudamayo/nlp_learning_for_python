@@ -1,5 +1,0 @@
-<param11>は薄切り、<param10>は⚠袴を取り除いてから長さ<param1><param6>の斜め切りにして、<param12>は<param2><param7>幅に切る。
-<param13>をゆでるための<param14>を<param20>に注ぎ沸騰させ<param15>を加える。<param13>を加えて加熱する。(目安: 約<param3>～<param4><param8>)
-沸騰してきたらよく混ぜ、<param12>と<param10>、<param11>を加えて蓋をする。
-<param13>の茹であがり時間の前になったら、(目安: 約<param5><param9>)<param16>と<param17>を加え、⚠ソースが程よく絡むまで火にかける。
-お皿に<param10>と<param12>の<param13>を盛り付け、<param18>と<param19>を振ったら完成。

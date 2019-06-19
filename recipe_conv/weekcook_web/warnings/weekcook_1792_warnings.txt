@@ -1,0 +1,6 @@
+<param17>は厚さ<param1>mmの拍子切りにしてから<param26>にさらし、耐熱容器に入れてラップをした後、<param29>で約加熱する。(目安: 約<param2><param3><param12>)
+<param18>をほぐして<param19>と<param20>を振ってから、<param17>を加えて掻き混ぜる。
+<param28>に<param21>を注いで火にかけ、<param18>と混ぜた<param17>を流し入れて焼き、<font color="red">⚠</font>縁が少し固まったら大きく一度混ぜて蓋をしてから中火で約焼く。(目安: 約<param4><param5><param13>)
+経ったら蓋を取って<font color="red">⚠</font>オムレツをひっくり返した後、(目安: 約<param6><param7><param14>)再び蓋をして約焼く。(目安: 約<param8><param9><param15>)
+★の<param26>と<font color="red">⚠</font>調味料を小鍋に入れて火にかけ、沸騰したら<param26>溶き<param27>（<param27>を<param26><param10>mlで溶く）を加えてとろみを付けた<font color="red">⚠</font>あんを作る。
+<font color="red">⚠</font>オムレツが焼き上がったら火を止め、<param11><param16>角に切ってお皿に盛り付けたところに<font color="red">⚠</font>あんをかけ、お好みで<font color="red">⚠</font>三つ葉を添えたら完成。

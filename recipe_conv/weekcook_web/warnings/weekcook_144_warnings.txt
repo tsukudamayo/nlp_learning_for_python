@@ -1,0 +1,12 @@
+<param27>は<font color="red">⚠</font>皮をむきみじん切りにし<param39>（<param1>W）で加熱し、(目安: 約<param2><param3><param19>)冷ましておく。
+<param29>を<param30>に浸す。(目安: 約<param4><param5><param20>)
+<param26>をボウルに入れ、冷ました<param27>、<param31>、<param32>、溶き<param28>、<font color="red">⚠</font>水分を絞った<param29>を順に加えふんわりと<font color="red">⚠</font>空気を含む様に混ぜる。
+手で<font color="red">⚠</font>キャッチボールの要領で<font color="red">⚠</font>タネを叩きつけて丸める。
+<param38>を温め<param33>を加え、中火で焼き、(目安: 約<param6><param7><param21>)ひっくり返して火加減を落とし更に焼く。(目安: 約<param8><param9><param22>)
+<font color="red">⚠</font>串を刺してみて、<font color="red">⚠</font>肉汁が透き通っていたら<font color="red">⚠</font>ハンバーグの完成。
+<font color="red">⚠</font>ハンバーグを取り出した<param38>に、<param34>、<param35>、<param36>、<param37>を加え溶かし<font color="red">⚠</font>ソースを作る。
+お好みで<font color="red">⚠</font>以下付け合せとして調理する。
+<font color="red">⚠</font>人参は<font color="red">⚠</font>皮をむき、<param10>mm厚さの輪切り、<param31><param11><font color="red">⚠</font>つまみ（分量外）、<param37><param12><font color="red">⚠</font>g（分量外）を加えた耐熱容器で加熱する。(目安: 約<param13><param14><param23>)
+<font color="red">⚠</font>じゃがいもは<font color="red">⚠</font>皮つきのままレンジで加熱し<font color="red">⚠</font>皮をむいて櫛切りにする。(目安: 約<param15><param16><param24>)
+<font color="red">⚠</font>いんげんはレンジで加熱し斜め半分に切る。(目安: 約<param17><param18><param25>)
+お皿に<font color="red">⚠</font>ハンバーグ、<font color="red">⚠</font>ジャガイモ、<font color="red">⚠</font>人参、<font color="red">⚠</font>いんげんを盛り付け完成。

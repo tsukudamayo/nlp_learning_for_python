@@ -1,0 +1,4 @@
+<param9>は斜め切りにし、<param7>は大きければ食べやすい大きさに切る。
+<font color="red">⚠</font>白菜は<param1><param5>幅に切って<param14>に入れる。<font color="red">⚠</font>水大さじ<param2>（分量外）を加えて蓋をし、火にかける。<font color="red">⚠</font>水が沸騰しはじめたら弱火にして間蒸し焼きにし、(目安: 約<param3><param4><param6>)ざるにあげて<font color="red">⚠</font><font color="red">⚠</font>水気を切る。
+<param14>に<param13>を熱し、<font color="red">⚠</font><font color="red">⚠</font>豚肉を入れて炒める。<font color="red">⚠</font><font color="red">⚠</font>豚肉がほぐれたら<param12>をふり、<param9>も加えて炒め合わせる。
+<font color="red">⚠</font>白菜を戻し入れ、<param10>と<param11>を加えて炒め合わせ、器に盛り付け完成

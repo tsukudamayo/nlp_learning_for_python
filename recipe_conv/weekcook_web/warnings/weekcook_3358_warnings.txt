@@ -1,0 +1,5 @@
+<param10>は洗い炊いておく。
+<param7>は一口大に切ってから<param11>と<param12>で下味をつけ、<param16>（<param15>でも可）で焼く。
+<param7>に通り火が通ってから、(目安: 約<param1><param2><param5>)<font color="red">⚠</font>一旦火を止め<param13>を絡めて再び照り良く焼く。
+<param8>は<param3><param6>角に<param9>は<param4>つに切り、<font color="red">⚠</font>ご飯の<font color="red">⚠</font>上に<font color="red">⚠</font><font color="red">⚠</font>鶏肉と一緒にのせる。
+<font color="red">⚠</font>丼に、<param14>をかけて<font color="red">⚠</font>刻み海苔を散らし、<font color="red">⚠</font>ワサビを添えて完成。

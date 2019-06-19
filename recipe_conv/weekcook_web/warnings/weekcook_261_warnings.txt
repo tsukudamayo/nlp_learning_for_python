@@ -1,0 +1,3 @@
+<param1>は<font color="red">⚠</font>熱湯で茹でて<font color="red">⚠</font>水に取ってから、<font color="red">⚠</font><font color="red">⚠</font>水分を切る。（長い場合は食べ易い長さに切る）
+<param2>と<param3>は、千切りにする。
+<param1>と<param2>、<param3>をボウルに移し、<param4>を加えて和え、<param5>と<param6>で味を調え、器に盛り付け完成。

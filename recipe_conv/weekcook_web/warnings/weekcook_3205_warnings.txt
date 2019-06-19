@@ -1,0 +1,10 @@
+<param11>はペーパータオルに包んで<font color="red">⚠</font><font color="red">⚠</font>水気を切る。
+<param13>、<param12>、<param15>はみじん切りにする。
+<param10>に、<param11>、<font color="red">⚠</font>Ａの<font color="red">⚠</font><font color="red">⚠</font>調味料、溶き<param14>を加える。
+<font color="red">⚠</font>全体が混ざったら、<param13>、<param12>、<param15>を加えてさらに混ぜ合わせる。
+<param1>等分にした<font color="red">⚠</font>タネを<param2>つずつ、<font color="red">⚠</font>胡麻油（分量外）をつけた手で<font color="red">⚠</font>キャッチボールの様にして<font color="red">⚠</font>空気を抜いてから、<font color="red">⚠</font>ラグビーボール型にして、<param22>にのせていく。
+<param22>を中火で加熱する。<font color="red">⚠</font>じゅう<font color="red">⚠</font>じゅうと<font color="red">⚠</font>音がしたら、<font color="red">⚠</font>水<param3>ml（分量外）をいれて蓋をし、加熱する。(目安: 約<param4><param5><param8>)
+後蓋をはずして、(目安: 約<param6><param7><param9>)<font color="red">⚠</font><font color="red">⚠</font>水分を飛ばす。<font color="red">⚠</font>水が少なくなったら、<font color="red">⚠</font>焼き色を付けるために転がす。
+<font color="red">⚠</font>焼き色がついたら、混ぜ合わせたＢの<font color="red">⚠</font><font color="red">⚠</font>調味料を入れてからめる。
+<font color="red">⚠</font>たれが沸騰したら火を少し弱める。<font color="red">⚠</font>たれにとろみがついたら火を止める。
+器に<font color="red">⚠</font>つくねを盛りつけ完成。

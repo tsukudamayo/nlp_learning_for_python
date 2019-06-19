@@ -1,0 +1,6 @@
+<param11>、<param12>、<param13>は<param1><param7>角に切る。
+耐熱容器に入れ<param20>（<param2>W）で加熱する。(目安: 約<param3><param4><param8>)
+<param15>は<param5><param9>幅に切る。
+<param14>は<param6><param10>角に切り、<param17>にさらしておく。
+鍋に<param17>と<param14>を加えて火にかけ、沸騰してきたら、<param15>、<font color="red">⚠</font>野菜類、<param16>、<param19>を加える。
+<param18>で味を整えたら器に盛り付け、<font color="red">⚠</font>パセリを散らして完成。

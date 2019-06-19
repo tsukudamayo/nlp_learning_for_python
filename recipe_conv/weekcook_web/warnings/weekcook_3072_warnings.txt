@@ -1,0 +1,6 @@
+<param10>は乱切りに、<param9>は<param1><param6>の薄切りにする。
+鍋に<param11>を入れ温め、<param9>、<param10>を入れ、再び沸騰してきたら<param12>、<param13>を加え、水溶き<param14>で<font color="red">⚠</font>とろみあんを作る。
+<param16>に<param15>大さじ<param2>を入れて熱し、<param8>をほぐし入れる。
+<font color="red">⚠</font>フライ返しで<font color="red">⚠</font>麺を押さえるようにして、<font color="red">⚠</font>片面を中火強で程カリカリになるまで焼く。(目安: 約<param3><param4><param7>)
+こんがり焼き色がついたらひっくり返し、<param15>大さじ<param5>をふちから流し入れ、同様に焼く。
+<font color="red">⚠</font>麺をお皿に盛り、<font color="red">⚠</font>とろみあんをかけて完成。

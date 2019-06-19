@@ -1,0 +1,5 @@
+<param7>は<font color="red">⚠</font>汁けを絞り<param1>mm幅に切る。
+<param8>は<param9>小さじ<param2>で炒り煮する。
+<param10>に<param11>・<param12>を混ぜて薄焼き<param10>を<param3>枚作り、<param4><param5>幅に揃えて千切り。
+すし<param14>の<font color="red">⚠</font>材料★を併せ、<font color="red">⚠</font>炊き立ての<param6>にすし<param14>★を混ぜ粗熱を取る。
+冷めた<font color="red">⚠</font>すし飯に<font color="red">⚠</font>ツナと<param7>を混ぜて器に盛り錦糸<param10>を散らす、<param13>も添える。

@@ -1,0 +1,4 @@
+<param2>は<param1>つに切って<font color="red">⚠</font>水気を切る。
+<font color="red">⚠</font>万能<font color="red">⚠</font>ねぎはみじん切りにする。
+小鍋で<param4>を熱し、<param3>を炒めて香りが出てきたら、<font color="red">⚠</font>ねぎを加える。
+<font color="red">⚠</font>ねぎがしんなりしたら<param5>を加えて<font color="red">⚠</font>タレを完成させ、出来上がった<font color="red">⚠</font>タレを<font color="red">⚠</font>豆腐の上にかければ完成。

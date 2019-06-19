@@ -1,0 +1,2 @@
+鍋に<param3>と<param4>を加えて火にかける。<font color="red">⚠</font>だしが沸騰してきたら、<param2>を加えて火を止める。
+<param1>を入れたお椀に、<font color="red">⚠</font>吸い物を注ぎ入れ、最後に<font color="red">⚠</font>三つ葉を散らしたら完成。

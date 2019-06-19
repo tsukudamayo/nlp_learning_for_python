@@ -1,0 +1,5 @@
+<param7>はハンドブレンダー等を使ってペースト状にする。（ハンドブレンダーが無い時は、すり鉢でも可）
+★の<font color="red">⚠</font>調味料をペースト状にした<font color="red">⚠</font>胡麻に加えて、更によく混ぜ合わせて<font color="red">⚠</font>胡麻だれを作る。
+<param6>はざく切りにしてから<param14>（<param1>W）で約加熱する。(目安: 約<param2><param3><param4>)
+<param5>はさっと茹でた後、<font color="red">⚠</font>水気を切る。
+<param6>と茹でた<font color="red">⚠</font><font color="red">⚠</font>豚肉を器に盛り付け、<font color="red">⚠</font>上から<font color="red">⚠</font>胡麻だれをかけたら完成。

@@ -1,0 +1,5 @@
+<param6>は<param1>㎝角の正方形、<param7>は縦にスライスし、<param12>皿に並べていく。
+<param8>は、短冊切りにする。
+<font color="red">⚠</font>給<font color="red">⚠</font>水タンクに<font color="red">⚠</font>満<font color="red">⚠</font>水まで<font color="red">⚠</font>水を入れ、<param12>皿は中段におく。「<font color="red">⚠</font>手動・<font color="red">⚠</font>スチーム・<param2>℃・」でスタートする。(目安: 約<param3><param4><param5>)
+<font color="red">⚠</font>★を混ぜ合わせ、<font color="red">⚠</font>ドレッシングを作る。
+<font color="red">⚠</font>野菜が出来上がったら器に盛り、<font color="red">⚠</font>ドレッシングを和えて完成。

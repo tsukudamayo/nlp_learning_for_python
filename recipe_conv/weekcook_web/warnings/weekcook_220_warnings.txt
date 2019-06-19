@@ -1,0 +1,4 @@
+<param1>は櫛切りにする。
+<param2>は<font color="red">⚠</font>熱湯を回しかけて油抜きをし、食べ易い大きさに切る。
+鍋に<param3>と<param1>を加えて火にかけて、<param1>に火が通ったら<param2>を加える。白<font color="red">⚠</font>味噌を溶かしたら火を止める。
+<param1>と<param2>のお<font color="red">⚠</font><font color="red">⚠</font>味噌汁を、お椀によそい分けてお好みで<font color="red">⚠</font>三つ葉を散らしたら完成。

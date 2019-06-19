@@ -1,0 +1,6 @@
+<param11>は<font color="red">⚠</font>皮を剥いて<param1>mm角の棒状に切ってから<font color="red">⚠</font>水にさらした後、耐熱容器に入れてラップをした後、<param19>で約加熱する。(目安: 約<param2><param3><param8>)
+<param12>を割りほぐして<param14>と<param15>を振り、<param11>を加える。
+<param18>に<param16>を入れて温め、<param12>液と<param11>を流し入れて大きく一度混ぜしてから蓋をして約焼き、(目安: 約<param4><param5><param9>)裏返した後に蓋をして約焼く。(目安: 約<param6><param7><param10>)
+箸をさして<param12>液が固まっていたら、お皿に<font color="red">⚠</font>上げる。
+★の<param13>をざく切りにしてから<param17>と一緒に火にかけ、沸騰したら<param14>と<param15>で味を調えて<param13>ソースを作る。
+お皿に盛った<font color="red">⚠</font>オムレツの<font color="red">⚠</font>上から<param13>ソースをかけ、お好みで<font color="red">⚠</font>パセリを散らしたら完成。

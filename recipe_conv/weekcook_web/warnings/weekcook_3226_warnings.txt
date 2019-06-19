@@ -1,0 +1,4 @@
+<param6>は<font color="red">⚠</font>皮を剥いて大きい<font color="red">⚠</font>物は半分に切る。
+<param7>は<font color="red">⚠</font>胴と<font color="red">⚠</font>ゲソを分離してから<font color="red">⚠</font>内蔵や<font color="red">⚠</font>軟骨を取り出した後、<font color="red">⚠</font>胴は幅<param1><param4>の輪切りに、<font color="red">⚠</font>ゲソは食べ易い大きさに切る。
+鍋に、<param6>と<param7>を入れてから<param9>と<param8>を加えて中火にかけ、沸騰してきたら弱火にして約煮る。(目安: 約<param2><param3><param5>)
+最後に<font color="red">⚠</font>煮汁を煮詰めた後、器に盛り付け完成。

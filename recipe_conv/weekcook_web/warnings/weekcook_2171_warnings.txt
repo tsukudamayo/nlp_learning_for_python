@@ -1,0 +1,7 @@
+<param15>は<font color="red">⚠</font>石づきをとって薄切りにする。<param10>はみじん切りにする。<font color="red">⚠</font>油揚げは、<param1>辺に<font color="red">⚠</font>切り込みを入れる。
+<font color="red">⚠</font>菜の花はサッと茹でて長さ<param2><param6>に切る。
+ボウルに<param8>とみじん切りの<font color="red">⚠</font>白ネギ、★の<font color="red">⚠</font>調味料を加え練り混ぜ<font color="red">⚠</font>タネを作り、<param3>等分する。<font color="red">⚠</font>切り込みを入れた<font color="red">⚠</font>油揚げに混ぜ合わせた<font color="red">⚠</font>タネをへらで詰め軽く押さえる。
+<param21>を火にかけ温めてから、<font color="red">⚠</font>タネを詰めた<font color="red">⚠</font>油揚げを並べ、<font color="red">⚠</font>片面を約焼き裏返して更に約焼く。(目安: 約<param4><param5><param7>)
+焼き<font color="red">⚠</font>上がった<font color="red">⚠</font>油揚げを半分に切る。
+鍋に<param17>と<param15>を加え火にかけ沸騰したら、薄口<param12>と<param19>で味を付けをし<param20>溶き<param14>でとろみをつけたら<font color="red">⚠</font>菜の花を加えて火を止める。
+焼き<font color="red">⚠</font>上がった<font color="red">⚠</font>油揚げを器にのせて、<font color="red">⚠</font>上から<font color="red">⚠</font>あんをかけたら完成。

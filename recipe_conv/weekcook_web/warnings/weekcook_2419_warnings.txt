@@ -1,0 +1,5 @@
+<font color="red">⚠</font>レンコンは厚さ<param1>mmの輪切りにして、<font color="red">⚠</font>水に約さらす。(目安: 約<param2><param3><param7>)
+<param11>は長さ<param4><param9>に切る。
+<param18>(鍋でも可)を火にかけ、<param12>を注ぎ入れてから<param11>を入れたら<font color="red">⚠</font>こんがりと焼き色が付くまでしっかり炒めて、<font color="red">⚠</font>肉の色が変わったら、<font color="red">⚠</font><font color="red">⚠</font>水気を切った<font color="red">⚠</font>レンコンを加えて掻き混ぜる。
+<font color="red">⚠</font>レンコンに<font color="red">⚠</font>油がまわったら★の<font color="red">⚠</font>調味料と<param17>を加えて約煮てから、(目安: 約<param5><param6><param8>)火加減を強火にして<font color="red">⚠</font><font color="red">⚠</font>水分を飛ばした後、火を止める。
+<font color="red">⚠</font>レンコンと<font color="red">⚠</font>豚ばらの<font color="red">⚠</font>炒め煮を器に盛り付けたら完成。

@@ -1,0 +1,5 @@
+<param6>は長さ<param1><param4>に切って、<param14>で焼き目が付くまで焼く。
+<param5>は<param2>ｃｍ幅の削ぎ切りにして<param8>と<param7>を振る。
+<font color="red">⚠</font>鯖は<param9>を<font color="red">⚠</font>全体にまぶし、<param3>度の<font color="red">⚠</font>サラダ油でからりと揚げる。
+鍋に★の<font color="red">⚠</font><font color="red">⚠</font>調味料を加えてひと煮立ちさせた後、★の<font color="red">⚠</font><font color="red">⚠</font>調味料に揚げた<font color="red">⚠</font>鯖を絡める。
+<font color="red">⚠</font>ねぎと<font color="red">⚠</font>鯖を、器に一緒に盛り付けたら完成。

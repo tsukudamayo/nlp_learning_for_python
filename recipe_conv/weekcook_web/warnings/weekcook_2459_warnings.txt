@@ -1,0 +1,4 @@
+<param4>は<font color="red">⚠</font>芯を付けたまま、<param5>は<font color="red">⚠</font>皮を剥いて厚めの半月切りにする。爪楊枝を刺して固定しておくと良い。<param6>は<font color="red">⚠</font>皮を剥いて薄切りにする。
+<param11>に<param7>と<param6>を加え、弱中火で熱する。
+<param11>に<param4>と<font color="red">⚠</font>玉ねぎを入れて、<param9>と<param10>を振り、<font color="red">⚠</font>鍋肌から<font color="red">⚠</font>水を入れて蓋をする。中火で蒸し焼きにする。(目安: 約<param1>～<param2><param3>)<param4>がしんなり柔らかくなったら火を止める。
+<param4>と<font color="red">⚠</font>玉ねぎを器に盛り付け、<param10>を仕上げに振ったら完成。

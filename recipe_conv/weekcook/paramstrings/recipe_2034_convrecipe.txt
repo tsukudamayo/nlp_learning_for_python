@@ -1,0 +1,4 @@
+<param10>は皮つきで、断面が<param1><param6>角で長さ<param2><param7>の小さめの棒状に切ってから水にさらした後、ラップに包んで<param16>（<param3><param8>）で程度加熱する
+<param11>も<param10>と同じ大きさに切って、(目安: 約<param4>～<param5><param9>)<param12>と<param13>各少々を振る
+ボウルに<param10>と<param11>を投入し、<param14>を加えて和える
+器に<param15>を敷き、その上に<param10>のコロコロサラダを盛り付けたら完成

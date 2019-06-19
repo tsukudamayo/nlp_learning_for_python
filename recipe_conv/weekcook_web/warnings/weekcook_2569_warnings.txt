@@ -1,0 +1,5 @@
+<param4>は筋切りする。
+<param7>で<param5>を熱し、<font color="red">⚠</font>豚肉の<font color="red">⚠</font>両面を焼き目がつくまで焼く。
+<param7>の余分な<font color="red">⚠</font>油をふき取り、<param6>を加え、沸騰したら中火でほど加熱する。(目安: 約<param1><param2><param3>)
+<font color="red">⚠</font>豚肉を2～3回ひっくり返しながら、<font color="red">⚠</font>液にとろみがでてカラメル色になるまで煮詰めてからめる。
+<font color="red">⚠</font>豚肉を食べやすい大きさに切って皿に盛り、お好みでせん切りにした<font color="red">⚠</font>キャベツ、<font color="red">⚠</font>ミニトマトを添えて、<param7>に残った<font color="red">⚠</font>汁をかけたら完成。

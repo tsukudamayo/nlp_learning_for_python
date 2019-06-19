@@ -1,0 +1,6 @@
+<param7>は洗ってから炊き<font color="red">⚠</font>上げ、★の<font color="red">⚠</font>調味料を混ぜて合わせ<param12>を作り、<font color="red">⚠</font>炊き立ての<font color="red">⚠</font>ご飯に合わせ<param12>を振りかけて混ぜ合わせ、<font color="red">⚠</font>寿司飯を作る。
+<param10>と<param11>は千切りにする。
+<param8>に<param13>と<param14>を混ぜてよく溶きほぐした後、一度、ザル等で濾す。
+<param16>に<font color="red">⚠</font>サラダ油（分量外）を薄くひき、薄焼き<param8>を<param1>枚作り、錦糸<param8>（千切りにする）にする。
+うなぎ<font color="red">⚠</font>蒲焼は<param15>を振ってから<param17>（<param16>でも可）で程焼き、(目安: 約<param2><param3><param5>)<param4><param6>幅に切る。
+<font color="red">⚠</font>寿司飯を器に盛り付け、錦糸<param8>を散らした<font color="red">⚠</font>上にうなぎ<font color="red">⚠</font>蒲焼を載せて、千切りにした<param10>と<param11>を散らせば完成。

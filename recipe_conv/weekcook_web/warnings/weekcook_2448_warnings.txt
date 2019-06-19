@@ -1,0 +1,3 @@
+<param4>は<font color="red">⚠</font>皮を剥いて食べ易い大きさに切り、<param5>は櫛切りに、<param6>は乱切りにして、<font color="red">⚠</font>ツナ缶(小)は<font color="red">⚠</font>油を切っておく。
+鍋に<param8>と★、<font color="red">⚠</font>ツナ缶、<font color="red">⚠</font>グリンピース以外の<font color="red">⚠</font>野菜を加え、蓋をして火にかけ、沸々したら弱火で約煮て、(目安: 約<param1><param2><param3>)味をみて足らない場合は<param9>を加えて、<font color="red">⚠</font>煮汁を飛ばしてから<font color="red">⚠</font>グリンピースを加えて火を止める。
+<font color="red">⚠</font>ツナじゃがを器に盛り付けて<font color="red">⚠</font>グリンピースを散らしたら完成。

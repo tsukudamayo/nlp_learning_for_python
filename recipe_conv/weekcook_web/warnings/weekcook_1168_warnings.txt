@@ -1,0 +1,3 @@
+<param1>は食べ易く切り、<param2>はスライスして<font color="red">⚠</font>水にさらし、<param3>は薄切りにする。
+<param5>と<param6>、<param7>を混ぜ合わせて<font color="red">⚠</font>ドレッシングを作る。
+<font color="red">⚠</font><font color="red">⚠</font>水気を切った<font color="red">⚠</font>野菜に<font color="red">⚠</font>ドレッシングをかけて、最後に<param4>を盛りつけ完成。

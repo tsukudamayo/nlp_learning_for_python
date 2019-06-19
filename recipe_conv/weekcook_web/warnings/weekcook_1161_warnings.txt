@@ -1,0 +1,2 @@
+<param1>は<font color="red">⚠</font>熱湯で茹でて<font color="red">⚠</font>冷水に取り、斜めに切る。
+<param2>と<param3>で味を付け、<font color="red">⚠</font>胡麻を振り完成。

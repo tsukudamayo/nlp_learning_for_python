@@ -1,0 +1,5 @@
+<param2>は食べ易い大きさに切る。
+<font color="red">⚠</font><font color="red">⚠</font>鶏肉に、<param7>と<param8>、<param9>、<param6>を混ぜ合わせた<font color="red">⚠</font>タレで下味を付ける。
+<param3>をボウルに割り入れ、溶きほぐした後、<font color="red">⚠</font><font color="red">⚠</font>鶏肉を溶き<param3>につけてから<param10>をまぶす。
+<param10>をまぶした<font color="red">⚠</font><font color="red">⚠</font>鶏肉を<param1>度の<font color="red">⚠</font>サラダ油でからりと揚げる。
+<font color="red">⚠</font>鶏の<font color="red">⚠</font>から揚げをお皿に盛り付ける。食べ易い大きさにちぎった<param4>と<param5>、お好みで<font color="red">⚠</font>レモンの<font color="red">⚠</font>櫛切りを添えたら完成。

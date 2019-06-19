@@ -1,0 +1,6 @@
+<param10>は黄色い<font color="red">⚠</font>部分を取り除いてから、食べ易い大きさに切る。
+<param10>に<param14>と<param15>を振ってから、<font color="red">⚠</font>ハーブと一緒に<font color="red">⚠</font>容器に入れておく。(くらい)
+<param11>は<font color="red">⚠</font>皮付きのまま、(目安: 約<param1><param2><param7>)<param21>で<param3><param8>間加熱してから、<param4>つに切って<param14>を振る。
+<param19>皿(<param20>でも可)に<font color="red">⚠</font>アルミ箔を広げ、<font color="red">⚠</font>ハーブが付いたままの<param10>と<param11>を載せ、<font color="red">⚠</font>上から<param18>をかけて絡めてから、<font color="red">⚠</font>皮付きの<param17>と一緒に間焼く。(目安: 約<param5><param6><param9>)
+<param12>は茹でて半分に切っておく。
+焼き<font color="red">⚠</font>上がった<param10>と<param11>をお皿に盛り付け、<param13>と茹でた<param12>を添えたら完成。

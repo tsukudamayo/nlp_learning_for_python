@@ -1,0 +1,7 @@
+<param10>は<param1>mm<font color="red">⚠</font>幅の薄切りにして、<param11>は適当な大きさに裂き、<param1<font color="red">⚠</font>2>は薄切りにする。
+<param17>に<param14>大さじ<param<font color="red">⚠</font>2>/<param3>と<font color="red">⚠</font>ニンニクを入れて火にかけ、<param10>を炒めて、しんなりしてきたら<param11>を加えて一交ぜし、<param13>を加えて炒め合わせて<param13>ソースを作る。
+<param7>は溶きほぐし、小さく千切った<param8>と<param15>を加えて混ぜ合わせる
+<font color="red">⚠</font>ご飯に<param14>大さじ<param4>/<param5>を加えてざっくり混ぜる。
+<param17>に<param14>小さじ<param6>（分量外）を加えて火にかけて、よく温めてから<param7>液を加えてざっくり混ぜながら、<font color="red">⚠</font>半熟の<font color="red">⚠</font><font color="red">⚠</font>スクランブルエッグを作って取り出す。
+<param17>をペーパータオルで軽く拭い、<font color="red">⚠</font>ご飯を入れて広げてから火にかけ、<param9>をほぐしながら強火でよく炒めてから、<param13>ソースを加えて、手早く炒め合わせて火を止める。
+お皿に<param9>を盛り付けて、取り出しておいた<font color="red">⚠</font><font color="red">⚠</font>スクランブルエッグを<font color="red">⚠</font>上に載せて、<font color="red">⚠</font>バジルを振り掛けたら完成。

@@ -1,0 +1,7 @@
+<param13>をさっと洗って、みじん切りにする。<param14>と合わせて漬け込む。（くらい）
+<param12>は、(目安: 約<param1><param2>時間)みじん切りにする。耐熱容器に、<param12>、<param16>をしてラップをする。<param23>で<param3>W加熱する。(目安: 約<param4><param5><param9>)
+<param11>に、漬け込んだ<param13>、冷ました<param12>、<param15>、<param16>を混ぜ合わせる。<param6><param10>割して成形する。
+<param22>に、<font color="red">⚠</font>サラダ<font color="red">⚠</font>油をしいて、<font color="red">⚠</font>タネを焼く。<font color="red">⚠</font>片面焼き色が付いたらひっくり返し、<param22>に<font color="red">⚠</font>水を<font color="red">⚠</font>ハンバーグの高さ<param7>/<param8>程までいれて蓋をする。
+火を弱めて<font color="red">⚠</font><font color="red">⚠</font>水気がなくなるまで加熱する。中まで火が通ったらお皿に取り出す。
+<font color="red">⚠</font>油をふき取って、<font color="red">⚠</font>★をすべて入れる。沸騰させて少し煮詰める。
+お皿にお好みの<font color="red">⚠</font>野菜、<font color="red">⚠</font>ハンバーグを盛り付けて、<param12>ソースをかけて完成。

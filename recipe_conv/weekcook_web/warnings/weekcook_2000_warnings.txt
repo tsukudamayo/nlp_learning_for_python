@@ -1,0 +1,7 @@
+<param21>はみじん切りにしてから、<param25>で炒めて冷ましておく。(目安: 約<param1>～<param2><param14>)
+ボウルに<param20>と<param21>のみじん切り、★の<font color="red">⚠</font>食材と<font color="red">⚠</font>調味料を入れ、手で混ぜ合わせ粘りが出てきたら<param3>等分にして、手に打ちつけて<font color="red">⚠</font>空気を抜きながら楕円形に形づくり、<font color="red">⚠</font>中央を少しへこませ<font color="red">⚠</font>ハンバーグの<font color="red">⚠</font>タネを作る。
+<param35>で<param32>を熱し、<font color="red">⚠</font>ハンバーグの<font color="red">⚠</font>タネを入れて中火でほど焼き、(目安: 約<param4><param15>)焼き色がついたら裏返して弱火にし、蓋をしてから焼いた後に取り出す。(目安: 約<param5>～<param6><param16>)
+<param22>は小房に分けてから加熱用の器に入れ、ラップをして<param36>（<param7>W）で約加熱する。(目安: 約<param8><param17>)
+<param36>可能な容器でＡの<font color="red">⚠</font>材料を混ぜ合わせてラップをし、<param36>（<param9>W）で約加熱して、(目安: 約<param10><param11><param18>)一度取り出して混ぜた後、更に約加熱した<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースに<param24>を加える。(目安: 約<param12><param13><param19>)
+耐熱皿に<font color="red">⚠</font>ハンバーグと<param22>、<param23>を入れ、<font color="red">⚠</font>チーズ入りの<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースをかける。
+<param34>等で焼き色がつくまで焼いて完成。

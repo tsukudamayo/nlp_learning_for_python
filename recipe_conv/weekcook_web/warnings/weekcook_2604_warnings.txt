@@ -1,0 +1,5 @@
+<font color="red">⚠</font>豚ロース(生姜焼き用)は、<param5>と<param6>を振ってから、茶漉しで<param7>を振る。
+<param11>を中火で温めてから<param9>を注いでおく。
+ボウルに<param8>を割り溶きほぐし、<font color="red">⚠</font><font color="red">⚠</font>豚肉をつけて<param11>で焼く。
+ボウルに残った<param8>液を<font color="red">⚠</font><font color="red">⚠</font>豚肉の<font color="red">⚠</font>上にスプーンでかけ、<font color="red">⚠</font>まわりが白くなってきたらひっくり返して程焼いて火を止める。(目安: 約<param1><param2><param3>)
+<font color="red">⚠</font>ポークピカタを半分に切ってから、お皿に盛り付け、<param10>をかけたら完成。

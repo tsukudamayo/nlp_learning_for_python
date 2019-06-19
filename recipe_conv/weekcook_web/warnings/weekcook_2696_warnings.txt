@@ -1,0 +1,4 @@
+保存容器に★の<font color="red">⚠</font>調味料を混ぜ合わせて甘<param5>を作る。
+<param2>は繊維に<font color="red">⚠</font>直角に薄切りにし、<param3>をまぶしておく。
+<param2>から<font color="red">⚠</font>水気が出てきたらざるに入れて軽く揉み、<font color="red">⚠</font>ぬめりが出てきたら<font color="red">⚠</font>流水で洗い、<font color="red">⚠</font>水気を絞る。甘<param5>に<param2>を加える。
+<param6>を厚さ<param1>mmに切り、<param2>の甘<param5>漬けと和えて、器に盛り付けたら完成。

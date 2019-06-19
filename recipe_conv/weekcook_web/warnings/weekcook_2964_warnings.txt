@@ -1,0 +1,4 @@
+<param2>はすりおろす。
+すりおろした<param2>に、★の<font color="red">⚠</font>調味料を加えてよく混ぜ合わせて<font color="red">⚠</font>タレを作り、<font color="red">⚠</font>牛ロース肉を漬ける。
+<font color="red">⚠</font>タレに漬けた<font color="red">⚠</font>牛ロース肉を<param11>（<param10>でも可）で焼く。
+<param3>を敷いた器に<font color="red">⚠</font>焼肉を盛り付け、お好みで<font color="red">⚠</font>キムチを添えたら完成。

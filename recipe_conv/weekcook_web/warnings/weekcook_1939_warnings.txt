@@ -1,0 +1,7 @@
+<param5>は<font color="red">⚠</font>皮を剥いてから、<param1>mm角の千切りにした後、さっと<font color="red">⚠</font>水にさらして<font color="red">⚠</font><font color="red">⚠</font>水気を切る。
+<param8>は小房に分けて、<font color="red">⚠</font>ザーサイは細切りにする。
+<param6>は、細切りにする。
+<font color="red">⚠</font><font color="red">⚠</font>水気を切った<param5>と小房に分けた<param8>を一緒に<param14>で約加熱する。(目安: 約<param2><param3><param4>)
+<param13>に<param11>を注いで温め、<param6>の<font color="red">⚠</font>両面をこんがりと焼く。
+<param13>に、<param5>と<param8>、<font color="red">⚠</font>ザーサイを加えて炒め合わせてから、味をみて薄いようなら<param9>と<param10>で味を調える。
+<param13>の火を止めてから<param12>を振り、器に盛り付けたら完成。

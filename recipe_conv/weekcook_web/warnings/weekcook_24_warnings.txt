@@ -1,0 +1,5 @@
+<param1>は<font color="red">⚠</font>石突を切り落として食べ易い長さに切る。
+<param2>は<font color="red">⚠</font>水で戻す。
+鍋に<param3>を入れて火にかけ、沸騰したら<font color="red">⚠</font>えのきを加える。
+鍋がひと煮立ちしたら、<font color="red">⚠</font>白味噌を加えて溶かしたら<font color="red">⚠</font>水で戻した<font color="red">⚠</font>わかめを加えて火を止める。
+<param1>と<font color="red">⚠</font>わかめのお<font color="red">⚠</font>味噌汁を、お椀によそい分けたら完成。

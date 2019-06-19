@@ -1,0 +1,6 @@
+<param1>は、<font color="red">⚠</font>アルミ箔で<font color="red">⚠</font>皮をこすり落として、ささがきにする。
+<param2>は、<font color="red">⚠</font>皮をむいて千切りにする。
+ささがき<param1>を、<font color="red">⚠</font>水からさっと茹でる。
+<param10>に<param8>を注いで温め、<param1>と<param2>を炒める。
+<font color="red">⚠</font>全体に<font color="red">⚠</font>油が馴染んだら、<param3>と★の<font color="red">⚠</font>調味料を加え<font color="red">⚠</font><font color="red">⚠</font>水分が無くなるまで炒める。
+<param2>と<param1>の<font color="red">⚠</font>きんぴらを器に盛り付けて、<param9>を散らして完成。

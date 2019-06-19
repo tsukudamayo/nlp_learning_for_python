@@ -1,0 +1,2 @@
+<param3>は<font color="red">⚠</font>熱湯でさっと茹でてから<font color="red">⚠</font>冷水に取る。<font color="red">⚠</font>水気を絞った<param3>を、長さ<param1><param2>に切る。
+<param8>に<param5>を注いで火にかけ、溶き<param4>を流し入れてから<param3>を加え、<param6>と<param7>を振って軽く炒め合わせ、<param4>が好みの硬さに固まったら火を止める。器に盛り付けたら完成。

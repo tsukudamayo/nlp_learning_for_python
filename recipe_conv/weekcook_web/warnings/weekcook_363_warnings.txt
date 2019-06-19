@@ -1,0 +1,4 @@
+<param4>は<font color="red">⚠</font>皮を剥いて、いちょう切りにする。
+切った<param4>に<param5>を振り、密閉容器に入れて約置く。(目安: 約<param1><param2><param3>)
+ボウルに<param6>と<param7>を合わせておき、密閉容器の<param4>を<font color="red">⚠</font>水気を絞ってからボウルに加える。
+<param4>の甘<param7>漬けを器に盛り付け、刻んだ<param8>を載せたら完成。

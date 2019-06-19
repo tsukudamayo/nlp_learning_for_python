@@ -1,4 +1,0 @@
-<param11>は⚠皮をむいて<param1>等分に切り分け、厚さ<param2><param7>に切る。<param13>は洗って長さ<param3><param8>に切り、⚠水分を拭う。
-<param12>を広げて<param14>と<param15>を振る。⚠⚠豚肉を<param11>に巻きつけてから<param16>をまぶす。
-<param19>を温めて<param17>を加え、<param11>の⚠肉巻を約焼いて裏返し、(目安: 約<param4><param9>)弱火にして約、(目安: 約<param5><param6><param10>)転がしながら全面に焼き色が付くまで焼く。<param19>を火から離し、<param18>を加えて<param11>の⚠肉巻に絡める。
-<param13>を敷いた器に<param11>の⚠肉巻を盛り付け完成。

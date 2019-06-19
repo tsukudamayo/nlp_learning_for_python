@@ -1,0 +1,5 @@
+<param5>は食べ易い大きさに切って、<param6>は櫛切りにする。
+<font color="red">⚠</font>牛肉は、<font color="red">⚠</font>熱湯でさっと茹でてざるに取る。
+<font color="red">⚠</font>★の<font color="red">⚠</font><font color="red">⚠</font>調味料を混ぜ合わせる。鍋に<param7>と<param6>、<font color="red">⚠</font>★の<font color="red">⚠</font><font color="red">⚠</font>調味料(大<param1>)を加えて沸々してきたら<font color="red">⚠</font>牛肉を加えて約煮含める。(目安: 約<param2><param3><param4>)
+仕上げに残りの<font color="red">⚠</font>★と<param8>を加えて一煮立ちさせて味を調える。
+<font color="red">⚠</font>丼に<param12>を盛り、その上に出来上がった牛<font color="red">⚠</font>丼の<font color="red">⚠</font>具を載せ、お好みで<font color="red">⚠</font>紅生姜を散らしたら完成。

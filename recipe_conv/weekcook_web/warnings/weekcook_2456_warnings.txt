@@ -1,0 +1,4 @@
+<param1>のお<font color="red">⚠</font>肉は細切りにし、<param5>と<param6>を振りかけて揉み込んでから、<param7>をまぶす。
+<font color="red">⚠</font>筍(水煮)は薄切り、<param3>と<param4>は細切りにする。
+<param14>に<param8>を注いで温めてから牛<font color="red">⚠</font>肉を炒めて、<font color="red">⚠</font>肉の色が変わったら、<font color="red">⚠</font>野菜を加えて炒めた後、★と<param11>、<param12>、<param13>で味付けをして、お好みで<font color="red">⚠</font>香酢をかけたら火を止める。
+牛<font color="red">⚠</font>肉と<font color="red">⚠</font>筍の<font color="red">⚠</font>炒め物を器に盛り付けたら完成。

@@ -1,0 +1,4 @@
+<font color="red">⚠</font>白菜は<param1><param6>幅に切り、<param11>は斜め切りにする。
+<param10>は適当な大きさにほぐし、<font color="red">⚠</font>スライスベーコン(<font color="red">⚠</font>ハーフ)は<param2><param7>幅に切る。
+耐熱容器に<font color="red">⚠</font>白菜、<param10>、<param11>の順に入れ、<font color="red">⚠</font>上に<font color="red">⚠</font>スライスベーコン(<font color="red">⚠</font>ハーフ)を並べる。ラップをして、<param16>（<param3>W）で間加熱する。(目安: 約<param4><param5><param8>)
+<param14>と<param13>をまぶして混ぜ合わせ<param15>をかけ、器に盛り付け完成。

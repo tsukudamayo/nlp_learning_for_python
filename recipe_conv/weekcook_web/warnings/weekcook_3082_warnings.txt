@@ -1,0 +1,3 @@
+<param8><param1><font color="red">⚠</font>個は薄切りに、<param7><param2>株は<font color="red">⚠</font>石づきを取り食べやすい大きさに切る。
+<param10><param3>/<param4>片をみじん切りにし、小鍋に<param9>大さじ<param5>と<param10>を加え香りがしてきたら、<param11>少々、<font color="red">⚠</font>しめじ、<param8>を加える。（お好みで<font color="red">⚠</font>アンチョビを加えても美味しい）
+<font color="red">⚠</font>塩一<font color="red">⚠</font>つまみを加え<font color="red">⚠</font>全体にしんなりしてきたら、<param12>小さじ、<param6><param13>少々で味を整え火を止める。器に盛りつけたら完成。

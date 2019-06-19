@@ -1,0 +1,5 @@
+<param3>はさっと<param5>で洗う。
+<param4>は白い<font color="red">⚠</font>所を<param1><param2>ほど切り、<font color="red">⚠</font>白髪ねぎにする。
+鍋に<param5>を入れて中火にかけ、沸騰してきたら<param3>、<param6>を加える。
+一煮立ちしたら、<param7>を振って味を調える。
+<font color="red">⚠</font>わかめスープを器に注ぎ、<font color="red">⚠</font>白髪ねぎと<param8>を散らして完成。

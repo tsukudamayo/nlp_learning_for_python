@@ -1,0 +1,3 @@
+<param3>は<font color="red">⚠</font>熱湯で茹でてから長さ<param1><param2>に切る。
+<param3>の<font color="red">⚠</font>水気をペーパータオルで拭き取って、<param4>と<param5>で和える。
+<param3>の<font color="red">⚠</font>ナムルを器に盛り付け、<param6>を散らせば完成。

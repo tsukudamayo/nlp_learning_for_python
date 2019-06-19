@@ -1,0 +1,5 @@
+<param11>は縦半分に切ってから厚さ<param1><param7>に切り、耐熱皿に<font color="red">⚠</font>ペーパータオル<param2><font color="red">⚠</font>枚を敷いた<font color="red">⚠</font>上に切った<param11>を載せる。ラップなしで、<param20>（<param3>W）で約加熱する。(目安: 約<param4><param5><param8>)
+<param10>は長さ<param6><param9>に切り、<param18>はすりおろして<font color="red">⚠</font>汁を絞っておく。
+<param12>の<font color="red">⚠</font>内容物を<font color="red">⚠</font>汁ごとボウルに入れてから<font color="red">⚠</font>ホタテをほぐす。★の<param14>と<font color="red">⚠</font>調味料を加えて混ぜ合わせる。
+<param19>に<param13>を注いで強火にかけ、<font color="red">⚠</font>豆腐を加えて<font color="red">⚠</font>両面を焼く。良い焼き色が付いたら、<param10>とボウルの<font color="red">⚠</font>ホタテ及び<font color="red">⚠</font>汁を加えて一煮立ちさせる。とろみがついたら火を止めてから<param18><font color="red">⚠</font>汁を加えて混ぜる。
+<param10>と<font color="red">⚠</font>豆腐の<font color="red">⚠</font>帆立あん仕立てを器に盛り付け完成。

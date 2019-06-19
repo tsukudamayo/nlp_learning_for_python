@@ -1,0 +1,4 @@
+<font color="red">⚠</font>グリーンリーフは手でちぎり、<param8>は薄切りにし、<param9>は食べ易い大きさに切る。
+<param5>は筋切りをして<param10>、<param11>を振る。
+<font color="red">⚠</font><font color="red">⚠</font>豚ロース肉は、<param12>、溶き<param6>、<param13>の順に付け、<param1>℃の<font color="red">⚠</font>サラダ油でからりと約揚げる。(目安: 約<param2><param3><param4>)
+器に<font color="red">⚠</font>野菜を盛り付け、<font color="red">⚠</font>トンカツを切ってのせたら完成。

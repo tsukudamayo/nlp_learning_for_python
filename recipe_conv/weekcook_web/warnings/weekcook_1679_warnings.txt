@@ -1,0 +1,5 @@
+<font color="red">⚠</font><font color="red">⚠</font>さつまいもは<param1><param2>の輪切りにし、厚く<font color="red">⚠</font>皮を剥く。
+<font color="red">⚠</font><font color="red">⚠</font>さつまいも、<param8>を<param6>に浸けて色が出たらそのまま茹でる。
+小鍋に<param5>と<param6>、<param7>を入れて煮立る。
+<font color="red">⚠</font><font color="red">⚠</font>さつまいもは<param6>気を切り、<font color="red">⚠</font>フードプロセッサで<font color="red">⚠</font>ペースト状にし、小鍋に入れて練り混ぜる。
+<param4>を半分に切って、<font color="red">⚠</font>ペースト状の<font color="red">⚠</font><font color="red">⚠</font>さつまいもと一緒に盛り付け完成。

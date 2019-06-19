@@ -1,0 +1,3 @@
+<param1>は食べ易い大きさに手でちぎる。
+<font color="red">⚠</font>サラダボウルにグリーン<font color="red">⚠</font>リーフを入れて、<param2>と<param3>、<param4>を振ってから混ぜ合わせる。
+<font color="red">⚠</font>サラダボウルのチョレギ<font color="red">⚠</font>サラダに、<font color="red">⚠</font>韓国のりをちぎって散らせば完成。

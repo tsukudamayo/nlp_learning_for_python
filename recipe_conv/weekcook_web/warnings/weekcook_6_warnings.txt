@@ -1,0 +1,8 @@
+<param4>はいちょう切りに、<param5>と<param7>は<font color="red">⚠</font>皮を剥き<param1><param2>角に切り、<param6>は薄切りにする。
+<param9>を常温に戻し<param10>を混ぜる。
+<param3>は貝同士をこすり洗いする。
+<param8>と<font color="red">⚠</font>あさりを鍋に入れ火にかけて、<font color="red">⚠</font>あさりが開いてきたら<font color="red">⚠</font>アクを取り火を止める。
+<font color="red">⚠</font>あさりと茹で<font color="red">⚠</font>汁に分け、<font color="red">⚠</font>あさりは<font color="red">⚠</font>身を取り出す。
+鍋に<param7>と<param5>、<param4>と一緒に入れ、<font color="red">⚠</font>あさりの茹で<font color="red">⚠</font>汁を加えて火にかける。<font color="red">⚠</font>野菜が軟らかくなったら<param11>、<param12>、<param13>を加え混ぜ、<param9>を加え溶かす。
+鍋に<param14>を加えとろみがついたら<font color="red">⚠</font>あさりの<font color="red">⚠</font>身を加え一煮立ちさせ火を止める。
+<font color="red">⚠</font>あさりの<font color="red">⚠</font>クラムチャウダーを器に盛り付け、お好みで<font color="red">⚠</font>パセリを散らしたら完成。

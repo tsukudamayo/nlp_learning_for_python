@@ -1,0 +1,6 @@
+このレシピは、ビストロBS-<param1>を使ったレシピです。
+ボウルに<font color="red">⚠</font>Ａを入れて軽く混ぜる。
+ボウルに<font color="red">⚠</font>Ｂを加え、ゴムべらで粉っぽさがなくなるまでさっくり混ぜ合わせる。
+<param14>皿に<param11>を塗る。<font color="red">⚠</font><font color="red">⚠</font>フォカッチャ生地を<param2>/<param3>ずつ<font color="red">⚠</font>中央に寄せてのせ、<param4>㎝に丸く<font color="red">⚠</font>形を整える。
+<param11>を<font color="red">⚠</font>フォカッチャの<font color="red">⚠</font>表面に塗って、<font color="red">⚠</font>ところどころに指でくぼみをつけて<font color="red">⚠</font>ローズマリーの<font color="red">⚠</font>葉を散らす。<param14>皿を上段へいれ、<font color="red">⚠</font>料理集⇒番号で選ぶ⇒NO.<param5>　スタート。
+焼きあがったら、<param13>から取り出し器に盛りつけ完成。

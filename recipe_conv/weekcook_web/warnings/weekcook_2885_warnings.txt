@@ -1,0 +1,2 @@
+<param3>はよく冷やして、厚さ<param1><param2>にスライスする。
+お好みで<font color="red">⚠</font>サニーレタス等を敷いたお皿にスライスした<param3>を盛り付け、お好みで<font color="red">⚠</font>塩や<font color="red">⚠</font>マヨネーズ等を添えて完成。

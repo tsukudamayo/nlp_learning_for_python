@@ -1,0 +1,4 @@
+<font color="red">⚠</font>もやしは<font color="red">⚠</font>ひげ根を取って洗い、<font color="red">⚠</font>水気を切っておく。
+<param2>は食べやすい大きさに切り、<font color="red">⚠</font>Ａを合わせて下味をつける。
+<param10>を熱し、<param2>を焼く。火が通ったら取り出し、<param2>から出た<font color="red">⚠</font>脂を少し取り除き、<font color="red">⚠</font>もやしを炒める。
+<font color="red">⚠</font>もやしに火が通ったら<param2>を戻し、Ｂの<font color="red">⚠</font>調味料を合わせた<font color="red">⚠</font>ものを加えてからませ、火を止める。器に盛り付け完成。

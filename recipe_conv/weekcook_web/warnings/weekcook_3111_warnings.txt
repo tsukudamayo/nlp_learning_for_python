@@ -1,0 +1,7 @@
+<param26>に★印の<font color="red">⚠</font>調味料を合わせて<param30>を溶かし、溶き<param21>と合わせて泡立てないようによく混ぜ、<param1>度濾し<param21>液を作る。
+<param22>は<param2>本を<param3>等分にそぎ切りにする。
+<param22>を耐熱の容器に入れて<param30>と<param27>をかけて<font color="red">⚠</font>ふんわりとラップをして<param31>で加熱する。(目安: <param4><param5><param16> 約<param6><param7>秒)
+<param25>は尾に近い<font color="red">⚠</font>一節を残して<font color="red">⚠</font>殻をむき、<font color="red">⚠</font>背わたを取って<param27>でサッと洗う。
+<param23>は<font color="red">⚠</font>石づきを取って薄切りにする。<param24>はスライスしておく。三つ<font color="red">⚠</font>葉は<font color="red">⚠</font>葉の<font color="red">⚠</font>部分を飾りように用意する。
+<param22>を器の底に並べ<param24>、<param25>、<param23>の順に入れて、<param21>液を静かに注ぎ入れる。
+<font color="red">⚠</font>ふんわりとラップをして<param31>で加熱する。(目安: <param8><param9><param17> 約<param10><param11><param19>)<param21>の固まり<font color="red">⚠</font>具合を見て、ムラがあるようなら並べている<font color="red">⚠</font>位置を変えて更に、さらにほど加熱し完成。(目安: <param12><param13><param18> 約<param14><param15><param20>)仕上げに三つ<font color="red">⚠</font>葉を飾る。

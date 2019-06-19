@@ -1,0 +1,4 @@
+<param3>は長さ<param1><param2>の細切りにする。
+鍋に<param5>と<font color="red">⚠</font>青梗菜を入れて火にかけて、沸騰してきたら<param6>で<font color="red">⚠</font>味付けを行い、<param7>と<param8>を加えて味を調える。
+再び沸騰してきたら溶き<param4>を<font color="red">⚠</font>上の方から流し入れる。
+<param4>がふんわりとしたら火を止めて器に注いで完成。

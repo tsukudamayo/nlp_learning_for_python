@@ -1,0 +1,6 @@
+<param8>は<font color="red">⚠</font>皮と<font color="red">⚠</font>骨を取り除き一口大に切る。
+<param9>は<font color="red">⚠</font>袴を取り除き<param1><param6>に切る。
+フードプロセッサーに<param8>と<param10>、<param1<font color="red">⚠</font>3>、<font color="red">⚠</font>酒、<param12>、<param14>を加えてなめらかになるまで混ぜ<param2>等分する。
+<param16>に<param<font color="red">⚠</font>3>をのせ、<param11>、<font color="red">⚠</font>アスパラをのせて巻き、<font color="red">⚠</font>薄力粉を<font color="red">⚠</font>水で溶いた<font color="red">⚠</font>もので止める。
+<param4>℃の<font color="red">⚠</font>揚げ油でゆっくり揚げる。(目安: 約～<param5><param7>)
+斜めに半分に切り<font color="red">⚠</font>マヨネーズや<font color="red">⚠</font>レモン汁をつけて頂きます。

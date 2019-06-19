@@ -1,6 +1,0 @@
-<param9>は<param1>mm幅の短冊切りにする。
-<param8>は⚠繊維と⚠垂直に、<param2>mm幅に切る。
-<param8>を耐熱容器に入れてラップをかけ、<param13>（<param3>W）で<param4>分間加熱する。
-<param7>は<param5>mm幅に切る。
-<param7>と<param9>を、<param8>の入った耐熱容器に加えて再びラップをかけ、<param13>で<param6>分間加熱する。
-熱いうちに⚠★を加えて混ぜ合わせる。器に盛り付け、<param12>をふって完成。

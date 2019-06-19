@@ -1,0 +1,10 @@
+このレシピは、ビストロBS-<param1>を使ったレシピです。
+<param11>洗い食べやすくカットする。<param19>皿に並べ、<font color="red">⚠</font>中段に入れる。
+給<param16>タンクに満<param16>まで<param16>をいれる。手動⇒スチーム⇒<param<font color="red">⚠</font>2>℃⇒⇒スタート。(目安: 約<param3><param4><param7>)<font color="red">⚠</font>加熱後、<param16>にさらす。
+<param8>はみじん切り、<param9>は粗みじんにする。
+<param10>、<param8>、<font color="red">⚠</font>れんこんを混ぜ合わせ、一口大に丸め<param5>個作る。
+<param18>に<param17>大さじ<param6>をいれて、丸めた<font color="red">⚠</font>団子の<font color="red">⚠</font>表面に<font color="red">⚠</font>油をつけて<param18>に置いていく。
+<font color="red">⚠</font>★の<font color="red">⚠</font>調味料を混ぜ合わせておく。
+<font color="red">⚠</font>肉<font color="red">⚠</font>団子に火が通ったら、いったんトレーに取り出す。
+混ぜた<font color="red">⚠</font>★を<param18>にいれ沸騰させる。少しとろみがついたら,<font color="red">⚠</font>肉<font color="red">⚠</font>団子を戻しいれてよく絡める。
+<param11>の<font color="red">⚠</font>上に、<font color="red">⚠</font>肉<font color="red">⚠</font>団子を並べて完成。

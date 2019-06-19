@@ -1,0 +1,10 @@
+<param4>は薄切りにする。
+<param3>は<font color="red">⚠</font>石づきを切り落とし、ほぐす。
+<param2>は<param1>mm幅に切る。
+<param6>は角切りにする。
+<param7>は薄切りにする。
+<param12>に<param11>と<param7>を入れて火にかける。
+<param4>と<param2>を入れて炒める。
+<param5>を加える（<font color="red">⚠</font>缶汁は後で加えるのでとっておく）
+<param10>をふりかけ、<font color="red">⚠</font>表面を軽く焼いたら<param3>、<param8>、<param5>の<font color="red">⚠</font>缶汁、<param9>、<font color="red">⚠</font>チーズを加えて煮絡める。
+器に盛り付けて、お好みで<font color="red">⚠</font>パセリなどを振って完成。

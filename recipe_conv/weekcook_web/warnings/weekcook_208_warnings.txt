@@ -1,0 +1,10 @@
+<param10>は、水洗いしてから<font color="red">⚠</font>水気を拭き取り、<param15>と<param16>で下味を付ける。
+<font color="red">⚠</font>トマトは厚さ<param1>mmの薄切りにする。
+<param17>、<font color="red">⚠</font>ピーナッツは細かく刻む。
+★の<font color="red">⚠</font>調味料と<font color="red">⚠</font>ピーナッツを混ぜ合わせておく。
+<param12>と<param13>は、<font color="red">⚠</font>皮を剥いて厚さ<param2>mmの薄切りにする
+カットした<param12>と<param13>を深めの<param24>可能な<font color="red">⚠</font>容器に移し、<param18>と<param19>を混ぜ合わせた<font color="red">⚠</font>ソースをかけ、<param15>と<param16>を振って絡ませた後、ラップをして<param24>（<param3>W）で加熱する
+<param24>可能な<font color="red">⚠</font>容器の<font color="red">⚠</font>上に加熱した<param12>と<param13>を、(目安: 約<param4><param5><param8>)厚みがなるべく少なくなるように平らに広げ、その<font color="red">⚠</font>上に<font color="red">⚠</font>トマトと<font color="red">⚠</font>バジルを載せて<param15>と<param16>を振り掛ける。
+<param24>可能な<font color="red">⚠</font>容器の<font color="red">⚠</font>トマトの<font color="red">⚠</font>上に<font color="red">⚠</font>鰯の<font color="red">⚠</font><font color="red">⚠</font>皮目を<font color="red">⚠</font>上にして、<font color="red">⚠</font>鰯が重ならないように置く。
+<font color="red">⚠</font>鰯の<font color="red">⚠</font>上から混ぜ合わせておいた★の<font color="red">⚠</font>調味料と<font color="red">⚠</font>ピーナッツをかけ、軽く手で押さえてから、<param23>(<param22>でも可)で焼く。(目安: 約<param6><param7><param9>)
+<font color="red">⚠</font>鰯と<font color="red">⚠</font>トマトの重ね<font color="red">⚠</font>焼きをお皿に盛り付けたら完成。

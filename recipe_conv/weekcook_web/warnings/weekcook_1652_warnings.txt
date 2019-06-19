@@ -1,0 +1,6 @@
+<param12>は薄切りにして耐熱容器に入れ、<param24>で約加熱する。(目安: 約<param1><param2><param7>)
+<param11>は厚さ<param3><param10>に切ってから<param24>で軟らかくなるまで加熱する。(目安: 約<param4>～<param5><param8>)
+<param23>を火にかけ<param20>を加え、<param13>を炒めてから、<param12>を加えて炒める。
+<param23>に、<param16>と<param17>、<param18>、<param19>を加えて味を付け、<font color="red">⚠</font>保存用バットに広げる。
+耐熱容器に<param21>と<param14>を加えてよく混ぜ、<param24>に約<param6><param9>かけ、<param22>を加えて再びとろみがつくまで加熱し、<param18>と<param19>で味を調えて<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースを作る。
+<font color="red">⚠</font>保存用バッドに<param11>をのせ、<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースをかけて<param15>をのせる。

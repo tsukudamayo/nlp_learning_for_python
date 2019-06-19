@@ -1,0 +1,6 @@
+このレシピは、ビストロBS-<param1>を使ったレシピです。
+<param4>と<param5>をよく混ぜる。
+<param6>、<param7>、<font color="red">⚠</font>★をいれてよく混ぜる。
+<param13>を<font color="red">⚠</font>水で溶いて、丸めて<font color="red">⚠</font>形を整えた<font color="red">⚠</font>ナゲットの<font color="red">⚠</font>表面につける。<param14>皿に並べる。
+<param14>皿を<font color="red">⚠</font>上段に入れ、<font color="red">⚠</font>料理集⇒番号で選ぶ⇒No.<param2>⇒<param3>人分⇒仕上がり　強に設定。<font color="red">⚠</font>焼き色が薄い場合は、延長する。
+<param14>皿を取り出し、器に盛りつけ完成。

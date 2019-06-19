@@ -1,0 +1,4 @@
+<font color="red">⚠</font>あさり(砂抜き済み)は、貝同士をこすり合わせて洗う。
+<param5>は洗って<param9>で約加熱して、(目安: 約<param1><param2><param3>)<font color="red">⚠</font>皮を剥いてから、食べ易い大きさに切り、<font color="red">⚠</font>万能ねぎは小口切りにする。
+鍋に<param7>と<font color="red">⚠</font>あさり、<param5>を入れて火にかけて、沸騰して<font color="red">⚠</font>あさりの口が開いてきたら<param6>と<param8>を入れて火を止める。
+<font color="red">⚠</font>あさりと<param5>の<font color="red">⚠</font>スープを器に注ぎ、刻んだ<font color="red">⚠</font>万能ねぎ、お好みで<font color="red">⚠</font>鷹の<font color="red">⚠</font>爪を散らしたら完成。

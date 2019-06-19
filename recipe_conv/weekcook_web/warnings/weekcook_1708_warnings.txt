@@ -1,0 +1,8 @@
+<param17>を茹で、粗熱が取れたら長さ<param1><param12>にカットし、軽く絞って<font color="red">⚠</font>水を切っておく。
+<font color="red">⚠</font>牡蠣はボウルに入れて<font color="red">⚠</font>片栗粉を塗した後、軽く揉み洗いをする。<font color="red">⚠</font>牡蠣に付いた<font color="red">⚠</font>片栗粉をやさしく<font color="red">⚠</font>水で洗い流した後、ざるに取ってからペーパータオルで<font color="red">⚠</font><font color="red">⚠</font>水分を拭き取る。
+耐熱容器に<param18>と<param19>を加えて混ぜて一度濾す。
+<param18>を<param27>（<param2>W）で約加熱し、(目安: 約<param3><param4><param13>)<param20>と<param21>を加えて泡だて器でかき混ぜ、更に<param27>（<param5>W）で約加熱し<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースを作る
+<param26>に<param20>（分量外）を溶かし、(目安: 約<param6><param7><param14>)<param19>（分量外）を薄くまぶした<font color="red">⚠</font>牡蠣をソテーする。
+<font color="red">⚠</font>牡蠣におよそ火が通ったら<font color="red">⚠</font><font color="red">⚠</font>ホワイトソースを加え、<param22>と<param23>で味を調える。
+グラタン皿に<param17>を入れ（皿が<param8>人前の場合は<param9>等分して入れる）、<font color="red">⚠</font><font color="red">⚠</font>牡蠣グラタンをその<font color="red">⚠</font>上に加えた後、<param24>をのせる。
+<param25>で約焼いて完成。(目安: 約<param10><param11><param15>)

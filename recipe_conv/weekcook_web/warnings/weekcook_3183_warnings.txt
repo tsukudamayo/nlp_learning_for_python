@@ -1,0 +1,7 @@
+<param7><param1>株は子房に分け、<param6>は厚さ<param2>mmの輪切りにする。
+<param8>と<param9>をみじん切りにしてボウルに入れ、★の<font color="red">⚠</font>調味料も全て入れてよく混ぜ合わせておく。
+<font color="red">⚠</font>鶏もも肉は、<font color="red">⚠</font>筋と黄色い<font color="red">⚠</font>脂肪を取り除いて<param3>等分に切り分けて、<param12>を加えて混ぜる。
+<param14>に<param13>を加え中火にかけ、<param6>を加えて<font color="red">⚠</font>両面をこんがり焼く。さらに、<param7>と<font color="red">⚠</font>水大さじ<param4>（分量外）を加え蒸し煮する。
+<font color="red">⚠</font>野菜が柔らかくなったら<param14>から取り出し、<param14>を綺麗に拭いて<font color="red">⚠</font>鶏肉を炒める。
+<param14>に★の<font color="red">⚠</font>調味料を回しかけて絡め、<param7>と<param6>を加えて混ぜ合わせ火を止める。
+<font color="red">⚠</font>鶏肉と<param7>のこってり炒めを器に盛り付け完成。

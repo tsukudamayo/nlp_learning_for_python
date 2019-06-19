@@ -1,0 +1,5 @@
+このレシピは、ビストロNE-BS<param1>を使ったレシピです。
+<param8>は一口大に切り、<param9>は<param2><param7>幅に切る。<param10>は<font color="red">⚠</font>種を取って<param3>mm角に切る。
+<font color="red">⚠</font>給<font color="red">⚠</font>水タンクに<font color="red">⚠</font>満<font color="red">⚠</font>水まで<font color="red">⚠</font>水を入れる。<param4>と<font color="red">⚠</font>★を<param5>等分にしてグラタン皿に入れ、<font color="red">⚠</font>スライスチーズをのせる。
+<param15>皿の中央に並べ、<font color="red">⚠</font>上段に入れる。あたため<font color="red">⚠</font>スタートを回して、<font color="red">⚠</font>自動<param6>を選択⇒押す。
+焼きあがったら器に盛り付け完成。

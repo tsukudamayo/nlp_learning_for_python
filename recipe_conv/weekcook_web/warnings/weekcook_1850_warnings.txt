@@ -1,0 +1,7 @@
+<param6>は<font color="red">⚠</font>皮をむいて、<param7>は<font color="red">⚠</font>石づきを取る。<font color="red">⚠</font>それぞれを細切りにし、<param8>は長さ<param1><param3>に切り、<param12>は洗った後に<param13>分を切る。
+<param11>は<font color="red">⚠</font>皮をむいてみじん切りにし、<param5>に<param11>のみじん切りと<param10>を加えて混ぜ合わせる。
+鍋に<param13>と<param6>を入れて火にかける。
+<param9>は<font color="red">⚠</font>熱湯をかけてもどし、<param2><param4>程度の長さに切る。
+鍋の<param13>が沸騰してきたら<param7>と<param12>を加え、再び沸騰してきたら<param5>をスプーンですくって鍋に落とす。
+<param5>に火が通ったら<param14>と<param9>を加えて、<param9>が柔らかくなったら、<param8>を加えて<param15>で味を調えたら火を止める。
+<param9>スープを器によそい分けたら完成。

@@ -26,7 +26,7 @@ from consoleconv import sort_dict_by_values_length
 
 
 def test_convert_num_to_param_sample():
-    sample_file = 'weekcook/org/weekcook_sample.txt'
+    sample_file = 'weekcook_web/org/weekcook_sample.txt'
     strings = text_to_strings(sample_file)
     numparam_dict = convert_num_to_param(strings)
     print(numparam_dict)
@@ -56,7 +56,7 @@ def test_compute_70per_2():
 
 
 def test_define_num_param_70percent():
-    sample_file = 'weekcook/org/weekcook_sample.txt'
+    sample_file = 'weekcook_web/org/weekcook_sample.txt'
     strings = text_to_strings(sample_file)
     numparam_dict = convert_num_to_param(strings)
     num_param_70per_dict = define_num_param_70percent(numparam_dict)
@@ -70,7 +70,7 @@ def test_define_num_param_70percent():
 
 
 def test_mapping_70per_to_100per():
-    sample_file = 'weekcook/org/weekcook_sample.txt'
+    sample_file = 'weekcook_web/org/weekcook_sample.txt'
     strings = text_to_strings(sample_file)
     numparam_dict = convert_num_to_param(strings)
     num_param_70per_dict = define_num_param_70percent(numparam_dict)
@@ -87,7 +87,7 @@ def test_mapping_70per_to_100per():
 
 
 def test_convert_tool_to_param_sample():
-    sample_file = 'weekcook/org/weekcook_sample.txt'
+    sample_file = 'weekcook_web/org/weekcook_sample.txt'
     strings = text_to_strings(sample_file)
     tool_param_dict = convert_tool_to_param(strings)
     print(tool_param_dict)
@@ -99,7 +99,7 @@ def test_convert_tool_to_param_sample():
 
 
 def test_convert_tool_to_param_00000083():
-    sample_file = 'weekcook/org/weekcook_00000083.txt'
+    sample_file = 'weekcook_web/org/weekcook_00000083.txt'
     strings = text_to_strings(sample_file)
     tool_param_dict = convert_tool_to_param(strings)
     print(tool_param_dict)
@@ -112,7 +112,7 @@ def test_convert_tool_to_param_00000083():
 
 
 def test_convert_tool_to_param_00001977():
-    sample_file = 'weekcook/org/weekcook_00001977.txt'
+    sample_file = 'weekcook_web/org/weekcook_00001977.txt'
     strings = text_to_strings(sample_file)
     tool_param_dict = convert_tool_to_param(strings)
     print(tool_param_dict)
@@ -125,7 +125,7 @@ def test_convert_tool_to_param_00001977():
 
 
 def test_convert_tool_to_param_00003159():
-    sample_file = 'weekcook/org/weekcook_00003159.txt'
+    sample_file = 'weekcook_web/org/weekcook_00003159.txt'
     strings = text_to_strings(sample_file)
     tool_param_dict = convert_tool_to_param(strings)
     print(tool_param_dict)
@@ -137,10 +137,10 @@ def test_convert_tool_to_param_00003159():
 
 
 def test_convert_unit_to_param_sample():
-    sample_file = 'weekcook/org/weekcook_sample.txt'
+    sample_file = 'weekcook_web/org/weekcook_sample.txt'
     strings = text_to_strings(sample_file)
     numparam_dict = convert_num_to_param(strings)
-    wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+    wakachi_file = 'weekcook_web/procedure_3/weekcook_sample_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, numparam_dict)
     print(unit_param_dict)
@@ -154,10 +154,10 @@ def test_convert_unit_to_param_sample():
 
 
 def test_convert_unit_to_param_00002344():
-    sample_file = 'weekcook/org/weekcook_00002344.txt'
+    sample_file = 'weekcook_web/org/weekcook_00002344.txt'
     strings = text_to_strings(sample_file)
     numparam_dict = convert_num_to_param(strings)
-    wakachi_file = 'weekcook/procedure_3/weekcook_00002344_proc3.txt'
+    wakachi_file = 'weekcook_web/procedure_3/weekcook_00002344_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, numparam_dict)
     print(unit_param_dict)
@@ -171,10 +171,10 @@ def test_convert_unit_to_param_00002344():
 
 
 def test_convert_unit_to_param_00003159():
-    sample_file = 'weekcook/org/weekcook_00003159.txt'
+    sample_file = 'weekcook_web/org/weekcook_00003159.txt'
     strings = text_to_strings(sample_file)
     numparam_dict = convert_num_to_param(strings)
-    wakachi_file = 'weekcook/procedure_3/weekcook_00003159_proc3.txt'
+    wakachi_file = 'weekcook_web/procedure_3/weekcook_00003159_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     unit_param_dict = convert_unit_to_param(wakachi_string, numparam_dict)
     print(unit_param_dict)
@@ -188,7 +188,7 @@ def test_convert_unit_to_param_00003159():
 
 
 def test_convert_cooking_time_strings_sample():
-    sample_file = 'weekcook/org/weekcook_sample.txt'
+    sample_file = 'weekcook_web/org/weekcook_sample.txt'
     strings = text_to_strings(sample_file)
     convert_strings = convert_cooking_time_strings(strings)
     expected = ['8分']
@@ -197,7 +197,7 @@ def test_convert_cooking_time_strings_sample():
 
 
 def test_convert_cooking_time_strings_00000083():
-    sample_file = 'weekcook/org/weekcook_00000083.txt'
+    sample_file = 'weekcook_web/org/weekcook_00000083.txt'
     strings = text_to_strings(sample_file)
     convert_strings = convert_cooking_time_strings(strings)
     expected = ['15～20分']
@@ -206,7 +206,7 @@ def test_convert_cooking_time_strings_00000083():
 
 
 def test_convert_cooking_time_strings_00000257():
-    sample_file = 'weekcook/org/weekcook_00000257.txt'
+    sample_file = 'weekcook_web/org/weekcook_00000257.txt'
     strings = text_to_strings(sample_file)
     convert_strings = convert_cooking_time_strings(strings)
     expected = ['10分', '5分', '1分']
@@ -215,7 +215,7 @@ def test_convert_cooking_time_strings_00000257():
 
 
 def test_convert_cooking_time_strings_00001977():
-    sample_file = 'weekcook/org/weekcook_00001977.txt'
+    sample_file = 'weekcook_web/org/weekcook_00001977.txt'
     strings = text_to_strings(sample_file)
     convert_strings = convert_cooking_time_strings(strings)
     expected = []
@@ -224,7 +224,7 @@ def test_convert_cooking_time_strings_00001977():
 
 
 def test_convert_cooking_time_strings_00002816():
-    sample_file = 'weekcook/org/weekcook_00002816.txt'
+    sample_file = 'weekcook_web/org/weekcook_00002816.txt'
     strings = text_to_strings(sample_file)
     convert_strings = convert_cooking_time_strings(strings)
     expected = ['2～3分']
@@ -233,7 +233,7 @@ def test_convert_cooking_time_strings_00002816():
 
 
 def test_convert_cooking_time_strings_00003159():
-    sample_file = 'weekcook/org/weekcook_00003159.txt'
+    sample_file = 'weekcook_web/org/weekcook_00003159.txt'
     strings = text_to_strings(sample_file)
     convert_strings = convert_cooking_time_strings(strings)
     expected = ['2～3分']
@@ -242,7 +242,7 @@ def test_convert_cooking_time_strings_00003159():
 
 
 def test_convert_cooking_time_strings_00003363():
-    sample_file = 'weekcook/org/weekcook_00003363.txt'
+    sample_file = 'weekcook_web/org/weekcook_00003363.txt'
     strings = text_to_strings(sample_file)
     convert_strings = convert_cooking_time_strings(strings)
     expected = ['5分']
@@ -251,7 +251,7 @@ def test_convert_cooking_time_strings_00003363():
 
 
 def test_convert_cooking_time_wakachi_sample():
-    wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+    wakachi_file = 'weekcook_web/procedure_3/weekcook_sample_proc3.txt'
     wakachi_strings = text_to_strings(wakachi_file)
     convert_strings = convert_cooking_time_wakachi(wakachi_strings)
     expected = ['8分']
@@ -260,7 +260,7 @@ def test_convert_cooking_time_wakachi_sample():
 
 
 # def test_preordering_for_cooking_time_sample():
-#     sample_file = 'weekcook/org/weekcook_sample.txt'
+#     sample_file = 'weekcook_web/org/weekcook_sample.txt'
 #     strings = text_to_strings(sample_file)
 #     convert_strings = convert_cooking_time_strings(strings)
 #     preordering_strings = preordering_for_cooking_time_strings(strings, convert_strings)
@@ -270,7 +270,7 @@ def test_convert_cooking_time_wakachi_sample():
 
 
 # def test_preordering_for_cooking_time_wakachi_sample():
-#     wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+#     wakachi_file = 'weekcook_web/procedure_3/weekcook_sample_proc3.txt'
 #     wakachi_string = text_to_strings(wakachi_file)
 #     convert_strings = convert_cooking_time_wakachi(wakachi_string)
 #     preordering_strings = preordering_for_cooking_time_wakachi(wakachi_file, convert_strings)
@@ -280,7 +280,7 @@ def test_convert_cooking_time_wakachi_sample():
 
 
 # def test_preordering_for_cooking_time_wakachi_00003159():
-#     wakachi_file = 'weekcook/procedure_3/weekcook_00003159_proc3.txt'
+#     wakachi_file = 'weekcook_web/procedure_3/weekcook_00003159_proc3.txt'
 #     wakachi_string = text_to_strings(wakachi_file)
 #     convert_strings = convert_cooking_time_wakachi(wakachi_string)
 #     preordering_strings = preordering_for_cooking_time_wakachi(wakachi_file, convert_strings)
@@ -290,7 +290,7 @@ def test_convert_cooking_time_wakachi_sample():
     
 
 def test_preordering_for_cooking_time_wakachi_00000083():
-    wakachi_file = 'weekcook/procedure_3/weekcook_00000083_proc3.txt'
+    wakachi_file = 'weekcook_web/procedure_3/weekcook_00000083_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
     convert_strings = convert_cooking_time_strings(wakachi_string)
     preordering_strings = preordering_for_cooking_time_wakachi(wakachi_file, convert_strings)
@@ -308,13 +308,13 @@ def test_sort_by_values_len():
 
 
 # def test_convert_recipe_parameter_sample():
-#     org_file = 'weekcook/org/weekcook_sample.txt'
+#     org_file = 'weekcook_web/org/weekcook_sample.txt'
 #     org_lines = text_to_strings(org_file)
 
-#     wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+#     wakachi_file = 'weekcook_web/procedure_3/weekcook_sample_proc3.txt'
 #     wakachi_string = text_to_strings(wakachi_file)
 
-#     json_filepath = 'weekcook/ingredient_json/weekcook_sample.json'
+#     json_filepath = 'weekcook_web/ingredient_json/weekcook_sample.json'
 #     with open(json_filepath, 'r', encoding='utf-8') as j:
 #         ingredient_dict = json.load(j)
 
@@ -343,13 +343,13 @@ def test_sort_by_values_len():
 
 
 def test_convert_recipe_parameter_00000083():
-    org_file = 'weekcook/org/weekcook_00000083.txt'
+    org_file = 'weekcook_web/org/weekcook_00000083.txt'
     org_lines = text_to_strings(org_file)
 
-    wakachi_file = 'weekcook/procedure_3/weekcook_00000083_proc3.txt'
+    wakachi_file = 'weekcook_web/procedure_3/weekcook_00000083_proc3.txt'
     wakachi_string = text_to_strings(wakachi_file)
 
-    json_filepath = 'weekcook/ingredient_json/weekcook_00000083.json'
+    json_filepath = 'weekcook_web/ingredient_json/weekcook_00000083.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 
@@ -373,18 +373,19 @@ def test_convert_recipe_parameter_00000083():
         tool_param_dict,
         )
     expected = '<param4>は頭と内臓（腸）を取除いた後、水でよく洗ってからペーパータオルで水気を拭き取る。\n<param7>（<param6>でも可）にサラダ油（分量外）を塗る。\n<param4>に<param5>を振ってから、温めた<param7>（<param6>でも可）に並べ、（<param6>の場合は火が通るまで）焼く。(目安: 約<param1>～<param2><param3>)\n焼き上がった<param4>の<param5>焼きを、お好みで笹を敷いた器に盛り付け、お好みですだちや大根おろしを添えたら完成。\n'
+    print('converted_strings', converted_strings)
 
     assert converted_strings == expected
 
 
 # def test_convert_recipe_parameter_00000257():
-#     org_file = 'weekcook/org/weekcook_00000257.txt'
+#     org_file = 'weekcook_web/org/weekcook_00000257.txt'
 #     org_lines = text_to_strings(org_file)
 
-#     wakachi_file = 'weekcook/procedure_3/weekcook_00000257_proc3.txt'
+#     wakachi_file = 'weekcook_web/procedure_3/weekcook_00000257_proc3.txt'
 #     wakachi_string = text_to_strings(wakachi_file)
 
-#     json_filepath = 'weekcook/ingredient_json/weekcook_00000257.json'
+#     json_filepath = 'weekcook_web/ingredient_json/weekcook_00000257.json'
 #     with open(json_filepath, 'r', encoding='utf-8') as j:
 #         ingredient_dict = json.load(j)
 
@@ -413,13 +414,13 @@ def test_convert_recipe_parameter_00000083():
 
 
 # # def test_convert_recipe_parameter_sample():
-# #     org_file = 'weekcook/org/weekcook_00003159.txt'
+# #     org_file = 'weekcook_web/org/weekcook_00003159.txt'
 # #     org_lines = text_to_strings(org_file)
 
-# #     wakachi_file = 'weekcook/procedure_3/weekcook_00003159_proc3.txt'
+# #     wakachi_file = 'weekcook_web/procedure_3/weekcook_00003159_proc3.txt'
 # #     wakachi_string = text_to_strings(wakachi_file)
 
-# #     json_filepath = 'weekcook/ingredient_json/weekcook_00003159.json'
+# #     json_filepath = 'weekcook_web/ingredient_json/weekcook_00003159.json'
 # #     with open(json_filepath, 'r', encoding='utf-8') as j:
 # #         ingredient_dict = json.load(j)
 
@@ -448,5 +449,5 @@ def test_convert_recipe_parameter_00000083():
 
 
 # # def test_convert_time_70percent():
-# #     wakachi_file = 'weekcook/procedure_3/weekcook_sample_proc3.txt'
+# #     wakachi_file = 'weekcook_web/procedure_3/weekcook_sample_proc3.txt'
 # #     wakachi_string = text_to_strings(wakachi_file)

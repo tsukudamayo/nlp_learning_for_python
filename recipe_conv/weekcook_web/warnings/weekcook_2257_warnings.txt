@@ -1,0 +1,5 @@
+<param10>は<font color="red">⚠</font>皮をむいて長さ<param1><param6>に切り、<param16>は薄切りにする。<param17>は<font color="red">⚠</font>白髪ねぎに切って<param11>にさらし、<param18>は<font color="red">⚠</font>根元を切ってから食べ易い長さに切る。
+鍋に<param11>（分量外）と<param10>を入れて、約下茹でする。(目安: 約<param2><param3><param7>)
+<param9>は<font color="red">⚠</font>内臓と<font color="red">⚠</font>うろこを取り除き、<param11>で洗い流してから<param11>分を<font color="red">⚠</font>ペーパータオルで拭き取る。
+鍋に<param11>と★の<font color="red">⚠</font>調味料、<param10>、<param16>を入れて火にかけ一煮立ちしたら、<param9>を入れて時々<font color="red">⚠</font>煮汁をかけながら約煮る。(目安: 約<param4><param5><param8>)<param10>が軟らかくなるまで煮て火を止める。
+<param9>と<param10>の<font color="red">⚠</font>含め煮を器に盛り付けて、<font color="red">⚠</font>白髪ねぎと<param18>を飾ったら完成。

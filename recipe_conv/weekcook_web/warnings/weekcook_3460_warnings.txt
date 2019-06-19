@@ -1,0 +1,5 @@
+このレシピは、ビストロNE-BS<param1>を使ったレシピです。
+一口大に切った<font color="red">⚠</font>野菜★に、<font color="red">⚠</font>オリーブオイルをまぶす。
+<font color="red">⚠</font>白身魚（<font color="red">⚠</font>切り身）に<param6>、<param7>をし、<font color="red">⚠</font>皮目を上にして<param10>皿の中央に寄せて並べる。<param8>で<font color="red">⚠</font>白身魚（<font color="red">⚠</font>切り身）をおおい、<param9>を付けて軽く押さえる。
+<font color="red">⚠</font>まわりに<font color="red">⚠</font>野菜を並べ<param6>、<param7>をし、<font color="red">⚠</font>上段に入れる。料理集⇒番号で選ぶ⇒No.<param2>⇒決定⇒決定⇒<font color="red">⚠</font>人数を選ぶ⇒スタート。
+焼きあがったら、器に盛り付けて完成。

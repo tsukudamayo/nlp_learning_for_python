@@ -1,0 +1,7 @@
+<param13>はみじん切りにする。ボウルに<font color="red">⚠</font>肉団子の<font color="red">⚠</font>材料Ａを入れ、よく練り混ぜて<param1>等分して丸める。
+<param19>は幅<param2><font color="red">⚠</font>mmの輪切り(大きい場合は半月切り)、<param20>は長さ<param3>〜<param4><param9>の短冊切りにする。
+<param21>は<font color="red">⚠</font>両端を切り落として半分に切る。<param22>は幅<param5><font color="red">⚠</font>mmの薄切りにする。
+<param27>に<param26>を中火で熱し、<font color="red">⚠</font>肉団子を入れて、菜箸で転がしながら<font color="red">⚠</font>全体に焼き色がつくまで焼く。
+<param27>に<font color="red">⚠</font>野菜を加えて<param6>〜炒め合わせ、(目安: 約<param7><param8><param10>)<font color="red">⚠</font>★を加える。
+煮立ったら<param25>溶き<param14>をまわし入れ、<font color="red">⚠</font>全体をからめながらとろみが出るまで炒める。
+器に盛りつけ完成。

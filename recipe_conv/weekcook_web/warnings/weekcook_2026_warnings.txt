@@ -1,0 +1,4 @@
+<font color="red">⚠</font>油揚げは半<font color="red">⚠</font>分に切ってから、<font color="red">⚠</font>熱湯に入れてしっかりと油抜き（程度）をする。(目安: 約<param1><param2><param9>)
+<font color="red">⚠</font>油揚げの<font color="red">⚠</font>茹で汁を捨てて、鍋に<param14>と<param15>を加えて煮含める。(目安: 約<param3><param4><param10>)
+鍋に、<param16>を加えて程煮含めた後、(目安: 約<param5><param6><param11>)<param17>を加えて更に煮て、(目安: 約<param7><param8><param12>)火を止める。
+粗熱を取り保存容器に入れ保存。

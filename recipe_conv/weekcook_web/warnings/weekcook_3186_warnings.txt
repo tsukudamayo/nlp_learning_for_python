@@ -1,0 +1,5 @@
+<param11>レンジNE-<font color="red">⚠</font>BS<param1>を使ったレシピです。
+<param7>は櫛切りに、<param8>はスティック状に、<param6>は櫛切り、<param9>、<param10>は半分に切る。
+<font color="red">⚠</font>トレーに切った<font color="red">⚠</font>野菜を入れて、<font color="red">⚠</font>オリーブオイル、<font color="red">⚠</font>ハーブソルトを入れて<font color="red">⚠</font>全体にコーティングする。
+<param11><font color="red">⚠</font>シートを敷いた<param11>皿にマリネした<font color="red">⚠</font>野菜を並べる。<param11>にいれて、「手動　<param11>　予熱なし　<param2>℃<font color="red">⚠</font>設定」で焼く。(目安: 約<param3><param4><param5>)
+<param11>皿から取り出し、器に盛りつけ完成。

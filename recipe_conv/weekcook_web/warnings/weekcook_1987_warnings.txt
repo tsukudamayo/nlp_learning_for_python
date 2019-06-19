@@ -1,0 +1,4 @@
+<font color="red">⚠</font>あさり(砂抜き済み)は、よくこすり洗いをする。
+鍋に<param3>を入れて火にかけ、沸騰したら<font color="red">⚠</font>あさりと<param2>を加えて<font color="red">⚠</font>アクを取る。
+<font color="red">⚠</font>あさりの口が開いたら弱火にして、合わせ<font color="red">⚠</font>味噌を溶かしたら火を止める。
+<font color="red">⚠</font>あさりのお<font color="red">⚠</font><font color="red">⚠</font>味噌汁を、お椀によそい分けてお好みで刻んだ<font color="red">⚠</font>万能ねぎを散らしたら完成。

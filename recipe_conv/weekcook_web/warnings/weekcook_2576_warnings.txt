@@ -1,0 +1,7 @@
+<param8>は厚さを均一に開いて半分に切る。
+<param11>と<param12>で下味をつける。
+<param10>は洗って食べやすい大きさにちぎり、<param9>は刻んで★の<font color="red">⚠</font>調味料と混ぜ<font color="red">⚠</font>タレを作る。
+<param8>の<font color="red">⚠</font>余分な<font color="red">⚠</font>水分を<font color="red">⚠</font>ペーパータオルで取り、<param16>をしっかりと押さえてつける。
+<param8>につけた<param16>の<font color="red">⚠</font>余分な<font color="red">⚠</font>粉をはたいてから<param1>度の<font color="red">⚠</font>揚げ油で約揚げる。(目安: 約<param2><param3><param6>)
+<font color="red">⚠</font>揚げ油の<font color="red">⚠</font>温度を<param4>度に<font color="red">⚠</font>上げて更に<font color="red">⚠</font><font color="red">⚠</font>鶏肉を揚げ、からりとさせる。
+揚げた<param8>を<param5><param7>幅に切り、お皿に<param10>を敷いた<font color="red">⚠</font>上に切った<param8>を載せて、<font color="red">⚠</font>上から作った<font color="red">⚠</font>タレをかけて完成。

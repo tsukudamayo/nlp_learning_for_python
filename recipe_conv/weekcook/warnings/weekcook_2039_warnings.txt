@@ -1,3 +1,0 @@
-<param3>は厚さ<param1>mmの斜め切りにして、<param4>は⚠タネを取り除き<param2>mm幅の輪切りにする。
-<param9>に<param5>注いで熱し、<param3>と<param4>を炒めて、<param6>と<param7>を振る。
-火が通ったら火を止めて器に盛り付け、食べる直前に<param8>を振りかければ完成。

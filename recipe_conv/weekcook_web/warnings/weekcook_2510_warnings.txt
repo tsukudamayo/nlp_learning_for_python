@@ -1,0 +1,9 @@
+<param16>は<font color="red">⚠</font>チャック付きのポリ<font color="red">⚠</font>袋に入れ、<font color="red">⚠</font>空気を入れて<font color="red">⚠</font>チャックを閉じ、冷蔵しておく。※<font color="red">⚠</font>調味料を加えてこねるのに使うので、ひき<font color="red">⚠</font>肉の量に対して少し大き目の<font color="red">⚠</font>ものが良い。
+<param21>は<param1>mm角<font color="red">⚠</font>程度の<font color="red">⚠</font>さいの目に切る。
+<param22>は<font color="red">⚠</font>皮をよく洗い、<param2><param12>の厚さに切って<param19>に浸しておく。
+<param23>は<font color="red">⚠</font>皮をむいて先端とお<font color="red">⚠</font>尻を切り落とし、<param3>mm<font color="red">⚠</font>程の薄切り、<param25>は長さを半分に切って拍子切り、<param24>は適当な大きさにさく。
+<param16>が入ったポリ<font color="red">⚠</font>袋に、<param17>、<param18>、<param19>、<param20>を加え、<font color="red">⚠</font>袋の外からもんでよくこねる。ある<font color="red">⚠</font>程度粘りが出てきたら、<font color="red">⚠</font>チーズも加えてさらによく混ぜる。
+<font color="red">⚠</font>袋から<font color="red">⚠</font>肉だねを取り出し、<param4>等分して丸めて<font color="red">⚠</font>肉団子にする。※ひき<font color="red">⚠</font>肉は冷たいうちに丸めると手にひき<font color="red">⚠</font>肉や<font color="red">⚠</font>脂がつきにくい。<font color="red">⚠</font>チーズが<font color="red">⚠</font>表面に出ないようにすると、煮込んだ時に<font color="red">⚠</font>チーズの<font color="red">⚠</font>流出が抑えられる
+<param28>に<param26>を入れて中火でよく熱し、丸めた<font color="red">⚠</font>肉だねと<param19>気を切った<param22>を入れる。<font color="red">⚠</font>全体に焼き色がつくように動かしながら<font color="red">⚠</font>程度焼き、(目安: 約<param5><param6><param13>)<font color="red">⚠</font>肉団子に火が通ったら取り出す。
+<param23>、<font color="red">⚠</font>まいたけ、<param25>の順に加えて炒め合わせ、<param23>がしんなりしてきたら、<param19><param7><font color="red">⚠</font>mlと<param27>を加えて<font color="red">⚠</font>肉団子と<param22>を戻し、蓋をして煮る。(目安: 約<param8><param9><param14>)
+<font color="red">⚠</font>上下を返し、さらに<font color="red">⚠</font>程度煮たら器に盛り付け、(目安: 約<param10><param11><param15>)<font color="red">⚠</font>パセリを振りかけて完成。

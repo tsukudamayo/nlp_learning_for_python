@@ -1,0 +1,62 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "W",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param5",
+        "value": "マグロ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "レモン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "ベビーリーフ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "バルサミコ酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "レモン汁",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

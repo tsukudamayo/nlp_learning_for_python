@@ -1,0 +1,5 @@
+<param1>は、よくこすり洗いをする。
+<param2>を小口切りにする。
+鍋に<param4>を入れて火にかけ、沸騰したら<font color="red">⚠</font>あさりと<param3>を加えて<font color="red">⚠</font>アクを取る。
+<font color="red">⚠</font>あさりの口が開いたら、合わせ<font color="red">⚠</font>味噌を溶かして火を止める。
+<font color="red">⚠</font>あさりのお<font color="red">⚠</font><font color="red">⚠</font>味噌汁を、お椀によそい分けて刻んだ<param2>を散らしたら完成。

@@ -1,0 +1,8 @@
+<param11>は<param17>で戻して<font color="red">⚠</font>石づきを取る。
+<param12>は、細かく切り、<param15>に浸ける。
+<param20>を温め<param16>を熱し、<font color="red">⚠</font><font color="red">⚠</font>豚肩ロースをこんがり炒める。
+<param13>と<font color="red">⚠</font>椎茸はみじん切りにする。
+<param21>可能な容器に、<param14>、<param17>、<font color="red">⚠</font>具材、<param18>、<param19>を入れる。
+ラップをして<param21>（<param1>W）に<param2><param8>かける。
+一度取り出し、混ぜてから再び<param21>（<param3>W）に<param4><param9>かける。
+<param21>（<param5>W）にかけた<font color="red">⚠</font>おこわに<font color="red">⚠</font>布巾をかけて蒸らして完成。(目安: 約<param6><param7><param10>)

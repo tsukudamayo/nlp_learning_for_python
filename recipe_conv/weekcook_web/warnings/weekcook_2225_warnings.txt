@@ -1,0 +1,5 @@
+<param2>はざく切りにする。<param3>は<param1>等分に切る。<param4>は<font color="red">⚠</font>ヘタを取って半分に切る。
+<param5>をボウルに割り入れ溶きほぐし、<font color="red">⚠</font>塩を加える。
+<param10>に<param8>を入れて強めの中火で熱する。<param5>を入れてざっとかき混ぜ、炒り<param5>にして取り出す。
+<font color="red">⚠</font>ペーパータオルで<param10>をさっと拭いたら、<param9>を入れて強火で加熱する。<font color="red">⚠</font>野菜を全て入れてざっと炒め、<font color="red">⚠</font>塩を加えて一混ぜしたら火を止める。
+<font color="red">⚠</font>野菜を器に盛り付け、炒り<param5>を載せたら完成。

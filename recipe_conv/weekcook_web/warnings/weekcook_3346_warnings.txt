@@ -1,0 +1,8 @@
+<param5>はひと口大に切っておく。その大きさに合わせて<font color="red">⚠</font>長ネギも切る。
+<param8>は沸騰したお<font color="red">⚠</font>湯から入れ茹でた後<font color="red">⚠</font>冷水に放ち、(目安: 約<param1><param2><param4>)<font color="red">⚠</font>皮を剥いて<font color="red">⚠</font>茹で<font color="red">⚠</font>卵を作る。
+<param7>、<param6>、<param10>、<param11>をボウルに入れよく混ぜ漬け<param6>を作る。
+<font color="red">⚠</font>バットに<font color="red">⚠</font>豚肉、<param9>、<font color="red">⚠</font>茹で<font color="red">⚠</font>卵を入れ、そこに漬け<param6>をかけ、<font color="red">⚠</font>材料全てに行き渡るようにする。
+ラップか蓋をし、以上冷蔵庫にいれておく。(目安: 約<param3>時間)
+漬け<param6>をこそげ落としてから、竹串でお好みの<font color="red">⚠</font>順番に<font color="red">⚠</font>具を刺してく。
+<param12>にクッキング<font color="red">⚠</font>シートを敷き、蓋をし、<font color="red">⚠</font>中火でじっくりと<font color="red">⚠</font>両面焼いていく。
+<font color="red">⚠</font>中まで火が通ったら、お皿に盛りつけ完成。

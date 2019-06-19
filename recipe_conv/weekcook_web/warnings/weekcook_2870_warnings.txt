@@ -1,0 +1,6 @@
+<param4>は<font color="red">⚠</font>皮をむき一口大に切る。<param11>はみじん切りにする。
+鍋に<param5>、★の<font color="red">⚠</font>調味料、みじん切りにした<param11>を加えて混ぜ合わせる。
+鍋の<param5>を火にかけ、混ぜながら炒って<font color="red">⚠</font>そぼろにする。
+一旦鍋から<font color="red">⚠</font>そぼろを取り出す。<param10>と<param4>を入れてから火にかけ、蓋をして<font color="red">⚠</font>煮る。(目安: 約<param1>～<param2><param3>)
+<param4>に<font color="red">⚠</font>八分通り<font color="red">⚠</font>程度に火を通したら、<font color="red">⚠</font>そぼろを戻し入れて更に<font color="red">⚠</font>煮込む。<param4>が軟らかくなったら火を止める。
+<param4>の<font color="red">⚠</font>そぼろ<font color="red">⚠</font>煮を器に盛り付け、お好みで茹でた<font color="red">⚠</font>絹さやを添えたら完成。

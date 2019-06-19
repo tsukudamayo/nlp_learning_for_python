@@ -1,7 +1,0 @@
-<param17>は薄切りにして耐熱容器に入れ、<param30>（<param1>W）で約加熱する。(目安: 約<param2><param3><param11>)
-<param16>は厚さ<param4><param15>に切ってから<param30>（<param5>W）で軟らかくなるまで加熱する。(目安: 約<param6>～<param7><param12>)
-<param29>に<param25>を入れて熱し、<param18>を炒めてから、<param17>を加えて炒める。
-<param29>に、<param21>と<param22>、<param23>、<param24>を加えて味を付けたら火を止める。
-耐熱容器に<param26>と<param19>を入れてよく混ぜ、<param30>で約加熱し、(目安: 約<param8><param13>)<param27>を加えて再びとろみがつくまで<param30>で約加熱し、(目安: 約<param9><param14>)<param23>と<param24>で味を調えて⚠⚠ホワイトソースを作る。
-グラタン皿に<param18>を敷き、その⚠上に<param16>、⚠⚠ホワイトソース、<param20>の順にのせる。
-<param10>℃の<param28>で、⚠こんがりと焦げ目がつくまで焼いたら完成。

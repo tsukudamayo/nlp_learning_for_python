@@ -1,0 +1,4 @@
+<param5>、<param6>は小房に分け、<param8>、<param9>、<param10>は乱切りにし、<param7>は縦半分に切る。
+耐熱皿に<param7>以外の<font color="red">⚠</font>野菜を入れ、ラップをかけて<param12>（<param1>W）で程度加熱する。(目安: 約<param2><param3><param4>)
+加熱した<font color="red">⚠</font>野菜に<param7>を加え、<param11>をかけて軽く混ぜ合わせる。
+混ぜた<font color="red">⚠</font>野菜を器に盛り付け完成。

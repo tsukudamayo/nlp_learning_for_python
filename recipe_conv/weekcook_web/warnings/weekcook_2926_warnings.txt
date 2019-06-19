@@ -1,0 +1,4 @@
+<param2>はすりおろす。
+すり<font color="red">⚠</font>おろした<param2>に、<param3>と<param4>、<font color="red">⚠</font>★を加えて、よく混ぜ合わせて<font color="red">⚠</font>タレを作り、<param1>を漬ける。
+<font color="red">⚠</font>タレに漬けた<param1>を<param12>（<param11>でも可）で焼く。
+器に<font color="red">⚠</font>焼肉を盛り付け、お好みで<font color="red">⚠</font>サンチュを添えたら完成。

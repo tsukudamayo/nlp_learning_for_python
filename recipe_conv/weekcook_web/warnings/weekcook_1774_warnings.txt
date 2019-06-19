@@ -1,0 +1,6 @@
+<param2>と<param3>は千切りにして、それぞれ<param10>を振ってしんなりさせておく。
+<param4>と<param5>は、茹でて<font color="red">⚠</font>冷水に取り冷ましてから、食べやすく切る。
+しんなりした<param2>と<param3>は、<font color="red">⚠</font>水分を絞ってボウルに入れ、<param11>を少々加えて<param10>で味を整え<font color="red">⚠</font>ナムルにする。
+食べやすく切った<param4>と<param5>もボウルに入れ、<param11>を少々加えて<param10>で味を整えて<font color="red">⚠</font>ナムルにする。
+小鍋に<param1>を入れて、<param9>と<param12>を加えてから箸で混ぜ合わせ火にかけて炒り煮する。
+器に<param7>を盛り付け、<font color="red">⚠</font>ナムルと<param6>、炒り煮した<param1>をのせて<font color="red">⚠</font>中央に<param8>黄を落とし、<font color="red">⚠</font>コチュジャンを添えて完成。

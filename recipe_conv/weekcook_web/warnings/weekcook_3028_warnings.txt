@@ -1,0 +1,5 @@
+<param14>は半<font color="red">⚠</font>分に切って<font color="red">⚠</font>塩をふり置き、(目安: 約<param1><param2><param10>)<font color="red">⚠</font>熱湯を回しかけて臭みをとる。
+<font color="red">⚠</font>大根は<font color="red">⚠</font>皮をむいて厚さ<param3>ｃｍの半月切りにする。<param16>は<font color="red">⚠</font>千切りにする。
+<param18>と<param17>、<param16>の<font color="red">⚠</font>千切り、<font color="red">⚠</font>大根、<param14>を加えて強火で煮る。(目安: 約<param4><param5><param11>)
+★の<font color="red">⚠</font>調味料を加えて落し蓋をして火にかけ、(目安: 約<param6><param7><param12>)火を止めて以上おく（<font color="red">⚠</font>時間を置くとより美味しい）。(目安: 約<param8><param9><param13>)
+食べる直前に強火にかけて<font color="red">⚠</font>汁気を飛ばし、器に盛り付け完成。

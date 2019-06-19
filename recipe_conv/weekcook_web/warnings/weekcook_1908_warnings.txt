@@ -1,0 +1,3 @@
+<param1>は千切りにし、<param2>は薄切りにする。
+鍋にカットした<font color="red">⚠</font>野菜と<param3>、<param4>を入れて火にかけ、沸騰してきたら<param5>と<param6>で味を調える。
+<param1>と<param2>の<font color="red">⚠</font>スープを器に注ぎ分け、<param7>を散らしたら完成。(<font color="red">⚠</font>セロリを薄く切った<font color="red">⚠</font>ものを加えると更に美味しくなる)

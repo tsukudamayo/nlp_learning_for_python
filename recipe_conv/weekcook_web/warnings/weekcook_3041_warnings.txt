@@ -1,0 +1,5 @@
+<param6>は<font color="red">⚠</font>石づきを取りほぐす。<param5>は斜めに切り、<param8>は<param1><param3>幅に切る。
+<param4>は、<font color="red">⚠</font>皮をむいてすりおろし、<param9>を混ぜておく。<param4>の<font color="red">⚠</font>葉は3～5mm幅の小口切りにする。
+<param7>は一口大に切る。
+鍋にだしつゆ（<param2>倍希釈）と<param12>を入れて火にかけ、煮たったら<param7>を入れる。再び煮たったら、<param5>、<param8>、<param6>の順に加えて煮る。
+<param7>に火が通ったら、<param4>の<font color="red">⚠</font>葉を散らし、すりおろした<font color="red">⚠</font>カブをのせ、混ぜずに一煮立ちさせて完成。

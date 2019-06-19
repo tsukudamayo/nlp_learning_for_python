@@ -1,0 +1,7 @@
+<param21>は、<font color="red">⚠</font>ぬるま湯<param1>mlで戻す（<font color="red">⚠</font>戻し汁は残す）。
+<param22>は表示の通りに戻して、長さ<param2><param10>に切る。
+<param20>の<font color="red">⚠</font>軸は長さ<param3><param11>のそぎ切りに、<font color="red">⚠</font>葉は長さ7～8<param12>のざく切りにして、<param23>は<font color="red">⚠</font>薄切りにする
+ボウルに<param15>と★の<font color="red">⚠</font><font color="red">⚠</font>調味料を加えてよく混ぜ合わせて団子状に丸め、<param4>個の<font color="red">⚠</font>肉団子を作る。
+土鍋に<param24>を注いで温めてから、<font color="red">⚠</font>肉団子を入れて<font color="red">⚠</font>表面を焼く。
+Ａの<font color="red">⚠</font><font color="red">⚠</font>調味料（<font color="red">⚠</font>水は<font color="red">⚠</font>椎茸の<font color="red">⚠</font>戻し汁も合わせて<param5>ml）と<param23>の<font color="red">⚠</font>薄切りを加え、沸騰したら<font color="red">⚠</font>アクを取る。
+<font color="red">⚠</font>野菜を加えてから蓋をして、中火で約煮た後、(目安: 約<param6><param7><param13>)<param22>を加えて約煮たら完成。(目安: 約<param8><param9><param14>)

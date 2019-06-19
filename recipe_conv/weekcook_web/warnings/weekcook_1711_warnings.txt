@@ -1,0 +1,10 @@
+<param10>は、貝同士をこすり合わせて洗う。
+<param11>は<font color="red">⚠</font>一切れを<param1>等分に切る。
+<param12>は<font color="red">⚠</font>殻をむき、<font color="red">⚠</font>背を開いて<font color="red">⚠</font><font color="red">⚠</font>背わたを取る。
+<param13>、<param14>、<param15>は、それぞれ<font color="red">⚠</font>石づきを取って食べやすい大きさにほぐす。
+<param17>は<param2><param7>角に切り、<param16>は薄い半月切りにする。<param18>は、薄切りにする。
+ボールに<font color="red">⚠</font>白身魚、<param12>、ほぐした<font color="red">⚠</font>きのこ、<param18>を入れ、<param19>、<param20>、<param21>を加えて混ぜ合わせる（程置くと更に味が染み込む）。(目安: 約<param3><param4><param8>)
+混ぜ合わせた<font color="red">⚠</font>材料は<param25>皿に並べて加熱する。(目安: 約<param5><param6><param9>)
+鍋に<param24>を入れ、<font color="red">⚠</font>湯を沸かし、<param22>を加えて溶かす。
+<font color="red">⚠</font>スープが沸々してきたら<font color="red">⚠</font>あさりと<param16>を加えて<font color="red">⚠</font>あさりの口が開いたら<param19>、<param20>で味を調える。
+<param25>で加熱した<font color="red">⚠</font>具材を皿に盛り付けたら<param17>と<param23>を散らし、<font color="red">⚠</font>スープで煮た<font color="red">⚠</font>あさりと<param16>をのせて<font color="red">⚠</font>スープを注いで完成。

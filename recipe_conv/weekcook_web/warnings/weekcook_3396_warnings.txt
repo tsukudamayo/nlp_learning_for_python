@@ -1,0 +1,4 @@
+<param5>を<font color="red">⚠</font>水から茹でて茹で<param5>を作る。
+<font color="red">⚠</font>ブロッコリーは小房に分けてから<font color="red">⚠</font>熱湯で約茹でる。(目安: 約<param1><param2><param3>)
+茹で<param5>を粗く刻んでボウルに移して、★の<param7>と<font color="red">⚠</font>調味料をボウルに加えてから混ぜ合わせて<font color="red">⚠</font>タルタル風<font color="red">⚠</font>ソースを作る。
+<font color="red">⚠</font>ブロッコリーを器に盛り付け、その<font color="red">⚠</font>上から<font color="red">⚠</font>タルタル風<font color="red">⚠</font>ソースをかけたら完成。

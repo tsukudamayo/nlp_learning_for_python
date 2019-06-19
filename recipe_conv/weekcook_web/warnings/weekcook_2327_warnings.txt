@@ -1,0 +1,5 @@
+<font color="red">⚠</font>長芋は<font color="red">⚠</font>皮を剥いてから、長さ<param1><param8>で<param2><param9>角の棒状に切り分け、<param14>は<font color="red">⚠</font>種を取ってから<font color="red">⚠</font>果肉を包丁で叩く。
+<param12>を<param3>枚重ねて広げ、<param13>、<font color="red">⚠</font>長芋、<param14>を芯にして巻く。(<param4>本作る)
+<font color="red">⚠</font>水<param5><font color="red">⚠</font>カップ(分量外)を加えた<param15>に<font color="red">⚠</font>すのこ(蒸し器)を置き、<font color="red">⚠</font>肉巻きを並べ強火で約蒸す。(目安: 約<param6><param7><param10>)
+蒸し上がった<font color="red">⚠</font>肉巻きを食べ易い大きさに切る。
+<param13>を敷いた器に<font color="red">⚠</font>肉巻きを盛り付け、お好みで<font color="red">⚠</font>大根おろしを添えて<font color="red">⚠</font>ポン酢をかけ完成。

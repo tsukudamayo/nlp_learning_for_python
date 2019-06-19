@@ -1,0 +1,4 @@
+<param1>は、半月切りにする。
+カットした<param1>と同じ枚数になるように、<param2>も薄切りにした後、半月切りにする。
+<font color="red">⚠</font>バジルの<font color="red">⚠</font>葉をちぎり、<param1>、<font color="red">⚠</font>チーズ、<font color="red">⚠</font>バジル（<font color="red">⚠</font>葉）の順番になるように、お皿に重ね並べる。
+<font color="red">⚠</font>塩、<font color="red">⚠</font>ブラックペッパーを振り、<font color="red">⚠</font>オリーブオイルを回しかけたら完成。

@@ -1,0 +1,6 @@
+<font color="red">⚠</font>かぼちゃは厚さ<param1><font color="red">⚠</font>mmの薄切りにしてから、長さ<param2><param7>に切る。
+<param11>は縦半分に切ってから、長さ<param3><param8>に切り揃える。
+<param11>を塩<param15>（分量外）に約浸けて、(目安: 約<param4><param5><param9>)アク抜きする。
+<font color="red">⚠</font>大根はすりおろし、<param13>は千切りにする。
+<font color="red">⚠</font>かぼちゃと<param11>の<param15>気をペーパータオルで拭き取った後、<param6>度の<font color="red">⚠</font>サラダ油で素揚げにする。
+<param14>を<param15>で薄めて<font color="red">⚠</font>タレを作り、素揚げにした<font color="red">⚠</font>かぼちゃと<param11>を器に盛り付け<font color="red">⚠</font>タレを振り掛ける。<font color="red">⚠</font>大根おろしと<param13>をのせたら完成。

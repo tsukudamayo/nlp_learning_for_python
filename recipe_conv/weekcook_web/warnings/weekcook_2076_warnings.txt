@@ -1,0 +1,8 @@
+<font color="red">⚠</font>干し椎茸は<param15>で戻しておき、★の<font color="red">⚠</font>調味料は混ぜ合わせておく。
+<param6>は5～10mm幅に切ってから、<font color="red">⚠</font>耐熱ボウルに入れラップをして、レンジで加熱し、(目安: 約<param1><param4>)ラップを外して少し冷ます。
+<font color="red">⚠</font>干し椎茸、<param9>、<param10>をみじん切りにする。
+<param6>が入った<font color="red">⚠</font>耐熱ボウルに<param7>を入れ、<font color="red">⚠</font>塩を加えて<font color="red">⚠</font>粘り気が出るまで混ぜ合わせる。
+<font color="red">⚠</font>耐熱ボウルに、みじん切りにした<font color="red">⚠</font>干し椎茸と、<param9>、<param10>を加えて混ぜた後、★の<font color="red">⚠</font>調味料を投入し、しっかりと混ぜ合わせて<font color="red">⚠</font>餃子の<font color="red">⚠</font>タネを作る。
+<font color="red">⚠</font>餃子の<font color="red">⚠</font>タネを<param14>で包み、<param17>を引いた<param18>で軽く焦げ目がつくまで焼く。
+<param15>と<param16>で<param15>溶き<param16>を作り、<param18>に流し込んで蒸し焼き（約）にする。(目安: 約<param2><param3><param5>)
+<font color="red">⚠</font>皮がパリッとなれば、器に盛り付け完成。

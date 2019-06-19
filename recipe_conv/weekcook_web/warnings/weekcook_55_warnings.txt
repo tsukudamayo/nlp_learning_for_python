@@ -1,0 +1,5 @@
+<param4>、<param5>、<param6>は<font color="red">⚠</font>石づきを取り、食べ易い大きさに切る。<param12>はみじん切りにして、<param9>は輪切りにする。
+<param13>に<param8>大さじ<param1>（分量外）を入れ、<param12>を弱火で炒めて、香りが出てきたら、<param9>とえのき、<param5>、<param6>を加えて炒め、<param10>と<param11>をふり、一旦取り出す。
+<param13>をかるく洗い、<font color="red">⚠</font>水<param2>cc（分量外）と<param10>小さじ<param3>（分量外）を入れて加熱し、沸騰したら<param7>を半分に折って入れる。
+<param7>が柔らかくなってきたら残ったお<font color="red">⚠</font>湯を捨て、<param8>と炒めた<font color="red">⚠</font>きのこ類を加えて混ぜ合わせる。
+きのこの<param7>を器に盛り付け、お好みで<font color="red">⚠</font>チーズを振ったら完成。

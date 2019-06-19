@@ -1,0 +1,7 @@
+<param4>を水洗いした後、<param1>等分（<font color="red">⚠</font>茎と<font color="red">⚠</font>葉に分ける）する。
+<param8>の<font color="red">⚠</font>石づきをとって、キッチンペーパー等で<font color="red">⚠</font>汚れを取り除く。
+生<font color="red">⚠</font>鮭<param2>切れ<font color="red">⚠</font>ずつを<param3>等分にしてから、<font color="red">⚠</font>塩と<font color="red">⚠</font>こしょうをして<param6>をまぶす。
+<param11>に<param7>を注ぎ、<font color="red">⚠</font>鮭を中火で<font color="red">⚠</font>両面に焦げ目がつくまで焼いた後、一度<param11>からお皿に取り出す。
+<param11>をきれいにしてから、中火で<param4>の<font color="red">⚠</font>茎、<font color="red">⚠</font>葉の順に加えて炒める。
+<font color="red">⚠</font>そこへ<param8>を加えて炒め、<param4>のかさが半分になったら、<param9>と<param10>を入れ、<font color="red">⚠</font>塩と<font color="red">⚠</font>こしょうで味を調えて煮る。
+焼いた<font color="red">⚠</font>鮭を戻し入れ、さっと煮たら完成。

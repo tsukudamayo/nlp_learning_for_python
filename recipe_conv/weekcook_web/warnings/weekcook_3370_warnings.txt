@@ -1,0 +1,4 @@
+<param3>、<param4>を千切りにし、<font color="red">⚠</font>塩小さじ<param1>/<param<font color="red">⚠</font>2>（分量外）をふる。
+<font color="red">⚠</font>★を混ぜ合わせる。
+<font color="red">⚠</font>水分を絞った<param3>、<param4>、<param5>に<font color="red">⚠</font>★の<font color="red">⚠</font>調味料を混ぜる。<param11>で味を調える。
+器に盛りつけ完成。

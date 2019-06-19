@@ -1,0 +1,3 @@
+<param4>は食べやすく切り、<param9>に漬けておく。
+<param5>は<font color="red">⚠</font>塩でこすり<font color="red">⚠</font>熱湯で茹で、(目安: 約<param1><param3>)<font color="red">⚠</font>冷水に取り<font color="red">⚠</font>水気を切って輪切りにする。<param6>は<font color="red">⚠</font>皮をむいて<param2>ｍｍ角に切る。
+器に温かい<param8>をよそい、<param4>、<param6>、<param7>、<param5>を順にのせ、<font color="red">⚠</font>ワサビと<font color="red">⚠</font>刻み海苔をのせ完成。

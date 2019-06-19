@@ -19,7 +19,7 @@ _INGREDIENT_00003159 = ['新じゃがいも', '新玉ねぎ', 'ミニトマト',
 _INGREDIENT_00003363 = ['椎茸', 'アンチョビ', 'にんにく', 'オリーブオイル', '鷹の爪', 'パセリ', '塩']
 
 _COOK_WARE = ['オーブントースター', 'オーブン', 'トースター', 'フライパン', 'グリル', '電子レンジ']
-_UNIT = ['cm', '分', '%', '等', 'w']
+_UNIT = ['cm', '分', '%', '等', 'w', 'W']
 _PARAMSTR_DIR = 'weekcook/paramstrings'
 _PARAMS_DIR = 'weekcook/parameters'
 _ORG_DIR = 'weekcook/org'
@@ -53,7 +53,7 @@ def convert_num_to_param(strings_array: str) -> dict:
     number_flag = False
     count = 1
     for word in strings_array:
-        # print(word, word.isdecimal())
+        print(word, word.isdecimal())
         if word.isdecimal() is True and number_flag is False:
             # print('True:False')
             number_flag = True
@@ -212,13 +212,15 @@ def preordering_for_cooking_time_strings(strings_array: str,
             if keyword_delete[word_idx] in insert_candidate\
               and word_idx >= word_index\
               and is_replace is False:
-                # print('if')
-                # print(word_idx)
+                print('if')
+                print(word_idx)
+                print(keyword)
                 preordering_strings += keyword_delete[word_idx] + '(目安: 約' + str(keyword) + ')'
                 is_replace = True
             else:
-                # print('else')
-                # print(word_idx)
+                print('else')
+                print(word_idx)
+                print(keyword)
                 preordering_strings += keyword_delete[word_idx]
         strings_array = preordering_strings
     print(preordering_strings)
@@ -248,7 +250,7 @@ def preordering_for_cooking_time_wakachi(wakachi_file: str,
     is_decimal = False
     is_replace = False
     for word in split_lines:
-        if word.isdecimal() or word == '～':
+        if word.isdecimal() or word == '～' or word == '約':
             is_decimal = True
             tmp_word += word
         # --------------------- #
@@ -273,7 +275,11 @@ def preordering_for_cooking_time_wakachi(wakachi_file: str,
                 else:
                     print('something wrong!')
                     raise ValueError
-                
+
+            if time_candidate.find('約') < 0:
+                time_candidate = time_candidate
+            else:
+                time_candidate = '約' + time_candidate
             replace_buffer = replace_template.format(
                 temperature_candidate, time_candidate
             )
@@ -431,7 +437,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
         param_key_value.update({param_num: category})
         word_key_value.update({param_num: list(relatetion_70per_100per[number_of_replace].keys())[0]})
         
-        strings_array = strings_array + param_deco
+        strings_array = strings_array + '～' + param_deco
 
         return strings_array
 
@@ -543,8 +549,8 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
                     convert_line += word
                 line = convert_line
             elif line.find('目安') >= 0 and line.find('～') < 0:
-                print('line')
-                print(line)
+                # print('line')
+                # print(line)
                 print('～ < 0:')
                 is_decimal = False
                 convert_line = ''
@@ -561,6 +567,12 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
                         continue
                     else:
                         if tmp_word != '':
+                            # print('tmp_word')
+                            # print(tmp_word)
+                            # print('inv_num_param')
+                            # print(inv_num_param)
+                            # print('tmp_word')
+                            # print(tmp_word)
                             # print("tmp_word != ''")
                             if tmp_word in inv_num_param and tmp_word != '1':
                                 tmp_word = replace_word_to_numrange_param(
@@ -751,12 +763,13 @@ def run_all():
         fname, ext = os.path.splitext(f)
         split_fname_array = fname.split('_')
         number = int(split_fname_array[1])  # 00000001 -> 1
-        zeropadding_number = '{0:08d}'.format(number)
+        # zeropadding_number = '{0:08d}'.format(number)
 
         org_file = os.path.join(_ORG_DIR, f)
         org_lines = text_to_strings(org_file)
 
-        json_filepath = 'weekcook/ingredient_json/weekcook_' + zeropadding_number + '.json'
+        # json_filepath = 'weekcook/ingredient_json/weekcook_' + zeropadding_number + '.json'
+        json_filepath = 'weekcook/ingredient_json/recipe_' + str(number) + '.json'
         with open(json_filepath, 'r', encoding='utf-8') as j:
             ingredient_dict = json.load(j)
 
@@ -768,9 +781,9 @@ def run_all():
 
         # ############### convert num to param ################
         num_param_dict = convert_num_to_param(org_lines)
-
-        # ############### convert num to param ################
-        num_param_dict = convert_num_to_param(org_lines)
+        print('################################')
+        print(num_param_dict)
+        print('################################')
 
         # ############### convert num to 70% ################
         per70_param_dict = define_num_param_70percent(num_param_dict)
@@ -779,7 +792,8 @@ def run_all():
         tool_param_dict = convert_tool_to_param(org_lines)
 
         # ############### convert unit to param ################
-        wakachi_file = 'weekcook/procedure_3/weekcook_' + zeropadding_number + '_proc3.txt'
+        # wakachi_file = 'weekcook/procedure_3/weekcook_' + zeropadding_number + '_proc3.txt'
+        wakachi_file = 'weekcook/procedure_3/recipe_' + str(number) + '_proc3.txt'
         wakachi_string = text_to_strings(wakachi_file)
         unit_param_dict = convert_unit_to_param(wakachi_string, num_param_dict)
 
@@ -804,11 +818,17 @@ def run_all():
             tool_param_dict,
         )
 
+        print('################ converted recipe ################')
+        print(converted_recipe)
+        converted_recipe = converted_recipe.replace('約約', '約')
+
         # ############### output params and recipe ################
-        converted_recipe_path = 'weekcook/paramstrings/weekcook_' + str(number) + '_convrecipe.txt'
+        # converted_recipe_path = 'weekcook/paramstrings/weekcook_' + str(number) + '_convrecipe.txt'
+        converted_recipe_path = 'weekcook/paramstrings/recipe_' + str(number) + '_convrecipe.txt'
         with open(converted_recipe_path, 'w', encoding='utf-8') as w:
             w.write(converted_recipe)
-        param_json_path = 'weekcook/parameters/weekcook_' + str(number) + '_params.json'
+        # param_json_path = 'weekcook/parameters/weekcook_' + str(number) + '_params.json'
+        param_json_path = 'weekcook/parameters/recipe_' + str(number) + '_params.json'
         with open(param_json_path, 'w', encoding='utf-8') as w:
             json.dump(associative_array, w, ensure_ascii=False, indent=4)
 
@@ -888,6 +908,10 @@ def run_once(org_file: str):
         unit_param_dict,
         tool_param_dict,
     )
+
+    print('################ converted recipe ################')
+    print(converted_recipe)
+    converted_recipe = converted_recipe.replace('約約', '約')
 
     print('################ output params and recipe ################')
     converted_recipe_path = 'weekcook/paramstrings/weekcook_' + str(number) + '_convrecipe.txt'

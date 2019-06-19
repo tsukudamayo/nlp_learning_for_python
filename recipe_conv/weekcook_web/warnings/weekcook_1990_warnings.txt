@@ -1,0 +1,5 @@
+<param7>は長さ5～6<param2>に切って、<font color="red">⚠</font>白菜<font color="red">⚠</font>キムチはカットされていない場合は、長さ<param1><param3>程度に切り、<param9>はすりおろして、<param12>は刻んでおく。
+<param5>は長さ3～4<param4>に切る。
+<param13>を熱してから<param8>を注ぎ入れ、<param9>を炒めて香りが出たら<font color="red">⚠</font><font color="red">⚠</font>豚肉を加えて強火で炒める。
+<font color="red">⚠</font><font color="red">⚠</font>豚肉の色が変わったら、<font color="red">⚠</font>白菜<font color="red">⚠</font>キムチと<param7>、<param10>を加えてからざっと炒め合わせて、最後に<param11>を<param13>の<font color="red">⚠</font>鍋肌から回し入れて火を止める。
+<font color="red">⚠</font><font color="red">⚠</font>豚肉の<font color="red">⚠</font>キムチ炒めを器に盛り付けて、<param12>を振りかけたら完成。

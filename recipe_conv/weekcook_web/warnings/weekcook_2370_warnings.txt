@@ -1,0 +1,7 @@
+<param8>にＡの<font color="red">⚠</font><font color="red">⚠</font>調味料を加えて下味をつける。
+<param9>は<font color="red">⚠</font>へたを落とし、縦半分に切ってから長さ<param1><param6>に切る。<param10>と<param11>はみじん切り、<font color="red">⚠</font>万能ネギは小口切りにする。Ｂの<font color="red">⚠</font><font color="red">⚠</font>調味料は混ぜ合わせておく。
+<param<font color="red">⚠</font>21>に<param<font color="red">⚠</font>20>大さじ<param<font color="red">⚠</font>2>/<param3>(分量外)を加え、<font color="red">⚠</font>なすを<font color="red">⚠</font>片面ずつ焼いて取り出す。(目安: 約<param4><param5><param7>)
+<param<font color="red">⚠</font>21>に<param<font color="red">⚠</font>20>を加え、<param10>と<param11>のみじん切り、<param16>を炒める。
+香りが出てきたら<font color="red">⚠</font><font color="red">⚠</font>万能ねぎを加え、<param8>も加えて炒める。
+<font color="red">⚠</font>なすを戻し入れてから、Ｂの<font color="red">⚠</font><font color="red">⚠</font>調味料を<param<font color="red">⚠</font>21>に加えて味をみる。
+<param19>を回しかけてから火を止め、<font color="red">⚠</font>麻婆<font color="red">⚠</font>なすを器に盛り付けたら完成。

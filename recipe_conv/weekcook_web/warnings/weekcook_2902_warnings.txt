@@ -1,0 +1,6 @@
+<param12>を洗い、浸漬させておく（以上）。(目安: 約<param1><param2><param7>)
+紫ずきんを<param3><param8>間<param16>ゆでし、<font color="red">⚠</font>豆を取り出す。
+<param10>を大きめの千切りに、<param11>は<param4>㎜幅の半月切りにする。
+<font color="red">⚠</font>炊飯釜に<font color="red">⚠</font>水を切った<param12>を入れ、<param5>合分の<font color="red">⚠</font>水加減（分量外）にセットし、<font color="red">⚠</font>具材を加える。
+<font color="red">⚠</font>調味料Aと<font color="red">⚠</font>水<param6>㏄（分量外）を加えて<font color="red">⚠</font>炊飯器で<font color="red">⚠</font>炊飯する（あれば「炊き込み<font color="red">⚠</font>ごはんモード」）。
+炊き上がったら器に盛り付けて、完成。

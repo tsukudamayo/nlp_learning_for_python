@@ -1,0 +1,6 @@
+<param2>は、みじん切りにする。
+鍋に<param9>を加えて火にかけ、みじん切りにした<param2>と<param3>、<param4>を入れ炒めて香りが出てきたら<param1>を加えて炒め、<param10>を入れる。
+沸騰してきたら<font color="red">⚠</font>アクを取り除き、★の<font color="red">⚠</font>調味料と<param8>を加える。
+ボウルに、すりつぶしたいり胡麻と<param12>、<param7>を加えてなめらかにし、<param1>の鍋に入れ<font color="red">⚠</font>スープを作る。
+別の鍋に<font color="red">⚠</font>熱湯を沸かし<param6>を一枚ずつにした<font color="red">⚠</font>ものと<param5>を湯通しをして<param10>気を切る。
+器に<param5>を盛り付け、<font color="red">⚠</font>スープをかけて<param6>を添えたら完成。

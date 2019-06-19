@@ -1,0 +1,5 @@
+<param1>は<font color="red">⚠</font>熱湯をかけて油抜きをし、食べ易い大きさに切る。
+<param2>はざく切りにする。
+鍋に<param4>を入れて火にかけ、沸騰したら<param2>と<param1>を加える。
+鍋がひと煮立ちしたら<param3>を加えて、白<font color="red">⚠</font>味噌を溶かしたら火を止める。
+<param2>と<param1>のお<font color="red">⚠</font><font color="red">⚠</font>味噌汁を、お椀によそい分けて<param3>を散らしたら完成。

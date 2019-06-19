@@ -1,0 +1,3 @@
+<param2>は<font color="red">⚠</font>水でさっと洗い、<param1>は薄切りに、<font color="red">⚠</font>万能ネギは小口切りにする。
+鍋に<param3>を入れて中火にかけ、沸騰したら<font color="red">⚠</font>わかめと白<param3>を加える。
+<font color="red">⚠</font>わかめと<param1>のお<font color="red">⚠</font>吸い物を、お椀によそい、<param1>と<font color="red">⚠</font><font color="red">⚠</font>万能ねぎを散らして完成。

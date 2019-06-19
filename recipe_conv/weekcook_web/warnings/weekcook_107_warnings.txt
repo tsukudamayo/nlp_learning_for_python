@@ -1,0 +1,3 @@
+<param6>は<font color="red">⚠</font>皮を剥いて千切りにし、<param4>は大きめのブツ切にする。
+<param5>は洗って鍋（または炊飯器）に入れ、<param7>、<param8>、<param9>、<param10>を加えて一混ぜし、<param6>と<param4>をその<font color="red">⚠</font>上に載せて炊く。
+炊き<font color="red">⚠</font>上がったら、一度かき混ぜて蒸らした後、(目安: 約<param1><param2><param3>)<font color="red">⚠</font>たこ飯をお茶碗に盛り付け完成。

@@ -1,0 +1,2 @@
+<param1>は洗って<font color="red">⚠</font>冷水に浸し、パリッとさせてから<font color="red">⚠</font>水分を取る。
+<param4>で<param3>を温め、カリッとなるまで<param2>を炒める。器に<param1>を盛り付け<param3>と<param2>をかけて完成。

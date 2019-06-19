@@ -1,0 +1,5 @@
+<param5>は<font color="red">⚠</font>皮をむいてすりおろし、<font color="red">⚠</font>水分は捨てる。
+<param6>は輪切りにする。
+ボウルに、すりおろした<param5>と<font color="red">⚠</font>ねぎを加えて混ぜ合わせた後、手で丸めて<font color="red">⚠</font><font color="red">⚠</font>つくね<font color="red">⚠</font>ダネを<param1>個作る。
+<param13>に<param7>を入れて熱し、<font color="red">⚠</font><font color="red">⚠</font>つくね<font color="red">⚠</font>ダネを入れ、<font color="red">⚠</font>片側を約焼いたら裏返して約焼いた後、(目安: 約<param2><param3><param4>)火を止める。
+焼き上がった<font color="red">⚠</font>ねぎじゃが<font color="red">⚠</font>つくねを器に盛り付け、★の<font color="red">⚠</font>調味料と<param12>を混ぜ合わせた<font color="red">⚠</font>タレを添える。お好みで<font color="red">⚠</font>サラダ菜を添えたら完成。

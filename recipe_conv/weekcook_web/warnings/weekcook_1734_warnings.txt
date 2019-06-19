@@ -1,0 +1,8 @@
+<param15>はみじん切りにしてレンジで加熱し、(目安: 約<param1><param2><param10>)冷ましておく。
+<param21>は<param18>に浸しておく(程度)。(目安: 約<param3><param4><param11>)
+<param14>に<param19>、<param20>、<param15>、<param22>分を絞った<param21>を加えてよく混ぜ、<param5>等分して丸める。
+<param16>は<font color="red">⚠</font>芯を包丁でくりぬき、<param22>を流しながら剥がす。
+<param16>を耐熱容器に入れ、レンジで加熱してしんなりさせ、(目安: 約～<param6><param12>)固い所は包丁でそぎ落とす。
+<param16>の<font color="red">⚠</font>葉を広げ<param7>等分した<font color="red">⚠</font>タネを置き、<font color="red">⚠</font>芯の方から巻いていく。
+鍋にロール<param16>を隙間なく並べ、<param22>と<param24>、<font color="red">⚠</font>トマト缶、<param23>を加えて火にかける。
+沸々してきたら弱火にして程火にかけて完成。(目安: 約<param8><param9><param13>)

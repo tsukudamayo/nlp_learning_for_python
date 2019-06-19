@@ -1,0 +1,3 @@
+<param14><param1>/<param2>株は<font color="red">⚠</font>石突きを取りほぐす。<param13><param3>/<param4>本は千切りにし、<param15>は<param5><param10>幅に切る。
+耐熱容器に<param13>と<param14>を入れ<param18>（<param6>W）で加熱し、(目安: 約<param7><param8><param11>)<param15>を加えて更に加熱する。(目安: 約<param9><param12>)
+<param17>と<param16>を加えて混ぜ、器に盛りつけ完成。

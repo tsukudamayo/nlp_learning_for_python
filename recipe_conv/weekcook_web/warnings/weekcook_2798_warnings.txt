@@ -1,0 +1,5 @@
+<param9>を<param1>つに切る。
+<param9>と<param10>、<param11>を加えた鍋を火にかけ、沸々としてきたら火を止める。
+<font color="red">⚠</font>豚ロース(<font color="red">⚠</font>ステーキ用)を包丁の背で叩いて筋切りをして、<param4>と<param5>を振り、<param6>→溶き<param7>→<param8>の順に<font color="red">⚠</font>衣を付ける。
+<font color="red">⚠</font>衣を付けた<font color="red">⚠</font><font color="red">⚠</font>豚ロース肉を<param2>度の<font color="red">⚠</font>サラダ油で揚げる。
+お皿に<font color="red">⚠</font>トンカツを載せ<font color="red">⚠</font>トマトソースをかけ、お好みで<font color="red">⚠</font>野菜を添えたら完成。

@@ -1,0 +1,6 @@
+<param13>は厚さ<param1><param10>の輪切りにして<font color="red">⚠</font>水につけてから、かぶるくらいの<font color="red">⚠</font>水で柔らかくなるまで煮る。
+<param13>の<font color="red">⚠</font>皮を手で剥き（手でむくと<font color="red">⚠</font>無駄が少ない）、鍋に入れて木ベラ等で潰し、<param15>と<param16>を加えて混ぜ、弱火で程煮る。(目安: 約<param2>～<param3><param11>)
+<param17><param4><font color="red">⚠</font>ｇを加えて馴染ませたら、火を止めて<param13><font color="red">⚠</font>ペーストを作る。
+<param13><font color="red">⚠</font>ペーストを、耐熱皿や<font color="red">⚠</font>厚手のアルミホイルの型に分け入れて平らにする。
+<font color="red">⚠</font>りんごは、<param5>等分して<font color="red">⚠</font>芯を取り<font color="red">⚠</font>皮付きのまま、長さを半分にし厚さ<param6>mmにスライスした後、<param13><font color="red">⚠</font>ペーストの<font color="red">⚠</font>上に並べ、<param17><param7><font color="red">⚠</font>gを小さく切ってのせ、<param18>を振りかける。
+<param19>で約（又は200～230℃の<param20>で約）、(目安: 約<param8><param9><param12>)焼き色を付ければ完成。

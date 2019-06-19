@@ -1,0 +1,3 @@
+<param5>は<font color="red">⚠</font>皮を剥き千切りにし<font color="red">⚠</font>水にさらす。
+<font color="red">⚠</font><font color="red">⚠</font>水分を切った<param5>と細かく切った<param6>を<param8>可能な容器に入れ<param8>（<param1>W）で加熱する。(目安: 約<param2><param3><param4>)
+軽く混ぜて<param7>を振って完成。
