@@ -1,0 +1,6 @@
+sumy
+tinysegmenter
+Janome
+numpy
+gensim
+mecab-python-windows
