@@ -1,0 +1,7 @@
+<param13>を<param1>等分する
+<param11>はペーパータオルで水分を拭いて<param15>と<param16>を振り、保存容器に入れ、その上に<param17>と<param13>を載せて保存
+<param12>は皮ごと洗ってラップで包み、<param21>（<param2><param8>）で加熱して、(目安: 約<param3>～<param4><param9>)一口大に切る
+<param14>は洗ってへたを落とし、半分の長さに切る
+アルミ箔を<param5>枚用意して鍋を作り、<param14>と<param11>、<param17>、<param13>、<param12>をアルミ箔の鍋に入れて全体に<param18>を回しかける
+<param20>（<param19>でも可）で加熱する※一度に<param20>に入らない場合は分けて焼く
+アルミ箔の鍋の具材を取り出して、(目安: 約<param6>～<param7><param10>)器に盛り付け完成

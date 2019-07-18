@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "木綿豆腐",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "万能ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "干しエビ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "胡麻油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "しょう油",
+        "type": "ingredient"
+    }
+]

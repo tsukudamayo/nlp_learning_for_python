@@ -453,9 +453,9 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     print(per70_param_dict)
     print('70-100')
     print(relatetion_70per_100per)
-    # inv_ingredient_param = {v: k for k, v in ingredient_param_dict.items()}
+    inv_ingredient_param = {v: k for k, v in ingredient_param_dict.items()}
     inv_num_param = {v: k for k, v in num_param_dict.items()}
-    # inv_unit_param = {v: k for k, v in unit_param_dict.items()}
+    inv_unit_param = {v: k for k, v in unit_param_dict.items()}
     inv_tool_param = {v: k for k, v in tool_param_dict.items()}
     # print('inv_ingredient_param')
     # print(inv_ingredient_param)
@@ -656,6 +656,7 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
     # TODO gather as one function #
     # XXXXXXXXXXXXXXXXXXXXXXXXXXX #
     # for k in inv_ingredient_param.keys():
+    print('inv_ingredient_param.keys', inv_ingredient_param.keys())
     for k in ingredient_param_dict.values():
         # print('k')
         # print(k)
@@ -668,8 +669,8 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
         word_key_value.update({param_num: k})
         count += 1
 
-    # print('converted_ingredient')
-    # print(converted_ingredient)
+    print('converted_ingredient')
+    print(converted_ingredient)
 
     # --------------------
     # convert ingredient
@@ -687,6 +688,8 @@ def convert_recipe_parameter(preordering_wakachi_array: List[str],
         count += 1
 
     if len(inv_tool_param) == 0:
+        print('converted_ingredient : ', converted_ingredient)
+        print('inv_tool_param', inv_tool_param)
         converted_tool = converted_ingredient
     else:
         pass
@@ -850,10 +853,10 @@ def run_once(org_file: str):
     fname, ext = os.path.splitext(bname)
     split_fname_array = fname.split('_')
     number = int(split_fname_array[1])  # 00000001 -> 1
-    zeropadding_number = '{0:08d}'.format(number)
+    # zeropadding_number = '{0:08d}'.format(number)
 
     print()
-    json_filepath = 'weekcook/ingredient_json/weekcook_' + zeropadding_number +'.json'
+    json_filepath = 'weekcook/ingredient_json/weekcook_' + number +'.json'
     with open(json_filepath, 'r', encoding='utf-8') as j:
         ingredient_dict = json.load(j)
 

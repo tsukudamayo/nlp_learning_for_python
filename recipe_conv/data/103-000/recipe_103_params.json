@@ -1,0 +1,42 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "セロリ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "りんご",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "ブラックペッパー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "ホワイトビネガー",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "はちみつ",
+        "type": "ingredient"
+    }
+]

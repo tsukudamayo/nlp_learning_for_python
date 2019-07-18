@@ -1,0 +1,12 @@
+[
+    {
+        "parameters": "param1",
+        "value": "納豆",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "大根",
+        "type": "ingredient"
+    }
+]

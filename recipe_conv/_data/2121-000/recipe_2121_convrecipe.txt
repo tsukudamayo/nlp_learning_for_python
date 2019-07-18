@@ -1,0 +1,5 @@
+<param12>は<param1>gと<param2>gの<param3><param10>割にしてから、<param4>g分は<param5><param9>角に切り、<param6>g分は擦りおろす
+<param13>は熱湯で茹でて火を通してから水気を切る
+擦りおろした<param12>に★の<param15>と調味料を加えてから混ぜ合わせた、<param12>ソースを作る
+耐熱皿に角切りの<param12>と<param13>を入れ、上から<param12>ソースをかける
+<param19>（又は約220℃の<param20>）で焼いて、(目安: 約<param7>～<param8><param11>)焼き色がついたら完成

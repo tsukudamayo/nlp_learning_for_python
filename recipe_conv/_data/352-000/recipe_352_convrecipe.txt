@@ -1,0 +1,8 @@
+<param6>は<param11>少々を加えた熱湯で表示通り茹でる
+<param7>、<param8>は千切りにし、<param9>は薄切りにする
+<param7>は<param11>少々を振って置いておく
+<param8>は<param15>（<param1><param4>）で加熱する
+<param9>は水にさらす
+<param7>は<param9>と併せて、(目安: 約<param2>～<param3><param5>)水気をギュッとペーパータオルで絞り、<param8>も水気をとる
+ボウルに茹でた<param6>と水分を切った野菜、<param12>、<param13>、<param14>を加えて混ぜ合わせる
+<param6>サラダを器に盛り付け、<param10>を添えたら完成

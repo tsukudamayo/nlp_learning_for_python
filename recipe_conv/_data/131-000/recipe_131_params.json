@@ -1,0 +1,32 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "ナス",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "大葉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "白胡麻",
+        "type": "ingredient"
+    }
+]

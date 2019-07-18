@@ -1,0 +1,6 @@
+<param16>は櫛切り、<param17>は細切り、<param18>は石づきをとって<param1>つに切る。<param19>はみじん切りにしておく
+<param15>は<param21>分をペーパータオルで拭き取る
+<param28>に<param20>（大さじ<param2>）を入れて熱し、<param15>を片面ずつ焼いて取り出す
+<param28>をペーパータオルで綺麗にし、(目安: 約<param3>～<param4><param11>)<param19>と<param20>（大さじ<param5>）を加えて、香りが出たら<param16>と<param17>、<param18>を加えて炒める
+野菜がしんなりしたら、★の材料を加えて煮詰める。(目安: 約<param6>～<param7><param12>)その後<param15>を戻し入れ煮込み火を止める。(目安: 約<param8>～<param9><param13>)粗熱を取り保存容器に入れ保存
+<param15>と野菜のトマト煮を<param29>（<param10><param14>）で温め、器に盛り付けて、<param27>をのせたら完成

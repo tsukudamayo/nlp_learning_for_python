@@ -1,0 +1,9 @@
+<param21>は、みじん切りにしてから<param31>（<param1><param13>）で加熱して、(目安: 約<param2>～<param3><param16>)冷ましておく
+<param27>は、<param24>に浸しておく（）
+<param20>に<param25>と<param26>、(目安: 約<param4>～<param5><param17>)冷ました<param21>、<param28>分を絞った<param27>を加えて、よく混ぜ捏ねてから<param6>等分して丸める
+<param22>は芯を包丁でくりぬいて、<param28>を流しながら剥がす
+<param22>を<param31>可能な容器に入れて、<param31>（<param7><param14>）で加熱してしんなりさせてから、(目安: 約～<param8><param18>)固い所は包丁でそぎ落とす
+<param22>の葉を広げて丸めたタネを置き、芯の方から巻いたロール<param22>を<param9>個作る
+鍋にロール<param22>を隙間なく並べて、<param28>と<param30>、<param23>、<param29>を加えて火にかける
+沸々してきたら弱火にして、更に程度煮てから火を止め、(目安: 約<param10>～<param11><param19>)粗熱を取り保存容器入れ保存
+ロール<param22>を<param31>（<param12><param15>）で加熱してから、器に盛り付けて完成

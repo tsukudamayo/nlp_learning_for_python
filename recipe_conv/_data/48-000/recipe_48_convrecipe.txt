@@ -1,0 +1,6 @@
+<param16>は厚さ<param1>mmに切ってから容器に入れ保存
+<param19>と<param20>を耐熱容器で混ぜ、<param25>（<param2><param10>）で加熱する
+レンジから耐熱容器を取り出しよく混ぜる。(目安: 約<param3><param13>)さらに<param21>を加えてよく混ぜ、再び<param25>（<param4><param11>）で加熱し、(目安: 約<param5><param14>)<param22>と<param23>を振り、かき混ぜてホワイトソースを作る。粗熱をとり保存容器に入れ保存
+<param16>は<param25>（<param6><param12>）で加熱する
+<param17>の上にホワイトソースを塗り、(目安: 約<param7>～<param8><param15>)その上に<param16>を並べてから<param18>をのせる
+<param9>℃に予熱した<param24>で<param16>のピザをこんがり焼き色がつくまで焼き上げたら、器に盛り付けて完成

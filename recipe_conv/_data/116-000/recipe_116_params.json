@@ -1,0 +1,102 @@
+[
+    {
+        "parameters": "param1",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "170",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "180",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param8",
+        "value": "180",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param9",
+        "value": "W",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param11",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param12",
+        "value": "鶏手羽中",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "じゃがいも",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "コンソメ顆粒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "こしょう",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "薄力粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param20",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

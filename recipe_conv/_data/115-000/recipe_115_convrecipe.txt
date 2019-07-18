@@ -1,0 +1,6 @@
+<param9>は黄色い部分を取り除いてから、食べ易い大きさに切る。<param13>と<param14>を振り、<param15>と一緒に保存容器に入れ保存
+<param10>は皮付きのまま、<param20>（<param1><param6>）で<param2><param7>間加熱する
+加熱した<param10>は<param3>つに切って<param13>を振る
+<param18>皿（<param19>でも可）にアルミ箔を広げ、<param15>が付いたままの<param9>と<param10>をのせ、上から<param17>をかけて絡めてから、皮付きの<param16>と一緒に間焼く
+<param11>は茹でて半分に切っておく
+焼き上がった<param9>と<param10>を器に盛り付け、(目安: 約<param4>～<param5><param8>)<param12>と茹でた<param11>を添えたら完成

@@ -1,0 +1,102 @@
+[
+    {
+        "parameters": "param1",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param6",
+        "value": "600",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param7",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param8",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param9",
+        "value": "W",
+        "type": "unit"
+    },
+    {
+        "parameters": "param10",
+        "value": "ブリ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "木綿豆腐",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "白ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "春菊",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param17",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param18",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param19",
+        "value": "フライパン",
+        "type": "tool"
+    },
+    {
+        "parameters": "param20",
+        "value": "電子レンジ",
+        "type": "tool"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "parameters": "param1",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param3",
+        "value": "トマト",
+        "type": "ingredient"
+    }
+]

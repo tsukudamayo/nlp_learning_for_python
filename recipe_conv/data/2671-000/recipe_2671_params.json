@@ -1,0 +1,52 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "cm",
+        "type": "unit"
+    },
+    {
+        "parameters": "param4",
+        "value": "うなぎ蒲焼",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "きゅうり",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "みょうが",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "トースター",
+        "type": "tool"
+    }
+]

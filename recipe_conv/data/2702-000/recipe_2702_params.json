@@ -1,0 +1,47 @@
+[
+    {
+        "parameters": "param1",
+        "value": "5",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "トマト",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "セロリ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "パプリカ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param6",
+        "value": "オリーブオイル",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "きゅうり",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "カツオと昆布のだし",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "薄口しょう油",
+        "type": "ingredient"
+    }
+]

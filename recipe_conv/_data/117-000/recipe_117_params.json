@@ -1,0 +1,27 @@
+[
+    {
+        "parameters": "param1",
+        "value": "グリーンリーフ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param2",
+        "value": "韓国のり",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param3",
+        "value": "塩",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param4",
+        "value": "いり胡麻",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param5",
+        "value": "胡麻油",
+        "type": "ingredient"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "parameters": "param1",
+        "value": "4",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "2",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "3",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "1",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "木綿豆腐",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "鶏むね挽肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "赤味噌",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "みりん",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "生姜",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "フライパン",
+        "type": "tool"
+    }
+]

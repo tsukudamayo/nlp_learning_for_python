@@ -1,0 +1,7 @@
+<param9>は皮を剥いてから、<param1>mm角の千切りにした後、さっと水にさらして水気を切る
+<param12>は小房に分けて、<param11>は細切りにする
+<param10>は、細切りにする
+水気を切った<param9>と<param12>を一緒に<param18>（<param2><param6>）で加熱する
+<param17>に<param15>を注いで温め、(目安: 約<param3>～<param4><param8>)<param10>の両面をこんがりと焼くこんがりするまで、あまり触らないのがポイント
+<param17>に、<param9>と<param12>、<param11>を加えて炒め合わせてから、味をみて薄いようなら<param13>と<param14>で味を調えた後、<param16>を振って火を止め、粗熱を取り保存容器に入れ保存
+<param9>と豚バラの<param11>炒めを<param18>（<param5><param7>）で温めて、器に盛り付け完成

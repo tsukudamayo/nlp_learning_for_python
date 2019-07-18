@@ -1,0 +1,5 @@
+<param19>はみじん切りにする
+みじん切りにした<param19>は<param29>（<param1><param12>）で加熱する
+ボウルに<param18>と<param17>、(目安: 約<param2>～<param3><param14>)<param19>、<param21>、<param22>、<param20>、<param23>、<param24>大さじ<param4>を加えてよく混ぜ合わせ、スプーン<param5>個を使って丸め、残りの<param24>を表面に塗す
+<param6>℃の<param25>で揚げた後、(目安: 約<param7>～<param8><param15>)<param9>℃で二度揚げして、(目安: 約<param10><param16>)粗熱が取れたら保存容器に移して、保存
+<param29>（<param11><param13>）(<param28>でも可)で温めたチキンボールを器に盛り付け、<param26>と<param27>を混ぜたソースを添えたら完成

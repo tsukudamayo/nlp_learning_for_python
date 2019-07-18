@@ -1,0 +1,82 @@
+[
+    {
+        "parameters": "param1",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param2",
+        "value": "0",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param3",
+        "value": "１",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param4",
+        "value": "１８０",
+        "type": "quantity"
+    },
+    {
+        "parameters": "param5",
+        "value": "分",
+        "type": "unit"
+    },
+    {
+        "parameters": "param6",
+        "value": "鶏むね肉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param7",
+        "value": "パプリカ赤",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param8",
+        "value": "玉ねぎ",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param9",
+        "value": "日本酒",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param10",
+        "value": "しょう油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param11",
+        "value": "片栗粉",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param12",
+        "value": "サラダ油",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param13",
+        "value": "酢",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param14",
+        "value": "砂糖",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param15",
+        "value": "白ワイン",
+        "type": "ingredient"
+    },
+    {
+        "parameters": "param16",
+        "value": "オーブントースター",
+        "type": "tool"
+    }
+]

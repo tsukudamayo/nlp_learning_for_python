@@ -1,0 +1,3 @@
+<param7>は<param1>mm幅の細切りにする
+<param7>を耐熱容器に入れ、蓋をして<param9>（<param2><param5>）で加熱する
+温めた<param7>に<param8>を加えて混ぜ合わせ、(目安: 約<param3>～<param4><param6>)器に盛り付け完成

@@ -1,0 +1,5 @@
+<param18>はラップをして、<param27>（<param1><param12>）で加熱し、(目安: 約<param2>～<param3><param14>)皮をむき潰しておく。潰した<param18>に塩一つまみ（分量外）と<param19>を混ぜて<param4>等分する
+<param17>は<param27>（<param5><param13>）で加熱し（<param25>でもOK）、(目安: 約<param6>～<param7>秒)一口サイズに切り分け、潰した<param18>で包んで、<param18>餅を作る。保存容器に入れ保存
+<param26>に<param24>を入れて加熱し、<param18>餅を焼く。程焼き、(目安: 約<param8>～<param9><param15>)引っくり返して焼く（箸で柔らかくなっているか確認してください）
+<param20>を温め、(目安: 約<param10>～<param11><param16>)★の調味料を加え、水溶き<param19>でとろみをつけ、あんを作る
+器に<param18>餅を盛り付けて、あんをかけ、お好みで刻みネギを散らして完成
