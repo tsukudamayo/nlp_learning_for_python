@@ -4,16 +4,21 @@ import time
 
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
 
 import create_matrix as cm
 import featureselect as fs
 import vectorapi as vec
 
 
-_LOG_DIR = '../recipe_conv/weekcook/procedure_3'
+_LOG_DIR = './rne_wakachi'
 _POS_DIR = '../recipe_conv/weekcook/procedure_2'
 _RNE_DIR = '../recipe_conv/weekcook/procedure_4_2'
 _AC_DIR = './countAC'
+
+_RANDOM_SEED = 42
+
+_COLOR = ['red', 'blue', 'green']
 
 
 def compute_svd(matrix, vector_size=2):
@@ -59,7 +64,9 @@ def main():
     print(row)
     print(column)
 
+    all_recipe_vector = np.zeros((row, column))
     for idx, j in enumerate(json_list):
+        recipe_score = np.zeros(column)
         jsonfile = os.path.join(_AC_DIR, j)
         with open(jsonfile, 'r', encoding='utf-8') as r:
             jsondata = json.load(r)
@@ -85,6 +92,22 @@ def main():
                 print('{} is not included in word_to_id'.format(k))
                 time.sleep(3)
                 continue
+
+            print('recipe_score', recipe_score)
+            print('v', v)
+            recipe_score += query_vector * v
+        all_recipe_vector[idx][0] = recipe_score[0]
+        all_recipe_vector[idx][1] = recipe_score[1]
+    print(all_recipe_vector)
+
+    kmeans = KMeans(n_clusters=3, random_state=_RANDOM_SEED).fit(all_recipe_vector)
+    print('label')
+    print(kmeans.labels_)
+    labels = kmeans.labels_
+
+    for feature, label in zip(all_recipe_vector, labels):
+        plt.scatter(feature[0], feature[1], c=_COLOR[label])
+    plt.show()
 
 
 if __name__ == '__main__':
