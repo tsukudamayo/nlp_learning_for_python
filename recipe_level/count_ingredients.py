@@ -10,6 +10,29 @@ _RECIPEDB_DIR = os.path.join(_HOME, 'var/data/recipe/weekcook/recipe_root')
 _OUTPUT_DIR = './num_of_params'
 
 
+def count_action_category(action_category: str, text_file: str, category_file: str) -> int:
+    category_count = 0
+    strings = open(text_file, 'r', encoding='utf-8').read()
+    words = strings.split(' ')
+    print('words', words)
+
+    with open(category_file, 'r', encoding='utf-8') as r:
+        data = json.load(r)
+
+    print('action category : ', data)
+    for w in words:
+        try:
+            if data[w] == action_category:
+                print(w)
+                category_count += 1
+            else:
+                pass
+        except KeyError:
+            pass
+
+    return category_count
+
+
 def count_elements(json_file: str) -> int:
     with open(json_file, 'r', encoding='utf-8') as r:
         data = json.load(r)

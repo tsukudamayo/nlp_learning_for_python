@@ -5,9 +5,9 @@ import create_matrix as cm
 import featureselect as fs
 
 
-_LOG_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_nlp/procedure_3'
-_POS_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_nlp/procedure_2'
-_RNE_DIR = 'C:/Users/tsukuda/local/nlp_learning_for_python/recipe_nlp/procedure_4_2'
+_LOG_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_3'
+_POS_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_2'
+_RNE_DIR = 'C:/Users/tsukuda/var/data/recipe/weekcook/procedure_4_2'
 
 
 def ppmi(matrix, verbose=False, eps=1e-8):
@@ -78,7 +78,7 @@ def rank_similarity(matrix, querys, word_to_id, id_to_word, vector_size=40):
     U, S, V = np.linalg.svd(matrix)
     vectors = U[:, :vector_size]
     for query in querys:
-        most_similar(query, word_to_id, id_to_word, vectors, top=5)
+        most_similar(query, word_to_id, id_to_word, vectors, top=20)
 
     return
 
@@ -112,7 +112,7 @@ def main():
 
     plot_vector(ppmi_score, word_to_id)
 
-    querys = ['じゃがいも']
+    querys = ['切']
     rank_similarity(ppmi_score, querys, word_to_id, id_to_word)
 
 

@@ -5,6 +5,34 @@ from count_ingredients import output_jsondata
 from count_ingredients import count_lf
 from count_ingredients import fetch_recipename
 from count_ingredients import compute_mean
+from count_ingredients import count_action_category
+
+
+def test_count_words_of_cut():
+    test_data = './rne_wakachi/recipe_2_ner_result.txt'
+    test_json = './action_category/action_category.json'
+    expected = 1
+    result = count_action_category('切る', test_data, test_json)
+
+    assert result == expected
+
+
+def test_count_words_of_mix():
+    test_data = './rne_wakachi/recipe_2_ner_result.txt'
+    test_json = './action_category/action_category.json'
+    expected = 6
+    result = count_action_category('混ぜる', test_data, test_json)
+
+    assert result == expected
+
+
+def test_count_words_of_heat():
+    test_data = './rne_wakachi/recipe_2_ner_result.txt'
+    test_json = './action_category/action_category.json'
+    expected = 3
+    result = count_action_category('加熱', test_data, test_json)
+
+    assert result == expected
 
 
 def test_count_elements():
