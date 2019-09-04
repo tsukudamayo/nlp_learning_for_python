@@ -6,6 +6,9 @@ from count_ingredients import count_lf
 from count_ingredients import fetch_recipename
 from count_ingredients import compute_mean
 from count_ingredients import count_action_category
+from count_ingredients import compute_max
+from count_ingredients import standardization_by_level
+from count_ingredients import count_string_length
 
 
 def test_count_words_of_cut():
@@ -35,6 +38,15 @@ def test_count_words_of_heat():
     assert result == expected
 
 
+def test_count_string_length():
+    test_data = './test_file/test_count_string_length.txt'
+    expected = 6
+    result = count_string_length(test_data)
+
+    assert result == expected
+    
+
+
 def test_count_elements():
     test_file = '../recipe_conv/weekcook/ingredient_json/recipe_2.json'
     expected = 4
@@ -43,7 +55,7 @@ def test_count_elements():
     assert result == expected
 
 
-def test_count_words():
+def test_count_lf():
     test_file = './rne_wakachi/recipe_2_ner_result.txt'
     expected = 3
     result = count_lf(test_file)
@@ -97,5 +109,58 @@ def test_compute_mean():
     }
     expected = 5
     result = compute_mean(test_data)
+
+    assert result == expected
+
+
+def test_compute_max():
+    test_data = {
+        'key': 'key',
+        '0': 0,
+        '1': 0,
+        '2': 0,
+        '3': 0,
+        '4': 0,
+        '5': 10,
+        '6': 10,
+        '7': 10,
+        '8': 10,
+        '9': 10,
+    }
+    expected = 10
+    result = compute_max(test_data)
+
+    assert result == expected
+
+
+def test_standardization_by_max_value():
+    test_data = {
+        'key': 'key',
+        '0': 0,
+        '1': 0,
+        '2': 0,
+        '3': 0,
+        '4': 0,
+        '5': 10,
+        '6': 10,
+        '7': 10,
+        '8': 10,
+        '9': 10,
+    }
+    expected = {
+        'key': 'key',
+        '0': 0.0,
+        '1': 0.0,
+        '2': 0.0,
+        '3': 0.0,
+        '4': 0.0,
+        '5': 1.0,
+        '6': 1.0,
+        '7': 1.0,
+        '8': 1.0,
+        '9': 1.0,
+    }
+
+    result = standardization_by_level(test_data, 10.0, 1)
 
     assert result == expected

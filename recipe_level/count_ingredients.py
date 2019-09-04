@@ -5,14 +5,15 @@ _HOME = os.path.expanduser("~")
 _INGREDIENTS_DIR = '../recipe_conv/weekcook/ingredient_json'
 _SENTENCES_DIR = './rne_wakachi'
 _ACTIONS_DIR = './countAC'
+_ACTIONS_CATEGORY_DIR = './action_category'
 _RECIPEDB_DIR = os.path.join(_HOME, 'var/data/recipe/weekcook/recipe_root')
 
 _OUTPUT_DIR = './num_of_params'
 
 
-def count_action_category(action_category: str, text_file: str, category_file: str) -> int:
+def count_action_category(action_category: str, wakachi_file: str, category_file: str) -> int:
     category_count = 0
-    strings = open(text_file, 'r', encoding='utf-8').read()
+    strings = open(wakachi_file, 'r', encoding='utf-8').read()
     words = strings.split(' ')
     print('words', words)
 
@@ -31,6 +32,14 @@ def count_action_category(action_category: str, text_file: str, category_file: s
             pass
 
     return category_count
+
+
+def count_string_length(wakachi_file: str) -> int:
+    strings = open(wakachi_file, 'r', encoding='utf-8').read()
+    words = strings.replace(' ', '')
+    length = len(words)
+
+    return length
 
 
 def count_elements(json_file: str) -> int:
@@ -72,6 +81,23 @@ def compute_mean(dict_data: dict) -> float:
     return mean_value
 
 
+def compute_max(dict_data: dict) -> float:
+    all_value = [v for v in dict_data.values() if type(v) is not str]
+    max_value = max(all_value)
+
+    return max_value
+
+
+def standardization_by_level(dict_data: dict, max_value: float, level: int) -> dict:
+    for k in dict_data:
+        try:
+            dict_data[k] = float(dict_data[k] / max_value) * float(level)
+        except TypeError:  # if dict_data[k] is type(str)
+            dict_data[k] = dict_data[k]
+
+    return dict_data
+
+
 def main():
     if os.path.exists(_OUTPUT_DIR) is False:
         os.makedirs(_OUTPUT_DIR)
@@ -83,62 +109,89 @@ def main():
     # ---------------- #
     # define index key #
     # ---------------- #
-    recipename_dict = {'key': 'recipename'}
-    ingredints_dict = {'key': 'ingredients'}
-    sentences_dict = {'key': 'sentences'}
-    actions_dict = {'key': 'actions'}
+
+    # recipe title
+    title_dict = {'key': 'recipename'}
+
+    # axis of the radarchart parmeters
+    axis1_dict = {'key': 'ingredients'}
+    axis2_dict = {'key': 'sentences'}
+    axis3_dict = {'key': 'heat'}
+    axis4_dict = {'key': 'mix'}
+    axis5_dict = {'key': 'cut'}
+
+    # count elements each recipe
     for f in file_list:
         print(f)
         # --------------- #
         # define filepath #
         # --------------- #
-        # ingredients path
-        read_ingredients_path = os.path.join(_INGREDIENTS_DIR, f)
-        read_key_fname, _ = os.path.splitext(f)
-        # sentences path
-        sentences_fname, _ = os.path.splitext(f)
-        read_sentences_fname = sentences_fname + '_ner_result.txt'
-        read_sentences_path = os.path.join(
-            _SENTENCES_DIR, read_sentences_fname
+        # ingredients path -> axis1
+        ingredients_path = os.path.join(_INGREDIENTS_DIR, f)
+        key_fname, _ = os.path.splitext(f)
+        # sentences path -> axis2
+        sentences_fname = key_fname + '_ner_result.txt'
+        sentences_path = os.path.join(_SENTENCES_DIR, sentences_fname)
+        # actions path -> axis3, 4, 5
+        actions_category_path = os.path.join(
+            _ACTIONS_CATEGORY_DIR, 'action_category.json'
         )
-        # actions path
-        actions_fname, _ = os.path.splitext(f)
-        read_actions_fname = actions_fname + '_ner_result.json'
-        read_actions_path = os.path.join(
-            _ACTIONS_DIR, read_actions_fname
-        )
-        # recipedb(recipename) path
-        read_recipedb_path = os.path.join(_RECIPEDB_DIR, f)
+        # recipedb(recipename) path -> for recipe title
+        recipedb_path = os.path.join(_RECIPEDB_DIR, f)
 
         # ------------------ #
         # fetch target value #
         # ------------------ #
-        target_recipename = fetch_recipename(read_recipedb_path)
-        count_ingredients = count_elements(read_ingredients_path)
-        count_sentences = count_lf(read_sentences_path)
-        count_actions = count_elements(read_actions_path)
+        target_recipename = fetch_recipename(recipedb_path)
+        count_ingredients = count_elements(ingredients_path)
+        count_words = count_string_length(sentences_path)
+        count_heat = count_action_category('加熱', sentences_path, actions_category_path)
+        count_mix = count_action_category('混ぜる', sentences_path, actions_category_path)
+        count_cut = count_action_category('切る', sentences_path, actions_category_path)
 
-        recipename_dict.update({read_key_fname: target_recipename})
-        ingredints_dict.update({read_key_fname: count_ingredients})
-        sentences_dict.update({read_key_fname: count_sentences})
-        actions_dict.update({read_key_fname: count_actions})
+        title_dict.update({key_fname: target_recipename})
+        axis1_dict.update({key_fname: count_ingredients})
+        axis2_dict.update({key_fname: count_words})
+        axis3_dict.update({key_fname: count_heat})
+        axis4_dict.update({key_fname: count_mix})
+        axis5_dict.update({key_fname: count_cut})
 
-    # compute mean each objects
-    ingredients_score_mean = compute_mean(ingredints_dict)
-    sentences_score_mean = compute_mean(sentences_dict)
-    actions_score_mean = compute_mean(actions_dict)
+    # compute max each axis
+    axis1_score_max = compute_max(axis1_dict)
+    axis2_score_max = compute_max(axis2_dict)
+    axis3_score_max = compute_max(axis3_dict)
+    axis4_score_max = compute_max(axis4_dict)
+    axis5_score_max = compute_max(axis5_dict)
+
+    # standardization dict value by level
+    axis1_dict_std = standardization_by_level(axis1_dict, axis1_score_max, 5)
+    axis2_dict_std = standardization_by_level(axis2_dict, axis2_score_max, 5)
+    axis3_dict_std = standardization_by_level(axis3_dict, axis3_score_max, 5)
+    axis4_dict_std = standardization_by_level(axis4_dict, axis4_score_max, 5)
+    axis5_dict_std = standardization_by_level(axis5_dict, axis5_score_max, 5)
+
+    # compute mean each axis
+    axis1_mean = compute_mean(axis1_dict_std)
+    axis2_mean = compute_mean(axis2_dict_std)
+    axis3_mean = compute_mean(axis3_dict_std)
+    axis4_mean = compute_mean(axis4_dict_std)
+    axis5_mean = compute_mean(axis5_dict_std)
 
     # add mean to each object dict
-    ingredints_dict.update({'mean': ingredients_score_mean})
-    sentences_dict.update({'mean': sentences_score_mean})
-    actions_dict.update({'mean': actions_score_mean})
+    axis1_dict_std.update({'mean': axis1_mean})
+    axis2_dict_std.update({'mean': axis2_mean})
+    axis3_dict_std.update({'mean': axis3_mean})
+    axis4_dict_std.update({'mean': axis4_mean})
+    axis5_dict_std.update({'mean': axis5_mean})
 
     # output data
     output_data = output_jsondata(
-        recipename_dict,
-        ingredints_dict,
-        sentences_dict,
-        actions_dict,
+        title_dict,
+        axis1_dict_std,
+        axis2_dict_std,
+        axis3_dict_std,
+        axis4_dict_std,
+        axis5_dict_std
     )
     data = json.loads(output_data)
     dst_filepath = os.path.join(_OUTPUT_DIR, 'radar-chart.json')
