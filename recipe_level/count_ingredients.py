@@ -120,6 +120,9 @@ def main():
     axis4_dict = {'key': 'mix'}
     axis5_dict = {'key': 'cut'}
 
+    # recipe level
+    level_dict = {'key': 'level'}
+
     # count elements each recipe
     for f in file_list:
         print(f)
@@ -156,6 +159,45 @@ def main():
         axis4_dict.update({key_fname: count_mix})
         axis5_dict.update({key_fname: count_cut})
 
+    # compute mean each axis values
+    axis1_mean = compute_mean(axis1_dict)
+    axis2_mean = compute_mean(axis2_dict)
+    axis3_mean = compute_mean(axis3_dict)
+    axis4_mean = compute_mean(axis4_dict)
+    axis5_mean = compute_mean(axis5_dict)
+
+    # add mean to each object dict
+    title_dict.update({'mean': '平均'})
+    axis1_dict.update({'mean': axis1_mean})
+    axis2_dict.update({'mean': axis2_mean})
+    axis3_dict.update({'mean': axis3_mean})
+    axis4_dict.update({'mean': axis4_mean})
+    axis5_dict.update({'mean': axis5_mean})
+
+    # --------------------------- #
+    # output data (original data) #
+    # --------------------------- #
+    output_data = output_jsondata(
+        title_dict,
+        axis1_dict,
+        axis2_dict,
+        axis3_dict,
+        axis4_dict,
+        axis5_dict
+    )
+    data = json.loads(output_data)
+    dst_filepath = os.path.join(_OUTPUT_DIR, 'radar-chart-orgparams.json')
+    with open(dst_filepath, 'w', encoding='utf-8') as w:
+        json.dump(data, w, indent=4, ensure_ascii=False)
+    print(output_data)
+
+    # delete mean from original value
+    del axis1_dict['mean']
+    del axis2_dict['mean']
+    del axis3_dict['mean']
+    del axis4_dict['mean']
+    del axis5_dict['mean']
+
     # compute max each axis
     axis1_score_max = compute_max(axis1_dict)
     axis2_score_max = compute_max(axis2_dict)
@@ -170,12 +212,27 @@ def main():
     axis4_dict_std = standardization_by_level(axis4_dict, axis4_score_max, 5)
     axis5_dict_std = standardization_by_level(axis5_dict, axis5_score_max, 5)
 
+    # compute level each recipe
+    for idx, (v1, v2, v3, v4, v5, k) in enumerate(zip(axis1_dict_std.values(),
+                                                   axis2_dict_std.values(),
+                                                   axis3_dict_std.values(),
+                                                   axis4_dict_std.values(),
+                                                   axis5_dict_std.values(),
+                                                   title_dict.keys())):
+        if k == 'key':
+            pass
+        else:
+            all_value = [v1, v2, v3, v4, v5]
+            target_value = max(all_value)
+            level_dict.update({str(k): target_value})
+
     # compute mean each axis
     axis1_mean = compute_mean(axis1_dict_std)
     axis2_mean = compute_mean(axis2_dict_std)
     axis3_mean = compute_mean(axis3_dict_std)
     axis4_mean = compute_mean(axis4_dict_std)
     axis5_mean = compute_mean(axis5_dict_std)
+    level_mean = compute_mean(level_dict)
 
     # add mean to each object dict
     axis1_dict_std.update({'mean': axis1_mean})
@@ -183,20 +240,28 @@ def main():
     axis3_dict_std.update({'mean': axis3_mean})
     axis4_dict_std.update({'mean': axis4_mean})
     axis5_dict_std.update({'mean': axis5_mean})
+    level_dict.update({'mean': level_mean})
 
-    # output data
+
+    # output data (standardization)
     output_data = output_jsondata(
         title_dict,
         axis1_dict_std,
         axis2_dict_std,
         axis3_dict_std,
         axis4_dict_std,
-        axis5_dict_std
+        axis5_dict_std,
+        level_dict
     )
     data = json.loads(output_data)
     dst_filepath = os.path.join(_OUTPUT_DIR, 'radar-chart.json')
     with open(dst_filepath, 'w', encoding='utf-8') as w:
         json.dump(data, w, indent=4, ensure_ascii=False)
+
+    print('********************************')
+    print('level_dict')
+    print(level_dict)
+    print('********************************')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,160 @@
+{
+    "Recipe_Infos": [
+        {
+            "recipe_id": 2,
+            "recipe_name": "あげとわかめのお味噌汁",
+            "recipe_name_kana": "アゲトワカメノオミソシル",
+            "default_number_of_people_id": 4
+        }
+    ],
+    "Recipe_Directions_Details": [
+        {
+            "directions_detail_pattern_id": 109198,
+            "directions_detail_id": 107221,
+            "sequence_no": 1,
+            "cooking_procedure_description": "油揚げに熱湯をかけて油抜きをしてから、食べ易い大きさに切り、乾燥わかめは水でさっと洗う。",
+            "holiday_flag": 0,
+            "classification_id": 5,
+            "classification_name": "その他手作業",
+            "cutting_types_id": null
+        },
+        {
+            "directions_detail_pattern_id": 109199,
+            "directions_detail_id": 107222,
+            "sequence_no": 2,
+            "cooking_procedure_description": "鍋にだしを入れて火にかけ、沸騰してきたら油揚げを加え一煮立ちしたら一旦火を止める。乾燥わかめを加えて再び、鍋を火にかけ沸騰してきたら、白味噌を溶かしたら火を止める。",
+            "holiday_flag": 0,
+            "classification_id": 9,
+            "classification_name": "煮る",
+            "cutting_types_id": null
+        },
+        {
+            "directions_detail_pattern_id": 109200,
+            "directions_detail_id": 107223,
+            "sequence_no": 3,
+            "cooking_procedure_description": "油揚げとわかめのお味噌汁をお椀によそい分けて、お好みで三つ葉を散らしたら完成。",
+            "holiday_flag": 0,
+            "classification_id": 5,
+            "classification_name": "その他手作業",
+            "cutting_types_id": null
+        }
+    ],
+    "Recipe_Ingredients": {
+        "Two": [
+            {
+                "number_of_people_id": 2,
+                "recipe_ingredient_id": 90612,
+                "ingredient_name": "油揚げ",
+                "ingredient_id": 722,
+                "mark_id": null,
+                "quantity": 0,
+                "quantity_numerator": 1,
+                "quantity_denominator": 2,
+                "quantity_id": 11,
+                "quantity_name": "枚",
+                "quantity_type": 1,
+                "quantity_string": "1/2枚"
+            },
+            {
+                "number_of_people_id": 2,
+                "recipe_ingredient_id": 90613,
+                "ingredient_name": "乾燥わかめ",
+                "ingredient_id": 237,
+                "mark_id": null,
+                "quantity": 2,
+                "quantity_numerator": 1,
+                "quantity_denominator": 2,
+                "quantity_id": 7,
+                "quantity_name": "g",
+                "quantity_type": 1,
+                "quantity_string": "21/2g"
+            },
+            {
+                "number_of_people_id": 2,
+                "recipe_ingredient_id": 90614,
+                "ingredient_name": "だし",
+                "ingredient_id": 338,
+                "mark_id": null,
+                "quantity": 300,
+                "quantity_numerator": 0,
+                "quantity_denominator": 0,
+                "quantity_id": 6,
+                "quantity_name": "ml",
+                "quantity_type": 1,
+                "quantity_string": "300ml"
+            },
+            {
+                "number_of_people_id": 2,
+                "recipe_ingredient_id": 90615,
+                "ingredient_name": "白味噌",
+                "ingredient_id": 303,
+                "mark_id": null,
+                "quantity": 1,
+                "quantity_numerator": 1,
+                "quantity_denominator": 2,
+                "quantity_id": 5,
+                "quantity_name": "大さじ",
+                "quantity_type": 2,
+                "quantity_string": "大さじ11/2"
+            }
+        ],
+        "Four": [
+            {
+                "number_of_people_id": 4,
+                "recipe_ingredient_id": 90612,
+                "ingredient_name": "油揚げ",
+                "ingredient_id": 722,
+                "mark_id": null,
+                "quantity": 1,
+                "quantity_numerator": 0,
+                "quantity_denominator": 0,
+                "quantity_id": 11,
+                "quantity_name": "枚",
+                "quantity_type": 1,
+                "quantity_string": "1枚"
+            },
+            {
+                "number_of_people_id": 4,
+                "recipe_ingredient_id": 90613,
+                "ingredient_name": "乾燥わかめ",
+                "ingredient_id": 237,
+                "mark_id": null,
+                "quantity": 5,
+                "quantity_numerator": 0,
+                "quantity_denominator": 0,
+                "quantity_id": 7,
+                "quantity_name": "g",
+                "quantity_type": 1,
+                "quantity_string": "5g"
+            },
+            {
+                "number_of_people_id": 4,
+                "recipe_ingredient_id": 90614,
+                "ingredient_name": "だし",
+                "ingredient_id": 338,
+                "mark_id": null,
+                "quantity": 600,
+                "quantity_numerator": 0,
+                "quantity_denominator": 0,
+                "quantity_id": 6,
+                "quantity_name": "ml",
+                "quantity_type": 1,
+                "quantity_string": "600ml"
+            },
+            {
+                "number_of_people_id": 4,
+                "recipe_ingredient_id": 90615,
+                "ingredient_name": "白味噌",
+                "ingredient_id": 303,
+                "mark_id": null,
+                "quantity": 3,
+                "quantity_numerator": 0,
+                "quantity_denominator": 0,
+                "quantity_id": 5,
+                "quantity_name": "大さじ",
+                "quantity_type": 2,
+                "quantity_string": "大さじ3"
+            }
+        ]
+    }
+}
