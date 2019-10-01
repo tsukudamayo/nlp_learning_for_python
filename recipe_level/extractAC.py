@@ -3,8 +3,8 @@ import json
 from collections import Counter
 
 
-_NER_DIR = '../recipe_conv/weekcook/ner_result'
-_DST_DIR = './countAC'
+_NER_DIR = '../recipe_nlp/kyounoryouri/ner_result'
+_DST_DIR = './countAC/kyounoryouri'
 
 
 def count_actag(ner_strings):

@@ -5,7 +5,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 
 
-_AC_DIR = './countAC'
+_AC_DIR = './countAC/kyounoryouri'
 
 
 def sum_dict(current_dict, next_dict):
