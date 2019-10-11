@@ -3,12 +3,12 @@ import json
 from collections import Counter
 
 
-_NER_DIR = '../recipe_nlp/kyounoryouri/ner_result'
-_DST_DIR = './countAC/kyounoryouri'
+_NER_DIR = '../recipe_nlp/orangepage/ner_result'
+_DST_DIR = './countAC/orangepage'
 
 
 def count_actag(ner_strings):
-    actag_words_list = []
+    actag_words_list = []A
     split_ner_strings = ner_strings.split(' ')
     for word in split_ner_strings:
         if word.find('/Ac') >= 0:

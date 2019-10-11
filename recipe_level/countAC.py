@@ -5,7 +5,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 
 
-_AC_DIR = './countAC/kyounoryouri'
+_AC_DIR = './countAC/orangepage'
 
 
 def sum_dict(current_dict, next_dict):
@@ -37,6 +37,7 @@ def main():
     for c in counters:
         plt.bar(c[0], c[1])
     plt.xticks(rotation=90)
+    plt.tight_layout()
     plt.show()
 
 

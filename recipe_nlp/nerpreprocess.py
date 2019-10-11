@@ -11,7 +11,7 @@ _KBM_MODEL = 'kytea-win-0.4.2/model/jp-0.4.7-1.mod'
 _KNM_MODEL = 'kytea-win-0.4.2/RecipeNE-sample/recipe416.knm'
 _KYTEA_PATH = 'kytea-win-0.4.2/kytea.exe'
 _NESEARCH_PATH = 'kytea-win-0.4.2/RecipeNE-sample/bin/nesearch.py'
-_LOG_DIR = 'kyounoryouri'
+_LOG_DIR = 'orangepage'
 
 
 class Finalizer:
