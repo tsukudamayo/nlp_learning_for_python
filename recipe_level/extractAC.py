@@ -8,7 +8,7 @@ _DST_DIR = './countAC/orangepage'
 
 
 def count_actag(ner_strings):
-    actag_words_list = []A
+    actag_words_list = []
     split_ner_strings = ner_strings.split(' ')
     for word in split_ner_strings:
         if word.find('/Ac') >= 0:
